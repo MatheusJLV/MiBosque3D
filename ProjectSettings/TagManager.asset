@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Spawn
+  - Transition
+  - lb_groundTarget
+  - lb_perchTarget
+  - Mira
+  - Especies
+  - Pick
+  - lb_bird
+  - Clic
+  - Paper
+  - Roxy
+  - Rabbit
+  - PickTrash
+  - Audio
+  - Farm
+  - Bird
+  - AreaFarm
+  - Bag
+  - Tacho
+  - Estaciones
+  - Blocker
+  - Mochila
+  - Recolectables
+  - light
+  - TargetGreen
+  - TargetRed
+  - TargetBlue
+  - sistema
+  - waypoint
+  - Controller
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Walls
+  - Player
+  - Collectables
+  - Terrain
+  - Dialogues
+  - SavePoint
+  - Target
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
