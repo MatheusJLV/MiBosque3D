@@ -1,0 +1,26 @@
+fileFormatVersion: 2
+guid: d3f2ac64f7fb17f4e81348219292d91f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - canvasAnim: {instanceID: 0}
+  - canvasRespuestas: {instanceID: 0}
+  - cantidadEstrellas: {instanceID: 0}
+  - pregunta: {instanceID: 0}
+  - desafio: {instanceID: 0}
+  - Title: {instanceID: 0}
+  - "titlePeque\xF1o": {instanceID: 0}
+  - dialogo: {instanceID: 0}
+  - m_opcionA: {instanceID: 0}
+  - m_opcionB: {instanceID: 0}
+  - m_opcionC: {instanceID: 0}
+  - m_opcionD: {instanceID: 0}
+  - imagen: {instanceID: 0}
+  - correct: {fileID: 8300000, guid: 5b9cbc4eb17cc9746a6ecfafca6873ac, type: 3}
+  - incorrect: {fileID: 8300000, guid: 5b9cbc4eb17cc9746a6ecfafca6873ac, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,280 @@
+fileFormatVersion: 2
+guid: 366b8bbea02a1ce4ab0f843174225cc4
+ModelImporter:
+  serializedVersion: 25
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'LeftLowerLeg' not found\n"
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: "Tigre to\xF1o(Clone)"
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Helper001
+      parentName: "Tigre to\xF1o(Clone)"
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: "TIGRE TO\xD1O"
+      parentName: "Tigre to\xF1o(Clone)"
+      position: {x: -28.572618, y: -44.06677, z: -1396.8921}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Nariz
+      parentName: "TIGRE TO\xD1O"
+      position: {x: 50.150116, y: -1262.0297, z: 643.6308}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.041738, y: 1.112653, z: 1.448363}
+    - name: Box002
+      parentName: "TIGRE TO\xD1O"
+      position: {x: 50.52536, y: -1366.1161, z: -782.832}
+      rotation: {x: 0.5009958, y: 0.4989846, z: 0.5017596, w: 0.49825194}
+      scale: {x: 5.02032, y: 1.000121, z: 2.443464}
+    - name: Brazos
+      parentName: "TIGRE TO\xD1O"
+      position: {x: 450.81754, y: -1446.521, z: 293.1726}
+      rotation: {x: 0.021812448, y: 0.7067703, z: 0.70677024, w: 0.021812446}
+      scale: {x: 1.000876, y: 1, z: 10.525779}
+    - name: Box003
+      parentName: "TIGRE TO\xD1O"
+      position: {x: -22.105143, y: -1255.7456, z: 465.17285}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.370222, y: 0.516053, z: 1.370222}
+    - name: Box004
+      parentName: "TIGRE TO\xD1O"
+      position: {x: -12.875022, y: -1138.2793, z: 599.2196}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 0.995017, y: 0.931833, z: 0.931833}
+    - name: Rostro
+      parentName: "TIGRE TO\xD1O"
+      position: {x: 50.150116, y: -1262.0297, z: 643.6308}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.041738, y: 1.112653, z: 1.448363}
+    - name: Globo ocular
+      parentName: "TIGRE TO\xD1O"
+      position: {x: 47.20868, y: -1359.5402, z: 647.7969}
+      rotation: {x: 0.67589843, y: 0, z: -0, w: 0.73699486}
+      scale: {x: 1.191758, y: 1.115472, z: 1.013195}
+    - name: iris
+      parentName: Globo ocular
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.0000000037252907, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Sphere002
+      parentName: "TIGRE TO\xD1O"
+      position: {x: 47.20868, y: -1359.5402, z: 647.7969}
+      rotation: {x: 0.5, y: 0.50000006, z: 0.5, w: 0.4999999}
+      scale: {x: 0.931833, y: 1.027136, z: 1.096782}
+    - name: Cejas
+      parentName: "TIGRE TO\xD1O"
+      position: {x: -10.902553, y: -1262.0297, z: 643.6308}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.041738, y: 1.112653, z: 1.448363}
+    - name: Cuello de camisa
+      parentName: "TIGRE TO\xD1O"
+      position: {x: -366.06467, y: -1264.6554, z: 107.94238}
+      rotation: {x: 0.49999997, y: 0.5000001, z: 0.49999997, w: 0.49999994}
+      scale: {x: 1, y: 1, z: 1.040059}
+    - name: Mangas
+      parentName: "TIGRE TO\xD1O"
+      position: {x: -352.10193, y: -1264.6554, z: 107.94238}
+      rotation: {x: 0.5, y: 0.50000006, z: 0.5, w: 0.4999999}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bolsillo
+      parentName: "TIGRE TO\xD1O"
+      position: {x: 60.804813, y: -1260.2167, z: -142.45729}
+      rotation: {x: 0.0000000055629648, y: -0.06316903, z: -0.000000009762679, w: 0.9980028}
+      scale: {x: 1.001223, y: 1.515725, z: 1.085834}
+    - name: Bocaext001
+      parentName: "TIGRE TO\xD1O"
+      position: {x: -3.2643278, y: -1398.0135, z: 468.14026}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.041738, y: 1.112653, z: 1.448363}
+    - name: bolsillo001
+      parentName: "TIGRE TO\xD1O"
+      position: {x: -60.805256, y: -1260.2167, z: -142.45729}
+      rotation: {x: 0.9980028, y: 0.000000018401405, z: -0.06316909, w: 0.0000001567599}
+      scale: {x: -1.001223, y: -1.515725, z: -1.085834}
+    - name: Box005
+      parentName: "TIGRE TO\xD1O"
+      position: {x: -50.52581, y: -1366.1161, z: -782.832}
+      rotation: {x: -0.49825194, y: 0.5017595, z: -0.49898458, w: 0.5009958}
+      scale: {x: -5.020319, y: -1.000121, z: -2.443464}
+    - name: Box006
+      parentName: "TIGRE TO\xD1O"
+      position: {x: 22.104696, y: -1255.7456, z: 465.17285}
+      rotation: {x: 1, y: 0, z: -0, w: 0.00000016292068}
+      scale: {x: -1.370222, y: -0.516053, z: -1.370222}
+    - name: Box007
+      parentName: "TIGRE TO\xD1O"
+      position: {x: 12.874576, y: -1138.2793, z: 599.2196}
+      rotation: {x: -0.70710665, y: 0, z: -0, w: 0.7071069}
+      scale: {x: -0.995017, y: -0.931833, z: -0.931833}
+    - name: Brazos001
+      parentName: "TIGRE TO\xD1O"
+      position: {x: -450.81793, y: -1446.521, z: 293.1726}
+      rotation: {x: 0.021812297, y: -0.70677024, z: 0.70677036, w: -0.021812297}
+      scale: {x: -1.000876, y: -1, z: -10.525779}
+    - name: Cejas001
+      parentName: "TIGRE TO\xD1O"
+      position: {x: 3.8022175, y: -1262.0297, z: 643.6308}
+      rotation: {x: 1, y: 0, z: -0, w: 0.00000016292068}
+      scale: {x: -1.041738, y: -1.112653, z: -1.448363}
+    - name: Cuello de camisa001
+      parentName: "TIGRE TO\xD1O"
+      position: {x: 358.96436, y: -1264.6554, z: 107.94238}
+      rotation: {x: 0.50000006, y: -0.5, z: 0.50000006, w: -0.5}
+      scale: {x: -1, y: -1, z: -1.040059}
+    - name: Cuerpo001
+      parentName: "TIGRE TO\xD1O"
+      position: {x: 352.9963, y: -1264.6554, z: 107.94238}
+      rotation: {x: -0.5, y: 0.5, z: -0.5, w: 0.5}
+      scale: {x: -1, y: -1, z: -1}
+    - name: Globo ocular001
+      parentName: "TIGRE TO\xD1O"
+      position: {x: -54.309006, y: -1359.5402, z: 647.7969}
+      rotation: {x: -0.73699486, y: 0, z: 0, w: 0.6758984}
+      scale: {x: -1.191758, y: -1.115472, z: -1.013195}
+    - name: iris001
+      parentName: Globo ocular001
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mangas001
+      parentName: "TIGRE TO\xD1O"
+      position: {x: 352.1015, y: -1264.6554, z: 107.94238}
+      rotation: {x: -0.5, y: 0.5, z: -0.5, w: 0.5}
+      scale: {x: -1, y: -1, z: -1}
+    - name: Object002
+      parentName: "TIGRE TO\xD1O"
+      position: {x: -28.573065, y: -1396.8921, z: 44.06677}
+      rotation: {x: 1, y: 0, z: -0, w: 0.00000016292068}
+      scale: {x: -1, y: -1, z: -1}
+    - name: Sphere003
+      parentName: "TIGRE TO\xD1O"
+      position: {x: -54.309006, y: -1359.5402, z: 647.7969}
+      rotation: {x: -0.49999997, y: 0.49999988, z: -0.5000001, w: 0.50000006}
+      scale: {x: -0.931833, y: -1.027136, z: -1.096782}
+    - name: Cylinder001
+      parentName: "TIGRE TO\xD1O"
+      position: {x: 60.804813, y: -1260.2167, z: -142.45729}
+      rotation: {x: 0.0000000055629474, y: -0.06316903, z: -0.0000000097626724, w: 0.9980028}
+      scale: {x: 1.001223, y: 1.515725, z: 1.085834}
+    - name: Object003
+      parentName: "Tigre to\xF1o(Clone)"
+      position: {x: -85.82307, y: 599.564, z: -134.86249}
+      rotation: {x: 0.70710665, y: 0, z: 0, w: 0.70710695}
+      scale: {x: -1.041738, y: -1.112653, z: -1.4483631}
+    - name: Object005
+      parentName: "Tigre to\xF1o(Clone)"
+      position: {x: 21.577497, y: 599.564, z: -134.86249}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1.041738, y: 1.112653, z: 1.4483631}
+    - name: Object006
+      parentName: "Tigre to\xF1o(Clone)"
+      position: {x: -39.47517, y: 599.564, z: -134.86249}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1.041738, y: 1.112653, z: 1.4483631}
+    - name: Object008
+      parentName: "Tigre to\xF1o(Clone)"
+      position: {x: -28.701405, y: 599.564, z: -134.86249}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1.041738, y: 1.112653, z: 1.4483631}
+    - name: Object010
+      parentName: "Tigre to\xF1o(Clone)"
+      position: {x: -28.701405, y: 599.564, z: -134.86249}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1.041738, y: 1.112653, z: 1.4483631}
+    - name: Object012
+      parentName: "Tigre to\xF1o(Clone)"
+      position: {x: -35.544167, y: 599.564, z: -134.86249}
+      rotation: {x: 0.70710665, y: 0, z: 0, w: 0.70710695}
+      scale: {x: -1.041738, y: -1.112653, z: -1.4483631}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

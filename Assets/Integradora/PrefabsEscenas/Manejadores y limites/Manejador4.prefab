@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8296282929582002893
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8296282929582002892}
+  - component: {fileID: 8296282929582002895}
+  m_Layer: 0
+  m_Name: Manejador4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8296282929582002892
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8296282929582002893}
+  m_LocalRotation: {x: -0, y: 0.81915194, z: -0, w: 0.57357657}
+  m_LocalPosition: {x: 349.1, y: 213.26, z: 441.1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8296282929582002895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8296282929582002893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 964dd9e07547f0c4fbe6b657a0a77861, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  idManejador: 4
+  estado: 0
+  listaInstanciar:
+  - {fileID: 8993387622058193705, guid: f80fca11d1b14a249a264406dfc74213, type: 3}
+  - {fileID: 8862585735536428130, guid: 9c351c578f60f9249b69528b134a3049, type: 3}
+  - {fileID: 337518799008248089, guid: ac3f1c6504a2efa4eaccf2687f5dc6b0, type: 3}
+  Panel: {fileID: 0}
+  Galeria: {fileID: 0}
+  Panel3: {fileID: 0}
+  logroSist: {fileID: 0}
+  fpscontroller: {fileID: 0}
+  canvasJoy: {fileID: 0}
+  ardillacaja: {fileID: 0}
+  pechichecaja: {fileID: 0}
+  iguanacaja: {fileID: 0}
+  animSemilla: {fileID: 0}
+  controladorCalidad: {fileID: 0}
+  listadoDestruir:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  desface: {x: 349.1, y: 213.26, z: 441.1}
+  rotacion: {x: 0, y: 0, z: 0, w: 0}

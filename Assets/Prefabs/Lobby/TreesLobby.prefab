@@ -1,0 +1,4582 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6852352384025127212
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6852352384025127213}
+  m_Layer: 8
+  m_Name: TreesLobby
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &6852352384025127213
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6852352384025127212}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -152.05516, y: -161.93544, z: 59.591347}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 5348710645113428491}
+  - {fileID: 220588575846788951}
+  - {fileID: 220588577250872885}
+  - {fileID: 220588575949105839}
+  - {fileID: 808280482303306792}
+  - {fileID: 808280481477792506}
+  - {fileID: 220588575878607816}
+  - {fileID: 220588576951191956}
+  - {fileID: 808280481716164940}
+  - {fileID: 3979849574206913514}
+  - {fileID: 220588577261444682}
+  - {fileID: 220588577339760459}
+  - {fileID: 220588575803067345}
+  - {fileID: 3979849576088812636}
+  - {fileID: 808280480469713114}
+  - {fileID: 808280481722100129}
+  - {fileID: 808280482017315839}
+  - {fileID: 220588576841520842}
+  - {fileID: 220588576544176406}
+  - {fileID: 220588577205382152}
+  - {fileID: 220588575704375187}
+  - {fileID: 808280481739474971}
+  - {fileID: 808280481176177956}
+  - {fileID: 808280480883514917}
+  - {fileID: 3979849575915947630}
+  - {fileID: 3979849574860051121}
+  - {fileID: 808280481147727728}
+  - {fileID: 220588576433874637}
+  - {fileID: 220588575875573092}
+  - {fileID: 3979849575190422107}
+  - {fileID: 808280481228998272}
+  - {fileID: 220588577141281741}
+  - {fileID: 220588576795290141}
+  - {fileID: 220588576537381742}
+  - {fileID: 220588576117366471}
+  - {fileID: 220588577069118064}
+  - {fileID: 220588575925778078}
+  - {fileID: 808280481092765553}
+  - {fileID: 220588576629108152}
+  - {fileID: 220588575918194458}
+  - {fileID: 3979849574423407178}
+  - {fileID: 220588576302026856}
+  - {fileID: 220588577469726409}
+  - {fileID: 3979849574739444715}
+  - {fileID: 808280481984675941}
+  - {fileID: 220588576593834275}
+  - {fileID: 220588577249849515}
+  - {fileID: 220588575821536839}
+  - {fileID: 220588576323653782}
+  - {fileID: 220588577404288763}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &6852352383620148498
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6852352384025127213}
+    m_Modifications:
+    - target: {fileID: 7094503363104710619, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_Name
+      value: Teca hojas verdes 001 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 473.41428
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 201.55927
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -511.04764
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 14.563107
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 14.563107
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 14.563107
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e6c7b3c7e514b684999f8bcf1aff5df6, type: 3}
+--- !u!4 &808280480469713114 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+    type: 3}
+  m_PrefabInstance: {fileID: 6852352383620148498}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6852352383686975576
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6852352384025127213}
+    m_Modifications:
+    - target: {fileID: 6807313925606387728, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_Name
+      value: Teca hojas secas 001 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -427
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 201.74118
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -135
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 29
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 14.563107
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 14.563107
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 14.563107
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 671e11c139c60a54b99f09a9836bfffd, type: 3}
+--- !u!4 &3979849575190422107 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+    type: 3}
+  m_PrefabInstance: {fileID: 6852352383686975576}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6852352383743177743
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6852352384025127213}
+    m_Modifications:
+    - target: {fileID: 7659668370144024795, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bototillos C hojas amarillas y verdes (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -408.69806
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 201.56192
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -649.84454
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 19.417475
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 19.417475
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 19.417475
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df74701882f2a934fa3cacac324b34a4, type: 3}
+--- !u!4 &220588576117366471 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+    type: 3}
+  m_PrefabInstance: {fileID: 6852352383743177743}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6852352383820495454
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6852352384025127213}
+    m_Modifications:
+    - target: {fileID: 7659668370144024795, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bototillos C hojas amarillas y verdes (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 584
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 201.56192
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -52
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 48
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 19.417475
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 19.417475
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 19.417475
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df74701882f2a934fa3cacac324b34a4, type: 3}
+--- !u!4 &220588576323653782 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+    type: 3}
+  m_PrefabInstance: {fileID: 6852352383820495454}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6852352383865176552
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6852352384025127213}
+    m_Modifications:
+    - target: {fileID: 6807313925606387728, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_Name
+      value: Teca hojas secas 001 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -455.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 201.5566
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -578
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 43
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 14.563107
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 14.563107
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 14.563107
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 671e11c139c60a54b99f09a9836bfffd, type: 3}
+--- !u!4 &3979849574739444715 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+    type: 3}
+  m_PrefabInstance: {fileID: 6852352383865176552}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6852352383927843488
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6852352384025127213}
+    m_Modifications:
+    - target: {fileID: 7659668370144024795, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bototillos C hojas amarillas y verdes (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -206.19734
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 201.56192
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -668
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 41
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 19.417475
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 19.417475
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 19.417475
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df74701882f2a934fa3cacac324b34a4, type: 3}
+--- !u!4 &220588576302026856 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+    type: 3}
+  m_PrefabInstance: {fileID: 6852352383927843488}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6852352384010916018
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6852352384025127213}
+    m_Modifications:
+    - target: {fileID: 6807313925606387728, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_Name
+      value: Teca hojas secas 001 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 423.8998
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 201.74118
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -570.271
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 14.563107
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 14.563107
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 14.563107
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 671e11c139c60a54b99f09a9836bfffd, type: 3}
+--- !u!4 &3979849574860051121 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+    type: 3}
+  m_PrefabInstance: {fileID: 6852352384010916018}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6852352384028177389
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6852352384025127213}
+    m_Modifications:
+    - target: {fileID: 7094503363104710619, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_Name
+      value: Teca hojas verdes 001 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 108.65709
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 201.55927
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -865.0874
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 14.563107
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 14.563107
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 14.563107
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e6c7b3c7e514b684999f8bcf1aff5df6, type: 3}
+--- !u!4 &808280480883514917 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+    type: 3}
+  m_PrefabInstance: {fileID: 6852352384028177389}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6852352384064392197
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6852352384025127213}
+    m_Modifications:
+    - target: {fileID: 7659668370144024795, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bototillos C hojas amarillas y verdes (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 412.44342
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 201.56192
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -502.3098
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 27
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 19.417475
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 19.417475
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 19.417475
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df74701882f2a934fa3cacac324b34a4, type: 3}
+--- !u!4 &220588576433874637 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+    type: 3}
+  m_PrefabInstance: {fileID: 6852352384064392197}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6852352384238611129
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6852352384025127213}
+    m_Modifications:
+    - target: {fileID: 7094503363104710619, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_Name
+      value: Teca hojas verdes 001 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -119.78949
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 201.55927
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -742.7572
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 37
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 14.563107
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 14.563107
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 14.563107
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e6c7b3c7e514b684999f8bcf1aff5df6, type: 3}
+--- !u!4 &808280481092765553 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+    type: 3}
+  m_PrefabInstance: {fileID: 6852352384238611129}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6852352384292373176
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6852352384025127213}
+    m_Modifications:
+    - target: {fileID: 7094503363104710619, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_Name
+      value: Teca hojas verdes 001 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -481
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 201.55927
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -251
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 14.563107
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 14.563107
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 14.563107
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e6c7b3c7e514b684999f8bcf1aff5df6, type: 3}
+--- !u!4 &808280481147727728 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+    type: 3}
+  m_PrefabInstance: {fileID: 6852352384292373176}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6852352384322904300
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6852352384025127213}
+    m_Modifications:
+    - target: {fileID: 7094503363104710619, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_Name
+      value: Teca hojas verdes 001 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 27.78329
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 201.55927
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -865.0874
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 14.563107
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 14.563107
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 14.563107
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e6c7b3c7e514b684999f8bcf1aff5df6, type: 3}
+--- !u!4 &808280481176177956 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+    type: 3}
+  m_PrefabInstance: {fileID: 6852352384322904300}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6852352384374169881
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6852352384025127213}
+    m_Modifications:
+    - target: {fileID: 7659668370144024795, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bototillos C hojas amarillas y verdes (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -397
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 201.56192
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -211
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 19.417475
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 19.417475
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 19.417475
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df74701882f2a934fa3cacac324b34a4, type: 3}
+--- !u!4 &220588575803067345 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+    type: 3}
+  m_PrefabInstance: {fileID: 6852352384374169881}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6852352384378874696
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6852352384025127213}
+    m_Modifications:
+    - target: {fileID: 7094503363104710619, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_Name
+      value: Teca hojas verdes 001 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -86
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 201.55927
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -616
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 14.563107
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 14.563107
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 14.563107
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e6c7b3c7e514b684999f8bcf1aff5df6, type: 3}
+--- !u!4 &808280481228998272 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+    type: 3}
+  m_PrefabInstance: {fileID: 6852352384378874696}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6852352384391591055
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6852352384025127213}
+    m_Modifications:
+    - target: {fileID: 7659668370144024795, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bototillos C hojas amarillas y verdes (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 394.99997
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 201.56192
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -248
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 47
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 19.417475
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 19.417475
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 19.417475
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df74701882f2a934fa3cacac324b34a4, type: 3}
+--- !u!4 &220588575821536839 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+    type: 3}
+  m_PrefabInstance: {fileID: 6852352384391591055}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6852352384408122715
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6852352384025127213}
+    m_Modifications:
+    - target: {fileID: 7659668370144024795, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bototillos C hojas amarillas y verdes (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 508.36578
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 201.56192
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -154.73715
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 19.417475
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 19.417475
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 19.417475
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df74701882f2a934fa3cacac324b34a4, type: 3}
+--- !u!4 &220588575704375187 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+    type: 3}
+  m_PrefabInstance: {fileID: 6852352384408122715}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6852352384465107433
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6852352384025127213}
+    m_Modifications:
+    - target: {fileID: 6807313925606387728, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_Name
+      value: Teca hojas secas 001 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -508.30084
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 201.5566
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -183
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 14.563107
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 14.563107
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 14.563107
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 671e11c139c60a54b99f09a9836bfffd, type: 3}
+--- !u!4 &3979849574206913514 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+    type: 3}
+  m_PrefabInstance: {fileID: 6852352384465107433}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6852352384487708114
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6852352384025127213}
+    m_Modifications:
+    - target: {fileID: 7659668370144024795, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bototillos C hojas amarillas y verdes (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 216.52116
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 201.56192
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 402.1562
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 39
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 19.417475
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 19.417475
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 19.417475
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df74701882f2a934fa3cacac324b34a4, type: 3}
+--- !u!4 &220588575918194458 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+    type: 3}
+  m_PrefabInstance: {fileID: 6852352384487708114}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6852352384496868438
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6852352384025127213}
+    m_Modifications:
+    - target: {fileID: 7659668370144024795, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bototillos C hojas amarillas y verdes (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -100.37202
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 201.56192
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -700.0388
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 19.417475
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 19.417475
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 19.417475
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df74701882f2a934fa3cacac324b34a4, type: 3}
+--- !u!4 &220588575925778078 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+    type: 3}
+  m_PrefabInstance: {fileID: 6852352384496868438}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6852352384515473511
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6852352384025127213}
+    m_Modifications:
+    - target: {fileID: 7659668370144024795, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bototillos C hojas amarillas y verdes (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 417.492
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 201.56192
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 361.37936
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 19.417475
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 19.417475
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 19.417475
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df74701882f2a934fa3cacac324b34a4, type: 3}
+--- !u!4 &220588575949105839 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+    type: 3}
+  m_PrefabInstance: {fileID: 6852352384515473511}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6852352384522217545
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6852352384025127213}
+    m_Modifications:
+    - target: {fileID: 6807313925606387728, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_Name
+      value: Teca hojas secas 001 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -462.09613
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 201.5566
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -628.3883
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 14.563107
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 14.563107
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 14.563107
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 671e11c139c60a54b99f09a9836bfffd, type: 3}
+--- !u!4 &3979849574423407178 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+    type: 3}
+  m_PrefabInstance: {fileID: 6852352384522217545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6852352384551044511
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6852352384025127213}
+    m_Modifications:
+    - target: {fileID: 7659668370144024795, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bototillos C hojas amarillas y verdes (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -421
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 201.56192
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 251
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 19.417475
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 19.417475
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 19.417475
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df74701882f2a934fa3cacac324b34a4, type: 3}
+--- !u!4 &220588575846788951 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+    type: 3}
+  m_PrefabInstance: {fileID: 6852352384551044511}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6852352384580882348
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6852352384025127213}
+    m_Modifications:
+    - target: {fileID: 7659668370144024795, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bototillos C hojas amarillas y verdes (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 542.15216
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 201.56192
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -516.8729
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 19.417475
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 19.417475
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 19.417475
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df74701882f2a934fa3cacac324b34a4, type: 3}
+--- !u!4 &220588575875573092 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+    type: 3}
+  m_PrefabInstance: {fileID: 6852352384580882348}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6852352384583915776
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6852352384025127213}
+    m_Modifications:
+    - target: {fileID: 7659668370144024795, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bototillos C hojas amarillas y verdes (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -236.85344
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 201.56192
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -686.7376
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 19.417475
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 19.417475
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 19.417475
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df74701882f2a934fa3cacac324b34a4, type: 3}
+--- !u!4 &220588575878607816 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+    type: 3}
+  m_PrefabInstance: {fileID: 6852352384583915776}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6852352384625082162
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6852352384025127213}
+    m_Modifications:
+    - target: {fileID: 7094503363104710619, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_Name
+      value: Teca hojas verdes 001 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 523.89966
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 201.55927
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 419.92303
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 14.563107
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 14.563107
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 14.563107
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e6c7b3c7e514b684999f8bcf1aff5df6, type: 3}
+--- !u!4 &808280481477792506 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+    type: 3}
+  m_PrefabInstance: {fileID: 6852352384625082162}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6852352384638646533
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6852352384025127213}
+    m_Modifications:
+    - target: {fileID: 7659668370144024795, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bototillos C hojas amarillas y verdes (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -493
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 201.56192
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -54
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 31
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 19.417475
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 19.417475
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 19.417475
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df74701882f2a934fa3cacac324b34a4, type: 3}
+--- !u!4 &220588577141281741 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+    type: 3}
+  m_PrefabInstance: {fileID: 6852352384638646533}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6852352384695965880
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6852352384025127213}
+    m_Modifications:
+    - target: {fileID: 7659668370144024795, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bototillos C hojas amarillas y verdes (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -100.37202
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 201.56192
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -713.223
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 19.417475
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 19.417475
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 19.417475
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df74701882f2a934fa3cacac324b34a4, type: 3}
+--- !u!4 &220588577069118064 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+    type: 3}
+  m_PrefabInstance: {fileID: 6852352384695965880}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6852352384728006239
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6852352384025127213}
+    m_Modifications:
+    - target: {fileID: 6807313925606387728, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_Name
+      value: Teca hojas secas 001 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -25.614765
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 201.74118
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -759.2619
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 14.563107
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 14.563107
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 14.563107
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 671e11c139c60a54b99f09a9836bfffd, type: 3}
+--- !u!4 &3979849576088812636 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+    type: 3}
+  m_PrefabInstance: {fileID: 6852352384728006239}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6852352384741431907
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6852352384025127213}
+    m_Modifications:
+    - target: {fileID: 7659668370144024795, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bototillos C hojas amarillas y verdes (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 394.99997
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 201.56192
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -182
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 46
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 19.417475
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 19.417475
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 19.417475
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df74701882f2a934fa3cacac324b34a4, type: 3}
+--- !u!4 &220588577249849515 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+    type: 3}
+  m_PrefabInstance: {fileID: 6852352384741431907}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6852352384746661117
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6852352384025127213}
+    m_Modifications:
+    - target: {fileID: 7659668370144024795, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bototillos C hojas amarillas y verdes (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 321.08417
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 201.56192
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 402.1562
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 19.417475
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 19.417475
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 19.417475
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df74701882f2a934fa3cacac324b34a4, type: 3}
+--- !u!4 &220588577250872885 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+    type: 3}
+  m_PrefabInstance: {fileID: 6852352384746661117}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6852352384753038466
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6852352384025127213}
+    m_Modifications:
+    - target: {fileID: 7659668370144024795, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bototillos C hojas amarillas y verdes (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -40.17787
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 201.56192
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -754
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 19.417475
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 19.417475
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 19.417475
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df74701882f2a934fa3cacac324b34a4, type: 3}
+--- !u!4 &220588577261444682 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+    type: 3}
+  m_PrefabInstance: {fileID: 6852352384753038466}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6852352384836421312
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6852352384025127213}
+    m_Modifications:
+    - target: {fileID: 7659668370144024795, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bototillos C hojas amarillas y verdes (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 388.9483
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 201.56192
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -133.3778
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 19.417475
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 19.417475
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 19.417475
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df74701882f2a934fa3cacac324b34a4, type: 3}
+--- !u!4 &220588577205382152 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+    type: 3}
+  m_PrefabInstance: {fileID: 6852352384836421312}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6852352384850426643
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6852352384025127213}
+    m_Modifications:
+    - target: {fileID: 2556149127357371147, guid: 7ae99cc685fc95d48b77ee94bf22217b,
+        type: 3}
+      propertyPath: m_Name
+      value: BototilloCompleto (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1522812396594880792, guid: 7ae99cc685fc95d48b77ee94bf22217b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -201.82843
+      objectReference: {fileID: 0}
+    - target: {fileID: 1522812396594880792, guid: 7ae99cc685fc95d48b77ee94bf22217b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 201.56192
+      objectReference: {fileID: 0}
+    - target: {fileID: 1522812396594880792, guid: 7ae99cc685fc95d48b77ee94bf22217b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 417.10742
+      objectReference: {fileID: 0}
+    - target: {fileID: 1522812396594880792, guid: 7ae99cc685fc95d48b77ee94bf22217b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1522812396594880792, guid: 7ae99cc685fc95d48b77ee94bf22217b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1522812396594880792, guid: 7ae99cc685fc95d48b77ee94bf22217b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1522812396594880792, guid: 7ae99cc685fc95d48b77ee94bf22217b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1522812396594880792, guid: 7ae99cc685fc95d48b77ee94bf22217b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1522812396594880792, guid: 7ae99cc685fc95d48b77ee94bf22217b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1522812396594880792, guid: 7ae99cc685fc95d48b77ee94bf22217b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1522812396594880792, guid: 7ae99cc685fc95d48b77ee94bf22217b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1522812396594880792, guid: 7ae99cc685fc95d48b77ee94bf22217b,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 9.708737
+      objectReference: {fileID: 0}
+    - target: {fileID: 1522812396594880792, guid: 7ae99cc685fc95d48b77ee94bf22217b,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 9.708737
+      objectReference: {fileID: 0}
+    - target: {fileID: 1522812396594880792, guid: 7ae99cc685fc95d48b77ee94bf22217b,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 9.708737
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7ae99cc685fc95d48b77ee94bf22217b, type: 3}
+--- !u!4 &5348710645113428491 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1522812396594880792, guid: 7ae99cc685fc95d48b77ee94bf22217b,
+    type: 3}
+  m_PrefabInstance: {fileID: 6852352384850426643}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6852352384865121412
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6852352384025127213}
+    m_Modifications:
+    - target: {fileID: 7094503363104710619, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_Name
+      value: Teca hojas verdes 001 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -438
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 201.55927
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -316
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 14.563107
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 14.563107
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 14.563107
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e6c7b3c7e514b684999f8bcf1aff5df6, type: 3}
+--- !u!4 &808280481716164940 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+    type: 3}
+  m_PrefabInstance: {fileID: 6852352384865121412}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6852352384867239017
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6852352384025127213}
+    m_Modifications:
+    - target: {fileID: 7094503363104710619, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_Name
+      value: Teca hojas verdes 001 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -36
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 201.55927
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 64
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 14.563107
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 14.563107
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 14.563107
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e6c7b3c7e514b684999f8bcf1aff5df6, type: 3}
+--- !u!4 &808280481722100129 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+    type: 3}
+  m_PrefabInstance: {fileID: 6852352384867239017}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6852352384883746259
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6852352384025127213}
+    m_Modifications:
+    - target: {fileID: 7094503363104710619, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_Name
+      value: Teca hojas verdes 001 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -68.3333
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 201.55927
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -811.68933
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 14.563107
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 14.563107
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 14.563107
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e6c7b3c7e514b684999f8bcf1aff5df6, type: 3}
+--- !u!4 &808280481739474971 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+    type: 3}
+  m_PrefabInstance: {fileID: 6852352384883746259}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6852352384897438771
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6852352384025127213}
+    m_Modifications:
+    - target: {fileID: 7659668370144024795, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bototillos C hojas amarillas y verdes (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 584.00006
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 201.56192
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -136
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 49
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 19.417475
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 19.417475
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 19.417475
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df74701882f2a934fa3cacac324b34a4, type: 3}
+--- !u!4 &220588577404288763 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+    type: 3}
+  m_PrefabInstance: {fileID: 6852352384897438771}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6852352384907461741
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6852352384025127213}
+    m_Modifications:
+    - target: {fileID: 6807313925606387728, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_Name
+      value: Teca hojas secas 001 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 493
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 201.74118
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -701
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 14.563107
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 14.563107
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 14.563107
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 671e11c139c60a54b99f09a9836bfffd, type: 3}
+--- !u!4 &3979849575915947630 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7503900959047696899, guid: 671e11c139c60a54b99f09a9836bfffd,
+    type: 3}
+  m_PrefabInstance: {fileID: 6852352384907461741}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6852352384970290563
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6852352384025127213}
+    m_Modifications:
+    - target: {fileID: 7659668370144024795, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bototillos C hojas amarillas y verdes (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 87.0065
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 201.56192
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -605.22253
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 19.417475
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 19.417475
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 19.417475
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df74701882f2a934fa3cacac324b34a4, type: 3}
+--- !u!4 &220588577339760459 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+    type: 3}
+  m_PrefabInstance: {fileID: 6852352384970290563}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6852352385100764161
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6852352384025127213}
+    m_Modifications:
+    - target: {fileID: 7659668370144024795, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bototillos C hojas amarillas y verdes (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -515
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 201.56192
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 331
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 42
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 19.417475
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 19.417475
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 19.417475
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df74701882f2a934fa3cacac324b34a4, type: 3}
+--- !u!4 &220588577469726409 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+    type: 3}
+  m_PrefabInstance: {fileID: 6852352385100764161}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6852352385133145517
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6852352384025127213}
+    m_Modifications:
+    - target: {fileID: 7094503363104710619, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_Name
+      value: Teca hojas verdes 001 (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 195
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 442
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 44
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 14.563107
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 14.563107
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 14.563107
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e6c7b3c7e514b684999f8bcf1aff5df6, type: 3}
+--- !u!4 &808280481984675941 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+    type: 3}
+  m_PrefabInstance: {fileID: 6852352385133145517}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6852352385160731627
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6852352384025127213}
+    m_Modifications:
+    - target: {fileID: 7659668370144024795, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bototillos C hojas amarillas y verdes (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 395
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 201.56192
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 402.1562
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 19.417475
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 19.417475
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 19.417475
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df74701882f2a934fa3cacac324b34a4, type: 3}
+--- !u!4 &220588576593834275 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+    type: 3}
+  m_PrefabInstance: {fileID: 6852352385160731627}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6852352385167877687
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6852352384025127213}
+    m_Modifications:
+    - target: {fileID: 7094503363104710619, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_Name
+      value: Teca hojas verdes 001 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 467.5891
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 201.55927
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -312.01852
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 14.563107
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 14.563107
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 14.563107
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e6c7b3c7e514b684999f8bcf1aff5df6, type: 3}
+--- !u!4 &808280482017315839 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+    type: 3}
+  m_PrefabInstance: {fileID: 6852352385167877687}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6852352385194428272
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6852352384025127213}
+    m_Modifications:
+    - target: {fileID: 7659668370144024795, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bototillos C hojas amarillas y verdes (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -469
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 201.56192
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 93
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 38
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 19.417475
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 19.417475
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 19.417475
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df74701882f2a934fa3cacac324b34a4, type: 3}
+--- !u!4 &220588576629108152 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+    type: 3}
+  m_PrefabInstance: {fileID: 6852352385194428272}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6852352385242177958
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6852352384025127213}
+    m_Modifications:
+    - target: {fileID: 7659668370144024795, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bototillos C hojas amarillas y verdes (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -474
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 201.56192
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -340
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 33
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 19.417475
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 19.417475
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 19.417475
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df74701882f2a934fa3cacac324b34a4, type: 3}
+--- !u!4 &220588576537381742 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+    type: 3}
+  m_PrefabInstance: {fileID: 6852352385242177958}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6852352385243714526
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6852352384025127213}
+    m_Modifications:
+    - target: {fileID: 7659668370144024795, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bototillos C hojas amarillas y verdes (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 553.9968
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 201.56192
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -569.30005
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 19.417475
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 19.417475
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 19.417475
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df74701882f2a934fa3cacac324b34a4, type: 3}
+--- !u!4 &220588576544176406 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+    type: 3}
+  m_PrefabInstance: {fileID: 6852352385243714526}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6852352385407908866
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6852352384025127213}
+    m_Modifications:
+    - target: {fileID: 7659668370144024795, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bototillos C hojas amarillas y verdes (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 567.589
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 201.56192
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -291.6304
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 19.417475
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 19.417475
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 19.417475
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df74701882f2a934fa3cacac324b34a4, type: 3}
+--- !u!4 &220588576841520842 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+    type: 3}
+  m_PrefabInstance: {fileID: 6852352385407908866}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6852352385452114400
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6852352384025127213}
+    m_Modifications:
+    - target: {fileID: 7094503363104710619, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_Name
+      value: Teca hojas verdes 001 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 575.356
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 201.55927
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 387.01056
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 14.563107
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 14.563107
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 14.563107
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e6c7b3c7e514b684999f8bcf1aff5df6, type: 3}
+--- !u!4 &808280482303306792 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6066318875966664136, guid: e6c7b3c7e514b684999f8bcf1aff5df6,
+    type: 3}
+  m_PrefabInstance: {fileID: 6852352385452114400}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6852352385495875797
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6852352384025127213}
+    m_Modifications:
+    - target: {fileID: 7659668370144024795, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bototillos C hojas amarillas y verdes (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -335.0088
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 201.56192
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -649.84454
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 32
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 19.417475
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 19.417475
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 19.417475
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df74701882f2a934fa3cacac324b34a4, type: 3}
+--- !u!4 &220588576795290141 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+    type: 3}
+  m_PrefabInstance: {fileID: 6852352385495875797}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6852352385650746204
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6852352384025127213}
+    m_Modifications:
+    - target: {fileID: 7659668370144024795, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bototillos C hojas amarillas y verdes (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -399.563
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 201.56192
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 362.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 19.417475
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 19.417475
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 19.417475
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: df74701882f2a934fa3cacac324b34a4, type: 3}
+--- !u!4 &220588576951191956 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6635985967715723976, guid: df74701882f2a934fa3cacac324b34a4,
+    type: 3}
+  m_PrefabInstance: {fileID: 6852352385650746204}
+  m_PrefabAsset: {fileID: 0}

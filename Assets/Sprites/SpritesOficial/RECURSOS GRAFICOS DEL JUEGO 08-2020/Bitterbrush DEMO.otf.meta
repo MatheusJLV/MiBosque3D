@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: d1b40abf0c898624ba82500e2e549ff5
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Bitterbrush DEMO
+  fontNames:
+  - Bitterbrush DEMO
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 67c6693f49a387747981832aa01bf626, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

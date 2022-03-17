@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0c593addcdf154fb6202d8cf0dcc88, type: 3}
+  m_Name: Database
+  m_EditorClassIdentifier: 
+  items:
+  - id: 1
+    name: Raton
+    description: Roedor que vive en el bosque
+    isStackable: 1
+    itemType: 2
+    scrollPos: {x: 0, y: 0}
+    itemImage: {fileID: 21300000, guid: 11b2b8bd5edb86347a5fcd9dfa46ac55, type: 3}
+  - id: 2
+    name: Salamandra
+    description: Reptil que vive en el bosque
+    isStackable: 1
+    itemType: 2
+    scrollPos: {x: 0, y: 0}
+    itemImage: {fileID: 21300000, guid: 0e0c3412f29f4c0408d9545b36a1b8f1, type: 3}
+  - id: 3
+    name: Semilla de Teca
+    description: Semilla para plantar arbol teca
+    isStackable: 1
+    itemType: 0
+    scrollPos: {x: 0, y: 0}
+    itemImage: {fileID: 21300000, guid: 890d0215cee3fc44c8e7600fc4f7357b, type: 3}
+  - id: 4
+    name: Semilla de Ceibo
+    description: semilla para plantar arbol Ceibo
+    isStackable: 1
+    itemType: 0
+    scrollPos: {x: 0, y: 0}
+    itemImage: {fileID: 21300000, guid: 0462050543533b34b84ff2f0ace601dd, type: 3}
+  - id: 5
+    name: Papel
+    description: papel
+    isStackable: 0
+    itemType: 3
+    scrollPos: {x: 0, y: 0}
+    itemImage: {fileID: 21300000, guid: edbe8e633159b034ba44998dd2dd6e6b, type: 3}
+  - id: 6
+    name: Botella
+    description: Botella de vidrio
+    isStackable: 0
+    itemType: 3
+    scrollPos: {x: 0, y: 0}
+    itemImage: {fileID: 21300000, guid: 3ad53bce4079dd6448287b1f5692c7a1, type: 3}
