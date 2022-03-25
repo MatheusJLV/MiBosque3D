@@ -263,6 +263,9 @@ public class LogrosGlobales : MonoBehaviour
     //Settear el numero negativo para que sumados los requisitos den 1
     public GameObject imagePerfecto;
 
+    //checks
+    public List<GameObject> checks = new List<GameObject>();
+
     // Start is called before the first frame update
     void Start()
     {
@@ -276,7 +279,9 @@ public class LogrosGlobales : MonoBehaviour
         List<int> reqEstaciones;
         Mision mision;
 
-
+        /*
+         * aqui tambien va lo de los checks
+         */
         if (playerCtrl.GetComponent<Player>().playerData.misiones[0])
         {
             requisitosBlo = new List<string>() { };
@@ -286,6 +291,8 @@ public class LogrosGlobales : MonoBehaviour
             mision = new Mision("Encuentra las especies", "Completa", requisitosBlo, requisitosComp, requisitosHechos, reqEstaciones, "Muestra iniciativa buscando las especies solicitadas" +
                      " al iniciar.");
             misiones.Add(mision);
+            checks[0].SetActive(false);
+            checks[1].SetActive(true);
         }
         else
         {
@@ -307,6 +314,8 @@ public class LogrosGlobales : MonoBehaviour
             reqEstaciones = new List<int>() { };
             mision = new Mision("Salva al conejo", "Completa", requisitosBlo, requisitosComp, requisitosHechos, reqEstaciones, "Protege al conejo de los depredadores devolviéndolo a su hogar.");
             misiones.Add(mision);
+            checks[2].SetActive(false);
+            checks[3].SetActive(true);
         }
         else
         {
@@ -330,6 +339,8 @@ public class LogrosGlobales : MonoBehaviour
             mision = new Mision("Ayuda al gavilán", "Completa", requisitosBlo, requisitosComp, requisitosHechos, reqEstaciones, "Encuentra comida para el Gavilán herido guiándote por el sonido" +
                            " de la naturaleza");
             misiones.Add(mision);
+            checks[4].SetActive(false);
+            checks[5].SetActive(true);
         }
         else
         {
@@ -352,6 +363,8 @@ public class LogrosGlobales : MonoBehaviour
             reqEstaciones = new List<int>() { };
             mision = new Mision("Evita el Incendio", "Completa", requisitosBlo, requisitosComp, requisitosHechos, reqEstaciones, "Salva al bosque de un potencial incendio forestal.");
             misiones.Add(mision);
+            checks[6].SetActive(false);
+            checks[7].SetActive(true);
         }
         else
         {
@@ -373,6 +386,8 @@ public class LogrosGlobales : MonoBehaviour
             reqEstaciones = new List<int>() { };
             mision = new Mision("Recicla", "Completa", requisitosBlo, requisitosComp, requisitosHechos, reqEstaciones, "Recicla la basura abandonada por otros visitantes.");
             misiones.Add(mision);
+            checks[8].SetActive(false);
+            checks[9].SetActive(true);
         }
         else
         {
@@ -394,6 +409,8 @@ public class LogrosGlobales : MonoBehaviour
             reqEstaciones = new List<int>() { };
             mision = new Mision("Planta las semillas", "Completa", requisitosBlo, requisitosComp, requisitosHechos, reqEstaciones, "Planta las semillas encontradas en tu aventura.");
             misiones.Add(mision);
+            checks[10].SetActive(false);
+            checks[11].SetActive(true);
         }
         else
         {
@@ -416,6 +433,8 @@ public class LogrosGlobales : MonoBehaviour
             reqEstaciones = new List<int>() { };
             mision = new Mision("Amante de la fauna", "Completa", requisitosBlo, requisitosComp, requisitosHechos, reqEstaciones, "¡¡¡Encuentra todos los animales del bosque!!!");
             misiones.Add(mision);
+            checks[12].SetActive(false);
+            checks[13].SetActive(true);
         }
         else
         {
@@ -437,6 +456,8 @@ public class LogrosGlobales : MonoBehaviour
             reqEstaciones = new List<int>() { };
             mision = new Mision("Amante de la flora", "Completa", requisitosBlo, requisitosComp, requisitosHechos, reqEstaciones, "¡¡¡Encuentra a todos las plantas del bosque!!!");
             misiones.Add(mision);
+            checks[14].SetActive(false);
+            checks[15].SetActive(true);
         }
         else
         {
@@ -634,6 +655,11 @@ public class LogrosGlobales : MonoBehaviour
 
         if (tempResult)
         {
+            /*
+             *aqui va lo de los checks
+             **/
+            checks[numeromision*2].SetActive(false);
+            checks[numeromision*2+1].SetActive(true);
             Debug.Log("**********************se progresa mision " + numeromision);
             playerCtrl.GetComponent<Player>().regMision(numeromision);
             if (numeromision == 6)
