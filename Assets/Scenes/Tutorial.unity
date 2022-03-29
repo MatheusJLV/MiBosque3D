@@ -319,6 +319,7 @@ MonoBehaviour:
     isDiscovered: 0000000000000000000000000000000000
     libroDesbloqueado: 0
     mochilaDesbloqueada: 0
+    finishedGame: 0
     unidadEducativa: 
     playerID: 
     experiencia: 0
@@ -1858,6 +1859,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 527265985}
     m_Modifications:
+    - target: {fileID: 162654, guid: 099f3d86a4a33ad418b73fcb72ad8d6c, type: 3}
+      propertyPath: m_Name
+      value: sawing_wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 162654, guid: 099f3d86a4a33ad418b73fcb72ad8d6c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 162654, guid: 099f3d86a4a33ad418b73fcb72ad8d6c, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 421656, guid: 099f3d86a4a33ad418b73fcb72ad8d6c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 13.3
@@ -1909,18 +1922,6 @@ PrefabInstance:
     - target: {fileID: 421656, guid: 099f3d86a4a33ad418b73fcb72ad8d6c, type: 3}
       propertyPath: m_LocalScale.y
       value: 0.75
-      objectReference: {fileID: 0}
-    - target: {fileID: 162654, guid: 099f3d86a4a33ad418b73fcb72ad8d6c, type: 3}
-      propertyPath: m_Name
-      value: sawing_wood
-      objectReference: {fileID: 0}
-    - target: {fileID: 162654, guid: 099f3d86a4a33ad418b73fcb72ad8d6c, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 162654, guid: 099f3d86a4a33ad418b73fcb72ad8d6c, type: 3}
-      propertyPath: m_Layer
-      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6443810, guid: 099f3d86a4a33ad418b73fcb72ad8d6c, type: 3}
@@ -4216,11 +4217,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -6057140222963153312, guid: ee32bf15f5800fa42b2079d7ab7d6c8e,
-        type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 09ff30e1b7ddd774abdfd391301c858d, type: 2}
     - target: {fileID: -4216859302048453862, guid: ee32bf15f5800fa42b2079d7ab7d6c8e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4276,6 +4272,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6057140222963153312, guid: ee32bf15f5800fa42b2079d7ab7d6c8e,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 09ff30e1b7ddd774abdfd391301c858d, type: 2}
     - target: {fileID: -1523053218828376622, guid: ee32bf15f5800fa42b2079d7ab7d6c8e,
         type: 3}
       propertyPath: m_Materials.Array.data[1]
@@ -4503,6 +4504,8 @@ MonoBehaviour:
   mochila: {fileID: 0}
   mochilaIcon: {fileID: 0}
   tablonIcon: {fileID: 0}
+  helpIcon: {fileID: 0}
+  lupaIcon: {fileID: 0}
   salidaMochila: {fileID: 0}
   accesoryPanel: {fileID: 0}
   seedsPanel: {fileID: 0}
@@ -4779,6 +4782,14 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 9
       objectReference: {fileID: 0}
+    - target: {fileID: 2000000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_RenderingPath
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_AllowMSAA
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_FootstepSounds.Array.size
       value: 4
@@ -4878,14 +4889,6 @@ PrefabInstance:
     - target: {fileID: 100002, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_TagString
       value: MainCamera
-      objectReference: {fileID: 0}
-    - target: {fileID: 2000000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
-      propertyPath: m_RenderingPath
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 2000000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
-      propertyPath: m_AllowMSAA
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5054,14 +5057,14 @@ RectTransform:
   m_GameObject: {fileID: 1142406865}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.77418524, y: 0.9892367, z: 0.8602058}
+  m_LocalScale: {x: 1.2479092, y: 2.729711, z: 1.3865658}
   m_Children: []
   m_Father: {fileID: 127100566}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 296.5, y: -158.9}
+  m_AnchoredPosition: {x: 8, y: -13}
   m_SizeDelta: {x: 160, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1142406867
@@ -5140,7 +5143,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 608919e9e60f1244aa1eb98ffcd92056, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 17a1390f1be6b574e873e40449eeafc0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5731,6 +5734,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 527265985}
     m_Modifications:
+    - target: {fileID: 103996, guid: f110c542cb124a045a69faf5b0b218c4, type: 3}
+      propertyPath: m_Name
+      value: firewood_single
+      objectReference: {fileID: 0}
+    - target: {fileID: 103996, guid: f110c542cb124a045a69faf5b0b218c4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 103996, guid: f110c542cb124a045a69faf5b0b218c4, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 455772, guid: f110c542cb124a045a69faf5b0b218c4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.5
@@ -5774,18 +5789,6 @@ PrefabInstance:
     - target: {fileID: 455772, guid: f110c542cb124a045a69faf5b0b218c4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 5.5690002
-      objectReference: {fileID: 0}
-    - target: {fileID: 103996, guid: f110c542cb124a045a69faf5b0b218c4, type: 3}
-      propertyPath: m_Name
-      value: firewood_single
-      objectReference: {fileID: 0}
-    - target: {fileID: 103996, guid: f110c542cb124a045a69faf5b0b218c4, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 103996, guid: f110c542cb124a045a69faf5b0b218c4, type: 3}
-      propertyPath: m_Layer
-      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6466310, guid: f110c542cb124a045a69faf5b0b218c4, type: 3}
