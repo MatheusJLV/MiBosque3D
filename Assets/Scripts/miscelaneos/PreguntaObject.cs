@@ -51,7 +51,7 @@ public class Option
     public string image;
     public string updatedAt;
 }
-
+[System.Serializable]
 public class Feedback
 {
     public int ChallengeFeedbackId;

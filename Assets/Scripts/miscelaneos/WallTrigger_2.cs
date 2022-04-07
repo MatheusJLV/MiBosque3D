@@ -251,6 +251,8 @@ public class WallTrigger_2 : MonoBehaviour
     {
         Debug.Log("WALL TRIGGER 2 SCRIPT");
         Debug.Log("BEGIN GET PREGUNTAS OBJECT");
+        Debug.Log("preguntas cargadas");
+        Debug.Log(objectList.preguntas.Count);
         questions = new List<PreguntaObject>();
         foreach (PreguntaObject archivoraiz in objectList.preguntas)
         {
@@ -294,6 +296,10 @@ public class WallTrigger_2 : MonoBehaviour
             }*/
 
             q = questions[rdn];
+            Debug.Log("la pregunta es "+q.ToString());
+            Debug.Log(q.question);
+            Debug.Log(q.feedback);
+            //Debug.Log(q.question);
             if (!usadas.Contains(q.ChallengeID) || cont==questions.Count)
             {
                 if (cont!=questions.Count)
