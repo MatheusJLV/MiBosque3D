@@ -20,7 +20,7 @@ public class desactivarFeedback2 : MonoBehaviour
     void OnTriggerEnter(Collider obj)
     {
 #if UNITY_ANDROID || UNITY_IOS
-        joystick.SetActive(false);
+        //joystick.SetActive(false);
 #endif
         if (obj.gameObject.tag == "Player")
         {

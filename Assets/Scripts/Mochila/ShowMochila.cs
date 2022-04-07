@@ -241,24 +241,24 @@ public class ShowMochila : MonoBehaviour
 
 
             UnityEngine.UI.Button button = pregunta.transform.GetChild(1).GetComponent<UnityEngine.UI.Button>();
-            button.onClick.AddListener(delegate { MostrarInfoPreguntas(question.Id); });
+            button.onClick.AddListener(delegate { MostrarInfoPreguntas(question.ChallengeID); });
 
-            if (preguntasPlayer.ContainsKey(question.Id))
+            if (preguntasPlayer.ContainsKey(question.ChallengeID))
             {
-                if (preguntasPlayer[question.Id])
+                if (preguntasPlayer[question.ChallengeID])
                 {
-                    pregunta.transform.GetChild(1).GetComponent<UnityEngine.UI.Text>().text = "<color=green>" + question.Text + "</color>";
+                    pregunta.transform.GetChild(1).GetComponent<UnityEngine.UI.Text>().text = "<color=green>" + question.question + "</color>";
                 }
                 else
                 {
-                    pregunta.transform.GetChild(1).GetComponent<UnityEngine.UI.Text>().text = "<color=red>" + question.Text + "</color>";
+                    pregunta.transform.GetChild(1).GetComponent<UnityEngine.UI.Text>().text = "<color=red>" + question.question + "</color>";
                 }
-                questionsDict.Add(question.Id, (question, pregunta, "free"));
+                questionsDict.Add(question.ChallengeID, (question, pregunta, "free"));
             }
             else
             {
                 pregunta.transform.GetChild(1).GetComponent<UnityEngine.UI.Text>().text = "???????????";
-                questionsDict.Add(question.Id, (question, pregunta, "block"));
+                questionsDict.Add(question.ChallengeID, (question, pregunta, "block"));
             }
 
 
@@ -295,12 +295,28 @@ public class ShowMochila : MonoBehaviour
 
             PreguntaObject question = tuplaQueestion.Item1;
 
-            PreguntaInfoTitulo.GetComponent<UnityEngine.UI.Text>().text = question.Text;
-            PreguntaRespuesta.GetComponent<UnityEngine.UI.Text>().text = "Respuesta: " + question.Options[question.Answer] + "\n\n" + question.Feedback;
+            PreguntaInfoTitulo.GetComponent<UnityEngine.UI.Text>().text = question.question;
+
+            Option correcta=new Option();
+            foreach (Option opt in question.options)
+            {
+                if (opt.correctOption)
+                {
+                    correcta = opt;
+                }
+            }
+            PreguntaRespuesta.GetComponent<UnityEngine.UI.Text>().text = "Respuesta: " + correcta.text + "\n\n" + question.feedback.feedback;
+            //PreguntaRespuesta.GetComponent<UnityEngine.UI.Text>().text = "Respuesta: " + question.Options[question.Answer] + "\n\n" + question.feedback.feedback;
             PreguntaStacion.GetComponent<UnityEngine.UI.Text>().text = "Estaciones: ";
 
+            List<int> estacionesDePreg = new List<int>();
+            foreach (GameLevelsChallenges gl in question.gameLevelsChallenges)
+            {
+                estacionesDePreg.Add(gl.GameLevelId - 1);
+            }
 
-            foreach (int estacion in question.Stations)
+            //foreach (int estacion in question.Stations)
+            foreach (int estacion in estacionesDePreg)
             {
                 PreguntaStacion.GetComponent<UnityEngine.UI.Text>().text += " " + estacion;
 
@@ -328,20 +344,21 @@ public class ShowMochila : MonoBehaviour
         GameObject pregunta = tuplaQueestion.Item2;
         if (correcta)
         {
-            pregunta.transform.GetChild(1).GetComponent<UnityEngine.UI.Text>().text = "<color=green>" + question.Text + "</color>";
+            //pregunta.transform.GetChild(1).GetComponent<UnityEngine.UI.Text>().text = "<color=green>" + question.Text + "</color>";
+            pregunta.transform.GetChild(1).GetComponent<UnityEngine.UI.Text>().text = "<color=green>" + question.question + "</color>";
             questionsDict.Remove(id);
             questionsDict.Add(id, (question, pregunta, "free"));
             GameManager.instance.playerData.addPregunta(id, correcta);
         }
         else if (tuplaQueestion.Item3.Equals("block"))
         {
-            pregunta.transform.GetChild(1).GetComponent<UnityEngine.UI.Text>().text = "<color=red>" + question.Text + "</color>";
+            pregunta.transform.GetChild(1).GetComponent<UnityEngine.UI.Text>().text = "<color=red>" + question.question + "</color>";
             questionsDict.Remove(id);
             questionsDict.Add(id, (question, pregunta, "free"));
             GameManager.instance.playerData.addPregunta(id, correcta);
         }
         else {
-            pregunta.transform.GetChild(1).GetComponent<UnityEngine.UI.Text>().text = "<color=red>" + question.Text + "</color>";
+            pregunta.transform.GetChild(1).GetComponent<UnityEngine.UI.Text>().text = "<color=red>" + question.question + "</color>";
             questionsDict.Remove(id);
             questionsDict.Add(id, (question, pregunta, "free"));
             GameManager.instance.playerData.addPregunta(id, correcta);

@@ -43,12 +43,12 @@ public class Mision
 
     public bool Progreso(string requisito)
     {
-        Debug.Log("**********************se recibe 2 el nombre " + requisito);
+        //Debug.Log("**********************se recibe 2 el nombre " + requisito);
         if (estado != "Completa")
         {
             if (estado == "Bloqueada")
             {
-                Debug.Log("**********************se remueve el bloqueo " + requisito);
+                //Debug.Log("**********************se remueve el bloqueo " + requisito);
 
                 requisitosBlock.Remove(requisito);
                 if (requisitosBlock.Count == 0)
@@ -58,7 +58,7 @@ public class Mision
             }
             else
             {
-                Debug.Log("**********************se remueve el requisito " + requisito);
+                //Debug.Log("**********************se remueve el requisito " + requisito);
 
                 if (requisitos.Contains(requisito))
                 {
@@ -136,16 +136,16 @@ public class LogroRepetible : Logro
     {
         if (estado < 1)
         {
-            Debug.Log(nombre + " en estado " + estado);
+            //Debug.Log(nombre + " en estado " + estado);
             estado += 1;
-            Debug.Log(nombre + " Progreso + 1 " + estado);
+            //Debug.Log(nombre + " Progreso + 1 " + estado);
             if (estado == 1)
             {
                 iteracionActual += 1;
                 if (iteracionActual < iteracionMax)
                 {
                     estado = contadorInicial;
-                    Debug.Log("reset de estado");
+                    //Debug.Log("reset de estado");
                 }
                 fecha = DateTime.Now.Day + "/" + DateTime.Now.Month + "/" + DateTime.Now.Year;
                 LogrosGlobales.Completo100.Progreso();
@@ -303,7 +303,7 @@ public class LogrosGlobales : MonoBehaviour
             mision = new Mision("Encuentra las especies", "Incompleta", requisitosBlo, requisitosComp, requisitosHechos, reqEstaciones, "Muestra iniciativa buscando las especies solicitadas" +
                      " al iniciar.");
             misiones.Add(mision);
-            Debug.Log(mision.nombre + " " + mision.estado);
+            //Debug.Log(mision.nombre + " " + mision.estado);
         }
 
         if (playerCtrl.GetComponent<Player>().playerData.misiones[1])
@@ -326,7 +326,7 @@ public class LogrosGlobales : MonoBehaviour
 
             mision = new Mision("Salva al conejo", "Incompleta", requisitosBlo, requisitosComp, requisitosHechos, reqEstaciones, "Protege al conejo de los depredadores devolviéndolo a su hogar.");
             misiones.Add(mision);
-            Debug.Log(mision.nombre + " " + mision.estado);
+            //Debug.Log(mision.nombre + " " + mision.estado);
         }
 
 
@@ -352,7 +352,7 @@ public class LogrosGlobales : MonoBehaviour
             mision = new Mision("Ayuda al gavilán", "Incompleta", requisitosBlo, requisitosComp, requisitosHechos, reqEstaciones, "Encuentra comida para el Gavilán herido guiándote por el sonido" +
                 " de la naturaleza");
             misiones.Add(mision);
-            Debug.Log(mision.nombre + " " + mision.estado);
+            //Debug.Log(mision.nombre + " " + mision.estado);
         }
 
         if (playerCtrl.GetComponent<Player>().playerData.misiones[3])
@@ -375,7 +375,7 @@ public class LogrosGlobales : MonoBehaviour
 
             mision = new Mision("Evita el Incendio", "Incompleta", requisitosBlo, requisitosComp, requisitosHechos, reqEstaciones, "Salva al bosque de un potencial incendio forestal.");
             misiones.Add(mision);
-            Debug.Log(mision.nombre + " " + mision.estado);
+            //Debug.Log(mision.nombre + " " + mision.estado);
         }
 
         if (playerCtrl.GetComponent<Player>().playerData.misiones[4])
@@ -398,7 +398,7 @@ public class LogrosGlobales : MonoBehaviour
 
             mision = new Mision("Recicla", "Incompleta", requisitosBlo, requisitosComp, requisitosHechos, reqEstaciones, "Recicla la basura abandonada por otros visitantes.");
             misiones.Add(mision);
-            Debug.Log(mision.nombre + " " + mision.estado);
+            //Debug.Log(mision.nombre + " " + mision.estado);
         }
 
         if (playerCtrl.GetComponent<Player>().playerData.misiones[5])
@@ -421,7 +421,7 @@ public class LogrosGlobales : MonoBehaviour
 
             mision = new Mision("Planta las semillas", "Incompleta", requisitosBlo, requisitosComp, requisitosHechos, reqEstaciones, "Planta las semillas encontradas en tu aventura.");
             misiones.Add(mision);
-            Debug.Log(mision.nombre + " " + mision.estado);
+            //Debug.Log(mision.nombre + " " + mision.estado);
 
         }
 
@@ -445,7 +445,7 @@ public class LogrosGlobales : MonoBehaviour
 
             mision = new Mision("Amante de la fauna", "Incompleta", requisitosBlo, requisitosComp, requisitosHechos, reqEstaciones, "¡¡¡Encuentra todos los animales del bosque!!!");
             misiones.Add(mision);
-            Debug.Log(mision.nombre + " " + mision.estado);
+            //Debug.Log(mision.nombre + " " + mision.estado);
         }
 
         if (playerCtrl.GetComponent<Player>().playerData.misiones[7])
@@ -468,7 +468,7 @@ public class LogrosGlobales : MonoBehaviour
 
             mision = new Mision("Amante de la flora", "Incompleta", requisitosBlo, requisitosComp, requisitosHechos, reqEstaciones, "¡¡¡Encuentra a todos las plantas del bosque!!!");
             misiones.Add(mision);
-            Debug.Log(mision.nombre + " " + mision.estado);
+            //Debug.Log(mision.nombre + " " + mision.estado);
         }
 
 
@@ -534,7 +534,10 @@ public class LogrosGlobales : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        if (Input.GetKeyUp(KeyCode.B))
+        {
+            Peticiones.instance.getPreguntas(Player.instance.playerData);
+        }
         /*
         if (Input.GetKeyUp(KeyCode.N))
         {
@@ -621,9 +624,9 @@ public class LogrosGlobales : MonoBehaviour
 
     public bool ProgresarLogro(int numeroLogro)
     {
-        Debug.Log("**********************logros:" + logros.Count);
+        //Debug.Log("**********************logros:" + logros.Count);
         tempResult = logros[numeroLogro].Progreso();
-        Debug.Log("**********************en progresar logro inicio es " + tempResult);
+        //Debug.Log("**********************en progresar logro inicio es " + tempResult);
         if (tempResult)
         {
             notificaciones.SetActive(true);
@@ -633,7 +636,7 @@ public class LogrosGlobales : MonoBehaviour
         //Debug.Log("**********************en progresar envia " + tempResult);
         if (tempResult)
         {
-            Debug.Log("**********************se progresa logro " + numeroLogro);
+            //Debug.Log("**********************se progresa logro " + numeroLogro);
             playerCtrl.GetComponent<Player>().regLogro(numeroLogro, DateTime.Now.Day + "/" + DateTime.Now.Month + "/" + DateTime.Now.Year);
         }
         return tempResult;
@@ -729,7 +732,7 @@ public class LogrosGlobales : MonoBehaviour
 
     public void InfMed(int medalla)
     {
-        Debug.Log("Info de medalla" + medalla);
+        //Debug.Log("Info de medalla" + medalla);
         medallas.SetActive(false);
 
         medallasdetalle.SetActive(true);

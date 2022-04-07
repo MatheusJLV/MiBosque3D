@@ -52,6 +52,8 @@ public class CargarPreguntas : MonoBehaviour
 
     void Start()
     {
+        Debug.Log("CARGAR PREGUNTAS SCRIPT");
+        Debug.Log("BEGIN START");
         GameObject player = GameObject.Find("FPSController");
         FirstPersonController fps = player.GetComponent<FirstPersonController>();
         fps.canRotate = false;
@@ -67,6 +69,8 @@ public class CargarPreguntas : MonoBehaviour
         n_pregunta++;
         Debug.Log("pregunta: " + n_pregunta);
         Debug.Log("Cabaña seleccionada: " + EscenaMiniJuego.idCabin);
+        Debug.Log("CARGAR PREGUNTAS SCRIPT");
+        Debug.Log("END START");
     }
 
     public void DestroyScriptInstance()
@@ -76,6 +80,8 @@ public class CargarPreguntas : MonoBehaviour
     }
 
     public void CargarNuevaPregunta() {
+        Debug.Log("CARGAR PREGUNTAS SCRIPT");
+        Debug.Log("BEGIN CARGAR NUEVA");
         canvasPreguntasImagenes.transform.Find("Opción A").gameObject.SetActive(true);
         canvasPreguntasImagenes.transform.Find("Opción B").gameObject.SetActive(true);
         canvasPreguntasImagenes.transform.Find("Opción C").gameObject.SetActive(true);
@@ -150,10 +156,14 @@ public class CargarPreguntas : MonoBehaviour
 
             SceneManager.UnloadSceneAsync("Memoria");
         }
+        Debug.Log("CARGAR PREGUNTAS SCRIPT");
+        Debug.Log("END START");
     }
 
     IEnumerator Preguntas()
     {
+        Debug.Log("CARGAR PREGUNTAS SCRIPT");
+        Debug.Log("BEGIN ENUM PREGUNTAS");
         //MenuPausa.instance.Pausar();
         //GameObject.FindGameObjectWithTag("Player").GetComponent<MouseController>().enabled = false;
         //Panel.SetActive(false);
@@ -182,10 +192,14 @@ public class CargarPreguntas : MonoBehaviour
         //fondoCanvasDialogo.SetActive(false);
 
         canvasPreguntasImagenes.SetActive(true);
+        Debug.Log("CARGAR PREGUNTAS SCRIPT");
+        Debug.Log("END  ENUM PREGUNTAS");
     }
 
     public void Continuar()
     {
+        Debug.Log("CARGAR PREGUNTAS SCRIPT");
+        Debug.Log("BEGIN CONTINUAR");
 #if UNITY_ANDROID || UNITY_IOS
         joystick.SetActive(true);
 #endif
@@ -263,6 +277,8 @@ public class CargarPreguntas : MonoBehaviour
             }
             AudioSourceSFX.instance.PlaySound(incorrect);
         }
+        Debug.Log("CARGAR PREGUNTAS SCRIPT");
+        Debug.Log("END CONTINUAR");
     }
 
     private void RespuestaIncorrecta()
@@ -281,7 +297,7 @@ public class CargarPreguntas : MonoBehaviour
         canvasFeedback.transform.Find("Feedback").gameObject.GetComponent<Text>().text = feedback;
         /*canvasFeedback.transform.Find("check").gameObject.SetActive(false);
         canvasFeedback.transform.Find("cross").gameObject.SetActive(true);*/
-        f_Imagen.sprite = Resources.Load<Sprite>(q.ImageAddress);
+        f_Imagen.sprite = Resources.Load<Sprite>(q.image);
         canvasFeedback.transform.Find("Button").gameObject.GetComponent<Button>().onClick.AddListener(CloseFeedbackCanvas);
         canvasFeedback.transform.localPosition.Set(33.28f, -0.8f, 0);
         Debug.Log("marca");
@@ -330,7 +346,7 @@ public class CargarPreguntas : MonoBehaviour
         canvasFeedback.transform.Find("Feedback").gameObject.GetComponent<Text>().text = feedback;
         /*canvasFeedback.transform.Find("check").gameObject.SetActive(true);
         canvasFeedback.transform.Find("cross").gameObject.SetActive(false);*/
-        f_Imagen.sprite = Resources.Load<Sprite>(q.ImageAddress);
+        f_Imagen.sprite = Resources.Load<Sprite>(q.image);
         canvasFeedback.transform.Find("Button").gameObject.GetComponent<Button>().onClick.AddListener(CloseFeedbackCanvas);
         canvasFeedback.transform.localPosition.Set(33.28f, -0.8f, 0);
         Debug.Log("marca");
@@ -382,9 +398,16 @@ public class CargarPreguntas : MonoBehaviour
 
     void GetPreguntaObjects(PreguntaObjectList objectList)
     {
+        Debug.Log("CARGAR PREGUNTAS SCRIPT");
+        Debug.Log("BEGIN GET PREGUNTAS OBJECTS");
         questions = new List<PreguntaObject>();
-        
-        foreach (PreguntaObject archivoraiz in objectList.preguntas)
+        /*
+         * NOTA:
+         * LOS JSON ACTUALES NO TRAEN CATEGORIA
+         * TODA LA CLASIFICACION SERA COMENTADA
+         * OSEA TODO EL SGTE FOR EACH
+         */
+        /*foreach (PreguntaObject archivoraiz in objectList.preguntas)
         {
             if (EscenaMiniJuego.idCabin == 0)       // CABAÑA "ANIMALES" (MAMÍFEROS)
             {
@@ -425,7 +448,7 @@ public class CargarPreguntas : MonoBehaviour
                     Debug.Log("Categoría: " + archivoraiz.Category);
                 }
             }
-        }
+        }*/
 
 
         bool repeat = true;
@@ -448,17 +471,17 @@ public class CargarPreguntas : MonoBehaviour
             }*/
 
             q = questions[rdn];     // OBJETO PREGUNTA
-            if (!usadas.Contains(q.Id) || cont == questions.Count)
+            if (!usadas.Contains(q.ChallengeID) || cont == questions.Count)
             {
                 if (cont != questions.Count)
                 {
-                    usadas.Add(q.Id);
+                    usadas.Add(q.ChallengeID);
                 }
 
-                LoadImage(q.ImageAddress);
-                pregunta.text = q.Text;
-                Debug.Log(q.Gallery);
-                preguntaImagen.text = q.Text;
+                LoadImage(q.image);
+                pregunta.text = q.question;
+                /*Debug.Log(q.Gallery);
+                preguntaImagen.text = q.question;
                 m_opcionAImagenes.GetComponentInChildren<Text>().text = "A. " + q.Options[0];
                 m_opcionBImagenes.GetComponentInChildren<Text>().text = "B. " + q.Options[1];
                 m_opcionCImagenes.GetComponentInChildren<Text>().text = "C. " + q.Options[2];
@@ -476,6 +499,40 @@ public class CargarPreguntas : MonoBehaviour
                     m_ImagenB.sprite = Resources.Load<Sprite>("Questions/Images/default");
                     m_ImagenC.sprite = Resources.Load<Sprite>("Questions/Images/default");
                     m_ImagenD.sprite = Resources.Load<Sprite>("Questions/Images/default");
+                }*/
+                List<string> galeriaImagenes = new List<string>();
+                foreach (Option opt in q.options)
+                {
+                    galeriaImagenes.Add(opt.image);
+                }
+                Debug.Log(galeriaImagenes);
+                preguntaImagen.text = q.question;
+                /*m_opcionAImagenes.GetComponentInChildren<Text>().text = "A. " + q.options[0];
+                m_opcionBImagenes.GetComponentInChildren<Text>().text = "B. " + q.Options[1];
+                m_opcionCImagenes.GetComponentInChildren<Text>().text = "C. " + q.Options[2];
+                m_opcionDImagenes.GetComponentInChildren<Text>().text = "D. " + q.Options[3];*/
+                m_opcionAImagenes.GetComponentInChildren<Text>().text = "A. " + q.options[0].text;
+                m_opcionBImagenes.GetComponentInChildren<Text>().text = "B. " + q.options[1].text;
+                m_opcionCImagenes.GetComponentInChildren<Text>().text = "C. " + q.options[2].text;
+                m_opcionDImagenes.GetComponentInChildren<Text>().text = "D. " + q.options[3].text;
+                //if (q.Gallery.Count == 4)
+                if (galeriaImagenes.Count == 4)
+                {
+                    /*m_ImagenA.sprite = Resources.Load<Sprite>("Questions/Images/" + q.Gallery[0]);
+                    m_ImagenB.sprite = Resources.Load<Sprite>("Questions/Images/" + q.Gallery[1]);
+                    m_ImagenC.sprite = Resources.Load<Sprite>("Questions/Images/" + q.Gallery[2]);
+                    m_ImagenD.sprite = Resources.Load<Sprite>("Questions/Images/" + q.Gallery[3]);*/
+                    m_ImagenA.sprite = Resources.Load<Sprite>("Questions/Images/" + galeriaImagenes[0]);
+                    m_ImagenB.sprite = Resources.Load<Sprite>("Questions/Images/" + galeriaImagenes[1]);
+                    m_ImagenC.sprite = Resources.Load<Sprite>("Questions/Images/" + galeriaImagenes[2]);
+                    m_ImagenD.sprite = Resources.Load<Sprite>("Questions/Images/" + galeriaImagenes[3]);
+                }
+                else
+                {
+                    m_ImagenA.sprite = Resources.Load<Sprite>("Questions/Images/default");
+                    m_ImagenB.sprite = Resources.Load<Sprite>("Questions/Images/default");
+                    m_ImagenC.sprite = Resources.Load<Sprite>("Questions/Images/default");
+                    m_ImagenD.sprite = Resources.Load<Sprite>("Questions/Images/default");
                 }
 
                 //m_opcionA.GetComponentInChildren<Text>().text = "A. " + q.Options[0];
@@ -486,29 +543,33 @@ public class CargarPreguntas : MonoBehaviour
                 value_B = 0;
                 value_C = 0;
                 value_D = 0;
-                for (int i = 0; i < 4; i++)
+                //for (int i = 0; i < 4; i++)
                 {
-                    if (q.Answer == 0)
+                    if (q.options[0].correctOption)
                     {
                         value_A = 1;
+                        respuesta = q.options[0].text;
                     }
-                    else if (q.Answer == 1)
+                    else if (q.options[1].correctOption)
                     {
                         value_B = 1;
+                        respuesta = q.options[1].text;
                     }
-                    else if (q.Answer == 2)
+                    else if (q.options[2].correctOption)
                     {
                         value_C = 1;
+                        respuesta = q.options[2].text;
                     }
                     else
                     {
                         value_D = 1;
+                        respuesta = q.options[3].text;
                     }
                 }
 
-                respuesta = q.Options[q.Answer];
+                //respuesta = q.Options[q.Answer];
                 repeat = false;
-                feedback = q.Feedback;
+                feedback = q.feedback.feedback;
             }
             else
             {
@@ -516,7 +577,8 @@ public class CargarPreguntas : MonoBehaviour
             }
             cont = cont + 1;
         }
-
+        Debug.Log("CARGAR PREGUNTAS SCRIPT");
+        Debug.Log("END PREGUNTAS OBJECT");
     }
 
     bool IsInEstacion(List<int> estaciones)

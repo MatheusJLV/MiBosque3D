@@ -56,6 +56,8 @@ public class WallTrigger_2 : MonoBehaviour
 
     void OnTriggerEnter(Collider obj)
     {
+        Debug.Log("WALL TRIGGER 2 SCRIPT");
+        Debug.Log("BEGIN COLISION");
 #if UNITY_ANDROID || UNITY_IOS
         joystick.SetActive(false);
 #endif
@@ -66,10 +68,14 @@ public class WallTrigger_2 : MonoBehaviour
             StartCoroutine(Preguntas());
             controlPanel.GetComponent<Animator>().SetBool("hide", true);
         }
+        Debug.Log("WALL TRIGGER 2 SCRIPT");
+        Debug.Log("END COLISION");
     }
 
     IEnumerator Preguntas()
     {
+        Debug.Log("WALL TRIGGER 2 SCRIPT");
+        Debug.Log("BEGIN ENIM PREGUNTAS");
         MenuPausa.instance.Pausar();
         GameObject.FindGameObjectWithTag("Player").GetComponent<MouseController>().enabled = false;
         //Panel.SetActive(false);
@@ -98,10 +104,14 @@ public class WallTrigger_2 : MonoBehaviour
         //fondoCanvasDialogo.SetActive(false);
 
         canvasPreguntasImagenes.SetActive(true);
+        Debug.Log("WALL TRIGGER 2 SCRIPT");
+        Debug.Log("END ENUM PREG");
     }
 
     public void Continuar()
     {
+        Debug.Log("WALL TRIGGER 2 SCRIPT");
+        Debug.Log("BEGIN CONTINUAR");
 #if UNITY_ANDROID || UNITY_IOS
         joystick.SetActive(true);
 #endif
@@ -113,6 +123,8 @@ public class WallTrigger_2 : MonoBehaviour
         //mira.SetActive(true);
         Title.enabled = true;
         DestroyScriptInstance();
+        Debug.Log("WALL TRIGGER 2 SCRIPT");
+        Debug.Log("END CONTINUAR");
     }
 
     public void Wrapper(int i)
@@ -131,6 +143,8 @@ public class WallTrigger_2 : MonoBehaviour
 
     private void RespuestaIncorrecta()
     {
+        Debug.Log("WALL TRIGGER 2 SCRIPT");
+        Debug.Log("BEGIN RESPUESTA INC");
         canvasPreguntasImagenes.SetActive(false);
 
         canvasFeedback.transform.Find("Titulo correcto").gameObject.SetActive(false);
@@ -141,7 +155,7 @@ public class WallTrigger_2 : MonoBehaviour
         canvasFeedback.transform.Find("Feedback").gameObject.GetComponent<Text>().text = feedback;
         canvasFeedback.transform.Find("check").gameObject.SetActive(false);
         canvasFeedback.transform.Find("cross").gameObject.SetActive(true);
-        f_Imagen.sprite = Resources.Load<Sprite>(q.ImageAddress);
+        f_Imagen.sprite = Resources.Load<Sprite>(q.image);
         canvasFeedback.transform.Find("Button").gameObject.GetComponent<Button>().onClick.AddListener(CloseFeedbackCanvas);
         canvasFeedback.transform.localPosition.Set(33.28f, -0.8f, 0);
         Debug.Log("marca");
@@ -158,7 +172,9 @@ public class WallTrigger_2 : MonoBehaviour
         //StartCoroutine(Dialogo(fondoCanvasDialogo, dialogoPersonaje, texto));
         //yield return new WaitForSeconds(13.0f);
         //Continuar();
-        mochila.desbloquearPregunta(q.Id, false);
+        mochila.desbloquearPregunta(q.ChallengeID, false);
+        Debug.Log("WALL TRIGGER 2 SCRIPT");
+        Debug.Log("END RESP INC");
     }
 
     private void CloseFeedbackCanvas()
@@ -173,6 +189,8 @@ public class WallTrigger_2 : MonoBehaviour
 
     private void RespuestaCorrecta()
     {
+        Debug.Log("WALL TRIGGER 2 SCRIPT");
+        Debug.Log("BEGIN RESP CORRECTA");
         canvasPreguntasImagenes.SetActive(false);
 
         canvasFeedback.transform.Find("Titulo correcto").gameObject.SetActive(true);
@@ -183,7 +201,7 @@ public class WallTrigger_2 : MonoBehaviour
         canvasFeedback.transform.Find("Feedback").gameObject.GetComponent<Text>().text = feedback;
         canvasFeedback.transform.Find("check").gameObject.SetActive(true);
         canvasFeedback.transform.Find("cross").gameObject.SetActive(false);
-        f_Imagen.sprite = Resources.Load<Sprite>(q.ImageAddress);
+        f_Imagen.sprite = Resources.Load<Sprite>(q.image);
         canvasFeedback.transform.Find("Button").gameObject.GetComponent<Button>().onClick.AddListener(CloseFeedbackCanvas);
         canvasFeedback.transform.localPosition.Set(33.28f, -0.8f, 0);
         Debug.Log("marca");
@@ -210,7 +228,10 @@ public class WallTrigger_2 : MonoBehaviour
         Player.instance.PreguntasCorrectas();
         //yield return new WaitForSeconds(13.0f);
         //Continuar();
-        mochila.desbloquearPregunta(q.Id, true);
+        mochila.desbloquearPregunta(q.ChallengeID, true);
+
+        Debug.Log("WALL TRIGGER 2 SCRIPT");
+        Debug.Log("END RESP CORRECT");
     }
 
     IEnumerator Dialogo(TextMeshProUGUI dialogoPersonaje, string texto)
@@ -228,10 +249,18 @@ public class WallTrigger_2 : MonoBehaviour
 
     void GetPreguntaObjects(PreguntaObjectList objectList)
     {
+        Debug.Log("WALL TRIGGER 2 SCRIPT");
+        Debug.Log("BEGIN GET PREGUNTAS OBJECT");
         questions = new List<PreguntaObject>();
         foreach (PreguntaObject archivoraiz in objectList.preguntas)
         {
-            if (IsInEstacion(archivoraiz.Stations))
+            List<int> estacionesDePreg = new List<int>();
+            foreach (GameLevelsChallenges gl in archivoraiz.gameLevelsChallenges)
+            {
+                estacionesDePreg.Add(gl.GameLevelId-1);
+            }
+            //if (IsInEstacion(archivoraiz.Stations))
+            if (IsInEstacion(estacionesDePreg))
             {
                 if (questions == null)
                 {
@@ -265,27 +294,45 @@ public class WallTrigger_2 : MonoBehaviour
             }*/
 
             q = questions[rdn];
-            if (!usadas.Contains(q.Id) || cont==questions.Count)
+            if (!usadas.Contains(q.ChallengeID) || cont==questions.Count)
             {
                 if (cont!=questions.Count)
                 {
-                    usadas.Add(q.Id);
+                    usadas.Add(q.ChallengeID);
                 }
 
-                LoadImage(q.ImageAddress);
-                pregunta.text = q.Text;
-                Debug.Log(q.Gallery);
-                preguntaImagen.text = q.Text;
-                m_opcionAImagenes.GetComponentInChildren<Text>().text = "A. " + q.Options[0];
+                LoadImage(q.image);
+                pregunta.text = q.question;
+
+                List<string> galeriaImagenes = new List<string>();
+                foreach (Option opt in q.options)
+                {
+                    galeriaImagenes.Add(opt.image);
+                }
+
+
+                //Debug.Log(q.Gallery);
+                Debug.Log(galeriaImagenes);
+                preguntaImagen.text = q.question;
+                /*m_opcionAImagenes.GetComponentInChildren<Text>().text = "A. " + q.options[0];
                 m_opcionBImagenes.GetComponentInChildren<Text>().text = "B. " + q.Options[1];
                 m_opcionCImagenes.GetComponentInChildren<Text>().text = "C. " + q.Options[2];
-                m_opcionDImagenes.GetComponentInChildren<Text>().text = "D. " + q.Options[3];
-                if (q.Gallery.Count == 4)
+                m_opcionDImagenes.GetComponentInChildren<Text>().text = "D. " + q.Options[3];*/
+                m_opcionAImagenes.GetComponentInChildren<Text>().text = "A. " + q.options[0].text;
+                m_opcionBImagenes.GetComponentInChildren<Text>().text = "B. " + q.options[1].text;
+                m_opcionCImagenes.GetComponentInChildren<Text>().text = "C. " + q.options[2].text;
+                m_opcionDImagenes.GetComponentInChildren<Text>().text = "D. " + q.options[3].text;
+                //if (q.Gallery.Count == 4)
+                if (galeriaImagenes.Count == 4)
                 {
-                    m_ImagenA.sprite = Resources.Load<Sprite>("Questions/Images/" + q.Gallery[0]);
+                    /*m_ImagenA.sprite = Resources.Load<Sprite>("Questions/Images/" + q.Gallery[0]);
                     m_ImagenB.sprite = Resources.Load<Sprite>("Questions/Images/" + q.Gallery[1]);
                     m_ImagenC.sprite = Resources.Load<Sprite>("Questions/Images/" + q.Gallery[2]);
-                    m_ImagenD.sprite = Resources.Load<Sprite>("Questions/Images/" + q.Gallery[3]);
+                    m_ImagenD.sprite = Resources.Load<Sprite>("Questions/Images/" + q.Gallery[3]);*/
+                    m_ImagenA.sprite = Resources.Load<Sprite>("Questions/Images/" + galeriaImagenes[0]);
+                    m_ImagenB.sprite = Resources.Load<Sprite>("Questions/Images/" + galeriaImagenes[1]);
+                    m_ImagenC.sprite = Resources.Load<Sprite>("Questions/Images/" + galeriaImagenes[2]);
+                    m_ImagenD.sprite = Resources.Load<Sprite>("Questions/Images/" + galeriaImagenes[3]);
                 }
                 else
                 {
@@ -303,29 +350,33 @@ public class WallTrigger_2 : MonoBehaviour
                 value_B = 0;
                 value_C = 0;
                 value_D = 0;
-                for (int i = 0; i < 4; i++)
+                //for (int i = 0; i < 4; i++)
                 {
-                    if (q.Answer == 0)
+                    if (q.options[0].correctOption)
                     {
                         value_A = 1;
+                        respuesta = q.options[0].text;
                     }
-                    else if (q.Answer == 1)
+                    else if (q.options[1].correctOption)
                     {
                         value_B = 1;
+                        respuesta = q.options[1].text;
                     }
-                    else if (q.Answer == 2)
+                    else if (q.options[2].correctOption)
                     {
                         value_C = 1;
+                        respuesta = q.options[2].text;
                     }
                     else
                     {
                         value_D = 1;
+                        respuesta = q.options[3].text;
                     }
                 }
 
-                respuesta = q.Options[q.Answer];
+                //respuesta = q.Options[q.Answer];
                 repeat = false;
-                feedback = q.Feedback;
+                feedback = q.feedback.feedback;
             }
             else
             {
@@ -333,7 +384,8 @@ public class WallTrigger_2 : MonoBehaviour
             }
             cont = cont + 1;
         }
-
+        Debug.Log("WALL TRIGGER 2 SCRIPT");
+        Debug.Log("END GET PREGUNTAS OBJECT");
     }
 
     bool IsInEstacion(List<int> estaciones)

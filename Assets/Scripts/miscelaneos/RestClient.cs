@@ -56,14 +56,26 @@ public class RestClient : MonoBehaviour {
 
             }
         }*/
-        string jsonResult = Resources.Load<TextAsset>("Questions/questions").text;
+        //PruebaJson.json
+        Debug.Log("PROBANDO LECTURA DE NUEVAS PREGUNTAS");
+        string jsonResult2 = Resources.Load<TextAsset>("Questions/PruebaJson").text;
+        Debug.Log(jsonResult2);
+        PreguntaObject[] preguntaList2 = JsonHelper.GetJsonArray<PreguntaObject>(jsonResult2);
+        List<PreguntaObject> lista2 = new List<PreguntaObject>(preguntaList2);
+        PreguntaObjectList lista_final2 = new PreguntaObjectList
+        {
+            preguntas = lista2
+        };
+        Debug.Log(lista_final2.ToString());
+        Debug.Log("LECTURA DE NUEVAS PREGUNTAS CON EXITO");
+        /*string jsonResult = Resources.Load<TextAsset>("Questions/questions").text;
         Debug.Log(jsonResult);
         PreguntaObject[] preguntaList = JsonHelper.GetJsonArray<PreguntaObject>(jsonResult);
         List<PreguntaObject> lista = new List<PreguntaObject>(preguntaList);
         PreguntaObjectList lista_final = new PreguntaObjectList
         {
             preguntas = lista
-        };
-        callBack(lista_final);
+        };*/
+        callBack(lista_final2);
     }
 }

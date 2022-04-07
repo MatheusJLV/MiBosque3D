@@ -35,7 +35,7 @@ public class ManejadorEstacion : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("Instancia de estacion " + idManejador);
+        //Debug.Log("Instancia de estacion " + idManejador);
         GaleryScript = Galeria.GetComponent<Galery>();
         /*if (idManejador==1)
         {

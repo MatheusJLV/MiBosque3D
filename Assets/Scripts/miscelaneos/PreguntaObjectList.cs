@@ -4,8 +4,14 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [System.Serializable]
-public class PreguntaObjectList {
+public class PreguntaObjectListOriginal {
+
+    public List<PreguntaObjectOriginal> preguntas;
+	
+}
+public class PreguntaObjectList
+{
 
     public List<PreguntaObject> preguntas;
-	
+
 }

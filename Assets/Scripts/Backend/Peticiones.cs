@@ -142,6 +142,7 @@ public class Peticiones : MonoBehaviour
         Debug.Log(GetPersistentDataPath(""));
         //Debug.Log(GetPersistentDataPath(responseJson));
         string responseJson = readFromFile(nameFile);
+        Debug.Log(nameFile);
         Debug.Log(responseJson);
         
         return getObjectResponseStudent(responseJson);
@@ -345,6 +346,62 @@ public class Peticiones : MonoBehaviour
                 login(playerData);
                 return registerPlayerMission(false, mission, playerData, started, ended);
             }
+
+            return jsonResponse;
+
+        }
+        catch
+        {
+            GameManager.OfflineMode = true;
+            string json = "{\"status\": 500 ," +
+                      "\"error\": \"Servidor no responde a tiempo.\" }";
+            /*ErrorMessage errorMsg = new ErrorMessage();
+            errorMsg.status = 500;
+            errorMsg.error = "Servidor no responde a tiempo.";
+            string output = JsonConvert.SerializeObject(errorMsg);*/
+            JObject json1 = JObject.Parse(json);
+            return json1;
+        }
+    }
+
+    //CODIGO PARA OBTENER PREGUNTAS ACTUALIZADAS
+    public JObject getPreguntas(PlayerData playerData)
+    {
+        var httpWebRequest = (HttpWebRequest)WebRequest.Create("https://mibosque.espol.edu.ec/api/v1/game/challenge");
+        httpWebRequest.ContentType = "application/json";
+        httpWebRequest.Method = "GET";
+        httpWebRequest.Timeout = 6000;
+        httpWebRequest.Headers["Authorization"] = playerData.Token;
+        Debug.Log("Authorization: " + playerData.Token);
+        try
+        {
+
+            /*using (var streamWriter = new StreamWriter(httpWebRequest.GetRequestStream()))
+            {
+
+                string json_text = "{\"mission\": \"" + mission +
+                              "\", \"completed\": " + ((ended != null) ? "true" : "false") + ", " +
+                              "\"dateStart\": \"" + started + "\"," +
+                              "\"dateEnd\": \"" + ended + "\"}";
+
+
+                streamWriter.Write(json_text);
+                Debug.Log("Request formado: " + json_text);
+            }*/
+
+            HttpWebResponse httpResponse = GetWebResponseNoException(httpWebRequest);
+            StreamReader stReader = new StreamReader(httpResponse.GetResponseStream());
+            string responseText = stReader.ReadToEnd();
+            JObject jsonResponse = JObject.Parse(responseText);
+            Debug.Log("Respuesta: " + responseText);
+            File.WriteAllText(Application.dataPath+"/Resources/Questions/PruebaJson.json", jsonResponse["payload"].ToString());
+            Debug.Log("json escrito y guardado ");
+            /*if (jsonResponse.GetValue("status").ToObject<int>() == 400 && jsonResponse.GetValue("error").ToObject<string>().Contains("Token") && isFirstTime)
+            {
+                login(playerData);
+                return registerPlayerMission(false, mission, playerData, started, ended);
+                Debug.Log("Status 400 / error");
+            }*/
 
             return jsonResponse;
 
