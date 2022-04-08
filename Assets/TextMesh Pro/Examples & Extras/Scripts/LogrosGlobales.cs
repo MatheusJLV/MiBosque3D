@@ -534,10 +534,7 @@ public class LogrosGlobales : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyUp(KeyCode.B))
-        {
-            Peticiones.instance.getPreguntas(Player.instance.playerData);
-        }
+        
         /*
         if (Input.GetKeyUp(KeyCode.N))
         {

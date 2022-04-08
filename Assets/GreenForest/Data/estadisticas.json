@@ -3,15 +3,82 @@
     {
       "gameId": "001",
       "playerId": null,
-      "level": 2,
-      "dataType": "game_data",
-      "FechaInterna": "4/7/2022 12:55:44 PM",
+      "level": 1,
+      "dataType": "specie_data",
+      "FechaInterna": "4/8/2022 12:36:47 PM",
       "data": {
-        "Start_Date": "4/7/2022 12:54:44 PM",
-        "End_Date": "4/7/2022 12:55:44 PM",
-        "duration": 1,
-        "score": 2,
-        "NumberImages": 0
+        "specieId": "21",
+        "show_desc_date": "4/8/2022 12:36:47 PM"
+      }
+    },
+    {
+      "gameId": "001",
+      "playerId": null,
+      "level": 1,
+      "dataType": "specie_data",
+      "FechaInterna": "4/8/2022 12:36:51 PM",
+      "data": {
+        "specieId": "4",
+        "show_desc_date": "4/8/2022 12:36:51 PM"
+      }
+    },
+    {
+      "gameId": "001",
+      "playerId": null,
+      "level": 2,
+      "dataType": "specie_data",
+      "FechaInterna": "4/8/2022 12:37:02 PM",
+      "data": {
+        "specieId": "10",
+        "show_desc_date": "4/8/2022 12:37:02 PM"
+      }
+    },
+    {
+      "gameId": "001",
+      "playerId": null,
+      "level": 2,
+      "dataType": "mission_data",
+      "FechaInterna": "4/8/2022 12:37:05 PM",
+      "data": {
+        "Start_Date": "4/8/2022 12:36:37 PM",
+        "End_Date": "4/8/2022 12:37:05 PM",
+        "nombre": "Encuentra las especies"
+      }
+    },
+    {
+      "gameId": "001",
+      "playerId": null,
+      "level": 2,
+      "dataType": "experiencie_data",
+      "FechaInterna": "4/8/2022 12:37:05 PM",
+      "data": {
+        "experiencia": 3,
+        "date": "4/8/2022 12:37:05 PM"
+      }
+    },
+    {
+      "gameId": "001",
+      "playerId": null,
+      "level": 2,
+      "dataType": "prize_data",
+      "FechaInterna": "4/8/2022 12:37:05 PM",
+      "data": {
+        "nombre": "Guardabosque Explorador",
+        "date": "4/8/2022 12:37:05 PM"
+      }
+    },
+    {
+      "gameId": "001",
+      "playerId": null,
+      "level": 3,
+      "dataType": "game_data",
+      "FechaInterna": "4/8/2022 12:37:20 PM",
+      "data": {
+        "Start_Date": "4/8/2022 12:35:00 PM",
+        "End_Date": "4/8/2022 12:37:20 PM",
+        "duration": 2,
+        "score": 6,
+        "NumberImages": 3
       }
     }
   ]

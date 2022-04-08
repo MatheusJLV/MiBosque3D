@@ -58,7 +58,7 @@ public class RestClient : MonoBehaviour {
         }*/
         //PruebaJson.json
         Debug.Log("PROBANDO LECTURA DE NUEVAS PREGUNTAS");
-        string jsonResult2 = Resources.Load<TextAsset>("Questions/PruebaJson").text;
+        string jsonResult2 = Resources.Load<TextAsset>("Questions/NuevasPreguntas").text;
         Debug.Log(jsonResult2);
         PreguntaObject[] preguntaList2 = JsonHelper.GetJsonArray<PreguntaObject>(jsonResult2);
         List<PreguntaObject> lista2 = new List<PreguntaObject>(preguntaList2);
