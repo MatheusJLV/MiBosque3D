@@ -5,10 +5,10 @@
       "playerId": null,
       "level": 1,
       "dataType": "specie_data",
-      "FechaInterna": "4/8/2022 12:36:47 PM",
+      "FechaInterna": "4/13/2022 5:19:30 PM",
       "data": {
         "specieId": "21",
-        "show_desc_date": "4/8/2022 12:36:47 PM"
+        "show_desc_date": "4/13/2022 5:19:30 PM"
       }
     },
     {
@@ -16,10 +16,32 @@
       "playerId": null,
       "level": 1,
       "dataType": "specie_data",
-      "FechaInterna": "4/8/2022 12:36:51 PM",
+      "FechaInterna": "4/13/2022 5:19:30 PM",
+      "data": {
+        "specieId": "21",
+        "show_desc_date": "4/13/2022 5:19:30 PM"
+      }
+    },
+    {
+      "gameId": "001",
+      "playerId": null,
+      "level": 1,
+      "dataType": "specie_data",
+      "FechaInterna": "4/13/2022 5:19:34 PM",
       "data": {
         "specieId": "4",
-        "show_desc_date": "4/8/2022 12:36:51 PM"
+        "show_desc_date": "4/13/2022 5:19:34 PM"
+      }
+    },
+    {
+      "gameId": "001",
+      "playerId": null,
+      "level": 1,
+      "dataType": "specie_data",
+      "FechaInterna": "4/13/2022 5:19:35 PM",
+      "data": {
+        "specieId": "4",
+        "show_desc_date": "4/13/2022 5:19:35 PM"
       }
     },
     {
@@ -27,10 +49,10 @@
       "playerId": null,
       "level": 2,
       "dataType": "specie_data",
-      "FechaInterna": "4/8/2022 12:37:02 PM",
+      "FechaInterna": "4/13/2022 5:19:46 PM",
       "data": {
         "specieId": "10",
-        "show_desc_date": "4/8/2022 12:37:02 PM"
+        "show_desc_date": "4/13/2022 5:19:46 PM"
       }
     },
     {
@@ -38,10 +60,10 @@
       "playerId": null,
       "level": 2,
       "dataType": "mission_data",
-      "FechaInterna": "4/8/2022 12:37:05 PM",
+      "FechaInterna": "4/13/2022 5:19:49 PM",
       "data": {
-        "Start_Date": "4/8/2022 12:36:37 PM",
-        "End_Date": "4/8/2022 12:37:05 PM",
+        "Start_Date": "4/13/2022 5:19:27 PM",
+        "End_Date": "4/13/2022 5:19:49 PM",
         "nombre": "Encuentra las especies"
       }
     },
@@ -50,10 +72,10 @@
       "playerId": null,
       "level": 2,
       "dataType": "experiencie_data",
-      "FechaInterna": "4/8/2022 12:37:05 PM",
+      "FechaInterna": "4/13/2022 5:19:49 PM",
       "data": {
         "experiencia": 3,
-        "date": "4/8/2022 12:37:05 PM"
+        "date": "4/13/2022 5:19:49 PM"
       }
     },
     {
@@ -61,22 +83,22 @@
       "playerId": null,
       "level": 2,
       "dataType": "prize_data",
-      "FechaInterna": "4/8/2022 12:37:05 PM",
+      "FechaInterna": "4/13/2022 5:19:49 PM",
       "data": {
         "nombre": "Guardabosque Explorador",
-        "date": "4/8/2022 12:37:05 PM"
+        "date": "4/13/2022 5:19:49 PM"
       }
     },
     {
       "gameId": "001",
       "playerId": null,
-      "level": 3,
+      "level": 2,
       "dataType": "game_data",
-      "FechaInterna": "4/8/2022 12:37:20 PM",
+      "FechaInterna": "4/13/2022 5:20:01 PM",
       "data": {
-        "Start_Date": "4/8/2022 12:35:00 PM",
-        "End_Date": "4/8/2022 12:37:20 PM",
-        "duration": 2,
+        "Start_Date": "4/13/2022 5:19:09 PM",
+        "End_Date": "4/13/2022 5:20:01 PM",
+        "duration": 1,
         "score": 6,
         "NumberImages": 3
       }

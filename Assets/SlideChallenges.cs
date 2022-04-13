@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -12,6 +13,7 @@ public class SlideChallenges : MonoBehaviour
     public bool isRunning = true;
     public string timer1Text;
     public GameObject imagen;
+    public bool PreguntasReader=false;
     // Start is called before the first frame update
     
     void Start()
@@ -44,6 +46,18 @@ public class SlideChallenges : MonoBehaviour
                 }
                 timer1Remaining = timer1;
             }
+        }
+    }
+    public void imgChange(int estacion)
+    {
+        try
+        {
+            currentImage = estacion-1;
+            timer1Remaining = timer1 * 2;
+        }
+        catch(Exception e)
+        {
+
         }
     }
     private void OnGUI()

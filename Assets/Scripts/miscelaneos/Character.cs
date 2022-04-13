@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 
 public class Character : MonoBehaviour {
-
+	public GameObject slider;
 	public float Speed = 3f;
 	public bool IsMoving {get; private set;}
 
@@ -45,15 +45,18 @@ public class Character : MonoBehaviour {
 		}
 	}
 
-	public void TrySetDireccion(Direccion direccion){
+	public void TrySetDireccion(Direccion direccion) {
 		var pin = PinActual.GetPinEnDireccion(direccion);
-		if (pin == null){
+		int estacion;
+		if (pin == null) {
 			return;
 		}
-		else if(!pin.desbloqueado){
+		else if (!pin.desbloqueado) {
 			return;
 		}
 		MoverAPin(pin);
+		estacion = pin.GetComponent<Estacion>().ID;
+		slider.GetComponent<SlideChallenges>().imgChange(estacion);
 	}
 
 	public void MoverAPin(Pin pin){

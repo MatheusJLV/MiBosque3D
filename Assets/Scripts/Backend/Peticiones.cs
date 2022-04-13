@@ -367,6 +367,7 @@ public class Peticiones : MonoBehaviour
     //CODIGO PARA OBTENER PREGUNTAS ACTUALIZADAS
     public JObject getPreguntas(PlayerData playerData)
     {
+        Debug.Log("OBTENIENDO NUEVAS PREGUNTAS ");
         var httpWebRequest = (HttpWebRequest)WebRequest.Create("https://mibosque.espol.edu.ec/api/v1/game/challenge");
         httpWebRequest.ContentType = "application/json";
         httpWebRequest.Method = "GET";

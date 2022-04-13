@@ -947,7 +947,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Panel: {fileID: 0}
   Galeria: {fileID: 0}
-  GaleryScript: {fileID: 0}
   Panel3: {fileID: 0}
   CuadroChallengeDos: {fileID: 0}
   isAnimal: 0
@@ -1087,7 +1086,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Panel: {fileID: 0}
   Galeria: {fileID: 0}
-  GaleryScript: {fileID: 0}
   Panel3: {fileID: 0}
   CuadroChallengeDos: {fileID: 0}
   isAnimal: 1
@@ -2177,7 +2175,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   activate: 0
-  done: 0
 --- !u!114 &3817059368844315184
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2192,7 +2189,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Panel: {fileID: 0}
   Galeria: {fileID: 0}
-  GaleryScript: {fileID: 0}
   Panel3: {fileID: 0}
   CuadroChallengeDos: {fileID: 0}
   isAnimal: 1
@@ -2515,7 +2511,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Panel: {fileID: 0}
   Galeria: {fileID: 0}
-  GaleryScript: {fileID: 0}
   Panel3: {fileID: 0}
   CuadroChallengeDos: {fileID: 0}
   isAnimal: 1
@@ -4122,7 +4117,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Panel: {fileID: 0}
   Galeria: {fileID: 0}
-  GaleryScript: {fileID: 0}
   Panel3: {fileID: 0}
   CuadroChallengeDos: {fileID: 0}
   isAnimal: 0
@@ -4382,7 +4376,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Panel: {fileID: 0}
   Galeria: {fileID: 0}
-  GaleryScript: {fileID: 0}
   Panel3: {fileID: 0}
   CuadroChallengeDos: {fileID: 0}
   isAnimal: 1
@@ -4405,7 +4398,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   activate: 0
-  done: 0
 --- !u!1 &3917806346698561156
 GameObject:
   m_ObjectHideFlags: 0

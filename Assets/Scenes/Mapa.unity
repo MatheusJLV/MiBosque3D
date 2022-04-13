@@ -12519,6 +12519,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5104d8eb937f0094a9dd34f08475b430, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  slider: {fileID: 295325689}
   Speed: 6
   spriteRenderer: {fileID: 209200321}
 --- !u!1 &209721920
@@ -16438,7 +16439,7 @@ GameObject:
   - component: {fileID: 295325691}
   - component: {fileID: 295325692}
   m_Layer: 0
-  m_Name: TABLERONIVEL1
+  m_Name: Tablero Niveles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16530,6 +16531,7 @@ MonoBehaviour:
   isRunning: 1
   timer1Text: 
   imagen: {fileID: 0}
+  PreguntasReader: 1
 --- !u!1 &295598383
 GameObject:
   m_ObjectHideFlags: 0
