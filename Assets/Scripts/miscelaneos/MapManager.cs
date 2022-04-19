@@ -43,6 +43,7 @@ public class Stations
 
 public class MapManager : MonoBehaviour {
     public Character character;
+	public GameObject actionLogger;
 	public Pin PinInicio;
 	public Text Estacion;
 	public Text Cargando;
@@ -89,7 +90,8 @@ public class MapManager : MonoBehaviour {
         right.SetActive(false);
         cn.SetActive(false);
 #endif
-    }
+		actionLogger = GameObject.Find("ActionLogger");
+	}
 
     public void Update(){
 		if (character.IsMoving){
@@ -103,6 +105,7 @@ public class MapManager : MonoBehaviour {
 			Panel.SetActive(true);
 			if (diccionarioNombre.ContainsKey(character.PinActual.estacion.ID))
 			{
+				actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Change Scene", "Menu Mapa-Bosque-" + character.PinActual.estacion.ID);
 				Cargando.text = string.Format("Entrando a: " + diccionarioNombre[character.PinActual.estacion.ID]);
 				Canvas.SetActive(false);
 			}
@@ -119,7 +122,8 @@ public class MapManager : MonoBehaviour {
         else if (Input.GetKeyUp(KeyCode.Return) && character.PinActual.estacion.ID == 0)
         {
             GameManager.instance.scene = 2;
-            sceneChanger.FadeToLevel(character.PinActual.estacion.ID);
+			actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Change Scene", "Menu Mapa-Lobby");
+			sceneChanger.FadeToLevel(character.PinActual.estacion.ID);
            
         }
 #if UNITY_ANDROID || UNITY_IOS
@@ -131,6 +135,7 @@ public class MapManager : MonoBehaviour {
                 Cargando.text = string.Format("Entrando a: " + diccionarioNombre[character.PinActual.estacion.ID]);
                 Canvas.SetActive(false);
             }
+			actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Change Scene", "Menu Mapa-Bosque-"+ character.PinActual.estacion.ID);
             sceneChanger.FadeToLevel(character.PinActual.estacion.ID);
         }
         else if (up.GetComponent<FixedButton>().Pressed) { character.TrySetDireccion(Direccion.Arriba); }
@@ -138,9 +143,9 @@ public class MapManager : MonoBehaviour {
         else if (right.GetComponent<FixedButton>().Pressed) { character.TrySetDireccion(Direccion.Derecha); }
         else if (left.GetComponent<FixedButton>().Pressed) { character.TrySetDireccion(Direccion.Izquierda); }
 #endif
-    }
+	}
 
-    public void UpdateGUI(){
+	public void UpdateGUI(){
 		StartCoroutine(GetTemp());
 	}
 

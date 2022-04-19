@@ -406,8 +406,11 @@ public class CargarPreguntas : MonoBehaviour
          * LOS JSON ACTUALES NO TRAEN CATEGORIA
          * TODA LA CLASIFICACION SERA COMENTADA
          * OSEA TODO EL SGTE FOR EACH
+         * NOTA2: 
+         * Yay ya hay categorias, se arreglo el json
+         * descomentando el bloque
          */
-        /*foreach (PreguntaObject archivoraiz in objectList.preguntas)
+        foreach (PreguntaObject archivoraiz in objectList.preguntas)
         {
             if (EscenaMiniJuego.idCabin == 0)       // CABAÑA "ANIMALES" (MAMÍFEROS)
             {
@@ -448,7 +451,7 @@ public class CargarPreguntas : MonoBehaviour
                     Debug.Log("Categoría: " + archivoraiz.Category);
                 }
             }
-        }*/
+        }
 
 
         bool repeat = true;

@@ -14,6 +14,7 @@ public class EventAdder : MonoBehaviour {
     }
 
     void AddEventsToManager(){
+        Debug.Log("agregando eventos");
         foreach(EventsDictionary ed in events){
             EventManager.StartListening(ed);
         }

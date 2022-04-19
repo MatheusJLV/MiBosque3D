@@ -15,6 +15,7 @@ using System;
 
 public class MenuController : MonoBehaviour
 {
+    public GameObject actionLogger;
     public InputField nombre;
     public InputField edad;
     public InputField unidadEducativa;
@@ -64,6 +65,8 @@ public class MenuController : MonoBehaviour
         //Define el tipo de caracteres que se pueden ingresar dentro
         nombre.contentType = InputField.ContentType.Name;
         edad.contentType = InputField.ContentType.IntegerNumber;
+        actionLogger = GameObject.Find("ActionLogger");
+        //actionLogger.GetComponent<ActionLogger>().actionLogger.locacion = "Menu de partida";
     }
 
     public void NextScene(string name)
@@ -74,12 +77,18 @@ public class MenuController : MonoBehaviour
 
     public void NextToLobby()
     {
+        actionLogger = GameObject.Find("ActionLogger");
+        actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Change Scene", "Tutorial-Lobby");
+        actionLogger.GetComponent<ActionLogger>().actionLogger.locacion = "Lobby"; 
         SceneManager.LoadScene("Lobby");
 
     }
 
     public void nextToVideo()
     {
+        actionLogger = GameObject.Find("ActionLogger");
+        actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Change Scene", "Menu Partidas-Tutorial");
+        actionLogger.GetComponent<ActionLogger>().actionLogger.locacion = "Tutorial";
         NextScene("EscenaDeVideo");
     }
 
@@ -100,21 +109,25 @@ public class MenuController : MonoBehaviour
         if (nombre.text == string.Empty || edad.text == string.Empty)
         {
             errorPanel.SetActive(true);
+            actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Fail", "No ingresó nombre");
             errorMsj.text = "Completo los campos Nombre o Edad para continuar";
         }
         else if (!(int.TryParse(edad.text, out n_edad)))
         {
             errorPanel.SetActive(true);
+            actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Fail", "No ingresó edad");
             errorMsj.text = "La edad que has ingresado es incorrecta";
         }
         else if (obtenerGenero(dropDownGenero) == "0")
         {
             errorPanel.SetActive(true);
+            actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Fail", "No ingresó género");
             errorMsj.text = "Selecciona el género por favor";
         }
         else if (unidadEducativa.text == string.Empty)
         {
             errorPanel.SetActive(true);
+            actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Fail", "No ingresó código de unidad");
             errorMsj.text = "Escriba el código del profesor para continuar";
         }
         else
@@ -123,11 +136,13 @@ public class MenuController : MonoBehaviour
             {
                 errorPanel.SetActive(true);
                 errorMsj.text = "Hmmm estás muy pequeño para jugar.\nIngresa tu edad nuevamente";
+                actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Fail", "Edad inferior");
             }
             else if (n_edad > 90)
             {
                 errorPanel.SetActive(true);
                 errorMsj.text = "WOAH! Tienes " + n_edad + "! .\nPrueba ingresando tu edad nuevamente";
+                actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Fail", "Edad superior");
             }
 
             else
@@ -201,6 +216,7 @@ public class MenuController : MonoBehaviour
                 else
                 {
                     Debug.Log("Error con responseRegister.json");
+                    actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Fail", "Error en register de JSON cargando partida");
                     throw new WebException();
                 }
             }
@@ -220,21 +236,26 @@ public class MenuController : MonoBehaviour
                     catch
                     {
                         Debug.Log("Error en login.");
+                        actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Fail", "Error en login cargando partida");
                     }
                 }
                 else
                 {
                     Debug.Log("Registro en el servidor fallido...");
+                    actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Fail", "Error en registro de servidor cargando partida");
                 }
             }
             Debug.Log(SaveProfile.instance.CreatePlayerData().personajeSeleccionado);
             personajeIMG.sprite = Resources.Load<Sprite>("RECURSOS GRAFICOS DEL JUEGO 08-2020/PERSONAJES NIÑOS Y NIÑAS/"+SaveProfile.instance.CreatePlayerData().personajeSeleccionado);
             Debug.Log(Resources.Load<Sprite>("RECURSOS GRAFICOS DEL JUEGO 08-2020/PERSONAJES NIÑOS Y NIÑAS/NIÑO 3-08"));
+            actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Change Scene", "Menu Partidas-Mapa");
+            actionLogger.GetComponent<ActionLogger>().actionLogger.locacion = "Mapa";
             NextScene("Mapa");
         }
         else
         {
             errorMsj.text = "No hay datos guardados";
+            actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Fail","No se cargo partida-datos inexistentes");
             errorPanel.SetActive(true);
         }
         Debug.Log("OfflineMOde: " + GameManager.OfflineMode);

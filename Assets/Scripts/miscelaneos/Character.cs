@@ -2,6 +2,7 @@
 
 public class Character : MonoBehaviour {
 	public GameObject slider;
+	public GameObject actionLogger;
 	public float Speed = 3f;
 	public bool IsMoving {get; private set;}
 
@@ -19,7 +20,9 @@ public class Character : MonoBehaviour {
     private void Start()
     {
         spriteRenderer.sprite = GameObject.FindGameObjectWithTag("Controller").GetComponent<MenuController>().personajeIMG.sprite;
-    }
+		actionLogger = GameObject.Find("ActionLogger");
+		actionLogger.GetComponent<ActionLogger>().actionLogger.locacion = "Mapa";
+	}
 
     private void Update(){
 		if (PinDestino == null) {
@@ -57,6 +60,8 @@ public class Character : MonoBehaviour {
 		MoverAPin(pin);
 		estacion = pin.GetComponent<Estacion>().ID;
 		slider.GetComponent<SlideChallenges>().imgChange(estacion);
+		actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Select", "Navegó a estacion " + estacion);
+		
 	}
 
 	public void MoverAPin(Pin pin){

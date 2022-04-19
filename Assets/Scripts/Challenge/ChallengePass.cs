@@ -28,9 +28,24 @@ public class ChallengePass : MonoBehaviour
 
     public GameObject fpscontroller;
 
+    //public GameObject actionLogger;
+
+    void Start()
+    {
+        //actionLogger = GameObject.Find("ActionLogger");
+        /*if (Player.instance.playerData.maxStation <2)
+        Debug.Log("estacion maxima "+Player.instance.playerData.maxStation);
+        {
+            actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Begin Bosque mision", "" + 1);
+        }*/
+        
+    }
+
     private void Update()
     {
+        
         restric = ardilla.activeSelf || iguana.activeSelf || pepiche.activeSelf;
+
         if (ardilla.activeSelf != iguana.activeSelf || iguana.activeSelf != pepiche.activeSelf ||ardilla.activeSelf != pepiche.activeSelf)
         {
             empezado = true;
@@ -44,9 +59,9 @@ public class ChallengePass : MonoBehaviour
             Mision mision = (LogroSist.GetComponent<LogrosGlobales>()).misiones[0];
             
             Player.instance.playerData.logros[0] = DateTime.Now.ToString();
+
             
-            
-            
+
             if (empezado){
                 StartCoroutine(ShowFeedback());
                 if (!sent)
@@ -96,6 +111,7 @@ public class ChallengePass : MonoBehaviour
 
     IEnumerator ShowFeedback()
     {
+        //actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Finish Bosque mision", "" + 1);
         LogroSist.GetComponent<LogrosGlobales>().ProgresarLogro(0);
         fpscontroller.GetComponent<Player>().gainEXP(3);
         Peticiones.instance.registerFinishMission(Player.instance.playerData, DateTime.Now.ToString("yyyy-MM-dd hh:mm:ss"), this.levelId);

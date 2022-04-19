@@ -13,6 +13,8 @@ public class ManejadorCalidad : MonoBehaviour
     public GameObject FpsController;
     public int max;
     public int act;
+
+    public GameObject actionLogger;
     // Start is called before the first frame update
     void Start()
     {
@@ -46,6 +48,9 @@ public class ManejadorCalidad : MonoBehaviour
             Estaciones[act-1].GetComponent<ManejadorEstacion>().activar();
             Estaciones[act].GetComponent<ManejadorEstacion>().activar();
         }
+        actionLogger = GameObject.Find("ActionLogger");
+        actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Begin Bosque estacion", ""+ act);
+        
     }
 
     public void updateStation(int estacion)
@@ -54,6 +59,8 @@ public class ManejadorCalidad : MonoBehaviour
 
         if (estacion!=act)
         {
+            actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Visit Bosque estacion", "" + estacion);
+            actionLogger.GetComponent<ActionLogger>().actionLogger.locacion = "Bosque e" + estacion;
             if (estacion > 1 && estacion < 7)
             {
                 if (act < estacion && estacion > 2)
@@ -79,7 +86,7 @@ public class ManejadorCalidad : MonoBehaviour
 
         act = estacion;
         max = Math.Max(act,max);
-
+        //actionLogger.GetComponent<ActionLogger>().actionLogger.locacion = "Bosque e"+act;
 
     }
 
@@ -102,6 +109,7 @@ public class ManejadorCalidad : MonoBehaviour
 
     public void minima()
     {
+        actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Test Bosque calidad ", "minima");
         Debug.Log("Minimizando recursos");
         Terrain terreno = Terreno.GetComponent<Terrain>();
         terreno.drawInstanced = true;
@@ -119,6 +127,7 @@ public class ManejadorCalidad : MonoBehaviour
     }
     public void media()
     {
+        actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Test Bosque calidad ", "media");
         Debug.Log("reestableciendo recursos originales");
         Terrain terreno = Terreno.GetComponent<Terrain>();
         terreno.drawInstanced = false;
@@ -136,6 +145,7 @@ public class ManejadorCalidad : MonoBehaviour
     }
     public void maxima()
     {
+        actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Test Bosque calidad ", "maxima");
         Debug.Log("Maximizando recursos");
         Terrain terreno = Terreno.GetComponent<Terrain>();
         terreno.drawInstanced = false;

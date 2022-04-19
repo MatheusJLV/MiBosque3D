@@ -16,12 +16,21 @@ public class ChallengePass3 : MonoBehaviour
     private int levelId = -1;
     bool act=true;
 
+    //public GameObject actionLogger;
+
     public static DateTime inicio;
+
+    /*void Start()
+    {
+        actionLogger = GameObject.Find("ActionLogger");
+        
+    }*/
     void Update()
     {
         
         if (Nest.home && act)
         {
+            //actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Finish Bosque mision", "" + 2);
             LogroSist.GetComponent<LogrosGlobales>().ProgresarLogro(1);
             fpscontroller.GetComponent<Player>().gainEXP(3);
             LogroSist.GetComponent<LogrosGlobales>().ProgresarMision(1, "Devolver el conejo a su madriguera");

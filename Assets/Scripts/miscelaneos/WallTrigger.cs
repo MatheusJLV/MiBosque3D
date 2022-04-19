@@ -11,6 +11,14 @@ public class WallTrigger : MonoBehaviour
     public Text stationText;
     private Inventory mochila;
 
+    //public GameObject actionLogger;
+
+    /*void Start()
+    {
+        actionLogger = GameObject.Find("ActionLogger");
+
+    }*/
+
     private void Awake() {
         mochila=GameObject.FindGameObjectWithTag("Bag").GetComponent<Inventory>();
         //estaciones=GameObject.FindGameObjectWithTag("Estaciones").GetComponent<StationsHolder>();
@@ -54,6 +62,7 @@ public class WallTrigger : MonoBehaviour
                 stationScreen.SetBool("IsActive", true);
                 if (MapManager.diccionarioNombre.ContainsKey(station.ID))
                 {
+                    //actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Begin Bosque mision", "" + station.ID);
                     stationText.text = MapManager.diccionarioNombre[station.ID];
                     StartCoroutine(LateCall());
                     Debug.Log(MapManager.diccionarioID[station.ID]);

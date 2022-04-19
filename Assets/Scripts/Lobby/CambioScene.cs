@@ -10,6 +10,7 @@ public class CambioScene : MonoBehaviour
    AsyncOperation operation;
     public Slider slider;
     public Text progressText;
+    public GameObject actionLogger;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -42,8 +43,12 @@ public class CambioScene : MonoBehaviour
         else
         {
             GameManager.instance.scene = 0;
+            actionLogger = GameObject.Find("ActionLogger");
+            actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Change Scene", "Lobby-Mapa");
+            actionLogger.GetComponent<ActionLogger>().actionLogger.locacion = "Mapa";
             operation = SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex - 1);
             Debug.Log("ESCENA A MAPA");
+            
         }
 
     }

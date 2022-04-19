@@ -21,6 +21,7 @@ public class ClickMouse : MonoBehaviour
     public GameObject logroSist;
     public GameObject fpscontroller;
     public GameObject canvasJoy = null;
+    public GameObject actionLogger;
 
     private bool tempResult;
 
@@ -36,6 +37,7 @@ public class ClickMouse : MonoBehaviour
     }
     void Start()
     {
+        actionLogger = GameObject.Find("ActionLogger");
         tempResult = false;
         cameraBlocker = ConstantObjects.instance.cameraBlocker;
         mouseController = ConstantObjects.instance.mouseController;
@@ -95,6 +97,7 @@ public class ClickMouse : MonoBehaviour
         Debug.Log("********************empezando en click mouse" + tempResult);
         try
         {
+
             if (!isKnown)
             {
                 if (isAnimal)
@@ -146,7 +149,7 @@ public class ClickMouse : MonoBehaviour
                 isKnown = true;
             }
 
-
+            actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Interact especie", specieName);
         }
         catch (Exception e)
         {

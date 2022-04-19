@@ -1491,6 +1491,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c44726dbc6ce57847bbc0cb05ddb9280, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  actionLogger: {fileID: 0}
   nombre: {fileID: 460583771}
   edad: {fileID: 887186115}
   unidadEducativa: {fileID: 1036719876}

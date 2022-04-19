@@ -70,6 +70,7 @@ public class PreguntaObject
     public string image;
     public int difficulty;
     public string updatedAt;
+    public string Category;
     public GameLevelsChallenges[] gameLevelsChallenges;
     public Option[] options;
     public Feedback feedback;
