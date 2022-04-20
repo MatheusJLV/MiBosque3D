@@ -42,10 +42,13 @@ public class WallTrigger_2 : MonoBehaviour
 
     public ShowMochila mochila;
 
+    public GameObject actionLogger;
+
 
     void Start()
     {
         usadas = new List<int>();
+        actionLogger = GameObject.Find("ActionLogger");
     }
 
     public void DestroyScriptInstance()
@@ -143,6 +146,8 @@ public class WallTrigger_2 : MonoBehaviour
 
     private void RespuestaIncorrecta()
     {
+        //aqui
+        actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion(pregunta.text, "incorrecta");
         Debug.Log("WALL TRIGGER 2 SCRIPT");
         Debug.Log("BEGIN RESPUESTA INC");
         canvasPreguntasImagenes.SetActive(false);
@@ -192,6 +197,7 @@ public class WallTrigger_2 : MonoBehaviour
         Debug.Log("WALL TRIGGER 2 SCRIPT");
         Debug.Log("BEGIN RESP CORRECTA");
         canvasPreguntasImagenes.SetActive(false);
+        actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion(pregunta.text, "correcta");
 
         canvasFeedback.transform.Find("Titulo correcto").gameObject.SetActive(true);
         canvasFeedback.transform.Find("Subtitulo correcto").gameObject.SetActive(true);

@@ -1,0 +1,250 @@
+{
+  "acciones": 
+  [
+    {
+      "fecha": "2022-04-20 10:17:27",
+      "nombreAccion": "Juego Interrumpido",
+      "detalle": "Juego iniciado despues de cierre inesperado detectado en Bosque e2",
+      "player": "Dfhd-dfhd-dfhd488-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE0OCwiUm9sZUlkIjozLCJpYXQiOjE2NTAzNDYwOTUsImV4cCI6MTY1MDQzMjQ5NX0.u_UUwGEw6e_ebclBexFWwpJqnWrHd8FtbQW_bg1zj8o"
+    },
+    {
+      "fecha": "2022-04-20 10:17:45",
+      "nombreAccion": "Settings",
+      "detalle": "Online",
+      "player": "Dfhd-dfhd-dfhd488-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE0OCwiUm9sZUlkIjozLCJpYXQiOjE2NTAzNDYwOTUsImV4cCI6MTY1MDQzMjQ5NX0.u_UUwGEw6e_ebclBexFWwpJqnWrHd8FtbQW_bg1zj8o"
+    },
+    {
+      "fecha": "2022-04-20 10:17:45",
+      "nombreAccion": "Change Scene",
+      "detalle": "Menu Partidas-Tutorial",
+      "player": "Dfhd-dfhd-dfhd488-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE0OCwiUm9sZUlkIjozLCJpYXQiOjE2NTAzNDYwOTUsImV4cCI6MTY1MDQzMjQ5NX0.u_UUwGEw6e_ebclBexFWwpJqnWrHd8FtbQW_bg1zj8o"
+    },
+    {
+      "fecha": "2022-04-20 10:17:57",
+      "nombreAccion": "Change Scene",
+      "detalle": "Tutorial-Lobby",
+      "player": "Dfhd-dfhd-dfhd488-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE0OCwiUm9sZUlkIjozLCJpYXQiOjE2NTAzNDYwOTUsImV4cCI6MTY1MDQzMjQ5NX0.u_UUwGEw6e_ebclBexFWwpJqnWrHd8FtbQW_bg1zj8o"
+    },
+    {
+      "fecha": "2022-04-20 10:18:17",
+      "nombreAccion": "Select",
+      "detalle": "Navegó a estacion 1",
+      "player": "Matheus-matheus12825-matheus198-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE1MSwiUm9sZUlkIjozLCJpYXQiOjE2NTA0NjY0MjYsImV4cCI6MTY1MDU1MjgyNn0.4M9n0U0bdkcvWMvYU1z6h8wQLUGRNo2jHGZXonFJzic"
+    },
+    {
+      "fecha": "2022-04-20 10:18:18",
+      "nombreAccion": "Select",
+      "detalle": "Navegó a estacion 1",
+      "player": "Matheus-matheus12825-matheus198-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE1MSwiUm9sZUlkIjozLCJpYXQiOjE2NTA0NjY0MjYsImV4cCI6MTY1MDU1MjgyNn0.4M9n0U0bdkcvWMvYU1z6h8wQLUGRNo2jHGZXonFJzic"
+    },
+    {
+      "fecha": "2022-04-20 10:18:20",
+      "nombreAccion": "Change Scene",
+      "detalle": "Mapa-Bosque",
+      "player": "Matheus-matheus12825-matheus198-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE1MSwiUm9sZUlkIjozLCJpYXQiOjE2NTA0NjY0MjYsImV4cCI6MTY1MDU1MjgyNn0.4M9n0U0bdkcvWMvYU1z6h8wQLUGRNo2jHGZXonFJzic"
+    },
+    {
+      "fecha": "2022-04-20 10:18:23",
+      "nombreAccion": "Begin Bosque estacion",
+      "detalle": "1",
+      "player": "Matheus-matheus12825-matheus198-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE1MSwiUm9sZUlkIjozLCJpYXQiOjE2NTA0NjY0MjYsImV4cCI6MTY1MDU1MjgyNn0.4M9n0U0bdkcvWMvYU1z6h8wQLUGRNo2jHGZXonFJzic"
+    },
+    {
+      "fecha": "2022-04-20 10:18:31",
+      "nombreAccion": "Interact especie",
+      "detalle": "Ardilla",
+      "player": "Matheus-matheus12825-matheus198-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE1MSwiUm9sZUlkIjozLCJpYXQiOjE2NTA0NjY0MjYsImV4cCI6MTY1MDU1MjgyNn0.4M9n0U0bdkcvWMvYU1z6h8wQLUGRNo2jHGZXonFJzic"
+    },
+    {
+      "fecha": "2022-04-20 10:18:33",
+      "nombreAccion": "Interact especie",
+      "detalle": "Ceibo",
+      "player": "Matheus-matheus12825-matheus198-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE1MSwiUm9sZUlkIjozLCJpYXQiOjE2NTA0NjY0MjYsImV4cCI6MTY1MDU1MjgyNn0.4M9n0U0bdkcvWMvYU1z6h8wQLUGRNo2jHGZXonFJzic"
+    },
+    {
+      "fecha": "2022-04-20 10:18:37",
+      "nombreAccion": "Interact especie",
+      "detalle": "Iguana",
+      "player": "Matheus-matheus12825-matheus198-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE1MSwiUm9sZUlkIjozLCJpYXQiOjE2NTA0NjY0MjYsImV4cCI6MTY1MDU1MjgyNn0.4M9n0U0bdkcvWMvYU1z6h8wQLUGRNo2jHGZXonFJzic"
+    },
+    {
+      "fecha": "2022-04-20 10:18:42",
+      "nombreAccion": "Visit Bosque estacion",
+      "detalle": "2",
+      "player": "Matheus-matheus12825-matheus198-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE1MSwiUm9sZUlkIjozLCJpYXQiOjE2NTA0NjY0MjYsImV4cCI6MTY1MDU1MjgyNn0.4M9n0U0bdkcvWMvYU1z6h8wQLUGRNo2jHGZXonFJzic"
+    },
+    {
+      "fecha": "2022-04-20 10:18:45",
+      "nombreAccion": "Interact especie",
+      "detalle": "Bototillo",
+      "player": "Matheus-matheus12825-matheus198-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE1MSwiUm9sZUlkIjozLCJpYXQiOjE2NTA0NjY0MjYsImV4cCI6MTY1MDU1MjgyNn0.4M9n0U0bdkcvWMvYU1z6h8wQLUGRNo2jHGZXonFJzic"
+    },
+    {
+      "fecha": "2022-04-20 10:18:50",
+      "nombreAccion": "Interact especie",
+      "detalle": "Pechiche",
+      "player": "Matheus-matheus12825-matheus198-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE1MSwiUm9sZUlkIjozLCJpYXQiOjE2NTA0NjY0MjYsImV4cCI6MTY1MDU1MjgyNn0.4M9n0U0bdkcvWMvYU1z6h8wQLUGRNo2jHGZXonFJzic"
+    },
+    {
+      "fecha": "2022-04-20 10:19:00",
+      "nombreAccion": "¿Dónde habita el Buho Blanquinegro?",
+      "detalle": "incorrecta",
+      "player": "Matheus-matheus12825-matheus198-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE1MSwiUm9sZUlkIjozLCJpYXQiOjE2NTA0NjY0MjYsImV4cCI6MTY1MDU1MjgyNn0.4M9n0U0bdkcvWMvYU1z6h8wQLUGRNo2jHGZXonFJzic"
+    },
+    {
+      "fecha": "2022-04-20 10:19:02",
+      "nombreAccion": "Visit Bosque estacion",
+      "detalle": "3",
+      "player": "Matheus-matheus12825-matheus198-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE1MSwiUm9sZUlkIjozLCJpYXQiOjE2NTA0NjY0MjYsImV4cCI6MTY1MDU1MjgyNn0.4M9n0U0bdkcvWMvYU1z6h8wQLUGRNo2jHGZXonFJzic"
+    },
+    {
+      "fecha": "2022-04-20 10:20:24",
+      "nombreAccion": "Interact especie",
+      "detalle": "Guasmo",
+      "player": "Matheus-matheus12825-matheus198-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE1MSwiUm9sZUlkIjozLCJpYXQiOjE2NTA0NjY0MjYsImV4cCI6MTY1MDU1MjgyNn0.4M9n0U0bdkcvWMvYU1z6h8wQLUGRNo2jHGZXonFJzic"
+    },
+    {
+      "fecha": "2022-04-20 10:20:26",
+      "nombreAccion": "Interact especie",
+      "detalle": "Guasmo",
+      "player": "Matheus-matheus12825-matheus198-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE1MSwiUm9sZUlkIjozLCJpYXQiOjE2NTA0NjY0MjYsImV4cCI6MTY1MDU1MjgyNn0.4M9n0U0bdkcvWMvYU1z6h8wQLUGRNo2jHGZXonFJzic"
+    },
+    {
+      "fecha": "2022-04-20 10:20:34",
+      "nombreAccion": "Interact especie",
+      "detalle": "Fernan Sánchez",
+      "player": "Matheus-matheus12825-matheus198-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE1MSwiUm9sZUlkIjozLCJpYXQiOjE2NTA0NjY0MjYsImV4cCI6MTY1MDU1MjgyNn0.4M9n0U0bdkcvWMvYU1z6h8wQLUGRNo2jHGZXonFJzic"
+    },
+    {
+      "fecha": "2022-04-20 10:20:52",
+      "nombreAccion": "Interact especie",
+      "detalle": "Ceibo",
+      "player": "Matheus-matheus12825-matheus198-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE1MSwiUm9sZUlkIjozLCJpYXQiOjE2NTA0NjY0MjYsImV4cCI6MTY1MDU1MjgyNn0.4M9n0U0bdkcvWMvYU1z6h8wQLUGRNo2jHGZXonFJzic"
+    },
+    {
+      "fecha": "2022-04-20 10:21:06",
+      "nombreAccion": "¿Qué especie de planta no encontramos en el Bosque Protector Prosperina?",
+      "detalle": "correcta",
+      "player": "Matheus-matheus12825-matheus198-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE1MSwiUm9sZUlkIjozLCJpYXQiOjE2NTA0NjY0MjYsImV4cCI6MTY1MDU1MjgyNn0.4M9n0U0bdkcvWMvYU1z6h8wQLUGRNo2jHGZXonFJzic"
+    },
+    {
+      "fecha": "2022-04-20 10:21:10",
+      "nombreAccion": "Visit Bosque estacion",
+      "detalle": "4",
+      "player": "Matheus-matheus12825-matheus198-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE1MSwiUm9sZUlkIjozLCJpYXQiOjE2NTA0NjY0MjYsImV4cCI6MTY1MDU1MjgyNn0.4M9n0U0bdkcvWMvYU1z6h8wQLUGRNo2jHGZXonFJzic"
+    },
+    {
+      "fecha": "2022-04-20 10:21:38",
+      "nombreAccion": "¿En qué época del año son más abundantes los Pinzones Pechicarmesí?",
+      "detalle": "incorrecta",
+      "player": "Matheus-matheus12825-matheus198-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE1MSwiUm9sZUlkIjozLCJpYXQiOjE2NTA0NjY0MjYsImV4cCI6MTY1MDU1MjgyNn0.4M9n0U0bdkcvWMvYU1z6h8wQLUGRNo2jHGZXonFJzic"
+    },
+    {
+      "fecha": "2022-04-20 10:22:34",
+      "nombreAccion": "Visit Bosque estacion",
+      "detalle": "5",
+      "player": "Matheus-matheus12825-matheus198-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE1MSwiUm9sZUlkIjozLCJpYXQiOjE2NTA0NjY0MjYsImV4cCI6MTY1MDU1MjgyNn0.4M9n0U0bdkcvWMvYU1z6h8wQLUGRNo2jHGZXonFJzic"
+    },
+    {
+      "fecha": "2022-04-20 10:22:55",
+      "nombreAccion": "Visit Bosque estacion",
+      "detalle": "4",
+      "player": "Matheus-matheus12825-matheus198-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE1MSwiUm9sZUlkIjozLCJpYXQiOjE2NTA0NjY0MjYsImV4cCI6MTY1MDU1MjgyNn0.4M9n0U0bdkcvWMvYU1z6h8wQLUGRNo2jHGZXonFJzic"
+    },
+    {
+      "fecha": "2022-04-20 10:23:13",
+      "nombreAccion": "Visit Bosque estacion",
+      "detalle": "5",
+      "player": "Matheus-matheus12825-matheus198-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE1MSwiUm9sZUlkIjozLCJpYXQiOjE2NTA0NjY0MjYsImV4cCI6MTY1MDU1MjgyNn0.4M9n0U0bdkcvWMvYU1z6h8wQLUGRNo2jHGZXonFJzic"
+    },
+    {
+      "fecha": "2022-04-20 10:23:51",
+      "nombreAccion": "¿De qué color es el contenedor para reciclar papel o cartón?",
+      "detalle": "correcta",
+      "player": "Matheus-matheus12825-matheus198-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE1MSwiUm9sZUlkIjozLCJpYXQiOjE2NTA0NjY0MjYsImV4cCI6MTY1MDU1MjgyNn0.4M9n0U0bdkcvWMvYU1z6h8wQLUGRNo2jHGZXonFJzic"
+    },
+    {
+      "fecha": "2022-04-20 10:23:54",
+      "nombreAccion": "Visit Bosque estacion",
+      "detalle": "6",
+      "player": "Matheus-matheus12825-matheus198-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE1MSwiUm9sZUlkIjozLCJpYXQiOjE2NTA0NjY0MjYsImV4cCI6MTY1MDU1MjgyNn0.4M9n0U0bdkcvWMvYU1z6h8wQLUGRNo2jHGZXonFJzic"
+    },
+    {
+      "fecha": "2022-04-20 10:24:28",
+      "nombreAccion": "Pause Game",
+      "detalle": "Bosque e6",
+      "player": "Matheus-matheus12825-matheus198-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE1MSwiUm9sZUlkIjozLCJpYXQiOjE2NTA0NjY0MjYsImV4cCI6MTY1MDU1MjgyNn0.4M9n0U0bdkcvWMvYU1z6h8wQLUGRNo2jHGZXonFJzic"
+    },
+    {
+      "fecha": "2022-04-20 10:24:42",
+      "nombreAccion": "Save",
+      "detalle": "se solicito guardar de log",
+      "player": "Matheus-matheus12825-matheus198-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE1MSwiUm9sZUlkIjozLCJpYXQiOjE2NTA0NjY0MjYsImV4cCI6MTY1MDU1MjgyNn0.4M9n0U0bdkcvWMvYU1z6h8wQLUGRNo2jHGZXonFJzic"
+    },
+    {
+      "fecha": "2022-04-20 10:24:42",
+      "nombreAccion": "Playtime Menu partida",
+      "detalle": "22.51629",
+      "player": "Matheus-matheus12825-matheus198-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE1MSwiUm9sZUlkIjozLCJpYXQiOjE2NTA0NjY0MjYsImV4cCI6MTY1MDU1MjgyNn0.4M9n0U0bdkcvWMvYU1z6h8wQLUGRNo2jHGZXonFJzic"
+    },
+    {
+      "fecha": "2022-04-20 10:24:42",
+      "nombreAccion": "Playtime Tutorial",
+      "detalle": "10.67412",
+      "player": "Matheus-matheus12825-matheus198-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE1MSwiUm9sZUlkIjozLCJpYXQiOjE2NTA0NjY0MjYsImV4cCI6MTY1MDU1MjgyNn0.4M9n0U0bdkcvWMvYU1z6h8wQLUGRNo2jHGZXonFJzic"
+    },
+    {
+      "fecha": "2022-04-20 10:24:42",
+      "nombreAccion": "Playtime Lobby",
+      "detalle": "28.51512",
+      "player": "Matheus-matheus12825-matheus198-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE1MSwiUm9sZUlkIjozLCJpYXQiOjE2NTA0NjY0MjYsImV4cCI6MTY1MDU1MjgyNn0.4M9n0U0bdkcvWMvYU1z6h8wQLUGRNo2jHGZXonFJzic"
+    },
+    {
+      "fecha": "2022-04-20 10:24:42",
+      "nombreAccion": "Playtime Mapa",
+      "detalle": "15.42599",
+      "player": "Matheus-matheus12825-matheus198-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE1MSwiUm9sZUlkIjozLCJpYXQiOjE2NTA0NjY0MjYsImV4cCI6MTY1MDU1MjgyNn0.4M9n0U0bdkcvWMvYU1z6h8wQLUGRNo2jHGZXonFJzic"
+    },
+    {
+      "fecha": "2022-04-20 10:24:42",
+      "nombreAccion": "Playtime Bosque e1",
+      "detalle": "53.01472",
+      "player": "Matheus-matheus12825-matheus198-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE1MSwiUm9sZUlkIjozLCJpYXQiOjE2NTA0NjY0MjYsImV4cCI6MTY1MDU1MjgyNn0.4M9n0U0bdkcvWMvYU1z6h8wQLUGRNo2jHGZXonFJzic"
+    },
+    {
+      "fecha": "2022-04-20 10:24:42",
+      "nombreAccion": "Playtime Bosque e2",
+      "detalle": "51.15323",
+      "player": "Matheus-matheus12825-matheus198-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE1MSwiUm9sZUlkIjozLCJpYXQiOjE2NTA0NjY0MjYsImV4cCI6MTY1MDU1MjgyNn0.4M9n0U0bdkcvWMvYU1z6h8wQLUGRNo2jHGZXonFJzic"
+    },
+    {
+      "fecha": "2022-04-20 10:24:42",
+      "nombreAccion": "Playtime Bosque e3",
+      "detalle": "202.1534",
+      "player": "Matheus-matheus12825-matheus198-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE1MSwiUm9sZUlkIjozLCJpYXQiOjE2NTA0NjY0MjYsImV4cCI6MTY1MDU1MjgyNn0.4M9n0U0bdkcvWMvYU1z6h8wQLUGRNo2jHGZXonFJzic"
+    },
+    {
+      "fecha": "2022-04-20 10:24:42",
+      "nombreAccion": "Playtime Bosque e4",
+      "detalle": "97.22621",
+      "player": "Matheus-matheus12825-matheus198-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE1MSwiUm9sZUlkIjozLCJpYXQiOjE2NTA0NjY0MjYsImV4cCI6MTY1MDU1MjgyNn0.4M9n0U0bdkcvWMvYU1z6h8wQLUGRNo2jHGZXonFJzic"
+    },
+    {
+      "fecha": "2022-04-20 10:24:42",
+      "nombreAccion": "Playtime Bosque e5",
+      "detalle": "57.95636",
+      "player": "Matheus-matheus12825-matheus198-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE1MSwiUm9sZUlkIjozLCJpYXQiOjE2NTA0NjY0MjYsImV4cCI6MTY1MDU1MjgyNn0.4M9n0U0bdkcvWMvYU1z6h8wQLUGRNo2jHGZXonFJzic"
+    },
+    {
+      "fecha": "2022-04-20 10:24:42",
+      "nombreAccion": "Playtime Bosque e6",
+      "detalle": "34.54138",
+      "player": "Matheus-matheus12825-matheus198-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE1MSwiUm9sZUlkIjozLCJpYXQiOjE2NTA0NjY0MjYsImV4cCI6MTY1MDU1MjgyNn0.4M9n0U0bdkcvWMvYU1z6h8wQLUGRNo2jHGZXonFJzic"
+    },
+    {
+      "fecha": "2022-04-20 10:24:42",
+      "nombreAccion": "Playtime Bosque e7",
+      "detalle": "0",
+      "player": "Matheus-matheus12825-matheus198-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE1MSwiUm9sZUlkIjozLCJpYXQiOjE2NTA0NjY0MjYsImV4cCI6MTY1MDU1MjgyNn0.4M9n0U0bdkcvWMvYU1z6h8wQLUGRNo2jHGZXonFJzic"
+    }
+  ]}

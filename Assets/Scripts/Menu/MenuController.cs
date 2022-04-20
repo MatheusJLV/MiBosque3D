@@ -384,18 +384,27 @@ public class MenuController : MonoBehaviour
             
             Debug.Log("SE CREO EL PERSONAJE");
             Debug.Log("Offline mode: " + GameManager.OfflineMode);
+            actionLogger.GetComponent<ActionLogger>().actionLogger.online = true;
+            actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Settings", "Online");
             nextToVideo();
 
         }
         else if (value >= 400 && value <500 )
         {
             errorPanel.SetActive(true);
-
+            actionLogger.GetComponent<ActionLogger>().actionLogger.online = true;
+            actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Settings", "Online");
             string errorJson = JObjectStudentStatus["error"].ToObject<string>();
             if (errorJson.Equals("Course does not exist"))
+            {
                 errorMsj.text = "No existe este curso. Ingresa uno correcto.";
+                actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Fail", "Curso inexistente");
+            }                
             else if (errorJson.Equals("Course code must be 4 digits long."))
+            {
                 errorMsj.text = "Código incompleto o con más de 4 dígitos.";
+                actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Fail", "Curso inexistente");
+            }
             else if (errorJson.Equals("Age value is required."))
                 errorMsj.text = "Debes decirnos tu edad.";
             else
@@ -403,7 +412,9 @@ public class MenuController : MonoBehaviour
         }
         else
         {
-            print("Otro error. Next To video:");
+            print("Otro error (PROBABLEMENTE LA CONEXION). Next To video:");
+            actionLogger.GetComponent<ActionLogger>().actionLogger.online = false;
+            actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Settings", "Offline");
             Debug.Log(JObjectStudentStatus["error"]);
             playerData.genero = obtenerNombreGenero(dropDownGenero);
             Debug.Log("El genero es: " + playerData.genero);

@@ -1,11 +1,48 @@
-﻿using System;
+﻿using Newtonsoft.Json.Linq;
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 
 [CreateAssetMenu (fileName ="New Action Log", menuName = "Action Log")]
 public class SOActionLog : ScriptableObject
 {
+    [System.Serializable]
+    public class Accion
+    {
+        public string fecha;
+        public string nombreAccion;
+        public string detalle;
+        public string player;
+        public Accion(string nombre, string detalle, string player)
+        {
+            fecha = System.DateTime.Now.ToString("yyyy-MM-dd hh:mm:ss");
+            nombreAccion = nombre;
+            this.detalle = detalle;
+            Debug.Log("Se registro un: " + nombre);
+            this.player = player;
+        }
+        public Accion(string nombre, string detalle, PlayerData player)
+        {
+            fecha = System.DateTime.Now.ToString("yyyy-MM-dd hh:mm:ss");
+            nombreAccion = nombre;
+            this.detalle = detalle;
+            this.player = player.nombre + "-" + player.UserName + "-" + player.PassWord + "-" + player.Token;
+            Debug.Log("Se registro un: " + nombre);
+        }
+
+    }
+
+    [System.Serializable]
+    public class AccionList
+    {
+        public Accion[] acciones;
+    }
+
+    public AccionList lista = new AccionList();
+
+
     public List<Accion> acciones;
     [SerializeField]
     public bool jugando = false;
@@ -27,14 +64,35 @@ public class SOActionLog : ScriptableObject
             acciones.Add(new Accion("Juego Interrumpido","Juego iniciado despues de cierre inesperado detectado en " +locacion,player));
         }
         jugando = true;
+
     }
     public void agregarAccion(string nombre, string detalle)
     {
-        acciones.Add(new Accion(nombre,detalle,player));
+        //if online
+        if (false)
+        {
+            //send accion
+        }
+        else
+        {
+            //write accion
+            acciones.Add(new Accion(nombre, detalle, player));
+        }
+        
     }
     public void agregarAccion(string nombre, string detalle, PlayerData player)
     {
-        acciones.Add(new Accion(nombre, detalle, player));
+        //if online
+        if (false)
+        {
+            //send accion
+        }
+        else
+        {
+            //write accion
+            acciones.Add(new Accion(nombre, detalle, player));
+        }
+        
     }
     public void printLog()
     {
@@ -56,6 +114,62 @@ public class SOActionLog : ScriptableObject
             contador++;
         }
     }
+    public void guardar()
+    {
+        agregarAccion("Playtime Menu partida", "" + tiempos[0]);
+        agregarAccion("Playtime Tutorial", "" + tiempos[1]);
+        agregarAccion("Playtime Lobby", "" + tiempos[2]);
+        agregarAccion("Playtime Mapa", "" + tiempos[3]);
+        agregarAccion("Playtime Bosque e1", "" + tiempos[4]);
+        agregarAccion("Playtime Bosque e2", "" + tiempos[5]);
+        agregarAccion("Playtime Bosque e3", "" + tiempos[6]);
+        agregarAccion("Playtime Bosque e4", "" + tiempos[7]);
+        agregarAccion("Playtime Bosque e5", "" + tiempos[8]);
+        agregarAccion("Playtime Bosque e6", "" + tiempos[9]);
+        agregarAccion("Playtime Bosque e7", "" + tiempos[10]);
+
+        for (int i =0; i<tiempos.Length;i++)
+        {
+            tiempos[i] = 0f;
+        }
+
+        string texto = "{\"acciones\":[";
+        bool ban = false;
+        foreach (Accion ac in acciones)
+        {
+            if (ban)
+            {
+                texto += ",";                
+            }
+            ban = true;
+            texto += "{\"fecha\":\"" + ac.fecha + "\",\"nombreAccion\":\"" + ac.nombreAccion + "\",\"detalle\":\"" + ac.detalle + "\",\"player\":\"" + ac.player + "\"}";
+
+        }
+        texto += "]}";
+        Debug.Log(texto);
+        //JObject jsonResponse = JObject.Parse(texto);
+        File.WriteAllText(Application.dataPath + "/Resources/LogAcciones.json", texto);
+        Debug.Log("guardado con exito");
+    }
+    public void cargarLocal()
+    {
+        lista = JsonUtility.FromJson<AccionList>(Resources.Load<TextAsset>("LogAcciones").text);
+        /*Debug.Log("PROBANDO LECTURA DE LOG");
+        string jsonResult2 = Resources.Load<TextAsset>("LogAcciones").text;
+        Debug.Log(jsonResult2);
+        PreguntaObject[] preguntaList2 = JsonHelper.GetJsonArray<Accion>(jsonResult2);
+        List<PreguntaObject> lista2 = new List<PreguntaObject>(preguntaList2);
+        PreguntaObjectList lista_final2 = new PreguntaObjectList
+        {
+            preguntas = lista2
+        };
+        Debug.Log(lista_final2.ToString());
+        Debug.Log("LECTURA DE NUEVAS PREGUNTAS CON EXITO");*/
+        Debug.Log("lectura de log de acciones");
+        Debug.Log(lista.acciones.ToString());
+        Debug.Log(lista.acciones.Length);
+        Debug.Log("lectura de log de acciones finalizada");
+    }
     public void clearLog()
     {
         acciones= new List<Accion>();
@@ -63,27 +177,3 @@ public class SOActionLog : ScriptableObject
 }
 
 
-public class Accion
-{
-    public string fecha;
-    public string nombreAccion;
-    public string detalle;
-    public string player;
-    public Accion(string nombre, string detalle,string player)
-    {
-        fecha= System.DateTime.Now.ToString("yyyy-MM-dd hh:mm:ss");
-        nombreAccion = nombre;
-        this.detalle = detalle;
-        Debug.Log("Se registro un: " + nombre);
-        this.player = player;
-    }
-    public Accion(string nombre, string detalle, PlayerData player)
-    {
-        fecha = System.DateTime.Now.ToString("yyyy-MM-dd hh:mm:ss");
-        nombreAccion = nombre;
-        this.detalle = detalle;
-        this.player = player.nombre + "-" + player.UserName + "-" + player.PassWord + "-" + player.Token;
-        Debug.Log("Se registro un: " +nombre);
-    }
-    
-}

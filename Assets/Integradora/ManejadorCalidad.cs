@@ -124,6 +124,7 @@ public class ManejadorCalidad : MonoBehaviour
         terreno.treeMaximumFullLODCount   = 15;
         SistemaPajaros.SetActive(false);
         WindZone.SetActive(false);
+        actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Settings", "Max");
     }
     public void media()
     {
@@ -142,6 +143,7 @@ public class ManejadorCalidad : MonoBehaviour
         terreno.treeMaximumFullLODCount = 63;
         WindZone.SetActive(true);
         SistemaPajaros.SetActive(true);
+        actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Settings", "Mid");
     }
     public void maxima()
     {
@@ -160,6 +162,7 @@ public class ManejadorCalidad : MonoBehaviour
         terreno.treeMaximumFullLODCount   = 10000;
         WindZone.SetActive(true);
         SistemaPajaros.SetActive(true);
+        actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Settings", "Min");
     }
     
 }

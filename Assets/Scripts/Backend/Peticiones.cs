@@ -21,9 +21,12 @@ public class Peticiones : MonoBehaviour
     private const string url_registrar_estudiante = url_padre + url_constructor + "student/register";
     private bool checkConexionServer;
 
+    public GameObject actionLogger;
+
     private void Start()
     {
         ServicePointManager.ServerCertificateValidationCallback = ValidateServerCertificate;
+        actionLogger = GameObject.Find("ActionLogger");
     }
 
     public static bool ValidateServerCertificate(object sender, X509Certificate certificate, X509Chain chain, SslPolicyErrors sslPolicyErrors)
@@ -98,6 +101,11 @@ public class Peticiones : MonoBehaviour
             errorMsg.error = "Servidor no responde a tiempo.";
             string output = JsonConvert.SerializeObject(errorMsg);*/
             JObject json1 = JObject.Parse(json);
+            if (actionLogger.GetComponent<ActionLogger>().actionLogger.online)
+            {
+                actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Settings", "Offline");
+            }
+            actionLogger.GetComponent<ActionLogger>().actionLogger.online = false;
             return json1;
         }
         catch
@@ -224,6 +232,11 @@ public class Peticiones : MonoBehaviour
         }
         catch
         {
+            if (actionLogger.GetComponent<ActionLogger>().actionLogger.online)
+            {
+                actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Settings", "Offline");
+            }
+            actionLogger.GetComponent<ActionLogger>().actionLogger.online = false;
             GameManager.OfflineMode = true;
             string json = "{\"status\": 500 ," +
                       "\"error\": \"Servidor no responde a tiempo.\" }";
@@ -296,6 +309,11 @@ public class Peticiones : MonoBehaviour
         }
         catch
         {
+            if (actionLogger.GetComponent<ActionLogger>().actionLogger.online)
+            {
+                actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Settings", "Offline");
+            }
+            actionLogger.GetComponent<ActionLogger>().actionLogger.online = false;
             GameManager.OfflineMode = true;
             string json = "{\"status\": 500 ," +
                       "\"error\": \"Servidor no responde a tiempo.\" }";
@@ -352,6 +370,11 @@ public class Peticiones : MonoBehaviour
         }
         catch
         {
+            if (actionLogger.GetComponent<ActionLogger>().actionLogger.online)
+            {
+                actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Settings", "Offline");
+            }
+            actionLogger.GetComponent<ActionLogger>().actionLogger.online = false;
             GameManager.OfflineMode = true;
             string json = "{\"status\": 500 ," +
                       "\"error\": \"Servidor no responde a tiempo.\" }";
@@ -409,6 +432,11 @@ public class Peticiones : MonoBehaviour
         }
         catch
         {
+            if (actionLogger.GetComponent<ActionLogger>().actionLogger.online)
+            {
+                actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Settings", "Offline");
+            }
+            actionLogger.GetComponent<ActionLogger>().actionLogger.online = false;
             GameManager.OfflineMode = true;
             string json = "{\"status\": 500 ," +
                       "\"error\": \"Servidor no responde a tiempo.\" }";
@@ -464,6 +492,11 @@ public class Peticiones : MonoBehaviour
         }
         catch
         {
+            if (actionLogger.GetComponent<ActionLogger>().actionLogger.online)
+            {
+                actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Settings", "Offline");
+            }
+            actionLogger.GetComponent<ActionLogger>().actionLogger.online = false;
             GameManager.OfflineMode = true;
             string json = "{\"status\": 500 ," +
                       "\"error\": \"Servidor no responde a tiempo.\" }";
@@ -519,6 +552,11 @@ public class Peticiones : MonoBehaviour
         }
         catch
         {
+            if (actionLogger.GetComponent<ActionLogger>().actionLogger.online)
+            {
+                actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Settings", "Offline");
+            }
+            actionLogger.GetComponent<ActionLogger>().actionLogger.online = false;
             GameManager.OfflineMode = true;
             string json = "{\"status\": 500 ," +
                       "\"error\": \"Servidor no responde a tiempo.\" }";
@@ -574,6 +612,12 @@ public class Peticiones : MonoBehaviour
         }
         catch
         {
+            if (actionLogger.GetComponent<ActionLogger>().actionLogger.online)
+            {
+                actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Settings", "Offline");
+            }
+            actionLogger.GetComponent<ActionLogger>().actionLogger.online = false;
+            
             GameManager.OfflineMode = true;
             string json = "{\"status\": 500 ," +
                       "\"error\": \"Servidor no responde a tiempo.\" }";

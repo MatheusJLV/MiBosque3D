@@ -4976,6 +4976,7 @@ MonoBehaviour:
   logroSist: {fileID: 600469480}
   fpscontroller: {fileID: 1299061560}
   canvasJoy: {fileID: 1686677600}
+  actionLogger: {fileID: 0}
   specieName: Teca
 --- !u!65 &163940824
 BoxCollider:
@@ -9937,6 +9938,7 @@ MonoBehaviour:
   FpsController: {fileID: 1299061560}
   max: 0
   act: 0
+  actionLogger: {fileID: 0}
 --- !u!4 &308900492
 Transform:
   m_ObjectHideFlags: 0
@@ -10772,6 +10774,7 @@ MonoBehaviour:
   logroSist: {fileID: 600469480}
   fpscontroller: {fileID: 1299061560}
   canvasJoy: {fileID: 1686677600}
+  actionLogger: {fileID: 0}
   specieName: Ardilla
 --- !u!65 &342611876
 BoxCollider:
@@ -31936,6 +31939,7 @@ MonoBehaviour:
     type: 2}
   UnpausedSnapshot: {fileID: 24500006, guid: 12b4a7a7fbce6024e8687b4657c3ab44, type: 2}
   fadeTime: 1
+  actionLogger: {fileID: 0}
 --- !u!4 &957451491 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: b36b248dac73de241981c4b3ed591677,
@@ -55250,6 +55254,7 @@ MonoBehaviour:
   logroSist: {fileID: 600469480}
   fpscontroller: {fileID: 1299061560}
   canvasJoy: {fileID: 0}
+  actionLogger: {fileID: 0}
   specieName: "Momoto Grit\xF3n"
 --- !u!65 &1364096186
 BoxCollider:
@@ -56017,6 +56022,7 @@ MonoBehaviour:
   logroSist: {fileID: 600469480}
   fpscontroller: {fileID: 1299061560}
   canvasJoy: {fileID: 0}
+  actionLogger: {fileID: 0}
   specieName: "Pinz\xF3n Sabanero"
 --- !u!65 &1380541331
 BoxCollider:
@@ -85064,6 +85070,7 @@ MonoBehaviour:
   logroSist: {fileID: 600469480}
   fpscontroller: {fileID: 1299061560}
   canvasJoy: {fileID: 1686677600}
+  actionLogger: {fileID: 0}
   specieName: Iguana
 --- !u!114 &1945174806
 MonoBehaviour:
@@ -88329,6 +88336,7 @@ MonoBehaviour:
   logroSist: {fileID: 600469480}
   fpscontroller: {fileID: 1299061560}
   canvasJoy: {fileID: 1686677600}
+  actionLogger: {fileID: 0}
   specieName: Ceibo
 --- !u!65 &2095049843
 BoxCollider:

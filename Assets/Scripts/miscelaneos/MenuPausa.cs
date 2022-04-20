@@ -22,6 +22,8 @@ public class MenuPausa : MonoBehaviour
     [SerializeField] private AudioMixerSnapshot UnpausedSnapshot;
     [SerializeField] private float fadeTime=1.0f;
 
+    public GameObject actionLogger;
+
     private void Awake()
     {
         instance = this;
@@ -33,6 +35,7 @@ public class MenuPausa : MonoBehaviour
         fpscontroller = GameObject.FindGameObjectWithTag("Player").GetComponent<FirstPersonController>();
         mouseController = GameObject.FindGameObjectWithTag("Player").GetComponent<MouseController>();
         sceneChanger.gameObject.SetActive(true);
+        actionLogger = GameObject.Find("ActionLogger");
     }
 
     void Update()
@@ -97,6 +100,7 @@ public class MenuPausa : MonoBehaviour
         IsPaused = false;
         MenuPausaUI.SetActive(false);
         Panel.SetActive(true);
+        actionLogger.GetComponent<ActionLogger>().actionLogger.jugando = true;
     }
 
     public void PauseGame()
@@ -111,10 +115,15 @@ public class MenuPausa : MonoBehaviour
         IsPaused = true;
         Time.timeScale = 0f;
         cameraBlocker.enabled=true;
+        actionLogger.GetComponent<ActionLogger>().actionLogger.jugando = false;
+        actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Pause Game", actionLogger.GetComponent<ActionLogger>().actionLogger.locacion);
     }
 
     public void MenuMapa()
     {
+        actionLogger.GetComponent<ActionLogger>().actionLogger.locacion = "Menu Partida";
+        actionLogger.GetComponent<ActionLogger>().actionLogger.jugando = true;
+        actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Change Scene", SceneManager.GetActiveScene().name+"-Mapa");
         UnpausedSnapshot.TransitionTo(fadeTime);
         IsPaused = false;
         Time.timeScale = 1f;
