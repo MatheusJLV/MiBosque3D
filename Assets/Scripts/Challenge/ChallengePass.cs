@@ -23,7 +23,7 @@ public class ChallengePass : MonoBehaviour
     public AudioVocals audioVocals;
     bool restric = false;
     private bool sent=false;
-    private int levelId = -1;
+    private int levelId = 1;
     public GameObject LogroSist;
 
     public GameObject fpscontroller;
@@ -73,6 +73,26 @@ public class ChallengePass : MonoBehaviour
                         Debug.Log("Intento con online1");
                         Peticiones.instance.registerPlayerPrize(LogroSist.GetComponent<LogrosGlobales>().logros[0].nombre, Player.instance.playerData);
                     }
+                    else
+                    {
+
+                        ActionLogger ac = GameObject.Find("ActionLogger").GetComponent<ActionLogger>();
+                        if (!GameManager.OfflineMode)
+                        {
+                            ac.actionLogger.agregarAccion("Settings", "Offline");
+                        }
+
+                        ac.actionLogger.online = false;
+                        ac.actionLogger.agregarPeticion("prize", "" + LogroSist.GetComponent<LogrosGlobales>().logros[0].nombre, Player.instance.playerData.Token, DateTime.Now.ToString("yyyy-MM-dd hh:mm:ss"), DateTime.Now.ToString("yyyy-MM-dd hh:mm:ss"));
+                        try
+                        {
+                            ac.GetComponent<ActionLogger>().actionLogger.online = false;
+                        }
+                        catch (Exception e)
+                        {
+                            Debug.Log("act logger component not found");
+                        }
+                    }
                     sent = true;
                     ChallengePass3.inicio = DateTime.Now;
                 }
@@ -102,6 +122,26 @@ public class ChallengePass : MonoBehaviour
                 levelId =(int) res["payload"]["GameLevelInstanceId"];
             }
             }
+            else
+            {
+
+                ActionLogger ac = GameObject.Find("ActionLogger").GetComponent<ActionLogger>();
+                if (!GameManager.OfflineMode)
+                {
+                    ac.actionLogger.agregarAccion("Settings", "Offline");
+                }
+
+                ac.actionLogger.online = false;
+                ac.actionLogger.agregarPeticion("start mision", "Bosque-Estación 1", Player.instance.playerData.Token, inicio.ToString("yyyy-MM-dd hh:mm:ss"), null);
+                try
+                {
+                    ac.GetComponent<ActionLogger>().actionLogger.online = false;
+                }
+                catch (Exception e)
+                {
+                    Debug.Log("act logger component not found");
+                }
+            }
         }
         catch
         {
@@ -114,7 +154,32 @@ public class ChallengePass : MonoBehaviour
         //actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Finish Bosque mision", "" + 1);
         LogroSist.GetComponent<LogrosGlobales>().ProgresarLogro(0);
         fpscontroller.GetComponent<Player>().gainEXP(3);
-        Peticiones.instance.registerFinishMission(Player.instance.playerData, DateTime.Now.ToString("yyyy-MM-dd hh:mm:ss"), this.levelId);
+        if (!GameManager.OfflineMode)
+        {
+            Debug.Log("el level id es ----------------- " + this.levelId);
+            Peticiones.instance.registerFinishMission(Player.instance.playerData, DateTime.Now.ToString("yyyy-MM-dd hh:mm:ss"), this.levelId);
+        }
+        else
+        {
+            
+            ActionLogger ac = GameObject.Find("ActionLogger").GetComponent<ActionLogger>();
+            if (!GameManager.OfflineMode)
+            {
+                ac.actionLogger.agregarAccion("Settings", "Offline");
+            }
+
+            ac.actionLogger.online = false;
+            ac.actionLogger.agregarPeticion("finish mision", "" + this.levelId, Player.instance.playerData.Token, null, DateTime.Now.ToString("yyyy-MM-dd hh:mm:ss"));
+            try
+            {
+                ac.GetComponent<ActionLogger>().actionLogger.online = false;
+            }
+            catch (Exception e)
+            {
+                Debug.Log("act logger component not found");
+            }
+        }
+            
         message.text = "Gran trabajo, avanza hasta el final de la estación";
         empezado = false;
         yield return new WaitForSeconds(1.0f);

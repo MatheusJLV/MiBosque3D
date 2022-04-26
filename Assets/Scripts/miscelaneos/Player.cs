@@ -46,9 +46,9 @@ public class Player : MonoBehaviour
     {
         this.playerData = playerData;
     }
-    public int gainEXP(int exp)
+    public void gainEXP(int exp)
     {
-        return playerData.earnEXP(exp);
+        playerData.earnEXP(exp);
     }
 
     public void DesafioCompletado()

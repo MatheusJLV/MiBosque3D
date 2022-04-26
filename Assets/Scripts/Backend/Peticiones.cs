@@ -101,8 +101,8 @@ public class Peticiones : MonoBehaviour
             errorMsg.error = "Servidor no responde a tiempo.";
             string output = JsonConvert.SerializeObject(errorMsg);*/
             JObject json1 = JObject.Parse(json);
-            if (actionLogger.GetComponent<ActionLogger>().actionLogger.online)
-            {
+            if (!GameManager.OfflineMode)
+                {
                 actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Settings", "Offline");
             }
             actionLogger.GetComponent<ActionLogger>().actionLogger.online = false;
@@ -232,7 +232,7 @@ public class Peticiones : MonoBehaviour
         }
         catch
         {
-            if (actionLogger.GetComponent<ActionLogger>().actionLogger.online)
+            if (!GameManager.OfflineMode)
             {
                 actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Settings", "Offline");
             }
@@ -309,11 +309,14 @@ public class Peticiones : MonoBehaviour
         }
         catch
         {
-            if (actionLogger.GetComponent<ActionLogger>().actionLogger.online)
+            ActionLogger ac = actionLogger.GetComponent<ActionLogger>();
+            if (!GameManager.OfflineMode)
             {
-                actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Settings", "Offline");
+                ac.actionLogger.agregarAccion("Settings", "Offline");
             }
-            actionLogger.GetComponent<ActionLogger>().actionLogger.online = false;
+            
+            ac.actionLogger.online = false;
+            ac.actionLogger.agregarPeticion("prize",prize, playerData.Token, System.DateTime.Now.ToString("yyyy-MM-dd hh:mm:ss"),null);
             GameManager.OfflineMode = true;
             string json = "{\"status\": 500 ," +
                       "\"error\": \"Servidor no responde a tiempo.\" }";
@@ -370,11 +373,23 @@ public class Peticiones : MonoBehaviour
         }
         catch
         {
-            if (actionLogger.GetComponent<ActionLogger>().actionLogger.online)
+            ActionLogger ac = actionLogger.GetComponent<ActionLogger>();
+            if (!GameManager.OfflineMode)
             {
-                actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Settings", "Offline");
+                ac.actionLogger.agregarAccion("Settings", "Offline");
             }
-            actionLogger.GetComponent<ActionLogger>().actionLogger.online = false;
+
+            ac.actionLogger.online = false;
+            ac.actionLogger.agregarPeticion("mision", mission, playerData.Token, started, ended);
+            try
+            {
+                actionLogger.GetComponent<ActionLogger>().actionLogger.online = false;
+            }
+            catch (Exception e)
+            {
+                Debug.Log("act logger component not found");
+            }
+            
             GameManager.OfflineMode = true;
             string json = "{\"status\": 500 ," +
                       "\"error\": \"Servidor no responde a tiempo.\" }";
@@ -432,11 +447,18 @@ public class Peticiones : MonoBehaviour
         }
         catch
         {
-            if (actionLogger.GetComponent<ActionLogger>().actionLogger.online)
+            if (!GameManager.OfflineMode)
             {
                 actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Settings", "Offline");
             }
-            actionLogger.GetComponent<ActionLogger>().actionLogger.online = false;
+            try
+            {
+                actionLogger.GetComponent<ActionLogger>().actionLogger.online = false;
+            }
+            catch (Exception e)
+            {
+                Debug.Log("act logger component not found");
+            }
             GameManager.OfflineMode = true;
             string json = "{\"status\": 500 ," +
                       "\"error\": \"Servidor no responde a tiempo.\" }";
@@ -492,11 +514,22 @@ public class Peticiones : MonoBehaviour
         }
         catch
         {
-            if (actionLogger.GetComponent<ActionLogger>().actionLogger.online)
+            ActionLogger ac = actionLogger.GetComponent<ActionLogger>();
+            if (!GameManager.OfflineMode)
             {
-                actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Settings", "Offline");
+                ac.actionLogger.agregarAccion("Settings", "Offline");
             }
-            actionLogger.GetComponent<ActionLogger>().actionLogger.online = false;
+
+            ac.actionLogger.online = false;
+            ac.actionLogger.agregarPeticion("level", level, playerData.Token, started, ended);
+            try
+            {
+                actionLogger.GetComponent<ActionLogger>().actionLogger.online = false;
+            }
+            catch (Exception e)
+            {
+                Debug.Log("act logger component not found");
+            }
             GameManager.OfflineMode = true;
             string json = "{\"status\": 500 ," +
                       "\"error\": \"Servidor no responde a tiempo.\" }";
@@ -552,11 +585,22 @@ public class Peticiones : MonoBehaviour
         }
         catch
         {
-            if (actionLogger.GetComponent<ActionLogger>().actionLogger.online)
+            ActionLogger ac = actionLogger.GetComponent<ActionLogger>();
+            if (!GameManager.OfflineMode)
             {
-                actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Settings", "Offline");
+                ac.actionLogger.agregarAccion("Settings", "Offline");
             }
-            actionLogger.GetComponent<ActionLogger>().actionLogger.online = false;
+
+            ac.actionLogger.online = false;
+            ac.actionLogger.agregarPeticion("start mision", level, playerData.Token, started, null);
+            try
+            {
+                actionLogger.GetComponent<ActionLogger>().actionLogger.online = false;
+            }
+            catch (Exception e)
+            {
+                Debug.Log("act logger component not found");
+            }
             GameManager.OfflineMode = true;
             string json = "{\"status\": 500 ," +
                       "\"error\": \"Servidor no responde a tiempo.\" }";
@@ -612,12 +656,22 @@ public class Peticiones : MonoBehaviour
         }
         catch
         {
-            if (actionLogger.GetComponent<ActionLogger>().actionLogger.online)
+            ActionLogger ac = actionLogger.GetComponent<ActionLogger>();
+            if (!GameManager.OfflineMode)
             {
-                actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Settings", "Offline");
+                ac.actionLogger.agregarAccion("Settings", "Offline");
             }
-            actionLogger.GetComponent<ActionLogger>().actionLogger.online = false;
-            
+
+            ac.actionLogger.online = false;
+            ac.actionLogger.agregarPeticion("finish mision", ""+levelId, playerData.Token, null, end);
+            try
+            {
+                actionLogger.GetComponent<ActionLogger>().actionLogger.online = false;
+            }
+            catch (Exception e)
+            {
+                Debug.Log("act logger component not found");
+            }
             GameManager.OfflineMode = true;
             string json = "{\"status\": 500 ," +
                       "\"error\": \"Servidor no responde a tiempo.\" }";

@@ -16,24 +16,44 @@ public class ActionLogger : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-        if (Input.GetKeyDown("l"))
+        /*if (Input.GetKeyDown("o"))
+        {
+            Debug.Log("Conexion a internet/ modo offline: "+GameManager.OfflineMode);
+        }*/
+        if (Input.GetKeyDown("p"))
+        {
+            //actionLogger.agregarAccion("Load", "se solicito carga de log");
+            actionLogger.printPeticiones();
+        }
+        /*
+        if (Input.GetKeyDown("c"))
         {
             actionLogger.agregarAccion("Load", "se solicito carga de log");
             actionLogger.cargarLocal();
         }
+         */
 
         if (Input.GetKeyDown("r"))
         {
             actionLogger.agregarAccion("Check", "se solicito lectura de log");
             actionLogger.printLog();
         }
+        /*
         if (Input.GetKeyDown("g"))
         {
             actionLogger.agregarAccion("Save", "se solicito guardar de log");
             actionLogger.guardar();
         }
-        if (Input.GetKeyDown("c"))
+        */
+        if (Input.GetKeyDown("g"))
+        {
+            actionLogger.guardarPeticionesPendientes();
+        }
+        if (Input.GetKeyDown("l"))
+        {
+            actionLogger.cargarLocalPeticiones();
+        }
+        if (Input.GetKeyDown("b"))
         {
             actionLogger.clearLog();
             actionLogger.agregarAccion("Clear", "se borro el log de actividades");

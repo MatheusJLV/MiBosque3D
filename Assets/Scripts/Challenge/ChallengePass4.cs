@@ -17,7 +17,7 @@ public class ChallengePass4 : MonoBehaviour
     public GameObject LogroSist;
     public AudioVocals audioVocals;
     public GameObject fpscontroller;
-    private int levelId = -1;
+    private int levelId = 3;
     bool act = true;
     public GameObject cage;
     public static DateTime inicio;
@@ -36,15 +36,57 @@ public class ChallengePass4 : MonoBehaviour
             Mision mision = (LogroSist.GetComponent<LogrosGlobales>()).misiones[2];
             if (!GameManager.OfflineMode)
             {
+                Debug.Log("el level id es ----------------- " + this.levelId);
                 Peticiones.instance.registerPlayerMission(mision.nombre, Player.instance.playerData, inicio.ToString("yyyy-MM-dd hh:mm:ss"), DateTime.Now.ToString("yyyy-MM-dd hh:mm:ss"));
                 Peticiones.instance.registerFinishMission(Player.instance.playerData, DateTime.Now.ToString("yyyy-MM-dd hh:mm:ss"), this.levelId);
             }
-            
+            else
+            {
+
+                ActionLogger ac = GameObject.Find("ActionLogger").GetComponent<ActionLogger>();
+                if (!GameManager.OfflineMode)
+                {
+                    ac.actionLogger.agregarAccion("Settings", "Offline");
+                }
+
+                ac.actionLogger.online = false;
+                ac.actionLogger.agregarPeticion("mision", mision.nombre, Player.instance.playerData.Token, inicio.ToString("yyyy-MM-dd hh:mm:ss"), DateTime.Now.ToString("yyyy-MM-dd hh:mm:ss"));
+                ac.actionLogger.agregarPeticion("finish mision", "" + this.levelId, Player.instance.playerData.Token, null, DateTime.Now.ToString("yyyy-MM-dd hh:mm:ss"));
+                try
+                {
+                    ac.GetComponent<ActionLogger>().actionLogger.online = false;
+                }
+                catch (Exception e)
+                {
+                    Debug.Log("act logger component not found");
+                }
+            }
+
             Player.instance.playerData.logros[2] = DateTime.Now.ToString();
             if (!GameManager.OfflineMode)
             {
                 Peticiones.instance.registerPlayerPrize((LogroSist.GetComponent<LogrosGlobales>()).logros[2].nombre, Player.instance.playerData);
 
+            }
+            else
+            {
+
+                ActionLogger ac = GameObject.Find("ActionLogger").GetComponent<ActionLogger>();
+                if (!GameManager.OfflineMode)
+                {
+                    ac.actionLogger.agregarAccion("Settings", "Offline");
+                }
+
+                ac.actionLogger.online = false;
+                ac.actionLogger.agregarPeticion("prize", (LogroSist.GetComponent<LogrosGlobales>()).logros[2].nombre, Player.instance.playerData.Token, inicio.ToString("yyyy-MM-dd hh:mm:ss"), DateTime.Now.ToString("yyyy-MM-dd hh:mm:ss"));
+                try
+                {
+                    ac.GetComponent<ActionLogger>().actionLogger.online = false;
+                }
+                catch (Exception e)
+                {
+                    Debug.Log("act logger component not found");
+                }
             }
 
             food.SetActive(true);
@@ -73,7 +115,27 @@ public class ChallengePass4 : MonoBehaviour
                     levelId = (int)res["payload"]["GameLevelInstanceId"];
                 }
             }
-            
+            else
+            {
+
+                ActionLogger ac = GameObject.Find("ActionLogger").GetComponent<ActionLogger>();
+                if (!GameManager.OfflineMode)
+                {
+                    ac.actionLogger.agregarAccion("Settings", "Offline");
+                }
+
+                ac.actionLogger.online = false;
+                ac.actionLogger.agregarPeticion("start mision", "Bosque-Estación 3", Player.instance.playerData.Token, inicio.ToString("yyyy-MM-dd hh:mm:ss"), null);
+                try
+                {
+                    ac.GetComponent<ActionLogger>().actionLogger.online = false;
+                }
+                catch (Exception e)
+                {
+                    Debug.Log("act logger component not found");
+                }
+            }
+
         }
         catch
         {

@@ -139,11 +139,22 @@ public class PlayerData
 
     public int checkLVL()
     {
-        //int[] limites = { 0, 5, 10, 20, 35, 50, 80 };
-        if (limites[nivel] <= experiencia)
+        int[] limites = { 0, 5, 10, 20, 35, 50, 80 };
+        Debug.Log("limites" + limites.Length);
+        Debug.Log("nivel" + nivel);
+        try
         {
-            nivel += 1;
+            if (limites[nivel] <= experiencia)
+            {
+                nivel += 1;
+            }
         }
+        catch (Exception e)
+        {
+            Debug.Log("error en exp gain");
+            return 0;
+        }
+        
         return nivel;
     }
 

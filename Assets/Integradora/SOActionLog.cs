@@ -40,13 +40,47 @@ public class SOActionLog : ScriptableObject
         public Accion[] acciones;
     }
 
-    public AccionList lista = new AccionList();
+
+    [System.Serializable]
+    public class PeticionesPendientes
+    {
+        public string tipo;
+        public string nombre;
+        public string token;
+        public string started;
+        public string ended;
+        public PeticionesPendientes(string tipo, string nombre, string token, string started, string ended)
+        {
+            this.tipo = tipo;
+            this.nombre = nombre;
+            this.token = token;
+            this.started = started;
+            this.ended = ended;
+            Debug.Log("Se registro una peticion pendiente: " + nombre);
+
+
+        }
+    }
+
+   [System.Serializable]
+   public class PeticionesPendientesList
+   {
+        public PeticionesPendientes[] peticionesPendientes;
+   }
+
+   public PeticionesPendientesList lista2 = new PeticionesPendientesList();
+
+
+
+   public AccionList lista = new AccionList();
+
+    
 
 
     public List<Accion> acciones;
+    public List<PeticionesPendientes> peticiones;
     [SerializeField]
     public bool jugando = false;
-    [SerializeField]
     public bool online = false;
     [SerializeField]
     public string locacion;
@@ -58,6 +92,7 @@ public class SOActionLog : ScriptableObject
         if (acciones==null)
         {
             acciones = new List<Accion>();
+            peticiones = new List<PeticionesPendientes>();
         }
         if (jugando)
         {
@@ -94,6 +129,21 @@ public class SOActionLog : ScriptableObject
         }
         
     }
+    public void agregarPeticion(string tipo, string nombre, string token, string started, string ended)
+    {
+        //if online
+        if (false)
+        {
+            //send accion
+        }
+        else
+        {
+            //write accion
+            Debug.Log("se agrego peticion "+nombre);
+            peticiones.Add(new PeticionesPendientes(tipo, nombre, token, started, ended));
+        }
+
+    }
     public void printLog()
     {
         Debug.Log("LOG DE EVENTOS REGISTRADOS");
@@ -106,6 +156,28 @@ public class SOActionLog : ScriptableObject
             Debug.Log("Descripcion: " + accion.detalle);
             try{
                 Debug.Log("Datos del jugador: " + accion.player);
+            }
+            catch (Exception e)
+            {
+                Debug.Log("Datos del jugador no registrados.");
+            }
+            contador++;
+        }
+    }
+    public void printPeticiones()
+    {
+        Debug.Log("LOG DE Peticiones no enviadas REGISTRADAS");
+        int contador = 1;
+        foreach (PeticionesPendientes pet in peticiones)
+        {
+            Debug.Log("Peticione no enviada #" + contador);
+            Debug.Log("peticion: " + pet.nombre);
+            Debug.Log("tipo: " + pet.tipo);
+            Debug.Log("Fecha de inicio: " + pet.started);
+            Debug.Log("Fecha de fin: " + pet.ended);
+            try
+            {
+                Debug.Log("Datos del jugador: " + pet.token);
             }
             catch (Exception e)
             {
@@ -151,6 +223,27 @@ public class SOActionLog : ScriptableObject
         File.WriteAllText(Application.dataPath + "/Resources/LogAcciones.json", texto);
         Debug.Log("guardado con exito");
     }
+
+    public void guardarPeticionesPendientes()
+    {
+        string texto = "{\"peticionesPendientes\":[";
+        bool ban = false;
+        foreach (PeticionesPendientes pet in peticiones)
+        {
+            if (ban)
+            {
+                texto += ",";
+            }
+            ban = true;
+            texto += "{\"tipo\":\"" + pet.tipo + "\",\"nombre\":\"" + pet.nombre + "\",\"token\":\"" + pet.token + "\",\"started\":\"" + pet.started + "\",\"ended\":\"" + pet.ended + "\"}";
+
+        }
+        texto += "]}";
+        Debug.Log(texto);
+        //JObject jsonResponse = JObject.Parse(texto);
+        File.WriteAllText(Application.dataPath + "/Resources/LogPeticiones.json", texto);
+        Debug.Log("Peticiones - guardado con exito");
+    }
     public void cargarLocal()
     {
         lista = JsonUtility.FromJson<AccionList>(Resources.Load<TextAsset>("LogAcciones").text);
@@ -169,6 +262,14 @@ public class SOActionLog : ScriptableObject
         Debug.Log(lista.acciones.ToString());
         Debug.Log(lista.acciones.Length);
         Debug.Log("lectura de log de acciones finalizada");
+    }
+    public void cargarLocalPeticiones()
+    {
+        lista2 = JsonUtility.FromJson<PeticionesPendientesList>(Resources.Load<TextAsset>("LogPeticiones").text);
+        Debug.Log("lectura de log de peticiones");
+        Debug.Log(lista2.peticionesPendientes.ToString());
+        Debug.Log(lista2.peticionesPendientes.Length);
+        Debug.Log("lectura de log de peticiones finalizada");
     }
     public void clearLog()
     {
