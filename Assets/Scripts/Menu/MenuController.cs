@@ -348,6 +348,12 @@ public class MenuController : MonoBehaviour
 
             if (nohayunidad)
             {
+                //aqui
+                ActionLogger ac = GameObject.Find("ActionLogger").GetComponent<ActionLogger>();
+                ac.actionLogger.nombre = nombre.text;
+                ac.actionLogger.user = playerData.UserName;
+                ac.actionLogger.password = playerData.PassWord;
+                ac.actionLogger.token = playerData.Token;
                 nextToVideo();
             }
         }
@@ -386,6 +392,12 @@ public class MenuController : MonoBehaviour
             Debug.Log("Offline mode: " + GameManager.OfflineMode);
             actionLogger.GetComponent<ActionLogger>().actionLogger.online = true;
             actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Settings", "Online");
+            //aqui
+            ActionLogger ac = GameObject.Find("ActionLogger").GetComponent<ActionLogger>();
+            ac.actionLogger.nombre = nombre.text;
+            ac.actionLogger.user = playerData.UserName;
+            ac.actionLogger.password = playerData.PassWord;
+            ac.actionLogger.token = playerData.Token;
             nextToVideo();
 
         }
@@ -423,6 +435,12 @@ public class MenuController : MonoBehaviour
             PeticionesHTTP.EraseStatus("/responseRegister.json");
             
             Debug.Log("SE CREO EL PERSONAJE");
+            ActionLogger ac = GameObject.Find("ActionLogger").GetComponent<ActionLogger>();
+            ac.actionLogger.nombre = nombre.text;
+            ac.actionLogger.user = playerData.UserName;
+            ac.actionLogger.password = playerData.PassWord;
+            ac.actionLogger.token = playerData.Token;
+            //aqui
             nextToVideo();
         }
 

@@ -14,14 +14,11 @@ public class SlideChallenges : MonoBehaviour
     public string timer1Text;
     public GameObject imagen;
     public bool PreguntasReader=false;
-    public GameObject actionLogger;
     // Start is called before the first frame update
 
     void Start()
     {
-        actionLogger = GameObject.Find("ActionLogger");
-        PlayerData player = GameManager.instance.playerData;
-        actionLogger.GetComponent<ActionLogger>().actionLogger.player = player.nombre + "-" + player.UserName + "-" + player.PassWord + "-" + player.Token;
+        
 
         //if (Input.GetKeyUp(KeyCode.B))
         {

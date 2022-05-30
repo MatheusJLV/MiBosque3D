@@ -22,11 +22,263 @@ public class Peticiones : MonoBehaviour
     private bool checkConexionServer;
 
     public GameObject actionLogger;
+    public ActionLogger AC;
 
     private void Start()
     {
         ServicePointManager.ServerCertificateValidationCallback = ValidateServerCertificate;
         actionLogger = GameObject.Find("ActionLogger");
+        AC = actionLogger.GetComponent<ActionLogger>();
+        TryResend();
+    }
+
+    public void TryResend()
+    {
+        foreach (PeticionesPendientes pet in AC.actionLogger.peticiones)
+        {
+            if (pet.token!="" )
+            {
+                Debug.Log("enviando peticiones");
+                bool sent=true;
+                //try send
+                if (pet.tipo=="prize")
+                {
+                    sent=resendPlayerPrize(pet.nombre, pet.token);
+                }else if (pet.tipo =="start mision")
+                {
+                    sent = resendStartMission(pet.nombre, pet.token, pet.started);
+                }
+                else if (pet.tipo == "finish mision")
+                {
+                    sent = resendFinishMission(pet.token, pet.ended, Int32.Parse(pet.nombre));
+                }
+                else if (pet.tipo == "mision")
+                {
+                    sent = resendPlayerMission(pet.nombre, pet.token, pet.started,pet.ended);
+                }
+                else if (pet.tipo == "level")
+                {
+                    sent = resendGameLevel(pet.nombre, pet.token, pet.started, pet.ended);
+                }
+                Debug.Log("enviando:" + sent);
+
+                if (!sent)
+                {
+                    AC.actionLogger.agregarAccion(pet.tipo, pet.nombre);
+                }
+            }
+            else
+            {
+                Debug.Log("no se detecto token para peticiones");
+                AC.actionLogger.agregarAccion(pet.tipo, pet.nombre);
+            }
+        }
+        AC.actionLogger.clearPeticiones();
+        AC.actionLogger.guardarPeticionesPendientes();
+
+        foreach (Accion acc in AC.actionLogger.acciones)
+        {
+            //try send
+        }
+        AC.actionLogger.clearLog();
+        AC.actionLogger.guardar();
+    }
+
+    private bool resendPlayerPrize(string prize, string playerData)
+    {
+        Debug.Log("enviando prize");
+        var httpWebRequest = (HttpWebRequest)WebRequest.Create(url_padre + url_constructor + "game/playerprize");
+        httpWebRequest.ContentType = "application/json";
+        httpWebRequest.Method = "POST";
+        httpWebRequest.Timeout = 3000;
+        httpWebRequest.Headers["Authorization"] = playerData;
+        try
+        {
+
+            using (var streamWriter = new StreamWriter(httpWebRequest.GetRequestStream()))
+            {
+
+                string fecha = System.DateTime.Now.ToString("yyyy-MM-dd hh:mm:ss");
+                string json_text = "{\"prize\": \"" + prize +
+                              "\", \"dateAquired\": \"" + fecha + "\" }"; ;
+
+
+                streamWriter.Write(json_text);
+                Debug.Log(url_padre + url_constructor + "game/playerprize");
+                Debug.Log("Request formado: " + json_text);
+            }
+
+            HttpWebResponse httpResponse = GetWebResponseNoException(httpWebRequest);
+            StreamReader stReader = new StreamReader(httpResponse.GetResponseStream());
+            string responseText = stReader.ReadToEnd();
+            JObject jsonResponse = JObject.Parse(responseText);
+            Debug.Log("Respuesta: " + responseText);
+            return true;
+        }
+        catch
+        {
+            
+            return false;
+        }
+    }
+
+    private bool resendPlayerMission(string mission, string playerData, string started, string ended = null)
+    {
+        Debug.Log("enviando mision");
+        var httpWebRequest = (HttpWebRequest)WebRequest.Create(url_padre + url_constructor + "game/playermission");
+        httpWebRequest.ContentType = "application/json";
+        httpWebRequest.Method = "POST";
+        httpWebRequest.Timeout = 3000;
+        httpWebRequest.Headers["Authorization"] = playerData;
+        try
+        {
+
+            using (var streamWriter = new StreamWriter(httpWebRequest.GetRequestStream()))
+            {
+
+                string json_text = "{\"mission\": \"" + mission +
+                              "\", \"completed\": " + ((ended != null) ? "true" : "false") + ", " +
+                              "\"dateStart\": \"" + started + "\"," +
+                              "\"dateEnd\": \"" + ended + "\"}";
+
+
+                streamWriter.Write(json_text);
+                Debug.Log("Request formado: " + json_text);
+            }
+
+            HttpWebResponse httpResponse = GetWebResponseNoException(httpWebRequest);
+            StreamReader stReader = new StreamReader(httpResponse.GetResponseStream());
+            string responseText = stReader.ReadToEnd();
+            JObject jsonResponse = JObject.Parse(responseText);
+            Debug.Log("Respuesta: " + responseText);
+
+            return true;
+
+        }
+        catch
+        {
+            
+            return false;
+        }
+    }
+    private bool resendGameLevel(string level, string playerData, string started, string ended = null)
+    {
+        Debug.Log("enviando level");
+        var httpWebRequest = (HttpWebRequest)WebRequest.Create(url_padre + url_constructor + "game/levelinstance");
+        httpWebRequest.ContentType = "application/json";
+        httpWebRequest.Method = "POST";
+        httpWebRequest.Timeout = 3000;
+        httpWebRequest.Headers["Authorization"] = playerData;
+        try
+        {
+
+            using (var streamWriter = new StreamWriter(httpWebRequest.GetRequestStream()))
+            {
+
+                string json_text = "{\"gameLevel\": \"" + level +
+                    "\", \"dateStart\": \"" + started +
+                    "\", \"dateEnd\": \"" + ended + "\"}";
+
+
+                streamWriter.Write(json_text);
+                Debug.Log("Request formado: " + json_text);
+            }
+
+            HttpWebResponse httpResponse = GetWebResponseNoException(httpWebRequest);
+            StreamReader stReader = new StreamReader(httpResponse.GetResponseStream());
+            string responseText = stReader.ReadToEnd();
+            JObject jsonResponse = JObject.Parse(responseText);
+            Debug.Log("Respuesta: " + responseText);
+
+
+            return true;
+
+        }
+        catch
+        {
+           
+            return false;
+        }
+    }
+
+    private bool resendStartMission( string level, string playerData, string started)
+    {
+        Debug.Log("enviando start");
+        var httpWebRequest = (HttpWebRequest)WebRequest.Create(url_padre + url_constructor + "game/gameLevelInstance");
+        httpWebRequest.ContentType = "application/json";
+        httpWebRequest.Method = "POST";
+        httpWebRequest.Timeout = 3000;
+        httpWebRequest.Headers["Authorization"] = playerData;
+        try
+        {
+
+            using (var streamWriter = new StreamWriter(httpWebRequest.GetRequestStream()))
+            {
+
+                string json_text = "{\"gameLevel\": \"" + level +
+                    "\", \"dateStart\": \"" + started +
+                    "\"}";
+
+
+                streamWriter.Write(json_text);
+                Debug.Log("Request formado: " + json_text);
+            }
+
+            HttpWebResponse httpResponse = GetWebResponseNoException(httpWebRequest);
+            StreamReader stReader = new StreamReader(httpResponse.GetResponseStream());
+            string responseText = stReader.ReadToEnd();
+            JObject jsonResponse = JObject.Parse(responseText);
+            Debug.Log("Respuesta: " + responseText);
+
+
+            return true;
+
+        }
+        catch
+        {
+            
+            return false;
+        }
+    }
+
+
+    private bool resendFinishMission(string playerData, string end, int levelId)
+    {
+        Debug.Log("enviando finish");
+        var httpWebRequest = (HttpWebRequest)WebRequest.Create(url_padre + url_constructor + "game/gameLevelInstance/" + levelId);
+        httpWebRequest.ContentType = "application/json";
+        httpWebRequest.Method = "PUT";
+        httpWebRequest.Timeout = 3000;
+        httpWebRequest.Headers["Authorization"] = playerData;
+        try
+        {
+
+            using (var streamWriter = new StreamWriter(httpWebRequest.GetRequestStream()))
+            {
+
+                string json_text = "{\"completed\": \"" + 1 +
+                    "\", \"dateEnd\": \"" + end +
+                    "\"}";
+
+
+                streamWriter.Write(json_text);
+                Debug.Log("Request formado: " + json_text);
+            }
+
+            HttpWebResponse httpResponse = GetWebResponseNoException(httpWebRequest);
+            StreamReader stReader = new StreamReader(httpResponse.GetResponseStream());
+            string responseText = stReader.ReadToEnd();
+            JObject jsonResponse = JObject.Parse(responseText);
+            Debug.Log("Respuesta: " + responseText);
+            
+            return true;
+
+        }
+        catch
+        {
+            
+            return false;
+        }
     }
 
     public static bool ValidateServerCertificate(object sender, X509Certificate certificate, X509Chain chain, SslPolicyErrors sslPolicyErrors)
@@ -373,6 +625,7 @@ public class Peticiones : MonoBehaviour
         }
         catch
         {
+            actionLogger = GameObject.Find("ActionLogger");
             ActionLogger ac = actionLogger.GetComponent<ActionLogger>();
             if (!GameManager.OfflineMode)
             {
@@ -683,5 +936,89 @@ public class Peticiones : MonoBehaviour
             return json1;
         }
     }
+    public JObject registerPregunta(PlayerData playerData, string end, string option, string level,string code)
+    {
+        return registerPregunta(true, playerData, end, option, level, code);
+    }
 
+    private JObject registerPregunta(bool isFirstTime, PlayerData playerData, string end, string option, string level, string code)
+    {
+        var httpWebRequest = (HttpWebRequest)WebRequest.Create(url_padre + url_constructor + "game/challenge");
+        httpWebRequest.ContentType = "application/json";
+        httpWebRequest.Method = "PUT";
+        httpWebRequest.Timeout = 3000;
+        httpWebRequest.Headers["Authorization"] = playerData.Token;
+        /*
+         * {
+            "playerchallenges": [
+                {
+                    "challengeCodeName":"challenge_1",
+                    "gameLevelName":"Bosque-Estación 4",
+                    "optionCodeName": "option_1B",
+                    "takenAt": "2022-01-20 22:39:01"
+                }
+            ]
+        }
+         */
+        try
+        {
+
+            using (var streamWriter = new StreamWriter(httpWebRequest.GetRequestStream()))
+            {
+
+                string json_text = "{\"playerchallenges\": [{" +
+                    " \"challengeCodeName\": \"" + code +
+                     "\", \"gameLevelName\": \"" + level +
+                      "\", \"optionCodeName\": \"" + option +
+                      "\", \"takenAt\": \"" + end +
+                    "\"}]}";
+
+
+                streamWriter.Write(json_text);
+                Debug.Log("Request formado: " + json_text);
+            }
+
+            HttpWebResponse httpResponse = GetWebResponseNoException(httpWebRequest);
+            StreamReader stReader = new StreamReader(httpResponse.GetResponseStream());
+            string responseText = stReader.ReadToEnd();
+            JObject jsonResponse = JObject.Parse(responseText);
+            Debug.Log("Respuesta: " + responseText);
+            if (jsonResponse.GetValue("status").ToObject<int>() == 400 && jsonResponse.GetValue("error").ToObject<string>().Contains("Token") && isFirstTime)
+            {
+                login(playerData);
+                return registerPregunta(false, playerData, end, option, level, code);
+            }
+
+            return jsonResponse;
+
+        }
+        catch
+        {
+            /*ActionLogger ac = actionLogger.GetComponent<ActionLogger>();
+            if (!GameManager.OfflineMode)
+            {
+                ac.actionLogger.agregarAccion("Settings", "Offline");
+            }
+
+            ac.actionLogger.online = false;
+            ac.actionLogger.agregarPeticion("finish mision", "" + levelId, playerData.Token, null, end);
+            try
+            {
+                actionLogger.GetComponent<ActionLogger>().actionLogger.online = false;
+            }
+            catch (Exception e)
+            {
+                Debug.Log("act logger component not found");
+            }*/
+            GameManager.OfflineMode = true;
+            string json = "{\"status\": 500 ," +
+                      "\"error\": \"Servidor no responde a tiempo.\" }";
+            /*ErrorMessage errorMsg = new ErrorMessage();
+            errorMsg.status = 500;
+            errorMsg.error = "Servidor no responde a tiempo.";
+            string output = JsonConvert.SerializeObject(errorMsg);*/
+            JObject json1 = JObject.Parse(json);
+            return json1;
+        }
+    }
 }

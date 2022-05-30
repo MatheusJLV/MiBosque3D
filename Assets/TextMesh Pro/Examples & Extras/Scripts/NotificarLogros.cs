@@ -72,6 +72,7 @@ public class NotificarLogros : MonoBehaviour
         actual.imagen.SetActive(false);
         notifPanel.SetActive(false);
         logros.RemoveAt(0);
+        Debug.Log("NOTIF PENDIENTES: " + logros.Count);
         activo = false;
 
 

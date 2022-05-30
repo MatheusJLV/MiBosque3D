@@ -12,19 +12,226 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81a15beabbe35b247bc3ba5e74f82e47, type: 3}
   m_Name: New Action Log
   m_EditorClassIdentifier: 
+  lista2:
+    peticionesPendientes: []
+  lista:
+    acciones:
+    - fecha: 2022-04-22 07:15:35
+      nombreAccion: Juego Interrumpido
+      detalle: Juego iniciado despues de cierre inesperado detectado en Bosque e2
+      player: Dfhd-dfhd-dfhd488-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE0OCwiUm9sZUlkIjozLCJpYXQiOjE2NTAzNDYwOTUsImV4cCI6MTY1MDQzMjQ5NX0.u_UUwGEw6e_ebclBexFWwpJqnWrHd8FtbQW_bg1zj8o
+    - fecha: 2022-04-22 07:16:07
+      nombreAccion: Settings
+      detalle: Online
+      player: Dfhd-dfhd-dfhd488-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE0OCwiUm9sZUlkIjozLCJpYXQiOjE2NTAzNDYwOTUsImV4cCI6MTY1MDQzMjQ5NX0.u_UUwGEw6e_ebclBexFWwpJqnWrHd8FtbQW_bg1zj8o
+    - fecha: 2022-04-22 07:16:07
+      nombreAccion: Change Scene
+      detalle: Menu Partidas-Tutorial
+      player: Dfhd-dfhd-dfhd488-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE0OCwiUm9sZUlkIjozLCJpYXQiOjE2NTAzNDYwOTUsImV4cCI6MTY1MDQzMjQ5NX0.u_UUwGEw6e_ebclBexFWwpJqnWrHd8FtbQW_bg1zj8o
+    - fecha: 2022-04-22 07:16:23
+      nombreAccion: Change Scene
+      detalle: Tutorial-Lobby
+      player: Dfhd-dfhd-dfhd488-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE0OCwiUm9sZUlkIjozLCJpYXQiOjE2NTAzNDYwOTUsImV4cCI6MTY1MDQzMjQ5NX0.u_UUwGEw6e_ebclBexFWwpJqnWrHd8FtbQW_bg1zj8o
+    - fecha: 2022-04-22 07:17:02
+      nombreAccion: Select
+      detalle: "Naveg\xF3 a estacion 1"
+      player: Matheus -matheus12609-matheus180-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE1MywiUm9sZUlkIjozLCJpYXQiOjE2NTA2NzE1MjIsImV4cCI6MTY1MDc1NzkyMn0.skblwO3THEJjaDmpS04jK7RscE5YSRGJaO2FX3W6OGM
+    - fecha: 2022-04-22 07:17:04
+      nombreAccion: Change Scene
+      detalle: Mapa-Bosque
+      player: Matheus -matheus12609-matheus180-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE1MywiUm9sZUlkIjozLCJpYXQiOjE2NTA2NzE1MjIsImV4cCI6MTY1MDc1NzkyMn0.skblwO3THEJjaDmpS04jK7RscE5YSRGJaO2FX3W6OGM
+    - fecha: 2022-04-22 07:17:37
+      nombreAccion: Begin Bosque estacion
+      detalle: 1
+      player: Matheus -matheus12609-matheus180-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE1MywiUm9sZUlkIjozLCJpYXQiOjE2NTA2NzE1MjIsImV4cCI6MTY1MDc1NzkyMn0.skblwO3THEJjaDmpS04jK7RscE5YSRGJaO2FX3W6OGM
+    - fecha: 2022-04-22 07:17:53
+      nombreAccion: Interact especie
+      detalle: Ardilla
+      player: Matheus -matheus12609-matheus180-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE1MywiUm9sZUlkIjozLCJpYXQiOjE2NTA2NzE1MjIsImV4cCI6MTY1MDc1NzkyMn0.skblwO3THEJjaDmpS04jK7RscE5YSRGJaO2FX3W6OGM
+    - fecha: 2022-04-22 07:17:56
+      nombreAccion: Interact especie
+      detalle: Ceibo
+      player: Matheus -matheus12609-matheus180-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE1MywiUm9sZUlkIjozLCJpYXQiOjE2NTA2NzE1MjIsImV4cCI6MTY1MDc1NzkyMn0.skblwO3THEJjaDmpS04jK7RscE5YSRGJaO2FX3W6OGM
+    - fecha: 2022-04-22 07:18:00
+      nombreAccion: Interact especie
+      detalle: Iguana
+      player: Matheus -matheus12609-matheus180-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE1MywiUm9sZUlkIjozLCJpYXQiOjE2NTA2NzE1MjIsImV4cCI6MTY1MDc1NzkyMn0.skblwO3THEJjaDmpS04jK7RscE5YSRGJaO2FX3W6OGM
+    - fecha: 2022-04-22 07:18:06
+      nombreAccion: Visit Bosque estacion
+      detalle: 2
+      player: Matheus -matheus12609-matheus180-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE1MywiUm9sZUlkIjozLCJpYXQiOjE2NTA2NzE1MjIsImV4cCI6MTY1MDc1NzkyMn0.skblwO3THEJjaDmpS04jK7RscE5YSRGJaO2FX3W6OGM
+    - fecha: 2022-04-22 07:18:14
+      nombreAccion: Interact especie
+      detalle: Pechiche
+      player: Matheus -matheus12609-matheus180-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE1MywiUm9sZUlkIjozLCJpYXQiOjE2NTA2NzE1MjIsImV4cCI6MTY1MDc1NzkyMn0.skblwO3THEJjaDmpS04jK7RscE5YSRGJaO2FX3W6OGM
+    - fecha: 2022-04-22 07:18:15
+      nombreAccion: Interact especie
+      detalle: Pechiche
+      player: Matheus -matheus12609-matheus180-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE1MywiUm9sZUlkIjozLCJpYXQiOjE2NTA2NzE1MjIsImV4cCI6MTY1MDc1NzkyMn0.skblwO3THEJjaDmpS04jK7RscE5YSRGJaO2FX3W6OGM
+    - fecha: 2022-04-22 07:19:29
+      nombreAccion: "\xBFDe qu\xE9 se alimenta el Trog\xF3n ecuatoriano?"
+      detalle: incorrecta
+      player: Matheus -matheus12609-matheus180-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE1MywiUm9sZUlkIjozLCJpYXQiOjE2NTA2NzE1MjIsImV4cCI6MTY1MDc1NzkyMn0.skblwO3THEJjaDmpS04jK7RscE5YSRGJaO2FX3W6OGM
+    - fecha: 2022-04-22 07:19:33
+      nombreAccion: Visit Bosque estacion
+      detalle: 3
+      player: Matheus -matheus12609-matheus180-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE1MywiUm9sZUlkIjozLCJpYXQiOjE2NTA2NzE1MjIsImV4cCI6MTY1MDc1NzkyMn0.skblwO3THEJjaDmpS04jK7RscE5YSRGJaO2FX3W6OGM
+    - fecha: 2022-04-22 07:20:57
+      nombreAccion: Interact especie
+      detalle: "Fernan S\xE1nchez"
+      player: Matheus -matheus12609-matheus180-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE1MywiUm9sZUlkIjozLCJpYXQiOjE2NTA2NzE1MjIsImV4cCI6MTY1MDc1NzkyMn0.skblwO3THEJjaDmpS04jK7RscE5YSRGJaO2FX3W6OGM
+    - fecha: 2022-04-22 07:21:10
+      nombreAccion: Interact especie
+      detalle: Ceibo
+      player: Matheus -matheus12609-matheus180-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE1MywiUm9sZUlkIjozLCJpYXQiOjE2NTA2NzE1MjIsImV4cCI6MTY1MDc1NzkyMn0.skblwO3THEJjaDmpS04jK7RscE5YSRGJaO2FX3W6OGM
+    - fecha: 2022-04-22 07:21:22
+      nombreAccion: "\xBFCu\xE1l es la dieta principal del Mosquero Picudo?"
+      detalle: correcta
+      player: Matheus -matheus12609-matheus180-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE1MywiUm9sZUlkIjozLCJpYXQiOjE2NTA2NzE1MjIsImV4cCI6MTY1MDc1NzkyMn0.skblwO3THEJjaDmpS04jK7RscE5YSRGJaO2FX3W6OGM
+    - fecha: 2022-04-22 07:21:25
+      nombreAccion: Visit Bosque estacion
+      detalle: 4
+      player: Matheus -matheus12609-matheus180-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE1MywiUm9sZUlkIjozLCJpYXQiOjE2NTA2NzE1MjIsImV4cCI6MTY1MDc1NzkyMn0.skblwO3THEJjaDmpS04jK7RscE5YSRGJaO2FX3W6OGM
+    - fecha: 2022-04-22 07:21:54
+      nombreAccion: "\xBFCu\xE1l es la dieta del Mosquero Rayado?"
+      detalle: incorrecta
+      player: Matheus -matheus12609-matheus180-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE1MywiUm9sZUlkIjozLCJpYXQiOjE2NTA2NzE1MjIsImV4cCI6MTY1MDc1NzkyMn0.skblwO3THEJjaDmpS04jK7RscE5YSRGJaO2FX3W6OGM
+    - fecha: 2022-04-22 07:22:54
+      nombreAccion: Visit Bosque estacion
+      detalle: 5
+      player: Matheus -matheus12609-matheus180-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE1MywiUm9sZUlkIjozLCJpYXQiOjE2NTA2NzE1MjIsImV4cCI6MTY1MDc1NzkyMn0.skblwO3THEJjaDmpS04jK7RscE5YSRGJaO2FX3W6OGM
+    - fecha: 2022-04-22 07:23:13
+      nombreAccion: Visit Bosque estacion
+      detalle: 4
+      player: Matheus -matheus12609-matheus180-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE1MywiUm9sZUlkIjozLCJpYXQiOjE2NTA2NzE1MjIsImV4cCI6MTY1MDc1NzkyMn0.skblwO3THEJjaDmpS04jK7RscE5YSRGJaO2FX3W6OGM
+    - fecha: 2022-04-22 07:23:39
+      nombreAccion: Visit Bosque estacion
+      detalle: 5
+      player: Matheus -matheus12609-matheus180-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE1MywiUm9sZUlkIjozLCJpYXQiOjE2NTA2NzE1MjIsImV4cCI6MTY1MDc1NzkyMn0.skblwO3THEJjaDmpS04jK7RscE5YSRGJaO2FX3W6OGM
+    - fecha: 2022-04-22 07:24:13
+      nombreAccion: "Cuando usted termina de comer un bocadillo, \xBFqu\xE9 deber\xEDa
+        hacer con los desechos?"
+      detalle: incorrecta
+      player: Matheus -matheus12609-matheus180-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE1MywiUm9sZUlkIjozLCJpYXQiOjE2NTA2NzE1MjIsImV4cCI6MTY1MDc1NzkyMn0.skblwO3THEJjaDmpS04jK7RscE5YSRGJaO2FX3W6OGM
+    - fecha: 2022-04-22 07:24:15
+      nombreAccion: Visit Bosque estacion
+      detalle: 6
+      player: Matheus -matheus12609-matheus180-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE1MywiUm9sZUlkIjozLCJpYXQiOjE2NTA2NzE1MjIsImV4cCI6MTY1MDc1NzkyMn0.skblwO3THEJjaDmpS04jK7RscE5YSRGJaO2FX3W6OGM
+    - fecha: 2022-04-22 07:24:48
+      nombreAccion: Pause Game
+      detalle: Bosque e6
+      player: Matheus -matheus12609-matheus180-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE1MywiUm9sZUlkIjozLCJpYXQiOjE2NTA2NzE1MjIsImV4cCI6MTY1MDc1NzkyMn0.skblwO3THEJjaDmpS04jK7RscE5YSRGJaO2FX3W6OGM
+    - fecha: 2022-04-22 07:24:53
+      nombreAccion: Save
+      detalle: se solicito guardar de log
+      player: Matheus -matheus12609-matheus180-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE1MywiUm9sZUlkIjozLCJpYXQiOjE2NTA2NzE1MjIsImV4cCI6MTY1MDc1NzkyMn0.skblwO3THEJjaDmpS04jK7RscE5YSRGJaO2FX3W6OGM
+    - fecha: 2022-04-22 07:24:53
+      nombreAccion: Playtime Menu partida
+      detalle: 30.89749
+      player: Matheus -matheus12609-matheus180-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE1MywiUm9sZUlkIjozLCJpYXQiOjE2NTA2NzE1MjIsImV4cCI6MTY1MDc1NzkyMn0.skblwO3THEJjaDmpS04jK7RscE5YSRGJaO2FX3W6OGM
+    - fecha: 2022-04-22 07:24:53
+      nombreAccion: Playtime Tutorial
+      detalle: 8.114407
+      player: Matheus -matheus12609-matheus180-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE1MywiUm9sZUlkIjozLCJpYXQiOjE2NTA2NzE1MjIsImV4cCI6MTY1MDc1NzkyMn0.skblwO3THEJjaDmpS04jK7RscE5YSRGJaO2FX3W6OGM
+    - fecha: 2022-04-22 07:24:53
+      nombreAccion: Playtime Lobby
+      detalle: 29.32231
+      player: Matheus -matheus12609-matheus180-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE1MywiUm9sZUlkIjozLCJpYXQiOjE2NTA2NzE1MjIsImV4cCI6MTY1MDc1NzkyMn0.skblwO3THEJjaDmpS04jK7RscE5YSRGJaO2FX3W6OGM
+    - fecha: 2022-04-22 07:24:53
+      nombreAccion: Playtime Mapa
+      detalle: 14.70937
+      player: Matheus -matheus12609-matheus180-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE1MywiUm9sZUlkIjozLCJpYXQiOjE2NTA2NzE1MjIsImV4cCI6MTY1MDc1NzkyMn0.skblwO3THEJjaDmpS04jK7RscE5YSRGJaO2FX3W6OGM
+    - fecha: 2022-04-22 07:24:53
+      nombreAccion: Playtime Bosque e1
+      detalle: 74.78356
+      player: Matheus -matheus12609-matheus180-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE1MywiUm9sZUlkIjozLCJpYXQiOjE2NTA2NzE1MjIsImV4cCI6MTY1MDc1NzkyMn0.skblwO3THEJjaDmpS04jK7RscE5YSRGJaO2FX3W6OGM
+    - fecha: 2022-04-22 07:24:53
+      nombreAccion: Playtime Bosque e2
+      detalle: 118.1439
+      player: Matheus -matheus12609-matheus180-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE1MywiUm9sZUlkIjozLCJpYXQiOjE2NTA2NzE1MjIsImV4cCI6MTY1MDc1NzkyMn0.skblwO3THEJjaDmpS04jK7RscE5YSRGJaO2FX3W6OGM
+    - fecha: 2022-04-22 07:24:53
+      nombreAccion: Playtime Bosque e3
+      detalle: 187.3125
+      player: Matheus -matheus12609-matheus180-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE1MywiUm9sZUlkIjozLCJpYXQiOjE2NTA2NzE1MjIsImV4cCI6MTY1MDc1NzkyMn0.skblwO3THEJjaDmpS04jK7RscE5YSRGJaO2FX3W6OGM
+    - fecha: 2022-04-22 07:24:53
+      nombreAccion: Playtime Bosque e4
+      detalle: 110.4895
+      player: Matheus -matheus12609-matheus180-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE1MywiUm9sZUlkIjozLCJpYXQiOjE2NTA2NzE1MjIsImV4cCI6MTY1MDc1NzkyMn0.skblwO3THEJjaDmpS04jK7RscE5YSRGJaO2FX3W6OGM
+    - fecha: 2022-04-22 07:24:53
+      nombreAccion: Playtime Bosque e5
+      detalle: 52.48066
+      player: Matheus -matheus12609-matheus180-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE1MywiUm9sZUlkIjozLCJpYXQiOjE2NTA2NzE1MjIsImV4cCI6MTY1MDc1NzkyMn0.skblwO3THEJjaDmpS04jK7RscE5YSRGJaO2FX3W6OGM
+    - fecha: 2022-04-22 07:24:53
+      nombreAccion: Playtime Bosque e6
+      detalle: 33.0911
+      player: Matheus -matheus12609-matheus180-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE1MywiUm9sZUlkIjozLCJpYXQiOjE2NTA2NzE1MjIsImV4cCI6MTY1MDc1NzkyMn0.skblwO3THEJjaDmpS04jK7RscE5YSRGJaO2FX3W6OGM
+    - fecha: 2022-04-22 07:24:53
+      nombreAccion: Playtime Bosque e7
+      detalle: 0
+      player: Matheus -matheus12609-matheus180-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE1MywiUm9sZUlkIjozLCJpYXQiOjE2NTA2NzE1MjIsImV4cCI6MTY1MDc1NzkyMn0.skblwO3THEJjaDmpS04jK7RscE5YSRGJaO2FX3W6OGM
+  acciones:
+  - fecha: 2022-04-26 11:35:24
+    nombreAccion: Playtime Menu partida
+    detalle: 10.40231
+    player: Dfhd-dfhd-dfhd488-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE0OCwiUm9sZUlkIjozLCJpYXQiOjE2NTAzNDYwOTUsImV4cCI6MTY1MDQzMjQ5NX0.u_UUwGEw6e_ebclBexFWwpJqnWrHd8FtbQW_bg1zj8o
+  - fecha: 2022-04-26 11:35:24
+    nombreAccion: Playtime Tutorial
+    detalle: 35.06826
+    player: Dfhd-dfhd-dfhd488-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE0OCwiUm9sZUlkIjozLCJpYXQiOjE2NTAzNDYwOTUsImV4cCI6MTY1MDQzMjQ5NX0.u_UUwGEw6e_ebclBexFWwpJqnWrHd8FtbQW_bg1zj8o
+  - fecha: 2022-04-26 11:35:24
+    nombreAccion: Playtime Lobby
+    detalle: 1.241427
+    player: Dfhd-dfhd-dfhd488-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE0OCwiUm9sZUlkIjozLCJpYXQiOjE2NTAzNDYwOTUsImV4cCI6MTY1MDQzMjQ5NX0.u_UUwGEw6e_ebclBexFWwpJqnWrHd8FtbQW_bg1zj8o
+  - fecha: 2022-04-26 11:35:24
+    nombreAccion: Playtime Mapa
+    detalle: 4.391528
+    player: Dfhd-dfhd-dfhd488-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE0OCwiUm9sZUlkIjozLCJpYXQiOjE2NTAzNDYwOTUsImV4cCI6MTY1MDQzMjQ5NX0.u_UUwGEw6e_ebclBexFWwpJqnWrHd8FtbQW_bg1zj8o
+  - fecha: 2022-04-26 11:35:24
+    nombreAccion: Playtime Bosque e1
+    detalle: 29.91379
+    player: Dfhd-dfhd-dfhd488-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE0OCwiUm9sZUlkIjozLCJpYXQiOjE2NTAzNDYwOTUsImV4cCI6MTY1MDQzMjQ5NX0.u_UUwGEw6e_ebclBexFWwpJqnWrHd8FtbQW_bg1zj8o
+  - fecha: 2022-04-26 11:35:24
+    nombreAccion: Playtime Bosque e2
+    detalle: 16.1383
+    player: Dfhd-dfhd-dfhd488-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE0OCwiUm9sZUlkIjozLCJpYXQiOjE2NTAzNDYwOTUsImV4cCI6MTY1MDQzMjQ5NX0.u_UUwGEw6e_ebclBexFWwpJqnWrHd8FtbQW_bg1zj8o
+  - fecha: 2022-04-26 11:35:24
+    nombreAccion: Playtime Bosque e3
+    detalle: 107.7182
+    player: Dfhd-dfhd-dfhd488-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE0OCwiUm9sZUlkIjozLCJpYXQiOjE2NTAzNDYwOTUsImV4cCI6MTY1MDQzMjQ5NX0.u_UUwGEw6e_ebclBexFWwpJqnWrHd8FtbQW_bg1zj8o
+  - fecha: 2022-04-26 11:35:24
+    nombreAccion: Playtime Bosque e4
+    detalle: 31.80595
+    player: Dfhd-dfhd-dfhd488-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE0OCwiUm9sZUlkIjozLCJpYXQiOjE2NTAzNDYwOTUsImV4cCI6MTY1MDQzMjQ5NX0.u_UUwGEw6e_ebclBexFWwpJqnWrHd8FtbQW_bg1zj8o
+  - fecha: 2022-04-26 11:35:24
+    nombreAccion: Playtime Bosque e5
+    detalle: 0
+    player: Dfhd-dfhd-dfhd488-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE0OCwiUm9sZUlkIjozLCJpYXQiOjE2NTAzNDYwOTUsImV4cCI6MTY1MDQzMjQ5NX0.u_UUwGEw6e_ebclBexFWwpJqnWrHd8FtbQW_bg1zj8o
+  - fecha: 2022-04-26 11:35:24
+    nombreAccion: Playtime Bosque e6
+    detalle: 0
+    player: Dfhd-dfhd-dfhd488-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE0OCwiUm9sZUlkIjozLCJpYXQiOjE2NTAzNDYwOTUsImV4cCI6MTY1MDQzMjQ5NX0.u_UUwGEw6e_ebclBexFWwpJqnWrHd8FtbQW_bg1zj8o
+  - fecha: 2022-04-26 11:35:24
+    nombreAccion: Playtime Bosque e7
+    detalle: 0
+    player: Dfhd-dfhd-dfhd488-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE0OCwiUm9sZUlkIjozLCJpYXQiOjE2NTAzNDYwOTUsImV4cCI6MTY1MDQzMjQ5NX0.u_UUwGEw6e_ebclBexFWwpJqnWrHd8FtbQW_bg1zj8o
+  peticiones: []
   jugando: 1
   online: 0
-  locacion: Bosque e2
+  locacion: Menu Partida
   player: Dfhd-dfhd-dfhd488-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE0OCwiUm9sZUlkIjozLCJpYXQiOjE2NTAzNDYwOTUsImV4cCI6MTY1MDQzMjQ5NX0.u_UUwGEw6e_ebclBexFWwpJqnWrHd8FtbQW_bg1zj8o
   tiempos:
-  - 8.760003
-  - 0
-  - 25.88103
-  - 0
-  - 31.128052
-  - 30.880995
-  - 77.56164
+  - 301.47787
   - 0
   - 0
   - 0
   - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nombre: Probando
+  user: probando
+  password: probando331
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjE2MiwiUm9sZUlkIjozLCJpYXQiOjE2NTEwMzIxMjgsImV4cCI6MTY1MTExODUyOH0.f31Y9PDMy71hdDszP057qMnBMY6hls_1UgUeYK23RXE

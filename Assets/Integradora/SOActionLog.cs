@@ -6,67 +6,69 @@ using System.IO;
 using UnityEngine;
 
 [CreateAssetMenu (fileName ="New Action Log", menuName = "Action Log")]
+
+[System.Serializable]
+public class PeticionesPendientes
+{
+    public string tipo;
+    public string nombre;
+    public string token;
+    public string started;
+    public string ended;
+    public PeticionesPendientes(string tipo, string nombre, string token, string started, string ended)
+    {
+        this.tipo = tipo;
+        this.nombre = nombre;
+        this.token = token;
+        this.started = started;
+        this.ended = ended;
+        Debug.Log("Se registro una peticion pendiente: " + nombre);
+
+
+    }
+}
+
+[System.Serializable]
+public class PeticionesPendientesList
+{
+    public PeticionesPendientes[] peticionesPendientes;
+}
+
+[System.Serializable]
+public class Accion
+{
+    public string fecha;
+    public string nombreAccion;
+    public string detalle;
+    public string player;
+
+    public Accion(string nombre, string detalle, string player)
+    {
+        fecha = System.DateTime.Now.ToString("yyyy-MM-dd hh:mm:ss");
+        nombreAccion = nombre;
+        this.detalle = detalle;
+        Debug.Log("Se registro un: " + nombre);
+        this.player = player;
+    }
+    public Accion(string nombre, string detalle, PlayerData player)
+    {
+        fecha = System.DateTime.Now.ToString("yyyy-MM-dd hh:mm:ss");
+        nombreAccion = nombre;
+        this.detalle = detalle;
+        this.player = player.nombre + "-" + player.UserName + "-" + player.PassWord + "-" + player.Token;
+        Debug.Log("Se registro un: " + nombre);
+    }
+
+}
+
+[System.Serializable]
+public class AccionList
+{
+    public Accion[] acciones;
+}
 public class SOActionLog : ScriptableObject
 {
-    [System.Serializable]
-    public class Accion
-    {
-        public string fecha;
-        public string nombreAccion;
-        public string detalle;
-        public string player;
-        public Accion(string nombre, string detalle, string player)
-        {
-            fecha = System.DateTime.Now.ToString("yyyy-MM-dd hh:mm:ss");
-            nombreAccion = nombre;
-            this.detalle = detalle;
-            Debug.Log("Se registro un: " + nombre);
-            this.player = player;
-        }
-        public Accion(string nombre, string detalle, PlayerData player)
-        {
-            fecha = System.DateTime.Now.ToString("yyyy-MM-dd hh:mm:ss");
-            nombreAccion = nombre;
-            this.detalle = detalle;
-            this.player = player.nombre + "-" + player.UserName + "-" + player.PassWord + "-" + player.Token;
-            Debug.Log("Se registro un: " + nombre);
-        }
-
-    }
-
-    [System.Serializable]
-    public class AccionList
-    {
-        public Accion[] acciones;
-    }
-
-
-    [System.Serializable]
-    public class PeticionesPendientes
-    {
-        public string tipo;
-        public string nombre;
-        public string token;
-        public string started;
-        public string ended;
-        public PeticionesPendientes(string tipo, string nombre, string token, string started, string ended)
-        {
-            this.tipo = tipo;
-            this.nombre = nombre;
-            this.token = token;
-            this.started = started;
-            this.ended = ended;
-            Debug.Log("Se registro una peticion pendiente: " + nombre);
-
-
-        }
-    }
-
-   [System.Serializable]
-   public class PeticionesPendientesList
-   {
-        public PeticionesPendientes[] peticionesPendientes;
-   }
+       
 
    public PeticionesPendientesList lista2 = new PeticionesPendientesList();
 
@@ -86,6 +88,11 @@ public class SOActionLog : ScriptableObject
     public string locacion;
     public string player;
     public float[] tiempos;
+
+    public string nombre;
+    public string user;
+    public string password;
+    public string token;
 
     public void Inicializar()
     {
@@ -111,7 +118,7 @@ public class SOActionLog : ScriptableObject
         else
         {
             //write accion
-            acciones.Add(new Accion(nombre, detalle, player));
+            acciones.Add(new Accion(nombre, detalle, this.nombre));
         }
         
     }
@@ -274,6 +281,10 @@ public class SOActionLog : ScriptableObject
     public void clearLog()
     {
         acciones= new List<Accion>();
+    }
+    public void clearPeticiones()
+    {
+        peticiones = new List<PeticionesPendientes>();
     }
 }
 

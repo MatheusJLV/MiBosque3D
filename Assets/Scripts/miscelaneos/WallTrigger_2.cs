@@ -24,6 +24,7 @@ public class WallTrigger_2 : MonoBehaviour
     public Button m_opcionAImagenes, m_opcionBImagenes, m_opcionCImagenes, m_opcionDImagenes;
     public Image m_ImagenA, m_ImagenB, m_ImagenC, m_ImagenD, f_Imagen;
     private int value_A, value_B, value_C, value_D;
+    private string opt1, opt2, opt3, opt4;
     private string respuesta;
     private string feedback;
     private string url_preguntas = SystemVariables.url_puerto + "/api/bpv/question";
@@ -85,10 +86,10 @@ public class WallTrigger_2 : MonoBehaviour
         //mira.SetActive(false);
         Time.timeScale = 1f;
 
-        m_opcionAImagenes.onClick.AddListener(delegate { Wrapper(value_A); });
-        m_opcionBImagenes.onClick.AddListener(delegate { Wrapper(value_B); });
-        m_opcionCImagenes.onClick.AddListener(delegate { Wrapper(value_C); });
-        m_opcionDImagenes.onClick.AddListener(delegate { Wrapper(value_D); });
+        m_opcionAImagenes.onClick.AddListener(delegate { Wrapper(value_A,opt1); });
+        m_opcionBImagenes.onClick.AddListener(delegate { Wrapper(value_B, opt2); });
+        m_opcionCImagenes.onClick.AddListener(delegate { Wrapper(value_C, opt3); });
+        m_opcionDImagenes.onClick.AddListener(delegate { Wrapper(value_D, opt4); });
 
 
         //texto = "Hola, veamos si has prestado atencion, a ver si puedes contestar la siguiente pregunta";
@@ -130,21 +131,21 @@ public class WallTrigger_2 : MonoBehaviour
         Debug.Log("END CONTINUAR");
     }
 
-    public void Wrapper(int i)
+    public void Wrapper(int i,string opt)
     {
         if (i == 1)
         {
-            RespuestaCorrecta();
+            RespuestaCorrecta(opt);
             AudioSourceSFX.instance.PlaySound(correct);
         }
         else
         {
-            RespuestaIncorrecta();
+            RespuestaIncorrecta(opt);
             AudioSourceSFX.instance.PlaySound(incorrect);
         }
     }
 
-    private void RespuestaIncorrecta()
+    private void RespuestaIncorrecta(string opt)
     {
         //aqui
         actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion(pregunta.text, "incorrecta");
@@ -192,9 +193,15 @@ public class WallTrigger_2 : MonoBehaviour
         controlPanel.GetComponent<Animator>().SetBool("hide", false);
     }
 
-    private void RespuestaCorrecta()
+    private void RespuestaCorrecta(string opt)
     {
-        Debug.Log("WALL TRIGGER 2 SCRIPT");
+        Debug.Log("mandar a server :" + q.codename +"-" + q.image + "-" + "Bosque-Estación " + n_estacion + "-"+ opt + "-" + q.question);
+        
+        if (!GameManager.OfflineMode)
+        {
+            Peticiones.instance.registerPregunta(Player.instance.playerData, System.DateTime.Now.ToString("yyyy-MM-dd hh:mm:ss"), opt, "Bosque-Estación " + n_estacion, ""+q.codename);
+        }
+            Debug.Log("WALL TRIGGER 2 SCRIPT");
         Debug.Log("BEGIN RESP CORRECTA");
         canvasPreguntasImagenes.SetActive(false);
         actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion(pregunta.text, "correcta");
@@ -334,6 +341,11 @@ public class WallTrigger_2 : MonoBehaviour
                 m_opcionBImagenes.GetComponentInChildren<Text>().text = "B. " + q.options[1].text;
                 m_opcionCImagenes.GetComponentInChildren<Text>().text = "C. " + q.options[2].text;
                 m_opcionDImagenes.GetComponentInChildren<Text>().text = "D. " + q.options[3].text;
+                opt1 = q.options[0].text;
+                opt2 = q.options[1].text;
+                opt3 = q.options[2].text;
+                opt4 = q.options[3].text;
+                //aqui
                 //if (q.Gallery.Count == 4)
                 if (galeriaImagenes.Count == 4)
                 {
