@@ -56,7 +56,24 @@ public class MenuController : MonoBehaviour
     public Peticiones PeticionesHTTP;
     private JObject JObjectStudentStatus;
 
+    public GameObject botonContinuar;
 
+    private void Start()
+    {
+        Debug.Log("START DE CONTROLLER");
+        Button boton = botonContinuar.GetComponent<Button>();
+        Image imagen = botonContinuar.GetComponent<Image>();
+        if (SaveProfile.instance.SaveFileExists())
+        {
+            boton.interactable = true;
+            imagen.color = Color.white;
+        }
+        else
+        {
+            boton.interactable = false;
+            imagen.color = Color.black;
+        }
+    }
     private void Awake()
     {
         DontDestroyOnLoad(this.gameObject);
@@ -67,6 +84,8 @@ public class MenuController : MonoBehaviour
         edad.contentType = InputField.ContentType.IntegerNumber;
         actionLogger = GameObject.Find("ActionLogger");
         //actionLogger.GetComponent<ActionLogger>().actionLogger.locacion = "Menu de partida";
+       
+            
     }
 
     public void NextScene(string name)
@@ -151,6 +170,64 @@ public class MenuController : MonoBehaviour
                 n_edadF = n_edad;
                 activateIngresoId();
             }
+        }
+
+    }
+
+    public bool validar(int x)
+    {
+        int n_edad;
+        switch (x)
+        {
+            case 1:
+                if (nombre.text == string.Empty || edad.text == string.Empty)
+                {
+                    errorPanel.SetActive(true);
+                    //actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Fail", "No ingresó nombre");
+                    errorMsj.text = "Completo los campos Nombre o Edad para continuar";
+                    return false;
+                }
+                else if (!(int.TryParse(edad.text, out n_edad)))
+                {
+                    errorPanel.SetActive(true);
+                    //actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Fail", "No ingresó edad");
+                    errorMsj.text = "La edad que has ingresado es incorrecta";
+                    return false;
+                }
+                else if(n_edad < 5)
+                {
+                    errorPanel.SetActive(true);
+                    //errorMsj.text = "Hmmm estás muy pequeño para jugar.\nIngresa tu edad nuevamente";
+                    actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Fail", "Edad inferior");
+                }
+                else if (n_edad > 90)
+                {
+                    errorPanel.SetActive(true);
+                    //errorMsj.text = "WOAH! Tienes " + n_edad + "! .\nPrueba ingresando tu edad nuevamente";
+                    actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Fail", "Edad superior");
+                }
+                else if (obtenerGenero(dropDownGenero) == "0")
+                {
+                    errorPanel.SetActive(true);
+                    //actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Fail", "No ingresó género");
+                    errorMsj.text = "Selecciona el género por favor";
+                    return false;
+                }
+                return true;
+                
+
+            case 2:
+                if (unidadEducativa.text == string.Empty)
+                {
+                    errorPanel.SetActive(true);
+                    //actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Fail", "No ingresó código de unidad");
+                    errorMsj.text = "Escriba el código del profesor para continuar";
+                    return false;
+                }
+                return true;
+
+            default:
+                return false;
         }
 
     }

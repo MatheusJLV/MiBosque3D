@@ -787,7 +787,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -7.5000305, y: 35.40001}
+  m_AnchoredPosition: {x: -7.500122, y: 35.40001}
   m_SizeDelta: {x: 255.9, y: -69.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &311181774
@@ -1051,7 +1051,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "C\xF3mo te identificas?"
+  m_Text: "Ni\xF1o"
 --- !u!222 &401316099
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1510,6 +1510,7 @@ MonoBehaviour:
   ingresoInputID: {fileID: 1780680045}
   urlestudiantes: 
   PeticionesHTTP: {fileID: 1038459327}
+  botonContinuar: {fileID: 1007748331}
 --- !u!4 &477617593
 Transform:
   m_ObjectHideFlags: 0
@@ -1585,6 +1586,7 @@ GameObject:
   - component: {fileID: 524327082}
   - component: {fileID: 524327081}
   - component: {fileID: 524327084}
+  - component: {fileID: 524327085}
   m_Layer: 5
   m_Name: Continuar
   m_TagString: Untagged
@@ -1655,79 +1657,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1977118293}
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 524327085}
+        m_MethodName: validar
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 2118034696}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 900336653}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 1513635281}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 85674203}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 205352082}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1141128353}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1789,6 +1725,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioToPlay: {fileID: 8300000, guid: ea99a0869e84d6249a46c1b3109b5662, type: 3}
+--- !u!114 &524327085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 524327079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 037d1ed68f6b55c47a160d38ea8e73a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  listaActivar:
+  - {fileID: 2118034696}
+  - {fileID: 900336653}
+  listaDesctivar:
+  - {fileID: 1977118293}
+  - {fileID: 1513635281}
+  - {fileID: 85674203}
+  - {fileID: 205352082}
+  - {fileID: 1141128353}
+  fase: 1
+  menuController: {fileID: 477617591}
 --- !u!1 &525366516
 GameObject:
   m_ObjectHideFlags: 0
@@ -2456,8 +2415,6 @@ MonoBehaviour:
   m_Value: 0
   m_Options:
     m_Options:
-    - m_Text: "C\xF3mo te identificas?"
-      m_Image: {fileID: 0}
     - m_Text: "Ni\xF1o"
       m_Image: {fileID: 0}
     - m_Text: "Ni\xF1a"
@@ -3670,7 +3627,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 1007748335}
   m_OnClick:
     m_PersistentCalls:
@@ -3712,7 +3669,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.066037714, g: 0.059496243, b: 0.059496243, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -4006,6 +3963,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9136ea15da483c643abfa5bd834f4a99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  actionLogger: {fileID: 0}
+  AC: {fileID: 0}
 --- !u!1 &1081425098
 GameObject:
   m_ObjectHideFlags: 0
@@ -6270,6 +6229,7 @@ GameObject:
   - component: {fileID: 1656195964}
   - component: {fileID: 1656195963}
   - component: {fileID: 1656195962}
+  - component: {fileID: 1656195966}
   m_Layer: 5
   m_Name: NextButton
   m_TagString: Untagged
@@ -6375,17 +6335,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 2118034696}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1656195964
@@ -6425,6 +6374,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1656195960}
   m_CullTransparentMesh: 0
+--- !u!114 &1656195966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1656195960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 037d1ed68f6b55c47a160d38ea8e73a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  listaActivar:
+  - {fileID: 1656195960}
+  listaDesctivar: []
+  fase: 2
+  menuController: {fileID: 477617591}
 --- !u!1 &1683418438
 GameObject:
   m_ObjectHideFlags: 0
