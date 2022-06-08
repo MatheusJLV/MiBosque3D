@@ -5,7 +5,7 @@
       "id": 1,
       "name": "Pinzón Sabanero",
       "family": "THRAUPIDAE",
-	  "video": "Videos/PINZON_SABANERO.mp4",
+      "video": "Videos/PINZON_SABANERO.mp4",
       "gallery": [
         {
           "mongoId": "5dd8431a4a39665044fb91cb",
@@ -21,7 +21,7 @@
       "id": 2,
       "name": "Gavilán Dorsigris",
       "family": "ACCIPITRIDAE",
-	  "video": "Videos/GAVILAN_GRIS.mp4",
+      "video": "Videos/GAVILAN_GRIS.mp4",
       "gallery": [
         {
           "mongoId": "5dd8514325b0ee66f161d750",
@@ -44,7 +44,7 @@
       "id": 4,
       "name": "Iguana",
       "family": "Iguana",
-	  "video": "Videos/IGUANA.mp4",
+      "video": "Videos/IGUANA.mp4",
       "gallery": [
         {
           "mongoId": "5dd85b1fbaf3fe76a27f1fe3",
@@ -96,7 +96,7 @@
       "id": 7,
       "name": "Gavilán Gris",
       "family": "ACCIPITRIDAE",
-	  "video": "Videos/GAVILAN_GRIS.mp4",
+      "video": "Videos/GAVILAN_GRIS.mp4",
       "gallery": [
         {
           "mongoId": "5dd853a8e3eb3c6b4eec4c80",
@@ -126,7 +126,7 @@
       "id": 8,
       "name": "Garrapatero Piquiestriado",
       "family": "CUCULIDAE",
-	  "video": "Videos/GARRAPATERO.mp4",
+      "video": "Videos/GARRAPATERO.mp4",
       "gallery": [
         {
           "mongoId": "5dd855197128336c644426a9",
@@ -200,7 +200,7 @@
       "id": 11,
       "name": "Tangara Azul y Gris",
       "family": "THRAUPIDAE",
-	  "video": "Videos/TANGARA_AZUL.mp4",
+      "video": "Videos/TANGARA_AZUL.mp4",
       "gallery": [
         {
           "mongoId": "5dd8566444b5b86ed73021fd",
@@ -216,7 +216,7 @@
       "id": 12,
       "name": "Búho Blanquinegro",
       "family": "STRIGIDAE",
-	  "video": "Videos/BUHO_BLANQUINEGRO.mp4",
+      "video": "Videos/BUHO_BLANQUINEGRO.mp4",
       "gallery": [
         {
           "mongoId": "5dd8577ab623de70de66b39a",
@@ -304,7 +304,7 @@
       "id": 15,
       "name": "Momoto Gritón",
       "family": "Momotidae",
-	  "video": "Videos/MOMOTO_GRITON.mp4",
+      "video": "Videos/MOMOTO_GRITON.mp4",
       "gallery": [
         {
           "mongoId": "5dd8593924fc9f73e0c55f35",
@@ -334,7 +334,7 @@
       "id": 17,
       "name": "Tirano Tropical",
       "family": "TYRANNIDAE",
-	  "video": "Videos/TIRANO_TROPICAL.mp4",
+      "video": "Videos/TIRANO_TROPICAL.mp4",
       "gallery": [
         {
           "mongoId": "5dd85c5584573f78b5601113",
@@ -364,7 +364,7 @@
       "id": 18,
       "name": "Mosquero Rayado",
       "family": "TYRANNIDAE",
-	  "video": "Videos/MOSQUERO_RAYADO.mp4",
+      "video": "Videos/MOSQUERO_RAYADO.mp4",
       "gallery": [
         {
           "mongoId": "5dd85a64c589a4759c90b677",
@@ -423,7 +423,7 @@
       "id": 21,
       "name": "Ardilla",
       "family": "SCIURIDAE",
-	  "video": "Videos/ARDILLA.mp4",
+      "video": "Videos/ARDILLA.mp4",
       "gallery": [
         {
           "mongoId": "5e04e9cf898f5067dfced5e2",
@@ -460,7 +460,7 @@
       "id": 22,
       "name": "Garcilla Estriada",
       "family": "ARDEIDAE",
-	  "video": "Videos/GARCILLA_ESTRIADA.mp4",
+      "video": "Videos/GARCILLA_ESTRIADA.mp4",
       "gallery": [
         {
           "mongoId": "5e13d2aa85e66449aa5e73c0",
@@ -514,26 +514,200 @@
       "family": "Bursera",
       "gallery": [
         {
-            "mongoId": "5e13d346137dd54ad63e4b04",
-            "id": 66,
-            "description": "El palo santo es un arbol del cual se extrae un aceite escencial usado con fines medicinales y aromáticos.",
-            "audioname": "PaloSanto_audio_descripcion_0",
-            "imagename": "PaloSanto_image_0"
-          },
-          {
-            "mongoId": "5e13d346137dd54ad63e4b05",
-            "id": 67,
-            "description": "Su nombre cientifico es Bursera graveolens.",
-            "audioname": "PaloSanto_audio_descripcion_1",
-            "imagename": "PaloSanto_image_1"
-          },
-          {
-            "mongoId": "5e13d346137dd54ad63e4b06",
-            "id": 68,
-            "description": "Es muy utilizado como sahumerio para ahuyentar mosquitos y otros insectos.",
-            "audioname": "PaloSanto_audio_descripcion_2",
-            "imagename": "PaloSanto_image_2"
-          }
+          "mongoId": "5e13d346137dd54ad63e4b04",
+          "id": 66,
+          "description": "El palo santo es un arbol del cual se extrae un aceite escencial usado con fines medicinales y aromáticos.",
+          "audioname": "PaloSanto_audio_descripcion_0",
+          "imagename": "PaloSanto_image_0"
+        },
+        {
+          "mongoId": "5e13d346137dd54ad63e4b05",
+          "id": 67,
+          "description": "Su nombre cientifico es Bursera graveolens.",
+          "audioname": "PaloSanto_audio_descripcion_1",
+          "imagename": "PaloSanto_image_1"
+        },
+        {
+          "mongoId": "5e13d346137dd54ad63e4b06",
+          "id": 68,
+          "description": "Es muy utilizado como sahumerio para ahuyentar mosquitos y otros insectos.",
+          "audioname": "PaloSanto_audio_descripcion_2",
+          "imagename": "PaloSanto_image_2"
+        }
+      ]
+    },
+    {
+      "specieId": "10000001",
+      "id": 29,
+      "name": "Jacaranda",
+      "family": "Bignoniaceae",
+      "gallery": [
+        {
+          "mongoId": "20000001",
+          "id": 69,
+          "description": "Jacaranda es un árbol subtropical de Sudamérica ampliamente cultivado por sus vistosas y duraderas flores violetas.",
+          "audioname": "Jacaranda_audio_descripcion_0",
+          "imagename": "Jacaranda_image_0"
+        },
+        {
+          "mongoId": "20000002",
+          "id": 70,
+          "description": "El árbol adulto alcanza una altura de 12 a 15 metros,5​ hasta 20 metros en condiciones favorables.",
+          "audioname": "Jacaranda_audio_descripcion_1",
+          "imagename": "Jacaranda_image_1"
+        },
+        {
+          "mongoId": "20000003",
+          "id": 71,
+          "description": "La copa del jacarandá no tiene una forma uniforme: algunas veces en forma de una sombrilla, algunas veces de forma piramidal, pero nunca densa.",
+          "audioname": "Jacaranda_audio_descripcion_2",
+          "imagename": "Jacaranda_image_2"
+        }
+      ]
+    },
+    {
+      "specieId": "10000002",
+      "id": 30,
+      "name": "Guayacán",
+      "family": "Zygophyllaceae",
+      "gallery": [
+        {
+          "mongoId": "20000004",
+          "id": 72,
+          "description": "El Guayacan pueden recibir el nombre de palo santo o de palo de hierro debido a su dura madera.",
+          "audioname": "Guayacana_audio_descripcion_0",
+          "imagename": "Guayacan_image_0"
+        },
+        {
+          "mongoId": "20000005",
+          "id": 73,
+          "description": "Son árboles autóctonos del Caribe y de la costa norte de América del Sur.",
+          "audioname": "Guayacan_audio_descripcion_1",
+          "imagename": "Guayacan_image_1"
+        },
+        {
+          "mongoId": "20000006",
+          "id": 74,
+          "description": "El árbol es de crecimiento lento y de altura relativamente pequeña, incluso cuando es maduro y viejo. Tiene flores pequeñas de color azul violáceo.",
+          "audioname": "Guayacan_audio_descripcion_2",
+          "imagename": "Guayacan_image_2"
+        }
+      ]
+    },
+    {
+      "specieId": "10000003",
+      "id": 31,
+      "name": "Laurel De Judea",
+      "family": "Apocynaceae",
+      "gallery": [
+        {
+          "mongoId": "20000007",
+          "id": 75,
+          "description": "Originariamente se encontraba como planta nativa en una amplia zona que cubría las riberas de la cuenca del mar Mediterráneo hasta China, Vietnam.",
+          "audioname": "LaurelDeJudea_audio_descripcion_0",
+          "imagename": "LaurelDeJudea_image_0"
+        },
+        {
+          "mongoId": "20000008",
+          "id": 76,
+          "description": "Se ha difundido ampliamente por todas las zonas con clima propicio como planta ornamental.",
+          "audioname": "LaurelDeJudea_audio_descripcion_1",
+          "imagename": "LaurelDeJudea_image_1"
+        },
+        {
+          "mongoId": "20000009",
+          "id": 77,
+          "description": "Contiene varios compuestos tóxicos, e históricamente se ha considerado una planta venenosa, su amargura lo hace desagradable para los humanos y la mayoría de los animales.",
+          "audioname": "LaurelDeJudea_audio_descripcion_2",
+          "imagename": "LaurelDeJudea_image_2"
+        }
+      ]
+    },
+    {
+      "specieId": "10000004",
+      "id": 32,
+      "name": "Oso Perezoso",
+      "family": "Choloepodidae",
+      "gallery": [
+        {
+          "mongoId": "20000010",
+          "id": 78,
+          "description": "Es un animal solitario, nocturno y arborícola que habita en la selva y en los bosques.",
+          "audioname": "OsoPerezoso_audio_descripcion_0",
+          "imagename": "OsoPerezoso_image_0"
+        },
+        {
+          "mongoId": "20000011",
+          "id": 79,
+          "description": "Con su peluda piel, grandes garras y movimientos deliberados, los perezosos de dos dedos no se confunden con ningún otro animal.",
+          "audioname": "OsoPerezoso_audio_descripcion_1",
+          "imagename": "OsoPerezoso_image_1"
+        },
+        {
+          "mongoId": "20000012",
+          "id": 80,
+          "description": "Estos animales, de 5 a 7 kg y de aproximadamente 60 cm de largo.",
+          "audioname": "OsoPerezoso_audio_descripcion_2",
+          "imagename": "OsoPerezoso_image_2"
+        }
+      ]
+    },
+    {
+      "specieId": "10000005",
+      "id": 33,
+      "name": "Venado Cola Blanca",
+      "family": "Cervidae",
+      "gallery": [
+        {
+          "mongoId": "20000013",
+          "id": 81,
+          "description": "El venado de cola blanca es rumiante y herbívoro. Busca entre la vegetación para consumir hojas, brotes, frutos y semillas, así como setas.",
+          "audioname": "VenadoColaBlanca_audio_descripcion_0",
+          "imagename": "VenadoColaBlanca_image_0"
+        },
+        {
+          "mongoId": "20000014",
+          "id": 82,
+          "description": "Los machos presentan cornamentas ramificadas e inclinadas hacia atrás, que de adultos y según la edad alcanzan entre 8 y 64 cm.",
+          "audioname": "VenadoColaBlanca_audio_descripcion_1",
+          "imagename": "VenadoColaBlanca_image_1"
+        },
+        {
+          "mongoId": "20000015",
+          "id": 83,
+          "description": "La punta de la cola es blanca, lo que le sirve para batirla como señal de alarma.",
+          "audioname": "VenadoColaBlanca_audio_descripcion_2",
+          "imagename": "VenadoColaBlanca_image_2"
+        }
+      ]
+    },
+    {
+      "specieId": "10000006",
+      "id": 34,
+      "name": "Zorra Pampera",
+      "family": "Canidae",
+      "gallery": [
+        {
+          "mongoId": "20000016",
+          "id": 84,
+          "description": "Este es un cánido de color pálido agutí y su cola presenta la punta negra.",
+          "audioname": "ZorraPampera_audio_descripcion_0",
+          "imagename": "ZorraPampera_image_0"
+        },
+        {
+          "mongoId": "20000017",
+          "id": 85,
+          "description": " La cabeza es pequeña, con las orejas relativamente largas y un hocico corto. El rostro es gris, con un anillo marrón rojizo alrededor de los ojos.",
+          "audioname": "ZorraPampera_audio_descripcion_1",
+          "imagename": "ZorraPampera_image_1"
+        },
+        {
+          "mongoId": "20000018",
+          "id": 86,
+          "description": "El rango principal de la especie se extiende desde el suroeste y sur del Ecuador, al sur, a través de las tierras bajas costeras del Perú, hasta el norte de Lima.",
+          "audioname": "ZorraPampera_audio_descripcion_2",
+          "imagename": "ZorraPampera_image_2"
+        }
       ]
     }
   ]

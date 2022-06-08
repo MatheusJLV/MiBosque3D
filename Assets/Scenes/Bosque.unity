@@ -8030,6 +8030,7 @@ MonoBehaviour:
   incorrect: {fileID: 8300000, guid: 5b9cbc4eb17cc9746a6ecfafca6873ac, type: 3}
   joystick: {fileID: 1686677600}
   mochila: {fileID: 1104053941}
+  actionLogger: {fileID: 0}
 --- !u!65 &236006163
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9561,7 +9562,7 @@ PrefabInstance:
     - target: {fileID: 6097932862691986564, guid: 351d0a042c2cde7458e005f08f9b501d,
         type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6097932862691986564, guid: 351d0a042c2cde7458e005f08f9b501d,
         type: 3}
@@ -9881,6 +9882,7 @@ MonoBehaviour:
   incorrect: {fileID: 8300000, guid: 5b9cbc4eb17cc9746a6ecfafca6873ac, type: 3}
   joystick: {fileID: 1686677600}
   mochila: {fileID: 1104053941}
+  actionLogger: {fileID: 0}
 --- !u!65 &306143556
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10695,6 +10697,7 @@ MonoBehaviour:
   incorrect: {fileID: 8300000, guid: 5b9cbc4eb17cc9746a6ecfafca6873ac, type: 3}
   joystick: {fileID: 1686677600}
   mochila: {fileID: 0}
+  actionLogger: {fileID: 0}
 --- !u!65 &341689739
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18675,7 +18678,7 @@ PrefabInstance:
     - target: {fileID: 1825904008756244943, guid: e76695813cf395545a5c4905eb81cfd0,
         type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 1825904008756244943, guid: e76695813cf395545a5c4905eb81cfd0,
         type: 3}
@@ -26636,7 +26639,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &817800990
 PrefabInstance:
@@ -31691,6 +31694,7 @@ MonoBehaviour:
   incorrect: {fileID: 8300000, guid: 5b9cbc4eb17cc9746a6ecfafca6873ac, type: 3}
   joystick: {fileID: 1686677600}
   mochila: {fileID: 1104053941}
+  actionLogger: {fileID: 0}
 --- !u!65 &952064699
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -50962,6 +50966,7 @@ MonoBehaviour:
   incorrect: {fileID: 8300000, guid: 5b9cbc4eb17cc9746a6ecfafca6873ac, type: 3}
   joystick: {fileID: 1686677600}
   mochila: {fileID: 1104053941}
+  actionLogger: {fileID: 0}
 --- !u!65 &1287707584
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -74931,7 +74936,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4735558836899302, guid: dcb57a39eb663064992609bd9e793ebe, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4735558836899302, guid: dcb57a39eb663064992609bd9e793ebe, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -83487,7 +83492,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1882015007
 GameObject:
@@ -84392,7 +84397,7 @@ Transform:
   - {fileID: 255878921}
   - {fileID: 1646051134}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1908961187
 GameObject:
@@ -88527,6 +88532,7 @@ MonoBehaviour:
   incorrect: {fileID: 8300000, guid: 5b9cbc4eb17cc9746a6ecfafca6873ac, type: 3}
   joystick: {fileID: 1686677600}
   mochila: {fileID: 1104053941}
+  actionLogger: {fileID: 0}
 --- !u!114 &2098440841
 MonoBehaviour:
   m_ObjectHideFlags: 0

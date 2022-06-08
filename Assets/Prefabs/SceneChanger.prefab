@@ -243,3 +243,4 @@ MonoBehaviour:
   LoadingScreen: {fileID: 0}
   slider: {fileID: 0}
   progressText: {fileID: 0}
+  actionLogger: {fileID: 0}
