@@ -544,21 +544,21 @@
       "gallery": [
         {
           "mongoId": "20000001",
-          "id": 69,
+          "id": 94,
           "description": "Jacaranda es un árbol subtropical de Sudamérica ampliamente cultivado por sus vistosas y duraderas flores violetas.",
           "audioname": "Jacaranda_audio_descripcion_0",
           "imagename": "Jacaranda_image_0"
         },
         {
           "mongoId": "20000002",
-          "id": 70,
+          "id": 95,
           "description": "El árbol adulto alcanza una altura de 12 a 15 metros,5​ hasta 20 metros en condiciones favorables.",
           "audioname": "Jacaranda_audio_descripcion_1",
           "imagename": "Jacaranda_image_1"
         },
         {
           "mongoId": "20000003",
-          "id": 71,
+          "id": 96,
           "description": "La copa del jacarandá no tiene una forma uniforme: algunas veces en forma de una sombrilla, algunas veces de forma piramidal, pero nunca densa.",
           "audioname": "Jacaranda_audio_descripcion_2",
           "imagename": "Jacaranda_image_2"
@@ -567,27 +567,27 @@
     },
     {
       "specieId": "10000002",
-      "id": 30,
+      "id": 97,
       "name": "Guayacán",
       "family": "Zygophyllaceae",
       "gallery": [
         {
           "mongoId": "20000004",
-          "id": 72,
+          "id": 97,
           "description": "El Guayacan pueden recibir el nombre de palo santo o de palo de hierro debido a su dura madera.",
           "audioname": "Guayacana_audio_descripcion_0",
           "imagename": "Guayacan_image_0"
         },
         {
           "mongoId": "20000005",
-          "id": 73,
+          "id": 98,
           "description": "Son árboles autóctonos del Caribe y de la costa norte de América del Sur.",
           "audioname": "Guayacan_audio_descripcion_1",
           "imagename": "Guayacan_image_1"
         },
         {
           "mongoId": "20000006",
-          "id": 74,
+          "id": 99,
           "description": "El árbol es de crecimiento lento y de altura relativamente pequeña, incluso cuando es maduro y viejo. Tiene flores pequeñas de color azul violáceo.",
           "audioname": "Guayacan_audio_descripcion_2",
           "imagename": "Guayacan_image_2"
@@ -602,21 +602,21 @@
       "gallery": [
         {
           "mongoId": "20000007",
-          "id": 75,
+          "id": 100,
           "description": "Originariamente se encontraba como planta nativa en una amplia zona que cubría las riberas de la cuenca del mar Mediterráneo hasta China, Vietnam.",
           "audioname": "LaurelDeJudea_audio_descripcion_0",
           "imagename": "LaurelDeJudea_image_0"
         },
         {
           "mongoId": "20000008",
-          "id": 76,
+          "id": 101,
           "description": "Se ha difundido ampliamente por todas las zonas con clima propicio como planta ornamental.",
           "audioname": "LaurelDeJudea_audio_descripcion_1",
           "imagename": "LaurelDeJudea_image_1"
         },
         {
           "mongoId": "20000009",
-          "id": 77,
+          "id": 102,
           "description": "Contiene varios compuestos tóxicos, e históricamente se ha considerado una planta venenosa, su amargura lo hace desagradable para los humanos y la mayoría de los animales.",
           "audioname": "LaurelDeJudea_audio_descripcion_2",
           "imagename": "LaurelDeJudea_image_2"
@@ -631,21 +631,21 @@
       "gallery": [
         {
           "mongoId": "20000010",
-          "id": 78,
+          "id": 103,
           "description": "Es un animal solitario, nocturno y arborícola que habita en la selva y en los bosques.",
           "audioname": "OsoPerezoso_audio_descripcion_0",
           "imagename": "OsoPerezoso_image_0"
         },
         {
           "mongoId": "20000011",
-          "id": 79,
+          "id": 104,
           "description": "Con su peluda piel, grandes garras y movimientos deliberados, los perezosos de dos dedos no se confunden con ningún otro animal.",
           "audioname": "OsoPerezoso_audio_descripcion_1",
           "imagename": "OsoPerezoso_image_1"
         },
         {
           "mongoId": "20000012",
-          "id": 80,
+          "id": 105,
           "description": "Estos animales, de 5 a 7 kg y de aproximadamente 60 cm de largo.",
           "audioname": "OsoPerezoso_audio_descripcion_2",
           "imagename": "OsoPerezoso_image_2"
@@ -660,21 +660,21 @@
       "gallery": [
         {
           "mongoId": "20000013",
-          "id": 81,
+          "id": 106,
           "description": "El venado de cola blanca es rumiante y herbívoro. Busca entre la vegetación para consumir hojas, brotes, frutos y semillas, así como setas.",
           "audioname": "VenadoColaBlanca_audio_descripcion_0",
           "imagename": "VenadoColaBlanca_image_0"
         },
         {
           "mongoId": "20000014",
-          "id": 82,
+          "id": 107,
           "description": "Los machos presentan cornamentas ramificadas e inclinadas hacia atrás, que de adultos y según la edad alcanzan entre 8 y 64 cm.",
           "audioname": "VenadoColaBlanca_audio_descripcion_1",
           "imagename": "VenadoColaBlanca_image_1"
         },
         {
           "mongoId": "20000015",
-          "id": 83,
+          "id": 108,
           "description": "La punta de la cola es blanca, lo que le sirve para batirla como señal de alarma.",
           "audioname": "VenadoColaBlanca_audio_descripcion_2",
           "imagename": "VenadoColaBlanca_image_2"
@@ -689,21 +689,21 @@
       "gallery": [
         {
           "mongoId": "20000016",
-          "id": 84,
+          "id": 109,
           "description": "Este es un cánido de color pálido agutí y su cola presenta la punta negra.",
           "audioname": "ZorraPampera_audio_descripcion_0",
           "imagename": "ZorraPampera_image_0"
         },
         {
           "mongoId": "20000017",
-          "id": 85,
+          "id": 110,
           "description": " La cabeza es pequeña, con las orejas relativamente largas y un hocico corto. El rostro es gris, con un anillo marrón rojizo alrededor de los ojos.",
           "audioname": "ZorraPampera_audio_descripcion_1",
           "imagename": "ZorraPampera_image_1"
         },
         {
           "mongoId": "20000018",
-          "id": 86,
+          "id": 111,
           "description": "El rango principal de la especie se extiende desde el suroeste y sur del Ecuador, al sur, a través de las tierras bajas costeras del Perú, hasta el norte de Lima.",
           "audioname": "ZorraPampera_audio_descripcion_2",
           "imagename": "ZorraPampera_image_2"
