@@ -257,7 +257,7 @@ public class ShowMochila : MonoBehaviour
             }
             else
             {
-                pregunta.transform.GetChild(1).GetComponent<UnityEngine.UI.Text>().text = "???????????";
+                pregunta.transform.GetChild(1).GetComponent<UnityEngine.UI.Text>().text = "- Pregunta no desbloqueada -";
                 questionsDict.Add(question.ChallengeID, (question, pregunta, "block"));
             }
 

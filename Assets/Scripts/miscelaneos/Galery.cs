@@ -28,7 +28,7 @@ public class Galery : MonoBehaviour
     public VideoClip[] clips; 
    // public GameObject videoPlayer;
 
-    public string[] especies = new string[] { "Teca", "Ceibo", "Bototillo", "Pechiche", "Guasmo", "Fernan Sánchez", "Iguana", "Ardilla", "Momoto Gritón", "Pinzón Sabanero", "Gavilán Gris", "Garrapatero Piquiestriado", "Tangara Azul y Gris", "Búho Blanquinegro", "Garcilla Estriada", "Tirano Tropical", "Mosquero Rayado", "Jacaranda", "Guayacán", "Laurel De Judea", "Oso Perezoso", "Venado Cola Blanca", "Zorra Pampera" };
+    public string[] especies = new string[] { "Teca", "Ceibo", "Bototillo", "Pechiche", "Guasmo", "Fernan Sánchez", "Iguana", "Ardilla de Guayaquil", "Momoto Gritón", "Pinzón Sabanero", "Gavilán Gris", "Garrapatero Piquiestriado", "Tangara Azul y Gris", "Búho Blanquinegro", "Garcilla Estriada", "Tirano Tropical", "Mosquero Rayado", "Jacaranda", "Guayacán", "Laurel De Judea", "Oso Perezoso", "Venado Cola Blanca", "Zorra Pampera" };
 
     private Arbol tree = null;
     public bool visible;

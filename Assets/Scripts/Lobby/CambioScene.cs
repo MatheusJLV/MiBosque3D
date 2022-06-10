@@ -22,7 +22,10 @@ public class CambioScene : MonoBehaviour
         }
     }
 
-
+    public void trig()
+    {
+        SceneManager.LoadScene("Mapa");
+    }
     public IEnumerator OnFadeComplete()
     {
         AsyncOperation operation;
