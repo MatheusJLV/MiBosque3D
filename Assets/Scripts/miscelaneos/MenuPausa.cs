@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityStandardAssets.Characters.FirstPerson;
 using UnityEngine.SceneManagement;
 using UnityEngine.Audio;
-
+using System;
 
 public class MenuPausa : MonoBehaviour
 {
@@ -100,7 +100,15 @@ public class MenuPausa : MonoBehaviour
         IsPaused = false;
         MenuPausaUI.SetActive(false);
         Panel.SetActive(true);
-        actionLogger.GetComponent<ActionLogger>().actionLogger.jugando = true;
+        try
+        {
+            actionLogger.GetComponent<ActionLogger>().actionLogger.jugando = true;
+        }
+        catch (System.Exception e)
+        {
+            Debug.Log("error en "+e.Message);
+        }
+        
     }
 
     public void PauseGame()
@@ -115,8 +123,16 @@ public class MenuPausa : MonoBehaviour
         IsPaused = true;
         Time.timeScale = 0f;
         cameraBlocker.enabled=true;
-        actionLogger.GetComponent<ActionLogger>().actionLogger.jugando = false;
-        actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Pause Game", actionLogger.GetComponent<ActionLogger>().actionLogger.locacion);
+        try
+        {
+            actionLogger.GetComponent<ActionLogger>().actionLogger.jugando = false;
+            actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Pause Game", actionLogger.GetComponent<ActionLogger>().actionLogger.locacion);
+        }
+        catch (Exception e)
+        {
+            Debug.Log("no se capto AC: " + e.Message);
+        }
+        
     }
 
     public void MenuMapa()

@@ -297,7 +297,7 @@ public class LogrosGlobales : MonoBehaviour
         else
         {
             requisitosBlo = new List<string>() { };
-            requisitosComp = new List<string>() { "Iguana", "Ardilla", "Pechiche" };
+            requisitosComp = new List<string>() { "Iguana", "Ardilla de Guayaquil", "Pechiche" };
             requisitosHechos = new List<string>() { };
             reqEstaciones = new List<int>() { 1, 2 };
             mision = new Mision("Encuentra las especies", "Incompleta", requisitosBlo, requisitosComp, requisitosHechos, reqEstaciones, "Muestra iniciativa buscando las especies solicitadas" +
@@ -439,7 +439,7 @@ public class LogrosGlobales : MonoBehaviour
         else
         {
             requisitosBlo = new List<string>();
-            requisitosComp = new List<string>() { "Ardilla","Iguana", "Pinzón Sabanero", "Tangara Azul y Gris", "Tirano Tropical"};
+            requisitosComp = new List<string>() { "Ardilla de Guayaquil", "Iguana", "Pinzón Sabanero", "Tangara Azul y Gris", "Tirano Tropical", "Venado Cola Blanca", "Oso Perezoso", "Zorra Pampera" };
             requisitosHechos = new List<string>() { };
             reqEstaciones = new List<int>() { 6 };
 
@@ -462,7 +462,7 @@ public class LogrosGlobales : MonoBehaviour
         else
         {
             requisitosBlo = new List<string>();
-            requisitosComp = new List<string>() { "Pechiche", "PaloSanto", "Bototillo", "Guasmo", "Fernan Sánchez", "Ceibo" };
+            requisitosComp = new List<string>() { "Pechiche", "PaloSanto", "Bototillo", "Guasmo", "Fernan Sánchez", "Ceibo", "Laurel De Judea", "Guayacán", "Jacaranda" };
             requisitosHechos = new List<string>() { };
             reqEstaciones = new List<int>() { 3 };
 
@@ -507,12 +507,12 @@ public class LogrosGlobales : MonoBehaviour
 
 
 
-        Logro = new LogroRepetible("Guardian de la Fauna", "Conociste todos los animales ", -4, 1, imageFauna);
+        Logro = new LogroRepetible("Guardian de la Fauna", "Conociste todos los animales ", -7, 1, imageFauna);
         logros.Add(Logro);
         if (playerCtrl.GetComponent<Player>().playerData.logros[6] != "")
         { ProgresarLogro(6, playerCtrl.GetComponent<Player>().playerData.logros[6]); }
         //Debug.Log(Logro.descripcion);
-        Logro = new LogroRepetible("Guardian de la Flora", "Conociste todas las plantas ", -5, 1, imageFlora);
+        Logro = new LogroRepetible("Guardian de la Flora", "Conociste todas las plantas ", -8, 1, imageFlora);
         logros.Add(Logro);
         if (playerCtrl.GetComponent<Player>().playerData.logros[7] != "")
         { ProgresarLogro(7, playerCtrl.GetComponent<Player>().playerData.logros[7]); }

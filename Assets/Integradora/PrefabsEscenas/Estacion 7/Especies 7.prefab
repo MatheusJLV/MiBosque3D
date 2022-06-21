@@ -39,7 +39,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Panel: {fileID: 0}
   Galeria: {fileID: 0}
-  GaleryScript: {fileID: 0}
   Panel3: {fileID: 0}
   CuadroChallengeDos: {fileID: 0}
   isAnimal: 0
@@ -48,7 +47,45 @@ MonoBehaviour:
   logroSist: {fileID: 0}
   fpscontroller: {fileID: 0}
   canvasJoy: {fileID: 0}
+  actionLogger: {fileID: 0}
   specieName: Pechiche
+--- !u!65 &2042378233814865574
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2042378233120030601}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.1, y: 0.1, z: 0.1}
+  m_Center: {x: 0, y: 0.05, z: 0}
+--- !u!114 &2042378233814865573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2042378233120030601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2eff6caf771f9d040b9d3781138f7219, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Panel: {fileID: 0}
+  Galeria: {fileID: 0}
+  Panel3: {fileID: 0}
+  CuadroChallengeDos: {fileID: 0}
+  isAnimal: 1
+  isPlant: 0
+  isKnown: 0
+  logroSist: {fileID: 0}
+  fpscontroller: {fileID: 0}
+  canvasJoy: {fileID: 0}
+  actionLogger: {fileID: 0}
+  specieName: "Pinz\xF3n Sabanero"
 --- !u!1 &2042378233306251098
 GameObject:
   m_ObjectHideFlags: 0
@@ -205,43 +242,6 @@ TextMesh:
   m_Color:
     serializedVersion: 2
     rgba: 4294967295
---- !u!65 &2042378233814865574
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2042378233120030601}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.1, y: 0.1, z: 0.1}
-  m_Center: {x: 0, y: 0.05, z: 0}
---- !u!114 &2042378233814865573
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2042378233120030601}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2eff6caf771f9d040b9d3781138f7219, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Panel: {fileID: 0}
-  Galeria: {fileID: 0}
-  GaleryScript: {fileID: 0}
-  Panel3: {fileID: 0}
-  CuadroChallengeDos: {fileID: 0}
-  isAnimal: 1
-  isPlant: 0
-  isKnown: 0
-  logroSist: {fileID: 0}
-  fpscontroller: {fileID: 0}
-  canvasJoy: {fileID: 0}
-  specieName: "Cabez\xF3n Unicolor"
 --- !u!1 &2042378234064768424
 GameObject:
   m_ObjectHideFlags: 0
@@ -745,7 +745,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100122, guid: cfade936808e440439bff42525f9f2aa, type: 3}
       propertyPath: m_Name
-      value: "Cabez\xF3n Unicolor"
+      value: "Cabez\xF3n Unicolor (provicional)"
       objectReference: {fileID: 0}
     - target: {fileID: 100122, guid: cfade936808e440439bff42525f9f2aa, type: 3}
       propertyPath: m_Layer
@@ -757,7 +757,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100122, guid: cfade936808e440439bff42525f9f2aa, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: cfade936808e440439bff42525f9f2aa, type: 3}
       propertyPath: m_Layer
@@ -1257,31 +1257,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400122, guid: cfade936808e440439bff42525f9f2aa, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.63
+      value: -0.23
       objectReference: {fileID: 0}
     - target: {fileID: 400122, guid: cfade936808e440439bff42525f9f2aa, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.84
+      value: 3.83
       objectReference: {fileID: 0}
     - target: {fileID: 400122, guid: cfade936808e440439bff42525f9f2aa, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.29
+      value: 0.31
       objectReference: {fileID: 0}
     - target: {fileID: 400122, guid: cfade936808e440439bff42525f9f2aa, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0.0000000030844471
       objectReference: {fileID: 0}
     - target: {fileID: 400122, guid: cfade936808e440439bff42525f9f2aa, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.00000008940697
+      value: 0.5109114
       objectReference: {fileID: 0}
     - target: {fileID: 400122, guid: cfade936808e440439bff42525f9f2aa, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0.0000000022307571
       objectReference: {fileID: 0}
     - target: {fileID: 400122, guid: cfade936808e440439bff42525f9f2aa, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -1
+      value: -0.8596333
       objectReference: {fileID: 0}
     - target: {fileID: 400122, guid: cfade936808e440439bff42525f9f2aa, type: 3}
       propertyPath: m_RootOrder
@@ -1289,19 +1289,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400122, guid: cfade936808e440439bff42525f9f2aa, type: 3}
       propertyPath: m_LocalScale.x
-      value: 25
+      value: 21.913658
       objectReference: {fileID: 0}
     - target: {fileID: 400122, guid: cfade936808e440439bff42525f9f2aa, type: 3}
       propertyPath: m_LocalScale.y
-      value: 25
+      value: 21.913658
       objectReference: {fileID: 0}
     - target: {fileID: 400122, guid: cfade936808e440439bff42525f9f2aa, type: 3}
       propertyPath: m_LocalScale.z
-      value: 25
+      value: 21.913658
       objectReference: {fileID: 0}
     - target: {fileID: 400122, guid: cfade936808e440439bff42525f9f2aa, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -60
+      value: -61.449
       objectReference: {fileID: 0}
     - target: {fileID: 13700000, guid: cfade936808e440439bff42525f9f2aa, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -1483,21 +1483,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2042832942880010984}
     m_Modifications:
-    - target: {fileID: -927199367670048503, guid: dfb762e456f3ec5429b81692f3abe15a,
-        type: 3}
-      propertyPath: m_Name
-      value: PechicheA
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: dfb762e456f3ec5429b81692f3abe15a,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: dfb762e456f3ec5429b81692f3abe15a,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: dfb762e456f3ec5429b81692f3abe15a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1551,6 +1536,21 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: dfb762e456f3ec5429b81692f3abe15a,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: dfb762e456f3ec5429b81692f3abe15a,
+        type: 3}
+      propertyPath: m_Name
+      value: PechicheA
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: dfb762e456f3ec5429b81692f3abe15a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: dfb762e456f3ec5429b81692f3abe15a,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4147710384720422388, guid: dfb762e456f3ec5429b81692f3abe15a,
