@@ -23,6 +23,8 @@ public class ClickMouse : MonoBehaviour
     public GameObject canvasJoy = null;
     public GameObject actionLogger;
 
+    private GameObject puntero;
+
     private bool tempResult;
 
 
@@ -37,6 +39,7 @@ public class ClickMouse : MonoBehaviour
     }
     void Start()
     {
+        puntero = GameObject.Find("Crosshair/Image");
         actionLogger = GameObject.Find("ActionLogger");
         tempResult = false;
         cameraBlocker = ConstantObjects.instance.cameraBlocker;
@@ -44,7 +47,14 @@ public class ClickMouse : MonoBehaviour
         Panel.SetActive(false);
         isKnown = false;
     }
-
+    private void OnMouseEnter()
+    {
+        puntero.GetComponent<Puntero>().puntero();
+    }
+    private void OnMouseExit()
+    {
+        puntero.GetComponent<Puntero>().mira();
+    }
     public void ShowGallery()
     {
         Debug.Log("**********************en el show galery ");
