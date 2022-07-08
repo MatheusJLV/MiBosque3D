@@ -10,11 +10,40 @@ public class PickTrash : MonoBehaviour
     public GameObject feedback;
     public Text msj;
 
+    public GameObject jugador;
+
+    float timeElapsed =0;
+    float lerpDuration = 1f;
+    Vector3 startValue;
+    Vector3 endValue;
+    bool movimiento = false;
+    void Update()
+    {
+        if(movimiento)
+        {
+            if (timeElapsed < lerpDuration)
+            {
+                this.transform.position = Vector3.Lerp(startValue, endValue, timeElapsed / lerpDuration);
+                timeElapsed += Time.deltaTime;
+            }
+            if (timeElapsed >= lerpDuration)
+            {
+                movimiento = false;
+                StartCoroutine(Picking());
+            }
+        }
+    }
+
     private void OnMouseDown()
     {
         if(activate && !(MenuPausa.IsPaused || MenuPausa.IsPausedByOtherCanvas))
-            StartCoroutine(Picking());
+        {
+            startValue = this.transform.position;
+            endValue=jugador.transform.position + new Vector3(0,-5,0);
+            Destroy(this.gameObject.GetComponent<BoxCollider>());
+            movimiento = true;
             activate=false;
+        }
     }
 
 
@@ -23,7 +52,7 @@ public class PickTrash : MonoBehaviour
         msj.text = "Has recogido una basura. Revisa tu mochila ";
         feedback.SetActive(true);
         GameManager.instance.mochila.TestAddAcc(id);
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(1f);
         feedback.SetActive(false);
         this.gameObject.SetActive(false);
     }
