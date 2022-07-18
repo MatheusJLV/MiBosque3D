@@ -20,12 +20,23 @@ public class GetBucket : MonoBehaviour
     Vector3 endValue;
     bool movimiento = false;
 
+    private MouseController mouseController;
+    private Collider cameraBlocker;
+    private void Start()
+    {
+        mouseController = ConstantObjects.instance.mouseController;
+        cameraBlocker = ConstantObjects.instance.cameraBlocker;
+    }
+
     void Update()
     {
         if (movimiento)
         {
             if (timeElapsed < lerpDuration)
             {
+                mouseController.enabled = false;
+                cameraBlocker.enabled = true;
+                MenuPausa.instance.Pausar();
                 this.transform.position = Vector3.Lerp(startValue, endValue, timeElapsed / lerpDuration);
                 timeElapsed += Time.deltaTime;
             }
@@ -33,6 +44,9 @@ public class GetBucket : MonoBehaviour
             {
                 movimiento = false;
                 this.transform.SetParent(holding.transform);
+                mouseController.enabled = true;
+                cameraBlocker.enabled = false;
+                MenuPausa.instance.Reanudar();
                 //StartCoroutine(Picking());
             }
         }
@@ -43,7 +57,7 @@ public class GetBucket : MonoBehaviour
         if (time.text != "0" && !(MenuPausa.IsPaused || MenuPausa.IsPausedByOtherCanvas))
         {
             startValue = this.transform.position;
-            endValue = jugador.transform.position - 0.25f*(jugador.transform.position-this.transform.position) ;
+            endValue = jugador.transform.position - 0.25f*(jugador.transform.position-this.transform.position) + new Vector3(0,-2.5f,0);
             movimiento = true;
             panelbalde.SetActive(true);
             recordatorio.text = "Busca agua, ¡escucha a tu alrededor!";

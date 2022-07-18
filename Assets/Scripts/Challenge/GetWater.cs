@@ -9,11 +9,13 @@ public class GetWater : MonoBehaviour
     public GameObject panelbalde;
     public Text time;
     public Text recordatorio;
+    public GameObject agua;
 
     private void OnMouseDown()
     {
         if (time.text != "0" && (panelbalde.activeSelf==true) && !(MenuPausa.IsPaused || MenuPausa.IsPausedByOtherCanvas))
         {
+            agua.SetActive(true);
             panelbalde.SetActive(false);
             recordatorio.text = "Rápido, corre a la fogata y apágala!";
             panelwater.SetActive(true);

@@ -22,6 +22,8 @@ public class WaterVerification : MonoBehaviour
     public AudioScript clockSound;
     private Collider cameraBlocker;
     public GameObject CanvasJoysticks;
+    public GameObject balde;
+
     private void Awake() {
         cameraBlocker = GameObject.FindGameObjectWithTag("Blocker").GetComponent<Collider>();
         
@@ -99,6 +101,7 @@ public class WaterVerification : MonoBehaviour
 
             if (panelwater.activeSelf)
             {
+                balde.SetActive(false);
                 Debug.Log("Entro con agua");
                 contador.text = "0";
                 clockSound.detener();

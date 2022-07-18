@@ -709,6 +709,122 @@
           "imagename": "ZorraPampera_image_2"
         }
       ]
+    },
+    {
+      "specieId": "10000007",
+      "id": 35,
+      "name": "Mono Araña",
+      "family": "Atelidae",
+      "gallery": [
+        {
+          "mongoId": "20000019",
+          "id": 112,
+          "description": "El mono araña se alimenta de frutos e insectos. Habitan en bosques tropicales.",
+          "audioname": "MonoAraña_audio_descripcion_0",
+          "imagename": "MonoAraña_image_0"
+        },
+        {
+          "mongoId": "20000020",
+          "id": 113,
+          "description": " El nombre Ateles hace referencia a la ausencia de un pulgar oponible en las especies del género",
+          "audioname": "MonoAraña_audio_descripcion_1",
+          "imagename": "MonoAraña_image_1"
+        },
+        {
+          "mongoId": "20000021",
+          "id": 114,
+          "description": "Según la especie, su cuerpo mide de 65 a 90 cm de longitud, y la cola prensil de 60 a 92 cm.",
+          "audioname": "MonoAraña_audio_descripcion_2",
+          "imagename": "MonoAraña_image_2"
+        }
+      ]
+    },
+    {
+      "specieId": "10000008",
+      "id": 36,
+      "name": "Mono Aullador",
+      "family": "Atelidae",
+      "gallery": [
+        {
+          "mongoId": "20000022",
+          "id": 115,
+          "description": "El mono aullador vive en la zona tropical, desde el sur de México, hasta el noreste de Argentina.",
+          "audioname": "MonoAullador_audio_descripcion_0",
+          "imagename": "MonoAullador_image_0"
+        },
+        {
+          "mongoId": "20000023",
+          "id": 116,
+          "description": "Posee pelaje más largo y de color blanco amarillento a los lados del cuerpo, dándole un aspecto de capa o manto.",
+          "audioname": "MonoAullador_audio_descripcion_1",
+          "imagename": "MonoAullador_image_1"
+        },
+        {
+          "mongoId": "20000024",
+          "id": 117,
+          "description": "Habita las zonas de selva, especialmente en las selvas de galería del Norte de la América del Sur.",
+          "audioname": "MonoAullador_audio_descripcion_2",
+          "imagename": "MonoAullador_image_2"
+        }
+      ]
+    },
+    {
+      "specieId": "10000009",
+      "id": 37,
+      "name": "Oso Hormiguero",
+      "family": "Chordata",
+      "gallery": [
+        {
+          "mongoId": "20000025",
+          "id": 118,
+          "description": "El cuerpo es robusto. Puede medir de 1,20 a 1,30 m de largo y la cola de 75 a 85 cm, y puede llegar a pesar hasta 40 kg.",
+          "audioname": "OsoHormiguero_audio_descripcion_0",
+          "imagename": "OsoHormiguero_image_0"
+        },
+        {
+          "mongoId": "20000026",
+          "id": 119,
+          "description": "A pesar de su nombre, no tienen ningún parentesco cercano con los osos.",
+          "audioname": "OsoHormiguero_audio_descripcion_1",
+          "imagename": "OsoHormiguero_image_1"
+        },
+        {
+          "mongoId": "20000027",
+          "id": 120,
+          "description": "Son animales mirmecófagos, esto es, que se alimentan de hormigas y termitas. Con sus fuertes uñas abren los hormigueros y termiteros, y con la larga y viscosa lengua capturan los insectos.",
+          "audioname": "OsoHormiguero_audio_descripcion_2",
+          "imagename": "OsoHormiguero_image_2"
+        }
+      ]
+    },
+    {
+      "specieId": "10000010",
+      "id": 38,
+      "name": "Loro Cara Roja",
+      "family": "Psittacidae",
+      "gallery": [
+        {
+          "mongoId": "20000028",
+          "id": 121,
+          "description": "Ave verde brillante, de entre 30 a 35 cm de longitud, cuya característica es su cara de color rojo intenso, y una línea roja en la curva de sus alas. Pico curvo, fuerte y ganchudo; cola larga y puntiaguda.",
+          "audioname": "LoroCaraRoja_audio_descripcion_0",
+          "imagename": "LoroCaraRoja_image_0"
+        },
+        {
+          "mongoId": "20000029",
+          "id": 122,
+          "description": "En sus primeros meses la cría no presenta la coloración rojiza en la cabeza, sino al cumplir el primer año de edad.",
+          "audioname": "LoroCaraRoja_audio_descripcion_1",
+          "imagename": "LoroCaraRoja_image_1"
+        },
+        {
+          "mongoId": "20000030",
+          "id": 123,
+          "description": "Tienen lengua gruesa y musculosa, utilizada con gran habilidad para romper semillas y granos.",
+          "audioname": "LoroCaraRoja_audio_descripcion_2",
+          "imagename": "LoroCaraRoja_image_2"
+        }
+      ]
     }
   ]
 }
