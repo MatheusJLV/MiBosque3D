@@ -5,7 +5,7 @@ ModelImporter:
   internalIDToNameTable:
   - first:
       74: -995601572915930915
-    second: ArmatureAnteater|AnteaterScratch
+    second: AntEaterAnim
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -45,7 +45,7 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: ArmatureAnteater|AnteaterScratch
+      name: AntEaterAnim
       takeName: ArmatureAnteater|AnteaterScratch
       internalID: -995601572915930915
       firstFrame: 0
@@ -56,7 +56,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0

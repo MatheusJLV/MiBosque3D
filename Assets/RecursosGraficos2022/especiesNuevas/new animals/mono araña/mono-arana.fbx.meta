@@ -5,7 +5,10 @@ ModelImporter:
   internalIDToNameTable:
   - first:
       74: 66460120012664317
-    second: RIG-Armature|RIG-ArmatureAction
+    second: SpiderMonkeyAnim
+  - first:
+      74: -6381688595562220928
+    second: SpiderMonkeyEatAnim
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -50,7 +53,7 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: RIG-Armature|RIG-ArmatureAction
+      name: SpiderMonkeyAnim
       takeName: RIG-Armature|RIG-ArmatureAction
       internalID: 66460120012664317
       firstFrame: 0
@@ -61,7 +64,36 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: SpiderMonkeyEatAnim
+      takeName: RIG-Armature|RIG-ArmatureAction
+      internalID: -6381688595562220928
+      firstFrame: 140
+      lastFrame: 153
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
