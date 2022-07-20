@@ -113,25 +113,29 @@ public class MenuPausa : MonoBehaviour
 
     public void PauseGame()
     {
-        PausedSnapshot.TransitionTo(fadeTime);
-        fpscontroller.enabled = false;
-        mouseController.enabled = false;
-        Cursor.lockState = CursorLockMode.None;
-        Cursor.visible = true;
-        MenuPausaUI.SetActive(true);
-        Panel.SetActive(false);
-        IsPaused = true;
-        Time.timeScale = 0f;
-        cameraBlocker.enabled=true;
-        try
+        if(!IsPausedByOtherCanvas)
         {
-            actionLogger.GetComponent<ActionLogger>().actionLogger.jugando = false;
-            actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Pause Game", actionLogger.GetComponent<ActionLogger>().actionLogger.locacion);
+            PausedSnapshot.TransitionTo(fadeTime);
+            fpscontroller.enabled = false;
+            mouseController.enabled = false;
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+            MenuPausaUI.SetActive(true);
+            Panel.SetActive(false);
+            IsPaused = true;
+            Time.timeScale = 0f;
+            cameraBlocker.enabled = true;
+            try
+            {
+                actionLogger.GetComponent<ActionLogger>().actionLogger.jugando = false;
+                actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Pause Game", actionLogger.GetComponent<ActionLogger>().actionLogger.locacion);
+            }
+            catch (Exception e)
+            {
+                Debug.Log("no se capto AC: " + e.Message);
+            }
         }
-        catch (Exception e)
-        {
-            Debug.Log("no se capto AC: " + e.Message);
-        }
+        
         
     }
 

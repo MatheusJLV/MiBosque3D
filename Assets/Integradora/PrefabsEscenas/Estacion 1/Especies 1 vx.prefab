@@ -766,9 +766,7 @@ GameObject:
   - component: {fileID: 3849507941720069686}
   - component: {fileID: 3036482787931091763}
   - component: {fileID: 2420739965808178319}
-  - component: {fileID: 8037127862473382428}
   - component: {fileID: 4140930397685789676}
-  - component: {fileID: 8281834775288682146}
   - component: {fileID: 6354503003447312618}
   - component: {fileID: 7002095300608479250}
   m_Layer: 10
@@ -851,8 +849,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3.4043984, y: 20, z: 3.3147523}
-  m_Center: {x: -0.099120796, y: 7, z: -0.14588547}
+  m_Size: {x: 0.22617626, y: 1.9770508, z: 4.601828}
+  m_Center: {x: -0.920914, y: 7.28508, z: 0.49765408}
 --- !u!65 &3036482787931091763
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -864,8 +862,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 5, y: 15, z: 4}
-  m_Center: {x: 0, y: 6, z: 0}
+  m_Size: {x: 2.7345974, y: 13.840851, z: 2.776852}
+  m_Center: {x: 0.039064243, y: 6.5795746, z: -0.010451129}
 --- !u!114 &2420739965808178319
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -880,19 +878,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 3
   semillasAnim: {fileID: 0}
---- !u!65 &8037127862473382428
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 499949287735791424}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 5, y: 15, z: 5}
-  m_Center: {x: 0, y: 7, z: 0}
 --- !u!122 &4140930397685789676
 Halo:
   m_ObjectHideFlags: 0
@@ -905,19 +890,6 @@ Halo:
     serializedVersion: 2
     rgba: 4286867037
   m_Size: 6.49
---- !u!65 &8281834775288682146
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 499949287735791424}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 5, y: 15, z: 5}
-  m_Center: {x: 0, y: 6, z: 0}
 --- !u!114 &6354503003447312618
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4061,11 +4033,8 @@ GameObject:
   - component: {fileID: 1703659855633320494}
   - component: {fileID: 6348713808974788197}
   - component: {fileID: 3995839750401040559}
-  - component: {fileID: 566554450938690757}
   - component: {fileID: 7883168692588965491}
-  - component: {fileID: 6625271790255965688}
   - component: {fileID: 1585319741692577314}
-  - component: {fileID: 948968541165030852}
   - component: {fileID: 4883114268250242228}
   - component: {fileID: 2936877821230567677}
   m_Layer: 10
@@ -4152,19 +4121,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 5, y: 20, z: 5}
   m_Center: {x: 0, y: 7, z: 0}
---- !u!65 &566554450938690757
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3585530630301356335}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 5, y: 15, z: 4}
-  m_Center: {x: 0, y: 6, z: 0}
 --- !u!114 &7883168692588965491
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4179,19 +4135,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 3
   semillasAnim: {fileID: 0}
---- !u!65 &6625271790255965688
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3585530630301356335}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 5, y: 15, z: 5}
-  m_Center: {x: 0, y: 7, z: 0}
 --- !u!122 &1585319741692577314
 Halo:
   m_ObjectHideFlags: 0
@@ -4204,19 +4147,6 @@ Halo:
     serializedVersion: 2
     rgba: 935510722
   m_Size: 10
---- !u!65 &948968541165030852
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3585530630301356335}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 3, y: 20, z: 5}
-  m_Center: {x: 0, y: 4, z: 0}
 --- !u!114 &4883114268250242228
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10104,11 +10034,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: zorra pampera eat
       objectReference: {fileID: 0}
-    - target: {fileID: -6057140222963153312, guid: 3626a984e9df42a4c9226b83ee4ca447,
-        type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 70ef13d0b4c3c75408fc3e95c50e2fc7, type: 2}
     - target: {fileID: -4216859302048453862, guid: 3626a984e9df42a4c9226b83ee4ca447,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10179,17 +10104,22 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.30000007
       objectReference: {fileID: 0}
+    - target: {fileID: -6057140222963153312, guid: 3626a984e9df42a4c9226b83ee4ca447,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 70ef13d0b4c3c75408fc3e95c50e2fc7, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3626a984e9df42a4c9226b83ee4ca447, type: 3}
---- !u!1 &7289931537059421908 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: 3626a984e9df42a4c9226b83ee4ca447,
-    type: 3}
-  m_PrefabInstance: {fileID: 1588335864194746333}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &6012397599939554503 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 3626a984e9df42a4c9226b83ee4ca447,
+    type: 3}
+  m_PrefabInstance: {fileID: 1588335864194746333}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7289931537059421908 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: 3626a984e9df42a4c9226b83ee4ca447,
     type: 3}
   m_PrefabInstance: {fileID: 1588335864194746333}
   m_PrefabAsset: {fileID: 0}
@@ -10213,7 +10143,7 @@ PrefabInstance:
     - target: {fileID: 1380024957955419468, guid: 1b0b825ee8b565948bdf8c58040ae639,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.476
+      value: 3.26
       objectReference: {fileID: 0}
     - target: {fileID: 1380024957955419468, guid: 1b0b825ee8b565948bdf8c58040ae639,
         type: 3}
@@ -10263,17 +10193,17 @@ PrefabInstance:
     - target: {fileID: 1380024957955419468, guid: 1b0b825ee8b565948bdf8c58040ae639,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.25082
+      value: 0.44570714
       objectReference: {fileID: 0}
     - target: {fileID: 1380024957955419468, guid: 1b0b825ee8b565948bdf8c58040ae639,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.25082
+      value: 0.44570714
       objectReference: {fileID: 0}
     - target: {fileID: 1380024957955419468, guid: 1b0b825ee8b565948bdf8c58040ae639,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.25082
+      value: 0.44570714
       objectReference: {fileID: 0}
     - target: {fileID: 9055848944525869110, guid: 1b0b825ee8b565948bdf8c58040ae639,
         type: 3}
@@ -10300,11 +10230,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: zorra pampera excited
       objectReference: {fileID: 0}
-    - target: {fileID: -6057140222963153312, guid: 3626a984e9df42a4c9226b83ee4ca447,
-        type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 2d4d686d9f210ec46b9cc9ffe2148455, type: 2}
     - target: {fileID: -4216859302048453862, guid: 3626a984e9df42a4c9226b83ee4ca447,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10375,6 +10300,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.25
       objectReference: {fileID: 0}
+    - target: {fileID: -6057140222963153312, guid: 3626a984e9df42a4c9226b83ee4ca447,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 2d4d686d9f210ec46b9cc9ffe2148455, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3626a984e9df42a4c9226b83ee4ca447, type: 3}
 --- !u!1 &2347817974729107412 stripped
@@ -10401,11 +10331,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: zorra pampera idle
       objectReference: {fileID: 0}
-    - target: {fileID: -6057140222963153312, guid: 3626a984e9df42a4c9226b83ee4ca447,
-        type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 431589a1d7cc23f4a9e03e65ba01181f, type: 2}
     - target: {fileID: -4216859302048453862, guid: 3626a984e9df42a4c9226b83ee4ca447,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10476,17 +10401,22 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.3
       objectReference: {fileID: 0}
+    - target: {fileID: -6057140222963153312, guid: 3626a984e9df42a4c9226b83ee4ca447,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 431589a1d7cc23f4a9e03e65ba01181f, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3626a984e9df42a4c9226b83ee4ca447, type: 3}
---- !u!1 &3008639828047110002 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: 3626a984e9df42a4c9226b83ee4ca447,
-    type: 3}
-  m_PrefabInstance: {fileID: 6548577926983992955}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2277568119595724129 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 3626a984e9df42a4c9226b83ee4ca447,
+    type: 3}
+  m_PrefabInstance: {fileID: 6548577926983992955}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3008639828047110002 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: 3626a984e9df42a4c9226b83ee4ca447,
     type: 3}
   m_PrefabInstance: {fileID: 6548577926983992955}
   m_PrefabAsset: {fileID: 0}
@@ -10502,11 +10432,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: zorra pampera happy
       objectReference: {fileID: 0}
-    - target: {fileID: -6057140222963153312, guid: 3626a984e9df42a4c9226b83ee4ca447,
-        type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 372f0dc29cacf0848bdb25df35f457a7, type: 2}
     - target: {fileID: -4216859302048453862, guid: 3626a984e9df42a4c9226b83ee4ca447,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10577,6 +10502,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.30000013
       objectReference: {fileID: 0}
+    - target: {fileID: -6057140222963153312, guid: 3626a984e9df42a4c9226b83ee4ca447,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 372f0dc29cacf0848bdb25df35f457a7, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3626a984e9df42a4c9226b83ee4ca447, type: 3}
 --- !u!1 &3015825639564753621 stripped
@@ -10598,6 +10528,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 9189516431076983198}
     m_Modifications:
+    - target: {fileID: 597397722965732080, guid: 70c130088d99ed74e9cf473302f95f7c,
+        type: 3}
+      propertyPath: m_Name
+      value: perico cara roja 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4472421638178674915, guid: 70c130088d99ed74e9cf473302f95f7c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10668,11 +10603,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.36404002
       objectReference: {fileID: 0}
-    - target: {fileID: 597397722965732080, guid: 70c130088d99ed74e9cf473302f95f7c,
-        type: 3}
-      propertyPath: m_Name
-      value: perico cara roja 2
-      objectReference: {fileID: 0}
     - target: {fileID: 5808297756191471001, guid: 70c130088d99ed74e9cf473302f95f7c,
         type: 3}
       propertyPath: m_Controller
@@ -10693,6 +10623,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 9189516431076983198}
     m_Modifications:
+    - target: {fileID: 597397722965732080, guid: 70c130088d99ed74e9cf473302f95f7c,
+        type: 3}
+      propertyPath: m_Name
+      value: perico cara roja
+      objectReference: {fileID: 0}
     - target: {fileID: 4472421638178674915, guid: 70c130088d99ed74e9cf473302f95f7c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10751,22 +10686,17 @@ PrefabInstance:
     - target: {fileID: 4472421638178674915, guid: 70c130088d99ed74e9cf473302f95f7c,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.5707858
+      value: 0.7191901
       objectReference: {fileID: 0}
     - target: {fileID: 4472421638178674915, guid: 70c130088d99ed74e9cf473302f95f7c,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.5707858
+      value: 0.7191901
       objectReference: {fileID: 0}
     - target: {fileID: 4472421638178674915, guid: 70c130088d99ed74e9cf473302f95f7c,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.5707858
-      objectReference: {fileID: 0}
-    - target: {fileID: 597397722965732080, guid: 70c130088d99ed74e9cf473302f95f7c,
-        type: 3}
-      propertyPath: m_Name
-      value: perico cara roja
+      value: 0.7191901
       objectReference: {fileID: 0}
     - target: {fileID: 5808297756191471001, guid: 70c130088d99ed74e9cf473302f95f7c,
         type: 3}

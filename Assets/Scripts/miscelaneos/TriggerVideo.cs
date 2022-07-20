@@ -25,10 +25,10 @@ public class TriggerVideo : MonoBehaviour
         MenuPausa.instance.Reanudar();
     }
     // Update is called once per frame
-    void Update()
+    /*void Update()
     {
 
-    }
+    }*/
 
     private void OnTriggerEnter(Collider other)
     {
