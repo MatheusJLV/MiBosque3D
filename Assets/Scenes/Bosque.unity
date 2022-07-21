@@ -37913,6 +37913,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   infoWindow: {fileID: 911183388}
   mochila: {fileID: 1647592513}
+  showBook: {fileID: 1299061560}
+  mochilaGo: {fileID: 1228396336}
   mochilaIcon: {fileID: 1454554187}
   tablonIcon: {fileID: 1822871042}
   helpIcon: {fileID: 466746931}
@@ -37921,6 +37923,9 @@ MonoBehaviour:
   accesoryPanel: {fileID: 2035583496}
   seedsPanel: {fileID: 1340451778}
   perfilScreen: {fileID: 7059356095027888730}
+  medallasScreen: {fileID: 1348361809}
+  preguntaScreen: {fileID: 864256751}
+  misionesScreen: {fileID: 808151032}
   infoScreen: {fileID: 1509402554}
   profile: {fileID: 7059356095027888728}
   cerrarMochila: {fileID: 1897542979}
@@ -51700,6 +51705,7 @@ MonoBehaviour:
   bookIcon: {fileID: 59177282}
   salidaLibro: {fileID: 1583525832}
   isCanvasActive: 0
+  showMochila: {fileID: 1104053938}
   cerrarLibro: {fileID: 1733535585}
   CanvasPlayerGUI: {fileID: 1686677600}
 --- !u!114 &1299061562

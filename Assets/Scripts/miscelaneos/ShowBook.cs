@@ -11,6 +11,7 @@ public class ShowBook : MonoBehaviour
     public GameObject salidaLibro;
     private FirstPersonController firstPersonController;
     public bool isCanvasActive;
+    public GameObject showMochila;
 
     public GameObject cerrarLibro;
     public GameObject CanvasPlayerGUI;
@@ -49,6 +50,17 @@ public class ShowBook : MonoBehaviour
 #endif
         }
     }
+    public void SwitchdisplayBook()
+    {
+        {
+            BookPages.instance.isOpen = true;
+            //BookPages.instance.cargarLibro();
+            bookCanvas.gameObject.SetActive(true);
+            salidaLibro.SetActive(true);
+            isCanvasActive = true;
+
+        }
+    }
 
     public void exitBookCanvas()
     {
@@ -69,6 +81,22 @@ public class ShowBook : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         isCanvasActive = false;
     }
+    public void switchCanvas()
+    {
+#if UNITY_ANDROID || UNITY_IOS
+        CanvasPlayerGUI.SetActive(true);
+        GameObject.Find("FPSController").GetComponent<JoystickController>().enabled = true;
+        GameObject.Find("Fixed Joystick").GetComponent<FixedJoystick>().handle.anchoredPosition = Vector2.zero;
+        GameObject.Find("Fixed Joystick").GetComponent<FixedJoystick>().input = Vector2.zero;
+#endif
+        BookPages.instance.isOpen = false;
+        BookPages.instance.pagesLoaded = false;
+
+        bookCanvas.gameObject.SetActive(false);
+        salidaLibro.SetActive(false);
+
+        isCanvasActive = false;
+    }
 
     private void Update()
     {
@@ -81,6 +109,38 @@ public class ShowBook : MonoBehaviour
             }
             else
             {
+                exitBookCanvas();
+            }
+
+        }
+        if (Input.GetKeyUp(KeyCode.Escape) )
+        {
+            if (isCanvasActive)
+            {
+                exitBookCanvas();
+            }
+            
+        }
+        if (Input.GetKeyUp(KeyCode.M))
+        {
+            if (isCanvasActive)
+            {
+
+                //showMochila.GetComponent<ShowMochila>().SwitchShowWindow("mochila");
+                //Debug.Log("yendo a mochila");
+                //switchCanvas();
+                exitBookCanvas();
+            }
+
+        }
+        if (Input.GetKeyUp(KeyCode.I) )
+        {
+            if (isCanvasActive)
+            {
+
+                //showMochila.GetComponent<ShowMochila>().SwitchShowWindow("info");
+                //Debug.Log("yendo a info");
+                //switchCanvas();
                 exitBookCanvas();
             }
 

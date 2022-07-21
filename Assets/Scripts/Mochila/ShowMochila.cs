@@ -8,6 +8,8 @@ public class ShowMochila : MonoBehaviour
 {
     public GameObject infoWindow;
     public GameObject mochila;
+    public GameObject showBook;
+    public GameObject mochilaGo;
     public GameObject mochilaIcon;
     public GameObject tablonIcon;
     public GameObject helpIcon;
@@ -17,6 +19,9 @@ public class ShowMochila : MonoBehaviour
     public GameObject accesoryPanel;
     public GameObject seedsPanel;
     public GameObject perfilScreen;
+    public GameObject medallasScreen;
+    public GameObject preguntaScreen;
+    public GameObject misionesScreen;
     public GameObject infoScreen;
 
     public static bool IsBackPack = false;
@@ -103,6 +108,41 @@ public class ShowMochila : MonoBehaviour
             cameraBlocker.enabled = false;
         }
     }
+    public void SwitchShowWindow(String objetivo)
+    {
+               if (objetivo =="mochila")
+       {
+                Debug.Log("yendo a mochila");
+                mochila.SetActive(true);
+                IsBackPack = true;
+            //salidaMochila.SetActive(true);
+            StartCoroutine(DelayAction(objetivo));
+        }
+       else if (objetivo=="info")
+       {
+                Debug.Log("yendo a libro");
+                isInfo = true;                
+                infoWindow.SetActive(true);
+            StartCoroutine(DelayAction(objetivo));
+            
+       }
+        Debug.Log("listo");
+    }
+    IEnumerator DelayAction(String objetivo)
+    {
+        yield return new WaitForSeconds(1);
+        if (objetivo == "mochila")
+        {
+
+            IsBackPack = true;
+
+        }
+        else if (objetivo == "info")
+        {
+            isInfo = true;
+        }
+        Debug.Log("listo2");
+    }
 
     public void OnProfileScreen()
     {
@@ -131,9 +171,33 @@ public class ShowMochila : MonoBehaviour
         Time.timeScale = 1f;
         mochila.SetActive(false);
         salidaMochila.SetActive(false);
+        misionesScreen.SetActive(false);
+        preguntaScreen.SetActive(false);
+        medallasScreen.SetActive(false);
+        mochilaGo.SetActive(true);
         MenuPausa.instance.Reanudar();
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
+        IsBackPack = false;
+        isInfo = false;
+    }
+    public void SwitchContinuar()
+    {
+#if UNITY_ANDROID || UNITY_IOS
+        CanvasPlayerGUI.SetActive(true);
+        GameObject.Find("FPSController").GetComponent<JoystickController>().enabled = true;
+        GameObject.Find("Fixed Joystick").GetComponent<FixedJoystick>().handle.anchoredPosition = Vector2.zero;
+        GameObject.Find("Fixed Joystick").GetComponent<FixedJoystick>().input = Vector2.zero;
+#endif
+        perfilScreen.SetActive(false);
+        infoWindow.SetActive(false); // En caso de cerrar de inmediato sin mostrar primero la mochila
+        mochila.SetActive(false);
+        salidaMochila.SetActive(false);
+        misionesScreen.SetActive(false);
+        preguntaScreen.SetActive(false);
+        medallasScreen.SetActive(false);
+        mochilaGo.SetActive(true);
+       
         IsBackPack = false;
         isInfo = false;
     }
@@ -157,9 +221,14 @@ public class ShowMochila : MonoBehaviour
 #if UNITY_STANDALONE_WIN || UNITY_STANDALONE
         if (Input.GetKeyUp(KeyCode.M))
         {
-            if (IsBackPack || isInfo)
+            if (IsBackPack)
             {
                 Continuar();
+            }
+            else if(isInfo)
+            {
+                Continuar();
+                ShowWindow(mochila);
             }
             else
             {
@@ -168,13 +237,31 @@ public class ShowMochila : MonoBehaviour
         }
         if (Input.GetKeyUp(KeyCode.I))
         {
-            if (IsBackPack || isInfo)
+            if (isInfo)
             {
                 Continuar();
+            }
+            else if (IsBackPack)
+            {
+                Continuar();
+                ShowWindow(infoWindow);
             }
             else
             {
                 ShowWindow(infoWindow);
+            }
+        }
+        if (Input.GetKeyUp(KeyCode.Escape))
+        {
+            if (isInfo || IsBackPack)
+                Continuar();
+        }
+        if (Input.GetKeyDown(KeyCode.L))
+        {
+            if (isInfo || IsBackPack)
+            {
+                SwitchContinuar();
+                showBook.GetComponent<ShowBook>().SwitchdisplayBook();
             }
         }
 #endif

@@ -5,11 +5,11 @@
       "playerId": null,
       "level": 3,
       "dataType": "game_data",
-      "FechaInterna": "7/20/2022 12:55:39 PM",
+      "FechaInterna": "7/21/2022 12:07:59 AM",
       "data": {
-        "Start_Date": "7/20/2022 12:52:29 PM",
-        "End_Date": "7/20/2022 12:55:39 PM",
-        "duration": 3,
+        "Start_Date": "7/21/2022 12:07:24 AM",
+        "End_Date": "7/21/2022 12:07:59 AM",
+        "duration": 0,
         "score": 7,
         "NumberImages": 0
       }
