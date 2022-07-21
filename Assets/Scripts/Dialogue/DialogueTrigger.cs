@@ -8,7 +8,7 @@ public class DialogueTrigger : MonoBehaviour
 
 [Header("OBLIGATORIO: El tamaño del arreglo de sprites y titulo debe ser igual al del dialogo")]
     public Dialogue dialogue;
-    
+    public bool dialogoCambiante = false;
 
     public Expresiones expresiones=Expresiones.Normal;
     [Tooltip("Check if this gameobject should be destroy after the dialogue has ended. Default is true")]public bool removeAfterCompleted=true;
@@ -18,6 +18,10 @@ public class DialogueTrigger : MonoBehaviour
     public virtual void TriggerDialogue()
     {
         DialogueManager.instance.StartDialogue(this, eventToTrigger, removeAfterCompleted, (int) expresiones);
+        if (dialogoCambiante)
+        {
+            this.GetComponent<AltDialogues>().switchDialogues();
+        }
     }
 
     private void OnTriggerEnter(Collider other)
