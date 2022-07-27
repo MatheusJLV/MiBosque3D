@@ -4169,6 +4169,7 @@ MonoBehaviour:
     - "Solo debes arrojar las semillas cerca de la zona indicada. T\xFA puedes"
     sprites:
     - {fileID: 0}
+  dialogoCambiante: 0
   expresiones: 0
   removeAfterCompleted: 0
   eventToTrigger: 
@@ -8067,7 +8068,7 @@ MonoBehaviour:
   m_ImagenD: {fileID: 1557174960}
   f_Imagen: {fileID: 1807359736}
   n_estacion: 4
-  imagen: {fileID: 1567669677}
+  imagen: {fileID: 1807359736}
   nombreEvento: DesactivarP4
   correct: {fileID: 8300000, guid: 80062d745a5dd4c4fbbe27e3b181b734, type: 3}
   incorrect: {fileID: 8300000, guid: 5b9cbc4eb17cc9746a6ecfafca6873ac, type: 3}
@@ -9950,7 +9951,7 @@ MonoBehaviour:
   m_ImagenD: {fileID: 1557174960}
   f_Imagen: {fileID: 1807359736}
   n_estacion: 2
-  imagen: {fileID: 1567669677}
+  imagen: {fileID: 1807359736}
   nombreEvento: DesactivarP2
   correct: {fileID: 8300000, guid: 80062d745a5dd4c4fbbe27e3b181b734, type: 3}
   incorrect: {fileID: 8300000, guid: 5b9cbc4eb17cc9746a6ecfafca6873ac, type: 3}
@@ -10765,7 +10766,7 @@ MonoBehaviour:
   m_ImagenD: {fileID: 1557174960}
   f_Imagen: {fileID: 1807359736}
   n_estacion: 1
-  imagen: {fileID: 1567669677}
+  imagen: {fileID: 0}
   nombreEvento: DesactivarP1
   correct: {fileID: 8300000, guid: 80062d745a5dd4c4fbbe27e3b181b734, type: 3}
   incorrect: {fileID: 8300000, guid: 5b9cbc4eb17cc9746a6ecfafca6873ac, type: 3}
@@ -12340,6 +12341,7 @@ MonoBehaviour:
       evitar la contaminaci\xF3n y que los animales del bosque se lastimen."
     sprites:
     - {fileID: 0}
+  dialogoCambiante: 0
   expresiones: 0
   removeAfterCompleted: 0
   eventToTrigger: 
@@ -14131,6 +14133,7 @@ MonoBehaviour:
       a la siguiente estaci\xF3n."
     sprites:
     - {fileID: 0}
+  dialogoCambiante: 0
   expresiones: 0
   removeAfterCompleted: 0
   eventToTrigger: 
@@ -14561,6 +14564,7 @@ MonoBehaviour:
     sprites:
     - {fileID: 21300000, guid: 60c21795b68baa34992855c29b43793c, type: 3}
     - {fileID: 21300000, guid: 9f641e9471d8f824eacfb99910be0d3a, type: 3}
+  dialogoCambiante: 0
   expresiones: 3
   removeAfterCompleted: 1
   eventToTrigger: ActivarTercerDesafio
@@ -17513,6 +17517,7 @@ MonoBehaviour:
     sprites:
     - {fileID: 0}
     - {fileID: 0}
+  dialogoCambiante: 0
   expresiones: 3
   removeAfterCompleted: 1
   eventToTrigger: ActivarQuintoDesafio
@@ -28601,6 +28606,7 @@ MonoBehaviour:
       el fuego.
     sprites:
     - {fileID: 0}
+  dialogoCambiante: 0
   expresiones: 3
   removeAfterCompleted: 0
   eventToTrigger: 
@@ -29584,6 +29590,7 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 053a1a4a7e2c2f549bd7bd2124b08dcd, type: 3}
     - {fileID: 21300000, guid: 39c4e23659d2d1f4bb3d5a5cafecd866, type: 3}
     - {fileID: 0}
+  dialogoCambiante: 0
   expresiones: 2
   removeAfterCompleted: 1
   eventToTrigger: ConseguirLibro
@@ -30682,6 +30689,7 @@ MonoBehaviour:
       a la pr\xF3xima estaci\xF3n.\r\n"
     sprites:
     - {fileID: 0}
+  dialogoCambiante: 0
   expresiones: 1
   removeAfterCompleted: 0
   eventToTrigger: Destruir5Desafio
@@ -31995,7 +32003,7 @@ MonoBehaviour:
   m_ImagenD: {fileID: 1557174960}
   f_Imagen: {fileID: 1807359736}
   n_estacion: 5
-  imagen: {fileID: 1567669677}
+  imagen: {fileID: 1807359736}
   nombreEvento: DesactivarP5
   correct: {fileID: 8300000, guid: 80062d745a5dd4c4fbbe27e3b181b734, type: 3}
   incorrect: {fileID: 8300000, guid: 5b9cbc4eb17cc9746a6ecfafca6873ac, type: 3}
@@ -32361,6 +32369,7 @@ MonoBehaviour:
     - {fileID: 21300000, guid: c53ca4e41528fb644a0a23243c292d5a, type: 3}
     - {fileID: 0}
     - {fileID: 21300000, guid: 2713833e327499643acef092797506d1, type: 3}
+  dialogoCambiante: 0
   expresiones: 2
   removeAfterCompleted: 1
   eventToTrigger: ActivarCuartoDesafio
@@ -32820,10 +32829,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 3bf1611c5dd789e4eb12f90ac377fa81, type: 3}
-    m_FontSize: 54
+    m_FontSize: 45
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 4
     m_MaxSize: 96
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -34344,6 +34353,7 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 39c4e23659d2d1f4bb3d5a5cafecd866, type: 3}
     - {fileID: 0}
     - {fileID: 0}
+  dialogoCambiante: 0
   expresiones: 2
   removeAfterCompleted: 1
   eventToTrigger: MostrarMochila
@@ -38019,6 +38029,7 @@ MonoBehaviour:
     - {fileID: 21300000, guid: edfbea9d77750c349a6eda6d47b66c91, type: 3}
     - {fileID: 21300000, guid: edfbea9d77750c349a6eda6d47b66c91, type: 3}
     - {fileID: 21300000, guid: edfbea9d77750c349a6eda6d47b66c91, type: 3}
+  dialogoCambiante: 0
   expresiones: 2
   removeAfterCompleted: 1
   eventToTrigger: 
@@ -40480,6 +40491,7 @@ MonoBehaviour:
     sprites:
     - {fileID: 0}
     - {fileID: 21300000, guid: 76096f0a02fb7bd42af3fc107393e7ab, type: 3}
+  dialogoCambiante: 0
   expresiones: 2
   removeAfterCompleted: 1
   eventToTrigger: MostrarMochila
@@ -42311,6 +42323,7 @@ MonoBehaviour:
     sprites:
     - {fileID: 0}
     - {fileID: 0}
+  dialogoCambiante: 0
   expresiones: 0
   removeAfterCompleted: 1
   eventToTrigger: RecordatorioE6
@@ -44838,6 +44851,7 @@ MonoBehaviour:
       adulto para su ayuda."
     sprites:
     - {fileID: 21300000, guid: 305430da548b03a449822e206a339a0a, type: 3}
+  dialogoCambiante: 0
   expresiones: 1
   removeAfterCompleted: 0
   eventToTrigger: Destruir3Desafio
@@ -45416,6 +45430,7 @@ MonoBehaviour:
       soluciono antes de una catastrofe.\nContin\xFAa a la siguiente estacion"
     sprites:
     - {fileID: 0}
+  dialogoCambiante: 0
   expresiones: 0
   removeAfterCompleted: 0
   eventToTrigger: Destruir5DesafioFalla
@@ -51454,7 +51469,7 @@ MonoBehaviour:
   m_ImagenD: {fileID: 1557174960}
   f_Imagen: {fileID: 1807359736}
   n_estacion: 3
-  imagen: {fileID: 1567669677}
+  imagen: {fileID: 1807359736}
   nombreEvento: DesactivarP3
   correct: {fileID: 8300000, guid: 80062d745a5dd4c4fbbe27e3b181b734, type: 3}
   incorrect: {fileID: 8300000, guid: 5b9cbc4eb17cc9746a6ecfafca6873ac, type: 3}
@@ -52922,6 +52937,7 @@ MonoBehaviour:
       a la \xFAltima estaci\xF3n.\r"
     sprites:
     - {fileID: 0}
+  dialogoCambiante: 0
   expresiones: 1
   removeAfterCompleted: 0
   eventToTrigger: Destruir6Desafio
@@ -56609,6 +56625,7 @@ MonoBehaviour:
       encuentras lo que necesita."
     sprites:
     - {fileID: 0}
+  dialogoCambiante: 0
   expresiones: 0
   removeAfterCompleted: 0
   eventToTrigger: 
@@ -58420,6 +58437,7 @@ MonoBehaviour:
     sprites:
     - {fileID: 0}
     - {fileID: 0}
+  dialogoCambiante: 0
   expresiones: 2
   removeAfterCompleted: 1
   eventToTrigger: RecordatorioE7
@@ -58943,6 +58961,7 @@ MonoBehaviour:
     - {fileID: 0}
     - {fileID: 0}
     - {fileID: 0}
+  dialogoCambiante: 0
   expresiones: 2
   removeAfterCompleted: 1
   eventToTrigger: ActivarDesa_OcIm
@@ -75270,6 +75289,7 @@ MonoBehaviour:
       bosque para acceder a la siguiente estaci\xF3n."
     sprites:
     - {fileID: 0}
+  dialogoCambiante: 0
   expresiones: 0
   removeAfterCompleted: 0
   eventToTrigger: 
@@ -76719,6 +76739,7 @@ MonoBehaviour:
       a su alimento. "
     sprites:
     - {fileID: 0}
+  dialogoCambiante: 0
   expresiones: 1
   removeAfterCompleted: 0
   eventToTrigger: Destruir4Desafio
@@ -77676,6 +77697,7 @@ MonoBehaviour:
       entregarte tu certificado digital."
     sprites:
     - {fileID: 0}
+  dialogoCambiante: 0
   expresiones: 1
   removeAfterCompleted: 0
   eventToTrigger: Destruir7Desafio
@@ -85224,6 +85246,7 @@ MonoBehaviour:
       \r\nContin\xFAa explorando las nuevas estaciones y misiones.\r"
     sprites:
     - {fileID: 0}
+  dialogoCambiante: 0
   expresiones: 1
   removeAfterCompleted: 0
   eventToTrigger: Destruir2Desafio
@@ -87240,6 +87263,7 @@ MonoBehaviour:
       el tutorial."
     sprites:
     - {fileID: 0}
+  dialogoCambiante: 0
   expresiones: 2
   removeAfterCompleted: 1
   eventToTrigger: TutorialCorrer
@@ -89783,7 +89807,7 @@ MonoBehaviour:
   m_ImagenD: {fileID: 1557174960}
   f_Imagen: {fileID: 1807359736}
   n_estacion: 6
-  imagen: {fileID: 1567669677}
+  imagen: {fileID: 1807359736}
   nombreEvento: DesactivarP6
   correct: {fileID: 8300000, guid: 80062d745a5dd4c4fbbe27e3b181b734, type: 3}
   incorrect: {fileID: 8300000, guid: 5b9cbc4eb17cc9746a6ecfafca6873ac, type: 3}

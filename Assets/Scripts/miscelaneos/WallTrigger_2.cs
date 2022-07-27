@@ -35,7 +35,7 @@ public class WallTrigger_2 : MonoBehaviour
     private PreguntaObject q;
     private SpecieObject tmp = null;
     public int n_estacion;
-    public RawImage imagen;
+    public Image imagen;
     public string nombreEvento;
     public AudioClip correct;
     public AudioClip incorrect;
@@ -161,7 +161,7 @@ public class WallTrigger_2 : MonoBehaviour
         canvasFeedback.transform.Find("Feedback").gameObject.GetComponent<Text>().text = feedback;
         canvasFeedback.transform.Find("check").gameObject.SetActive(false);
         canvasFeedback.transform.Find("cross").gameObject.SetActive(true);
-        f_Imagen.sprite = Resources.Load<Sprite>(q.image);
+        f_Imagen.sprite = Resources.Load<Sprite>("Questions/Images3/" + q.ChallengeID);
         canvasFeedback.transform.Find("Button").gameObject.GetComponent<Button>().onClick.AddListener(CloseFeedbackCanvas);
         canvasFeedback.transform.localPosition.Set(33.28f, -0.8f, 0);
         Debug.Log("marca");
@@ -214,7 +214,8 @@ public class WallTrigger_2 : MonoBehaviour
         canvasFeedback.transform.Find("Feedback").gameObject.GetComponent<Text>().text = feedback;
         canvasFeedback.transform.Find("check").gameObject.SetActive(true);
         canvasFeedback.transform.Find("cross").gameObject.SetActive(false);
-        f_Imagen.sprite = Resources.Load<Sprite>(q.image);
+        f_Imagen.sprite = Resources.Load<Sprite>("Questions/Images3/" + q.ChallengeID);
+        //TOPO AQUI
         canvasFeedback.transform.Find("Button").gameObject.GetComponent<Button>().onClick.AddListener(CloseFeedbackCanvas);
         canvasFeedback.transform.localPosition.Set(33.28f, -0.8f, 0);
         Debug.Log("marca");
@@ -320,13 +321,18 @@ public class WallTrigger_2 : MonoBehaviour
                     usadas.Add(q.ChallengeID);
                 }
 
-                LoadImage(q.image);
+                //LoadImage(q.image);
+                //LoadImage(""+q.ChallengeID);
+
+                imagen.sprite = Resources.Load<Sprite>("Questions/Images3/" + q.ChallengeID);
+                Debug.Log("*********** NOMBRE DE IM,AGEN****************");
+                Debug.Log(imagen.sprite.name);
                 pregunta.text = q.question;
 
                 List<string> galeriaImagenes = new List<string>();
                 foreach (Option opt in q.options)
                 {
-                    galeriaImagenes.Add(opt.image);
+                    galeriaImagenes.Add(""+opt.ChallengeOptionId);
                 }
 
 
@@ -353,10 +359,10 @@ public class WallTrigger_2 : MonoBehaviour
                     m_ImagenB.sprite = Resources.Load<Sprite>("Questions/Images/" + q.Gallery[1]);
                     m_ImagenC.sprite = Resources.Load<Sprite>("Questions/Images/" + q.Gallery[2]);
                     m_ImagenD.sprite = Resources.Load<Sprite>("Questions/Images/" + q.Gallery[3]);*/
-                    m_ImagenA.sprite = Resources.Load<Sprite>("Questions/Images/" + galeriaImagenes[0]);
-                    m_ImagenB.sprite = Resources.Load<Sprite>("Questions/Images/" + galeriaImagenes[1]);
-                    m_ImagenC.sprite = Resources.Load<Sprite>("Questions/Images/" + galeriaImagenes[2]);
-                    m_ImagenD.sprite = Resources.Load<Sprite>("Questions/Images/" + galeriaImagenes[3]);
+                    m_ImagenA.sprite = Resources.Load<Sprite>("Questions/Images2/" + galeriaImagenes[0]);
+                    m_ImagenB.sprite = Resources.Load<Sprite>("Questions/Images2/" + galeriaImagenes[1]);
+                    m_ImagenC.sprite = Resources.Load<Sprite>("Questions/Images2/" + galeriaImagenes[2]);
+                    m_ImagenD.sprite = Resources.Load<Sprite>("Questions/Images2/" + galeriaImagenes[3]);
                 }
                 else
                 {
@@ -427,6 +433,8 @@ public class WallTrigger_2 : MonoBehaviour
 
     public void LoadImage(string address)
     {
-        imagen.texture = Resources.Load<Texture2D>(address);
+        Debug.Log("Questions/Images3/" + address);
+       
+        imagen.sprite = Resources.Load<Sprite>("Questions/Images3/" + address);
     }
 }
