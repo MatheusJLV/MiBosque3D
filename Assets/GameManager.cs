@@ -26,6 +26,7 @@ public class GameManager : MonoBehaviour
 
     public bool updateMode = false;
     public static bool OfflineMode = false; /*  Nuevo   */
+    public static bool ZenMode = false;
     [HideInInspector] public static string authToken;
     //[HideInInspector] public static StadisticsData.StadisticsList estadisticas;
     [HideInInspector] public string url = SystemVariables.url_puerto + "/api/authentication/token";

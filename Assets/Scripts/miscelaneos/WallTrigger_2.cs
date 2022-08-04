@@ -45,10 +45,12 @@ public class WallTrigger_2 : MonoBehaviour
 
     public GameObject actionLogger;
 
+    private NotificarLogros NL;
 
     void Start()
     {
         usadas = new List<int>();
+        NL = GameObject.Find("NotifLogros").GetComponent<NotificarLogros>();
         actionLogger = GameObject.Find("ActionLogger");
     }
 
@@ -71,6 +73,7 @@ public class WallTrigger_2 : MonoBehaviour
             RestClient.Instance.Get(GetPreguntaObjects);
             StartCoroutine(Preguntas());
             controlPanel.GetComponent<Animator>().SetBool("hide", true);
+
         }
         Debug.Log("WALL TRIGGER 2 SCRIPT");
         Debug.Log("END COLISION");
@@ -110,6 +113,7 @@ public class WallTrigger_2 : MonoBehaviour
         canvasPreguntasImagenes.SetActive(true);
         Debug.Log("WALL TRIGGER 2 SCRIPT");
         Debug.Log("END ENUM PREG");
+        NL.cerrar();
     }
 
     public void Continuar()

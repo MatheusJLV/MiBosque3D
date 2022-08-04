@@ -24,6 +24,8 @@ public class MenuPausa : MonoBehaviour
 
     public GameObject actionLogger;
 
+    private NotificarLogros NL;
+
     private void Awake()
     {
         instance = this;
@@ -35,6 +37,8 @@ public class MenuPausa : MonoBehaviour
         fpscontroller = GameObject.FindGameObjectWithTag("Player").GetComponent<FirstPersonController>();
         mouseController = GameObject.FindGameObjectWithTag("Player").GetComponent<MouseController>();
         sceneChanger.gameObject.SetActive(true);
+        NL = GameObject.Find("NotifLogros").GetComponent<NotificarLogros>();
+
         actionLogger = GameObject.Find("ActionLogger");
     }
 
@@ -57,6 +61,7 @@ public class MenuPausa : MonoBehaviour
             else
             {
                 PauseGame();
+                NL.cerrar();
             }
         }
 
@@ -169,6 +174,7 @@ public class MenuPausa : MonoBehaviour
         Time.timeScale = 1f;
         GameManager.instance.scene=0;
         //GameObject.Find("Audio").GetComponent<SoundManager>().PauseAudio();
+        GameManager.ZenMode = false;
         SceneManager.LoadScene(name);
     }
 }

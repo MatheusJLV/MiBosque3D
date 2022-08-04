@@ -16,6 +16,8 @@ public class ShowBook : MonoBehaviour
     public GameObject cerrarLibro;
     public GameObject CanvasPlayerGUI;
 
+    private NotificarLogros NL;
+
     private void Start()
     {
 #if UNITY_STANDALONE_WIN || UNITY_STANDALONE
@@ -30,6 +32,7 @@ public class ShowBook : MonoBehaviour
         isCanvasActive = false;
         firstPersonController=GameObject.FindGameObjectWithTag("Player").GetComponent<FirstPersonController>();
         Player.instance.playerData.libroDesbloqueado=true;
+        NL = GameObject.Find("NotifLogros").GetComponent<NotificarLogros>();
     }
 
     public void displayBook()
@@ -48,6 +51,7 @@ public class ShowBook : MonoBehaviour
         GameObject.Find("FPSController").GetComponent<JoystickController>().enabled = false;
         salidaLibro.SetActive(false);
 #endif
+            NL.cerrar();
         }
     }
     public void SwitchdisplayBook()

@@ -48,6 +48,8 @@ public class ShowMochila : MonoBehaviour
 
     public static int rotaUnaVez = 0;
 
+    private NotificarLogros NL;
+
     private void Awake()
     {
         firstPersonController = GameObject.FindGameObjectWithTag("Player").GetComponent<FirstPersonController>();
@@ -78,6 +80,7 @@ public class ShowMochila : MonoBehaviour
         mochilaIcon.SetActive(false);
 #endif
         Player.instance.playerData.mochilaDesbloqueada = true;
+        NL = GameObject.Find("NotifLogros").GetComponent<NotificarLogros>();
     }
 
     //public void ShowBackPack()
@@ -106,6 +109,7 @@ public class ShowMochila : MonoBehaviour
             }
             //Time.timeScale = 0f;
             cameraBlocker.enabled = false;
+            NL.cerrar();
         }
     }
     public void SwitchShowWindow(String objetivo)

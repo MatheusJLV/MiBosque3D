@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Rendering;
+using UnityEngine.UI;
 
 public class ManejadorCalidad : MonoBehaviour
 {
@@ -13,6 +14,10 @@ public class ManejadorCalidad : MonoBehaviour
     public GameObject FpsController;
     public int max;
     public int act;
+
+    public Button btn1;
+    public Button btn2;
+    public Button btn3;
 
     public GameObject actionLogger;
     // Start is called before the first frame update
@@ -25,12 +30,18 @@ public class ManejadorCalidad : MonoBehaviour
         
         act = GameManager.instance.currentStation ;
         Debug.Log("Actual:" + act);
-
-        for (int i =1; i< max; i++)
+        if(GameManager.ZenMode)
         {
-            //Estaciones[i-1].GetComponent<ManejadorEstacion>().estado = true;
-            Estaciones[i - 1].GetComponent<ManejadorEstacion>().desactivar();
+            zenificar();
+        }else
+        {
+            for (int i = 1; i < max; i++)
+            {
+                //Estaciones[i-1].GetComponent<ManejadorEstacion>().estado = true;
+                Estaciones[i - 1].GetComponent<ManejadorEstacion>().desactivar();
+            }
         }
+        
         if (act<3)
         {
             Estaciones[0].GetComponent<ManejadorEstacion>().activar();
@@ -51,6 +62,20 @@ public class ManejadorCalidad : MonoBehaviour
         actionLogger = GameObject.Find("ActionLogger");
         actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Begin Bosque estacion", ""+ act);
         
+    }
+    public void zenificar()
+    {
+        for (int i = 0; i < Estaciones.Length; i++)
+        {
+            //Estaciones[i-1].GetComponent<ManejadorEstacion>().estado = true;
+            Estaciones[i].GetComponent<ManejadorEstacion>().desactivar();
+        }
+        btn1.interactable = false;
+        btn1.GetComponentInChildren<Text>().color = Color.gray;
+        btn2.interactable = false;
+        btn2.GetComponentInChildren<Text>().color = Color.gray;
+        btn3.interactable = false;
+        btn3.GetComponentInChildren<Text>().color = Color.gray;
     }
 
     public void updateStation(int estacion)

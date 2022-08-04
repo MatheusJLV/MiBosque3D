@@ -26,7 +26,7 @@ public class ClickMouse : MonoBehaviour
     private GameObject puntero;
 
     private bool tempResult;
-
+    private NotificarLogros NL;
 
     public string specieName;
 
@@ -46,6 +46,7 @@ public class ClickMouse : MonoBehaviour
         mouseController = ConstantObjects.instance.mouseController;
         Panel.SetActive(false);
         isKnown = false;
+        NL = GameObject.Find("NotifLogros").GetComponent<NotificarLogros>();
     }
     private void OnMouseEnter()
     {
@@ -80,9 +81,9 @@ public class ClickMouse : MonoBehaviour
         CerrarCuadroChallengeDos();
         IsGalery = true;
         //Time.timeScale = 0f;
-        
 
-        
+
+        NL.cerrar();
     }
 
     private void registrarEspecieId()

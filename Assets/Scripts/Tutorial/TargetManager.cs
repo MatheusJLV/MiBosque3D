@@ -44,7 +44,10 @@ public class TargetManager: MonoBehaviour
 
     bool isDone;
 
-   
+    public bool salto = false;
+    public bool bandera = false;
+
+
     void Awake()
     {
 
@@ -88,7 +91,7 @@ public class TargetManager: MonoBehaviour
         foreach(char letter in message[index].ToCharArray())
         {
                 text.text += letter;
-                yield return new WaitForSeconds(0.02f);
+                yield return new WaitForSeconds(0.01f);
         }
 
         if(index == 3)
@@ -164,10 +167,17 @@ public class TargetManager: MonoBehaviour
 
     void activeTexting()
     {
-        if(Vector3.Distance(player.transform.position, npc.transform.position) < 2.5)
+        if(!player.GetComponent<FirstPersonController>().m_CharacterController.isGrounded && index >= 8)
         {
-            
-            if(text.text == "")
+            salto = true;            
+        }
+        if (salto && player.GetComponent<FirstPersonController>().m_CharacterController.isGrounded)
+        {
+            bandera = true;
+        }
+        if ((Vector3.Distance(player.transform.position, npc.transform.position) < 4 )|| (bandera))
+        {
+            if (text.text == "")
             {
                 canNext = true;
                 //button.SetActive(true);

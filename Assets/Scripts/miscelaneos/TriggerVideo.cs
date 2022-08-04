@@ -10,9 +10,13 @@ public class TriggerVideo : MonoBehaviour
     public VideoPlayer video;
     public Animator videoAnim;
     public GameObject CanvasJoysticks;
+    private NotificarLogros NL;
     // Start is called before the first frame update
 
-    void Start() { video.loopPointReached += EndReached; }
+    void Start() {
+        video.loopPointReached += EndReached;
+        NL = GameObject.Find("NotifLogros").GetComponent<NotificarLogros>();
+    }
 
     void EndReached(UnityEngine.Video.VideoPlayer vp)
     {
@@ -38,7 +42,10 @@ public class TriggerVideo : MonoBehaviour
         MenuPausa.instance.Pausar();
         videoAnim.SetBool("Active", true);
         video.Play();
+        Destroy(this.GetComponent<BoxCollider>());
+        NL.cerrar();
     }
+   
 
 
 }

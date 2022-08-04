@@ -87,7 +87,12 @@ public class MenuController : MonoBehaviour
        
             
     }
+    public void Zen()
+    {
+        GameManager.ZenMode = true;
+        SceneManager.LoadScene("Bosque");
 
+    }
     public void NextScene(string name)
     {
         SceneManager.LoadScene(name);
@@ -96,18 +101,32 @@ public class MenuController : MonoBehaviour
 
     public void NextToLobby()
     {
-        actionLogger = GameObject.Find("ActionLogger");
-        actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Change Scene", "Tutorial-Lobby");
-        actionLogger.GetComponent<ActionLogger>().actionLogger.locacion = "Lobby"; 
+        try{
+            actionLogger = GameObject.Find("ActionLogger");
+            actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Change Scene", "Tutorial-Lobby");
+            actionLogger.GetComponent<ActionLogger>().actionLogger.locacion = "Lobby";
+        }catch(Exception e)
+        {
+
+        }
+
         SceneManager.LoadScene("Lobby");
 
     }
 
     public void nextToVideo()
     {
-        actionLogger = GameObject.Find("ActionLogger");
-        actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Change Scene", "Menu Partidas-Tutorial");
-        actionLogger.GetComponent<ActionLogger>().actionLogger.locacion = "Tutorial";
+        try
+        {
+            actionLogger = GameObject.Find("ActionLogger");
+            actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Change Scene", "Menu Partidas-Tutorial");
+            actionLogger.GetComponent<ActionLogger>().actionLogger.locacion = "Tutorial";
+        }
+        catch (Exception e)
+        {
+
+        }
+        
         NextScene("EscenaDeVideo");
     }
 

@@ -4166,7 +4166,8 @@ MonoBehaviour:
     title:
     - Siembra unas semillas
     sentences:
-    - "Solo debes arrojar las semillas cerca de la zona indicada. T\xFA puedes"
+    - Solo debes arrojar las semillas cerca de la zona indicada. Dirigete a la zona
+      designada para sembrar y abre tu mochila con la letra "M".
     sprites:
     - {fileID: 0}
   dialogoCambiante: 0
@@ -10015,6 +10016,9 @@ MonoBehaviour:
   FpsController: {fileID: 1299061560}
   max: 0
   act: 0
+  btn1: {fileID: 2040926324}
+  btn2: {fileID: 1045864304}
+  btn3: {fileID: 1177477478}
   actionLogger: {fileID: 0}
 --- !u!4 &308900492
 Transform:
@@ -12338,7 +12342,8 @@ MonoBehaviour:
     - "T\xFA puedes"
     sentences:
     - "Est\xE1s a pocos pasos de llegar al final del sendero. Recoge la basura para
-      evitar la contaminaci\xF3n y que los animales del bosque se lastimen."
+      evitar la contaminaci\xF3n y que los animales del bosque se lastimen.\nAbre
+      la mochila con la tecla \"M\" y arrastrala al basurero correspondiente."
     sprites:
     - {fileID: 0}
   dialogoCambiante: 0
@@ -17512,8 +17517,8 @@ MonoBehaviour:
     sentences:
     - "Alguien dej\xF3 encendida una fogata que podr\xEDa iniciar un incendio en el
       Bosque."
-    - "Primero identifica un recipiente para luego buscar una fuente de agua. Observa
-      a tu alrededor r\xE1pidamente."
+    - Primero encuentr un recipiente y luego buscar una fuente de agua para apagar
+      el fuego. Recuerda los lugares visitados en el recorrido.
     sprites:
     - {fileID: 0}
     - {fileID: 0}
@@ -28602,8 +28607,8 @@ MonoBehaviour:
     title:
     - "A\xFAn tienes tiempo"
     sentences:
-    - Puedes hacerlo, recoge agua del pozo que esta cerca tuyo y usarlo para apagar
-      el fuego.
+    - "Hay un pozo cerca de aqui, pero seguramente est\xE1 cerrado. \nTambi\xE9n hay
+      un lago pero necesitamos algo para traer el al agua..."
     sprites:
     - {fileID: 0}
   dialogoCambiante: 0
@@ -30685,8 +30690,8 @@ MonoBehaviour:
     title:
     - "\xA1Lo lograste!"
     sentences:
-    - "Has apagado la fogata, y has evitado un incendio en el Bosque. Contin\xFAa
-      a la pr\xF3xima estaci\xF3n.\r\n"
+    - "Has apagado la fogata, y has evitado un incendio en el Bosque.\n\nEres todo
+      un Guardabosque Protector de la naturaleza!!!!\r\n"
     sprites:
     - {fileID: 0}
   dialogoCambiante: 0
@@ -52934,7 +52939,7 @@ MonoBehaviour:
     sentences:
     - "Has recogido y clasificado la basura encontrada en el Bosque. \r\nDemuestras
       preocupaci\xF3n por la naturaleza. Recuerda nunca dejar residuos en ella.\r\nContin\xFAa
-      a la \xFAltima estaci\xF3n.\r"
+      a la siguiente estaci\xF3n.\r"
     sprites:
     - {fileID: 0}
   dialogoCambiante: 0
@@ -56620,9 +56625,8 @@ MonoBehaviour:
     title:
     - No lo defraudes.
     sentences:
-    - "No has conseguido el alimento suficiente para ayudar al Gavil\xE1n Dorsigris.
-      Nuestro amigo cuenta contigo para recuperarse.\nBusca en los alrededores, seguro
-      encuentras lo que necesita."
+    - "Colecta el alimento y dejalo en la zona designada. \nNuestro amigo cuenta contigo
+      para recuperarse.\nBusca en los alrededores, seguro encuentras lo que necesita."
     sprites:
     - {fileID: 0}
   dialogoCambiante: 0
@@ -58429,11 +58433,10 @@ MonoBehaviour:
     - "Siembra un \xE1rbol"
     - "T\xFA \xFAltima misi\xF3n"
     sentences:
-    - "Has logrado superar todas las misiones y est\xE1s muy cerca de convertirte
-      en un Guardabosque.\r\nPara obtener la medalla final, debes sembrar dos \xE1rboles
-      en la zona de sembr\xEDos.\r\n."
-    - "Para hacerlo, arrastra las semillas que hayas obtenido desde tu mochila al
-      suelo\n\n\xA1Muchas gracias!"
+    - "Has logrado superar muchas misiones y est\xE1s muy cerca de convertirte en
+      un Guardabosque.\r\nAhora debes sembrar dos \xE1rboles en la zona de sembr\xEDos.\r\n"
+    - Para hacerlo, arrastra las semillas que hayas obtenido desde tu mochila al suelo
+      en la zona marcada.
     sprites:
     - {fileID: 0}
     - {fileID: 0}
@@ -59394,7 +59397,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 197.40918, y: 42.99707}
+  m_AnchoredPosition: {x: 197.40916, y: 42.99707}
   m_SizeDelta: {x: 288.3, y: 65}
   m_Pivot: {x: 0.6, y: 0.5}
 --- !u!114 &1471696683

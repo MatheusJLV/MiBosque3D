@@ -28,6 +28,7 @@ public class Pick : MonoBehaviour
 
     IEnumerator Esperar()
     {
+        this.GetComponent<AudioSource>().enabled = false;
         plateFood.recogidos += 1;
         message.text = "Has atrapado un " + name + " en tu mochila";
         feedback.SetActive(true);

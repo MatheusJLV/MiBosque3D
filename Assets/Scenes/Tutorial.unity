@@ -289,6 +289,7 @@ MonoBehaviour:
   bookIcon: {fileID: 0}
   salidaLibro: {fileID: 0}
   isCanvasActive: 0
+  showMochila: {fileID: 0}
   cerrarLibro: {fileID: 0}
   CanvasPlayerGUI: {fileID: 0}
 --- !u!114 &7913595
@@ -2517,8 +2518,8 @@ MonoBehaviour:
   - "Ahora probemos saltos. \xA1Mira qu\xE9 divertido! \xBFTe gustar\xEDa aprender? "
   - "Para saltar debes presionar la tecla de Espacios. \xA1Int\xE9ntalo! "
   - "\xA1Muy buen salto! lo has hecho genial. "
-  - "Para observar a tu alrededor debes usar el mouse/pad. \xA1Haz la prueba! "
-  - Hemos terminado las indicaciones. Ahora ya puedes iniciar tu aventura.
+  - 'Hemos terminado las indicaciones. '
+  - Ahora ya puedes iniciar tu aventura.
   text: {fileID: 326901359}
   player: {fileID: 7913601}
   joystick: {fileID: 1415874526}
@@ -2531,6 +2532,8 @@ MonoBehaviour:
   npc: {fileID: 843633782}
   RedTargets: {fileID: 852644976}
   GreenTargets: {fileID: 1570446761}
+  salto: 0
+  bandera: 0
 --- !u!4 &501363560
 Transform:
   m_ObjectHideFlags: 0
@@ -3996,7 +3999,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 852644976}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.22, y: -0.26999998, z: 0}
+  m_LocalPosition: {x: 0.22, y: -0.26999998, z: -1.59}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 527929983}
@@ -4502,6 +4505,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   infoWindow: {fileID: 0}
   mochila: {fileID: 0}
+  showBook: {fileID: 0}
+  mochilaGo: {fileID: 0}
   mochilaIcon: {fileID: 0}
   tablonIcon: {fileID: 0}
   helpIcon: {fileID: 0}
@@ -4510,6 +4515,9 @@ MonoBehaviour:
   accesoryPanel: {fileID: 0}
   seedsPanel: {fileID: 0}
   perfilScreen: {fileID: 0}
+  medallasScreen: {fileID: 0}
+  preguntaScreen: {fileID: 0}
+  misionesScreen: {fileID: 0}
   infoScreen: {fileID: 0}
   profile: {fileID: 0}
   cerrarMochila: {fileID: 0}
@@ -4782,6 +4790,14 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 9
       objectReference: {fileID: 0}
+    - target: {fileID: 2000000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_RenderingPath
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_AllowMSAA
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_FootstepSounds.Array.size
       value: 4
@@ -4870,6 +4886,10 @@ PrefabInstance:
       propertyPath: joystick
       value: 
       objectReference: {fileID: 1415874526}
+    - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: TM
+      value: 
+      objectReference: {fileID: 501363557}
     - target: {fileID: 100002, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -4881,14 +4901,6 @@ PrefabInstance:
     - target: {fileID: 100002, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_TagString
       value: MainCamera
-      objectReference: {fileID: 0}
-    - target: {fileID: 2000000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
-      propertyPath: m_RenderingPath
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 2000000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
-      propertyPath: m_AllowMSAA
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalPosition.y
@@ -7331,7 +7343,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1570446761}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.92, y: -0.27, z: 13.57}
+  m_LocalPosition: {x: 2.57, y: -0.27, z: 13.57}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1865572214}
