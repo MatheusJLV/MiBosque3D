@@ -4,14 +4,273 @@
       "gameId": "001",
       "playerId": null,
       "level": 1,
-      "dataType": "game_data",
-      "FechaInterna": "8/2/2022 5:26:01 PM",
+      "dataType": "specie_data",
+      "FechaInterna": "8/4/2022 5:12:47 PM",
       "data": {
-        "Start_Date": "8/2/2022 5:25:12 PM",
-        "End_Date": "8/2/2022 5:26:01 PM",
-        "duration": 1,
-        "score": 0,
-        "NumberImages": 0
+        "specieId": "21",
+        "show_desc_date": "8/4/2022 5:12:47 PM"
+      }
+    },
+    {
+      "gameId": "001",
+      "playerId": null,
+      "level": 1,
+      "dataType": "specie_data",
+      "FechaInterna": "8/4/2022 5:12:50 PM",
+      "data": {
+        "specieId": "4",
+        "show_desc_date": "8/4/2022 5:12:50 PM"
+      }
+    },
+    {
+      "gameId": "001",
+      "playerId": null,
+      "level": 2,
+      "dataType": "specie_data",
+      "FechaInterna": "8/4/2022 5:13:12 PM",
+      "data": {
+        "specieId": "10",
+        "show_desc_date": "8/4/2022 5:13:12 PM"
+      }
+    },
+    {
+      "gameId": "001",
+      "playerId": null,
+      "level": 2,
+      "dataType": "mission_data",
+      "FechaInterna": "8/4/2022 5:13:15 PM",
+      "data": {
+        "Start_Date": "8/4/2022 5:11:51 PM",
+        "End_Date": "8/4/2022 5:13:15 PM",
+        "nombre": "Encuentra las especies"
+      }
+    },
+    {
+      "gameId": "001",
+      "playerId": null,
+      "level": 2,
+      "dataType": "experiencie_data",
+      "FechaInterna": "8/4/2022 5:13:15 PM",
+      "data": {
+        "experiencia": 3,
+        "date": "8/4/2022 5:13:15 PM"
+      }
+    },
+    {
+      "gameId": "001",
+      "playerId": null,
+      "level": 2,
+      "dataType": "prize_data",
+      "FechaInterna": "8/4/2022 5:13:15 PM",
+      "data": {
+        "nombre": "Guardabosque Explorador",
+        "date": "8/4/2022 5:13:15 PM"
+      }
+    },
+    {
+      "gameId": "001",
+      "playerId": null,
+      "level": 3,
+      "dataType": "specie_data",
+      "FechaInterna": "8/4/2022 5:13:54 PM",
+      "data": {
+        "specieId": "14",
+        "show_desc_date": "8/4/2022 5:13:54 PM"
+      }
+    },
+    {
+      "gameId": "001",
+      "playerId": null,
+      "level": 3,
+      "dataType": "mission_data",
+      "FechaInterna": "8/4/2022 5:14:06 PM",
+      "data": {
+        "Start_Date": "8/4/2022 5:13:53 PM",
+        "End_Date": "8/4/2022 5:14:06 PM",
+        "nombre": "Salva al conejo"
+      }
+    },
+    {
+      "gameId": "001",
+      "playerId": null,
+      "level": 3,
+      "dataType": "experiencie_data",
+      "FechaInterna": "8/4/2022 5:14:06 PM",
+      "data": {
+        "experiencia": 5,
+        "date": "8/4/2022 5:14:06 PM"
+      }
+    },
+    {
+      "gameId": "001",
+      "playerId": null,
+      "level": 3,
+      "dataType": "prize_data",
+      "FechaInterna": "8/4/2022 5:14:06 PM",
+      "data": {
+        "nombre": "Guardabosque Veloz",
+        "date": "8/4/2022 5:14:06 PM"
+      }
+    },
+    {
+      "gameId": "001",
+      "playerId": null,
+      "level": 4,
+      "dataType": "mission_data",
+      "FechaInterna": "8/4/2022 5:14:51 PM",
+      "data": {
+        "Start_Date": "8/4/2022 5:14:36 PM",
+        "End_Date": "8/4/2022 5:14:51 PM",
+        "nombre": "Ayuda al gavilán"
+      }
+    },
+    {
+      "gameId": "001",
+      "playerId": null,
+      "level": 4,
+      "dataType": "experiencie_data",
+      "FechaInterna": "8/4/2022 5:14:51 PM",
+      "data": {
+        "experiencia": 5,
+        "date": "8/4/2022 5:14:51 PM"
+      }
+    },
+    {
+      "gameId": "001",
+      "playerId": null,
+      "level": 4,
+      "dataType": "prize_data",
+      "FechaInterna": "8/4/2022 5:14:51 PM",
+      "data": {
+        "nombre": "Guardabosque Gourmet",
+        "date": "8/4/2022 5:14:51 PM"
+      }
+    },
+    {
+      "gameId": "001",
+      "playerId": null,
+      "level": 5,
+      "dataType": "mission_data",
+      "FechaInterna": "8/4/2022 5:17:42 PM",
+      "data": {
+        "Start_Date": "8/4/2022 5:15:29 PM",
+        "End_Date": "8/4/2022 5:17:42 PM",
+        "nombre": "Recicla"
+      }
+    },
+    {
+      "gameId": "001",
+      "playerId": null,
+      "level": 5,
+      "dataType": "experiencie_data",
+      "FechaInterna": "8/4/2022 5:17:42 PM",
+      "data": {
+        "experiencia": 5,
+        "date": "8/4/2022 5:17:42 PM"
+      }
+    },
+    {
+      "gameId": "001",
+      "playerId": null,
+      "level": 5,
+      "dataType": "prize_data",
+      "FechaInterna": "8/4/2022 5:17:42 PM",
+      "data": {
+        "nombre": "Guardabosque Ecologista",
+        "date": "8/4/2022 5:17:42 PM"
+      }
+    },
+    {
+      "gameId": "001",
+      "playerId": null,
+      "level": 5,
+      "dataType": "specie_data",
+      "FechaInterna": "8/4/2022 5:19:24 PM",
+      "data": {
+        "specieId": "23",
+        "show_desc_date": "8/4/2022 5:19:24 PM"
+      }
+    },
+    {
+      "gameId": "001",
+      "playerId": null,
+      "level": 6,
+      "dataType": "mission_data",
+      "FechaInterna": "8/4/2022 5:21:44 PM",
+      "data": {
+        "Start_Date": "8/4/2022 5:19:55 PM",
+        "End_Date": "8/4/2022 5:21:44 PM",
+        "nombre": "Planta las semillas"
+      }
+    },
+    {
+      "gameId": "001",
+      "playerId": null,
+      "level": 6,
+      "dataType": "experiencie_data",
+      "FechaInterna": "8/4/2022 5:21:44 PM",
+      "data": {
+        "experiencia": 5,
+        "date": "8/4/2022 5:21:44 PM"
+      }
+    },
+    {
+      "gameId": "001",
+      "playerId": null,
+      "level": 6,
+      "dataType": "prize_data",
+      "FechaInterna": "8/4/2022 5:21:44 PM",
+      "data": {
+        "nombre": "Guardabosque herbolario",
+        "date": "8/4/2022 5:21:44 PM"
+      }
+    },
+    {
+      "gameId": "001",
+      "playerId": null,
+      "level": 7,
+      "dataType": "mission_data",
+      "FechaInterna": "8/4/2022 5:25:20 PM",
+      "data": {
+        "Start_Date": "8/4/2022 5:24:10 PM",
+        "End_Date": "8/4/2022 5:25:20 PM",
+        "nombre": "Evita el Incendio"
+      }
+    },
+    {
+      "gameId": "001",
+      "playerId": null,
+      "level": 7,
+      "dataType": "experiencie_data",
+      "FechaInterna": "8/4/2022 5:25:20 PM",
+      "data": {
+        "experiencia": 5,
+        "date": "8/4/2022 5:25:20 PM"
+      }
+    },
+    {
+      "gameId": "001",
+      "playerId": null,
+      "level": 7,
+      "dataType": "prize_data",
+      "FechaInterna": "8/4/2022 5:25:20 PM",
+      "data": {
+        "nombre": "Guardabosque Bombero",
+        "date": "8/4/2022 5:25:20 PM"
+      }
+    },
+    {
+      "gameId": "001",
+      "playerId": null,
+      "level": 7,
+      "dataType": "game_data",
+      "FechaInterna": "8/4/2022 5:26:10 PM",
+      "data": {
+        "Start_Date": "8/4/2022 5:01:36 PM",
+        "End_Date": "8/4/2022 5:26:10 PM",
+        "duration": 25,
+        "score": 27,
+        "NumberImages": 5
       }
     }
   ]
