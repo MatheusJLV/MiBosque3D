@@ -76,7 +76,12 @@ public class GameManager : MonoBehaviour
             updateMode = true;
         }
     }
+    public void Zen()
+    {
+        ZenMode = true;
+        SceneManager.LoadScene("Bosque");
 
+    }
     void comprobacion(){
         foreach(SpecieObject tmp in test.species){
             foreach (Gallery gtmp in tmp.Gallery){

@@ -93,7 +93,7 @@ public class FinalManager : MonoBehaviour
                         
             // aumento de la scale con el paso del tiempo
              RectTransform rt = diploma.GetComponent<RectTransform>();
-             rt.localScale = Vector3.Lerp (rt.localScale, new Vector3(1,1,1), 1.5f * Time.deltaTime);
+             rt.localScale = Vector3.Lerp (rt.localScale, new Vector3(0.5f, 0.5f, 0.5f), 1.5f * Time.deltaTime);
 
              ending += Time.deltaTime;
              segundos = (int)ending % 60;            
