@@ -10,6 +10,8 @@ public class GetWater : MonoBehaviour
     public Text time;
     public Text recordatorio;
     public GameObject agua;
+    public GameObject pendienteGO;
+
 
     private void OnMouseDown()
     {
@@ -19,6 +21,7 @@ public class GetWater : MonoBehaviour
             panelbalde.SetActive(false);
             recordatorio.text = "Rápido, corre a la fogata y apágala!";
             panelwater.SetActive(true);
+            pendienteGO.GetComponent<DialogueTrigger>().dialogue.sentences[0] = "No hay tiempo que perder! Apaga la fogata ahora que tienes el agua!";
         }
         else if (time.text != "0" && (panelbalde.activeSelf == false) && (panelwater.activeSelf == false) && !(MenuPausa.IsPaused || MenuPausa.IsPausedByOtherCanvas))
         {

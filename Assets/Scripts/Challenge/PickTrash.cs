@@ -55,6 +55,7 @@ public class PickTrash : MonoBehaviour
         yield return new WaitForSeconds(1f);
         feedback.SetActive(false);
         this.gameObject.SetActive(false);
+        GameObject.Find("Control Mochila").GetComponent<MochilaCtrl>().Notificar("basura");
     }
 
 

@@ -22,6 +22,9 @@ public class GetBucket : MonoBehaviour
 
     private MouseController mouseController;
     private Collider cameraBlocker;
+
+    public GameObject pendienteGO;
+
     private void Start()
     {
         mouseController = ConstantObjects.instance.mouseController;
@@ -62,6 +65,7 @@ public class GetBucket : MonoBehaviour
             panelbalde.SetActive(true);
             recordatorio.text = "Busca agua, ¡escucha a tu alrededor!";
             Destroy(this.gameObject.GetComponent<BoxCollider>());
+            pendienteGO.GetComponent<DialogueTrigger>().dialogue.sentences[0] = "Aún nos falta conseguir agua! Hay un lago cerca del pozo, sigue buscando!";
             //Destroy(objeto);
         }
         panelbalde.SetActive(true);

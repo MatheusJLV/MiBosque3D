@@ -101,6 +101,7 @@ public class ShowMochila : MonoBehaviour
 #if UNITY_ANDROID || UNITY_IOS
             salidaMochila.SetActive(false);
 #endif
+                GameObject.Find("Control Mochila").GetComponent<MochilaCtrl>().Desnotificar();
             }
             else
             {

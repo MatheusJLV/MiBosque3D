@@ -17,6 +17,7 @@ public class ChallengePass5 : MonoBehaviour
     public String New_Scene;
     public static DateTime inicio;
     private int levelId = 4;
+    public GameObject medallaFinal;
     void Update()
     {
         if (WaterVerification.fuegoApagado && act)
@@ -162,8 +163,14 @@ public class ChallengePass5 : MonoBehaviour
         GameManager.estas.lista.Add(tmp3);
         //cambio de escena
         Debug.Log("Cambiando a final...");
-        Invoke("cambio_a_final", 4);
+        //Invoke("cambio_a_final", 4);
+        activarMedalla();
     }
+    private void activarMedalla()
+    {
+        medallaFinal.SetActive(true);
+    }
+
     public void cambio_a_final()
     {
         SceneManager.LoadScene(New_Scene);

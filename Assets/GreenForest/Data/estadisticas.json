@@ -2,15 +2,15 @@
   "lista": [
     {
       "gameId": "001",
-      "playerId": "",
-      "level": 0,
+      "playerId": null,
+      "level": 7,
       "dataType": "game_data",
-      "FechaInterna": "8/10/2022 1:47:44 PM",
+      "FechaInterna": "8/17/2022 3:32:51 PM",
       "data": {
-        "Start_Date": "8/10/2022 1:45:56 PM",
-        "End_Date": "8/10/2022 1:47:44 PM",
-        "duration": 2,
-        "score": 0,
+        "Start_Date": "8/17/2022 3:26:10 PM",
+        "End_Date": "8/17/2022 3:32:51 PM",
+        "duration": 6,
+        "score": 30,
         "NumberImages": 0
       }
     }
