@@ -825,6 +825,238 @@
           "imagename": "LoroCaraRoja_image_2"
         }
       ]
+    },
+    {
+      "specieId": "10000010",
+      "id": 39,
+      "name": "Aninga",
+      "family": "Anhingidae",
+      "gallery": [
+        {
+          "mongoId": "20000028",
+          "id": 124,
+          "description": "Habitan en ambientes acuáticos templados y cálidos del viejo y nuevo mundo. Se alimentan especialmente de peces.",
+          "audioname": "Aninga_audio_descripcion_0",
+          "imagename": "Aninga_image_0"
+        },
+        {
+          "mongoId": "20000029",
+          "id": 125,
+          "description": "Morfológicamente, las aningas destacan por su delgado y largo cuello, el cual es la única parte del cuerpo que sobresale del agua quedando el resto del cuerpo sumergido.",
+          "audioname": "Aninga_audio_descripcion_1",
+          "imagename": "Aninga_image_1"
+        },
+        {
+          "mongoId": "20000030",
+          "id": 126,
+          "description": "En líneas generales los machos poseen un plumaje más oscuro, una cresta eréctil en el cráneo y un pico mayor.",
+          "audioname": "Aninga_audio_descripcion_2",
+          "imagename": "Aninga_image_2"
+        }
+      ]
+    },
+    {
+      "specieId": "10000010",
+      "id": 40,
+      "name": "Cuco ardilla",
+      "family": "Cuculidae",
+      "gallery": [
+        {
+          "mongoId": "20000028",
+          "id": 127,
+          "description": "Se alimenta de insectos grandes, como cigarras o chicharras, avispas y orugas y ocasionalmente arácnidos, lagartijas y algunas frutas.",
+          "audioname": "CucoArdilla_audio_descripcion_0",
+          "imagename": "_image_0"
+        },
+        {
+          "mongoId": "20000029",
+          "id": 128,
+          "description": "Es una especie abundante y parece tolerar la intervención humana, siempre y cuando no se destruya el bosque.",
+          "audioname": "CucoArdilla_audio_descripcion_1",
+          "imagename": "CucoArdilla_image_1"
+        },
+        {
+          "mongoId": "20000030",
+          "id": 129,
+          "description": "Su nido es una taza de hojas, construido en una rama de un árbol, oculta en la vegetación densa, a una altura de 1 a 12 m.",
+          "audioname": "CucoArdilla_audio_descripcion_2",
+          "imagename": "CucoArdilla_image_2"
+        }
+      ]
+    },
+    {
+      "specieId": "10000010",
+      "id": 41,
+      "name": "Bolsero cariamarillo",
+      "family": "Icteridae",
+      "gallery": [
+        {
+          "mongoId": "20000028",
+          "id": 130,
+          "description": "Habita bosques y fronteras de bosques, bosques con pocos árboles, jardines, plantaciones y en tierras bajas de bosques húmedos.",
+          "audioname": "BolseroCariamarillo_audio_descripcion_0",
+          "imagename": "BolseroCariamarillo_image_0"
+        },
+        {
+          "mongoId": "20000029",
+          "id": 131,
+          "description": "La base de la mandíbula es gris azulada. Su cuerpo es amarillo brillante con la cara, pico y espalda de color negro.",
+          "audioname": "BolseroCariamarillo_audio_descripcion_1",
+          "imagename": "BolseroCariamarillo_image_1"
+        },
+        {
+          "mongoId": "20000030",
+          "id": 132,
+          "description": "La cola y las alas son negras, en la parte principal de las alas poseen un parche amarillo con líneas blancas en los costados de las plumas de vuelo.",
+          "audioname": "BolseroCariamarillo_audio_descripcion_2",
+          "imagename": "BolseroCariamarillo_image_2"
+        }
+      ]
+    },
+    {
+      "specieId": "10000010",
+      "id": 42,
+      "name": "Carpintero carinegro",
+      "family": "Picidae",
+      "gallery": [
+        {
+          "mongoId": "20000028",
+          "id": 133,
+          "description": "Suele perchar alto en los árboles. Inspecciona y esculca troncos y ramas en busca de insectos pero también se alimenta de frutas y caza insectos en el aire.",
+          "audioname": "CarpinteroCarinegro_audio_descripcion_0",
+          "imagename": "CarpinteroCarinegro_image_0"
+        },
+        {
+          "mongoId": "20000029",
+          "id": 134,
+          "description": "Tienen fuertes picos, para taladrar y tamborilear en los árboles, y lenguas finas, puntiagudas y con pequeñas cerdas, para extraer la comida.",
+          "audioname": "CarpinteroCarinegro_audio_descripcion_1",
+          "imagename": "CarpinteroCarinegro_image_1"
+        },
+        {
+          "mongoId": "20000030",
+          "id": 135,
+          "description": "Se alimentan de insectos, gusanos y larvas que pueden encontrar durante todo el año, capturándolos bajo la corteza o perforando el interior de los árboles o de los troncos caídos.",
+          "audioname": "CarpinteroCarinegro_audio_descripcion_2",
+          "imagename": "CarpinteroCarinegro_image_2"
+        }
+      ]
+    },
+    {
+      "specieId": "10000010",
+      "id": 43,
+      "name": "Garza blanca",
+      "family": "Ardeidae",
+      "gallery": [
+        {
+          "mongoId": "20000028",
+          "id": 136,
+          "description": "Es un ave acuática de plumaje blanco, grande y esbelta, que puede alcanzar el metro de altura.",
+          "audioname": "GarzaBlanca_audio_descripcion_0",
+          "imagename": "GarzaBlanca_image_0"
+        },
+        {
+          "mongoId": "20000029",
+          "id": 137,
+          "description": "Vuela con su largo cuello retraído, pero suele caminar con él estirado. ",
+          "audioname": "GarzaBlanca_audio_descripcion_1",
+          "imagename": "GarzaBlanca_image_1"
+        },
+        {
+          "mongoId": "20000030",
+          "id": 138,
+          "description": "Se alimenta en aguas poco profundas, o hábitats más secos, principalmente de peces, ranas, pequeños mamíferos y ocasionalmente aves pequeñas y reptiles.",
+          "audioname": "GarzaBlanca_audio_descripcion_2",
+          "imagename": "GarzaBlanca_image_2"
+        }
+      ]
+    },
+    {
+      "specieId": "10000010",
+      "id": 44,
+      "name": "Garza nocturna",
+      "family": "Ardeidae",
+      "gallery": [
+        {
+          "mongoId": "20000028",
+          "id": 139,
+          "description": "El hábitat de cría de esta ave son los humedales de agua salada, en gran parte del planeta.",
+          "audioname": "GarzaNocturna_audio_descripcion_0",
+          "imagename": "GarzaNocturna_image_0"
+        },
+        {
+          "mongoId": "20000029",
+          "id": 140,
+          "description": "Se alimenta principalmente de peces, anfibios, pequeños reptiles e insectos. Excepcionalmente puede completar su dieta con algún ratón.",
+          "audioname": "GarzaNocturna_audio_descripcion_1",
+          "imagename": "GarzaNocturna_image_1"
+        },
+        {
+          "mongoId": "20000030",
+          "id": 141,
+          "description": "En Chiloé, un archipiélago del sur de Chile, esta ave tiene un papel importante en la mitología local, porque es asociada con la brujería y las fuerzas del mal.",
+          "audioname": "GarzaNocturna_audio_descripcion_2",
+          "imagename": "GarzaNocturna_image_2"
+        }
+      ]
+    },
+    {
+      "specieId": "10000010",
+      "id": 45,
+      "name": "Mariposa azul",
+      "family": "Nymphalidae",
+      "gallery": [
+        {
+          "mongoId": "20000028",
+          "id": 142,
+          "description": "Es de color azul iridiscente y gran tamaño, con una envergadura alar de 15 centímetros.",
+          "audioname": "MariposaAzul_audio_descripcion_0",
+          "imagename": "MariposaAzul_image_0"
+        },
+        {
+          "mongoId": "20000029",
+          "id": 143,
+          "description": "El adulto bebe el jugo de las frutas en descomposición con su larga probóscide.",
+          "audioname": "MariposaAzul_audio_descripcion_1",
+          "imagename": "MariposaAzul_image_1"
+        },
+        {
+          "mongoId": "20000030",
+          "id": 144,
+          "description": "Las mariposas morfo azul, debido a su color azul eléctrico se le atribuyen una serie de simbolismos positivos.",
+          "audioname": "MariposaAzul_audio_descripcion_2",
+          "imagename": "MariposaAzul_image_2"
+        }
+      ]
+    },
+    {
+      "specieId": "10000010",
+      "id": 46,
+      "name": "Tigrillo",
+      "family": "Felidae",
+      "gallery": [
+        {
+          "mongoId": "20000028",
+          "id": 145,
+          "description": "Alcanza una longitud cabeza-cuerpo de 39 a 78 cm, con una cola de 20 a 42 cm de largo. La altura está entre 22 y 30 cm. Su peso varía entre los 2 y 3 kg.",
+          "audioname": "Tigrillo_audio_descripcion_0",
+          "imagename": "Tigrillo_image_0"
+        },
+        {
+          "mongoId": "20000029",
+          "id": 146,
+          "description": "La piel es gruesa y suave, de coloración marrón claro a ocre oscuro, con numerosas rosetas negruzcas en el dorso y los flancos.",
+          "audioname": "Tigrillo_audio_descripcion_1",
+          "imagename": "_image_1"
+        },
+        {
+          "mongoId": "20000030",
+          "id": 147,
+          "description": "La longevidad se le estima en unos 17 años; en cautiverio está documentada hasta en 20 años.",
+          "audioname": "Tigrillo_audio_descripcion_2",
+          "imagename": "Tigrillo_image_2"
+        }
+      ]
     }
   ]
 }
