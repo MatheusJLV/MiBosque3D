@@ -5,10 +5,10 @@
       "playerId": "",
       "level": 0,
       "dataType": "specie_data",
-      "FechaInterna": "8/26/2022 1:04:35 AM",
+      "FechaInterna": "8/28/2022 11:13:57 AM",
       "data": {
-        "specieId": "45",
-        "show_desc_date": "8/26/2022 1:04:35 AM"
+        "specieId": "21",
+        "show_desc_date": "8/28/2022 11:13:57 AM"
       }
     },
     {
@@ -16,10 +16,164 @@
       "playerId": "",
       "level": 0,
       "dataType": "specie_data",
-      "FechaInterna": "8/26/2022 1:04:39 AM",
+      "FechaInterna": "8/28/2022 11:14:15 AM",
+      "data": {
+        "specieId": "1",
+        "show_desc_date": "8/28/2022 11:14:15 AM"
+      }
+    },
+    {
+      "gameId": "001",
+      "playerId": "",
+      "level": 0,
+      "dataType": "specie_data",
+      "FechaInterna": "8/28/2022 11:14:25 AM",
+      "data": {
+        "specieId": "32",
+        "show_desc_date": "8/28/2022 11:14:25 AM"
+      }
+    },
+    {
+      "gameId": "001",
+      "playerId": "",
+      "level": 0,
+      "dataType": "specie_data",
+      "FechaInterna": "8/28/2022 11:14:49 AM",
+      "data": {
+        "specieId": "38",
+        "show_desc_date": "8/28/2022 11:14:49 AM"
+      }
+    },
+    {
+      "gameId": "001",
+      "playerId": "",
+      "level": 0,
+      "dataType": "specie_data",
+      "FechaInterna": "8/28/2022 11:14:52 AM",
+      "data": {
+        "specieId": "38",
+        "show_desc_date": "8/28/2022 11:14:52 AM"
+      }
+    },
+    {
+      "gameId": "001",
+      "playerId": "",
+      "level": 0,
+      "dataType": "specie_data",
+      "FechaInterna": "8/28/2022 11:14:54 AM",
+      "data": {
+        "specieId": "38",
+        "show_desc_date": "8/28/2022 11:14:54 AM"
+      }
+    },
+    {
+      "gameId": "001",
+      "playerId": "",
+      "level": 0,
+      "dataType": "specie_data",
+      "FechaInterna": "8/28/2022 11:14:57 AM",
+      "data": {
+        "specieId": "38",
+        "show_desc_date": "8/28/2022 11:14:57 AM"
+      }
+    },
+    {
+      "gameId": "001",
+      "playerId": "",
+      "level": 0,
+      "dataType": "specie_data",
+      "FechaInterna": "8/28/2022 11:14:59 AM",
+      "data": {
+        "specieId": "31",
+        "show_desc_date": "8/28/2022 11:14:59 AM"
+      }
+    },
+    {
+      "gameId": "001",
+      "playerId": "",
+      "level": 0,
+      "dataType": "specie_data",
+      "FechaInterna": "8/28/2022 11:15:10 AM",
+      "data": {
+        "specieId": "37",
+        "show_desc_date": "8/28/2022 11:15:10 AM"
+      }
+    },
+    {
+      "gameId": "001",
+      "playerId": "",
+      "level": 0,
+      "dataType": "specie_data",
+      "FechaInterna": "8/28/2022 11:15:19 AM",
+      "data": {
+        "specieId": "32",
+        "show_desc_date": "8/28/2022 11:15:19 AM"
+      }
+    },
+    {
+      "gameId": "001",
+      "playerId": "",
+      "level": 0,
+      "dataType": "specie_data",
+      "FechaInterna": "8/28/2022 11:15:21 AM",
+      "data": {
+        "specieId": "23",
+        "show_desc_date": "8/28/2022 11:15:21 AM"
+      }
+    },
+    {
+      "gameId": "001",
+      "playerId": "",
+      "level": 0,
+      "dataType": "specie_data",
+      "FechaInterna": "8/28/2022 11:15:32 AM",
+      "data": {
+        "specieId": "36",
+        "show_desc_date": "8/28/2022 11:15:32 AM"
+      }
+    },
+    {
+      "gameId": "001",
+      "playerId": "",
+      "level": 0,
+      "dataType": "specie_data",
+      "FechaInterna": "8/28/2022 11:15:37 AM",
+      "data": {
+        "specieId": "35",
+        "show_desc_date": "8/28/2022 11:15:37 AM"
+      }
+    },
+    {
+      "gameId": "001",
+      "playerId": "",
+      "level": 0,
+      "dataType": "specie_data",
+      "FechaInterna": "8/28/2022 11:15:40 AM",
+      "data": {
+        "specieId": "29",
+        "show_desc_date": "8/28/2022 11:15:40 AM"
+      }
+    },
+    {
+      "gameId": "001",
+      "playerId": "",
+      "level": 0,
+      "dataType": "specie_data",
+      "FechaInterna": "8/28/2022 11:15:43 AM",
+      "data": {
+        "specieId": "36",
+        "show_desc_date": "8/28/2022 11:15:43 AM"
+      }
+    },
+    {
+      "gameId": "001",
+      "playerId": "",
+      "level": 0,
+      "dataType": "specie_data",
+      "FechaInterna": "8/28/2022 11:16:25 AM",
       "data": {
         "specieId": "45",
-        "show_desc_date": "8/26/2022 1:04:39 AM"
+        "show_desc_date": "8/28/2022 11:16:25 AM"
       }
     },
     {
@@ -27,13 +181,13 @@
       "playerId": "",
       "level": 0,
       "dataType": "game_data",
-      "FechaInterna": "8/26/2022 1:04:42 AM",
+      "FechaInterna": "8/28/2022 11:17:21 AM",
       "data": {
-        "Start_Date": "8/26/2022 1:03:36 AM",
-        "End_Date": "8/26/2022 1:04:42 AM",
-        "duration": 1,
-        "score": 0,
-        "NumberImages": 2
+        "Start_Date": "8/28/2022 11:13:29 AM",
+        "End_Date": "8/28/2022 11:17:21 AM",
+        "duration": 4,
+        "score": 6,
+        "NumberImages": 16
       }
     }
   ]
