@@ -91,7 +91,14 @@ public class ClickMouse : MonoBehaviour
         Debug.Log("Desde el script ClickMouse de la especie " + specieName + " se lanzo la funcion registrarEspecieId");
         if (gameObject.tag == "Bird")
         {
-            string estacionPajaro = gameObject.transform.parent.parent.parent.parent.gameObject.GetComponent<Estacion>().ID.ToString();
+            string estacionPajaro="";
+            try
+            {
+                estacionPajaro = gameObject.transform.parent.parent.parent.parent.gameObject.GetComponent<Estacion>().ID.ToString();
+            }catch(Exception e)
+            {
+                estacionPajaro = "1";
+            }
             BookPages.instance.registrarEspecie(specieName, estacionPajaro);
             return;
         }

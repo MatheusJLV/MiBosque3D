@@ -3692,7 +3692,7 @@ GameObject:
   - component: {fileID: 110938264}
   m_Layer: 0
   m_Name: Balde
-  m_TagString: Untagged
+  m_TagString: Balde
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32318,8 +32318,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.9999993, y: 4.6566112e-10, z: 1.9999987}
-  m_Center: {x: -0.00000032782555, y: -7.632783e-17, z: 0.00000032782552}
+  m_Size: {x: 1.9999993, y: 0.00306797, z: 1.9999987}
+  m_Center: {x: -0.000000312308, y: -0.006678089, z: 0.00000033879195}
 --- !u!4 &951550705 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 9485b0c79d11e2e4d0007da98d76c639,
@@ -32423,6 +32423,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!65 &951550707
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 951550702}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.5248236, y: 0.009812157, z: 0.51206064}
+  m_Center: {x: -0.43385363, y: 0.0021869864, z: 0.18229026}
 --- !u!1 &951845468
 GameObject:
   m_ObjectHideFlags: 0
@@ -52572,14 +52585,59 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91aa967a1271a944b9d70006f88947f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  imagenes: []
-  nombres: []
-  isDiscovered: 
-  isLoaded: 
+  imagenes:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  nombres:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  isDiscovered: 000000000000000000
+  isLoaded: 000000000000000000
   descripciones: []
-  estaciones: []
-  nombresLatin: []
-  familias: []
+  estaciones:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  nombresLatin:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  familias:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   otrosHabitats: []
   leftPage: {fileID: 3807061303602160427}
   rightPage: {fileID: 3807061303623314989}
@@ -52589,23 +52647,15 @@ MonoBehaviour:
   pagesLoaded: 0
   paginaActual: 0
   test:
-  - {fileID: 21300000, guid: a920c85e1f7101c42bf9b28b5deddd73, type: 3}
   - {fileID: 21300000, guid: 95a6718559610b84c9bb5d817ba7a611, type: 3}
   - {fileID: 21300000, guid: fe8045181dc49de4a8dd298e4a83c4f2, type: 3}
   - {fileID: 21300000, guid: ab67f3852c88d9f4fa5a8aa3dbee535b, type: 3}
   - {fileID: 21300000, guid: 704c2fd4e4fea03428600aa313888a4e, type: 3}
   - {fileID: 21300000, guid: 62936beb79e8bf14597479aa999409da, type: 3}
   - {fileID: 21300000, guid: 54be3012750cae74eb5ec449a9272103, type: 3}
-  - {fileID: 21300000, guid: 52240d69001d1554f9e675e44af087d6, type: 3}
-  - {fileID: 21300000, guid: ac72012310157654182f5af5abcff483, type: 3}
+  - {fileID: 21300000, guid: 95c44b92d3852704b8fd2b12b593b314, type: 3}
   - {fileID: 21300000, guid: 714bf78d162e1a741aaf5ab5f10ba6c4, type: 3}
-  - {fileID: 21300000, guid: 9870832ad5ac95447b262ece26dee209, type: 3}
-  - {fileID: 21300000, guid: 603240dac85c4524885a5a58cca0fb03, type: 3}
   - {fileID: 21300000, guid: 464c53a4e738a3b4db3fef5a8a3a35c1, type: 3}
-  - {fileID: 21300000, guid: 48d55e61b859bd947a7c64df44aa15ac, type: 3}
-  - {fileID: 21300000, guid: 5212990652275f147aa16f605bb4d20b, type: 3}
-  - {fileID: 21300000, guid: 250e12c33a5d4e045bc0a751c0b5d0bb, type: 3}
-  - {fileID: 21300000, guid: 1cf19df64bac6944cb0b945e358f84c2, type: 3}
 --- !u!114 &1299061565
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58850,7 +58900,7 @@ GameObject:
   - component: {fileID: 1434987802}
   - component: {fileID: 1434987801}
   - component: {fileID: 1434987800}
-  m_Layer: 4
+  m_Layer: 0
   m_Name: agua balde
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -95341,7 +95391,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6055337329924678201}
   m_LocalRotation: {x: -0, y: 0.339212, z: -0, w: -0.94071}
-  m_LocalPosition: {x: 384.3064, y: 214.86, z: 541.12976}
+  m_LocalPosition: {x: 384.3064, y: 214.5, z: 541.12976}
   m_LocalScale: {x: 61.072693, y: 36.476192, z: 90.07762}
   m_Children:
   - {fileID: 2139712400}

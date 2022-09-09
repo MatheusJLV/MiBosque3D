@@ -114,23 +114,7 @@ public class ManejadorCalidad : MonoBehaviour
         //actionLogger.GetComponent<ActionLogger>().actionLogger.locacion = "Bosque e"+act;
 
     }
-
-    // Update is called once per frame
-    /*void Update()
-    {
-        if (Input.GetKeyUp(KeyCode.Z))
-        {
-            prueba();
-        }
-    }
-
-    void prueba()
-    {
-        Debug.Log("Probando manejador");
-        Terreno.GetComponent<Terrain>().detailObjectDensity = 0;
-        WindZone.SetActive(false);
-    }*/
-
+    
 
     public void minima()
     {

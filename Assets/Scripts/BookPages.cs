@@ -47,28 +47,28 @@ public class BookPages : MonoBehaviour
         imageRequestUrl = SystemVariables.url_puerto + "/api/bpv/specie/";
 
         //test = new Sprite[17];
-        imagenes = new Texture[17];
-        descripciones = new string[17];
+        imagenes = new Texture[9];
+        descripciones = new string[9];
 
-        nombres = new string[17] {"Teca","Ceibo","Bototillo","Pechiche","Guasmo","Fernan Sánchez",
-            "Iguana","Ardilla", "Momoto Gritón","Pinzón Sabanero","Gavilán Gris","Garrapatero Piquiestrado",
-            "Tangara Azul y Gris", "Búho Blanquinegro", "Garcilla Estriada", "Tirano Tropical","Mosquero Rayado"};
+        nombres = new string[9] {"Ceibo","Bototillo","Pechiche","Guasmo","Fernan Sánchez",
+            "Iguana","Ardilla de Guayaquil","Pinzón Sabanero",
+            "Tangara Azul y Gris"};
 
-        nombresLatin = new string[17] { "Tectona Grandis", "Erythrina Cristagalli", "Cochlospermum vitifolium", "Vitex cymosa", "Guazuma ulmifolia", "Triplaris cumingiana",
-            "Iguana iguana", "Sciurus stramineus", "Momotus subrufescens", "Sicalis flaveola", "Buteo nitidus", "Crotophaga sulcirostris",
-            "Thraupis episcopus", "Strix nigrolineata", "Butorides striata", "Tyrannus melancholicus", "Myiodynastes maculatus" };
+        nombresLatin = new string[9] { "Erythrina Cristagalli", "Cochlospermum vitifolium", "Vitex cymosa", "Guazuma ulmifolia", "Triplaris cumingiana",
+            "Iguana iguana", "Sciurus stramineus", "Sicalis flaveola",
+            "Thraupis episcopus" };
 
-        familias = new string[17] { "Verbenaceae", "Faboideae", "Bixaceae", "Lamiaceae", "Malvaceae", "Polygonaceae",
-            "Iguanidae", "Sciuridae", "Momotidae", "Emberizidae", "Accipitridae", "Cuculidae",
-            "Thraupidae", "Strigidae", "Ardeidae", "Tyrannidae", "Tyrannidae" };
+        familias = new string[9] { "Faboideae", "Bixaceae", "Lamiaceae", "Malvaceae", "Polygonaceae",
+            "Iguanidae", "Sciuridae", "Emberizidae", 
+            "Thraupidae" };
 
-        otrosHabitats = new string[17] { "India, Birmania, Laos, Tailandia", "Argentina, Bolivia, Brasil", "México", "Panamá, Antillas, Venezuela", "México", "Colombia",
-            "Centroamérica, Caribe", "Cordillera de los Andes", "Panamá, Colombia, Venezuela", "Argentina, Brasil, Panamá", "Costa Rica", "USA, Bahamas, Centroamérica",
-            "Costa Rica, Panamá, Perú", "Guatemala, Honduras, Nicaragua", "Japón, África Oriental, Australia", "Argentina, Perú, Trinidad y Tobago", "Brasil, Paraguay, Bolivia" };
+        otrosHabitats = new string[9] {"Argentina, Bolivia, Brasil", "México", "Panamá, Antillas, Venezuela", "México", "Colombia",
+            "Centroamérica, Caribe", "Cordillera de los Andes", "Argentina, Brasil, Panamá",
+            "Costa Rica, Panamá, Perú" };
 
         setearInfo();
-        estaciones = new string[17];
-        isLoaded = new bool[17];
+        estaciones = new string[9];
+        isLoaded = new bool[9];
     }
 
     //TESTEO
@@ -87,7 +87,7 @@ public class BookPages : MonoBehaviour
             }
         }
         */
-        for (int i = 0; i < 17; i++)
+        for (int i = 0; i < 9; i++)
         {
             foreach (SpecieObject specie in GameManager.instance.test.species)
             {
@@ -130,7 +130,7 @@ public class BookPages : MonoBehaviour
     public void paginaSiguiente()
     {
 
-        if (paginaActual + 1 < 8)//Maximo 9 pares de paginas, porque son 17 especies.
+        if (paginaActual < 4)//Maximo 9 pares de paginas, porque son 17 especies.
         {
             Debug.Log("Presiono pagina siguiente y esta dentor del if.");
             paginaActual++;

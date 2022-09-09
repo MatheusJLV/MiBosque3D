@@ -61,24 +61,7 @@ public class ManejadorEstacion : MonoBehaviour
         destruir();
     }
 
-    //solo para pruebas, borrar el update luego
-
-    public void Update()
-    {
-        //if (idManejador==2)
-        {
-
-            if (Input.GetKeyUp(KeyCode.X))
-            {
-                instanciar();
-            }
-            if (Input.GetKeyUp(KeyCode.Y))
-            {
-                destruir();
-            }
-        }
-        
-    }
+  
 
     void instanciar()
     {
