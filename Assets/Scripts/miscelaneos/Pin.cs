@@ -24,6 +24,7 @@ public class Pin : MonoBehaviour {
 	public bool desbloqueado;
 
 	private Dictionary<Direccion, Pin> pinDirecciones;
+    public GameObject mapManager;
 
 	private void Start(){
 
@@ -69,5 +70,12 @@ public class Pin : MonoBehaviour {
 		Gizmos.color = Color.blue;
 		Gizmos.DrawLine(transform.position, pin.transform.position);
 	}
-
+    public void OnMouseDown()
+    {
+        Debug.Log("presiono pin "+ estacion.ID);
+        if (desbloqueado)
+        {
+            mapManager.GetComponent<MapManager>().enterEstacion(estacion.ID);
+        }
+    }
 }

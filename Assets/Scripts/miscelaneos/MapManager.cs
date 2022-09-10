@@ -99,8 +99,22 @@ public class MapManager : MonoBehaviour {
 		}
 		CheckForInput();
 	}
+    public void enterEstacion(int estacion)
+    {
+        if (estacion != 0)
+        {
+            Panel.SetActive(true);
+            if (diccionarioNombre.ContainsKey(estacion))
+            {
+                actionLogger.GetComponent<ActionLogger>().actionLogger.agregarAccion("Change Scene", "Menu Mapa-Bosque-" + estacion);
+                Cargando.text = string.Format("Entrando a: " + diccionarioNombre[estacion]);
+                Canvas.SetActive(false);
+            }
+            sceneChanger.FadeToLevel(estacion);
+        }
+    }
 
-	private void CheckForInput(){
+    private void CheckForInput(){
 		if (Input.GetKeyUp(KeyCode.Return) && character.PinActual.estacion.ID != 0){
 			Panel.SetActive(true);
 			if (diccionarioNombre.ContainsKey(character.PinActual.estacion.ID))

@@ -10862,6 +10862,11 @@ PrefabInstance:
       propertyPath: PinAbajo
       value: 
       objectReference: {fileID: 2036118876}
+    - target: {fileID: 114506250908230100, guid: 9c247b1435b65e64f915153e475b9b01,
+        type: 3}
+      propertyPath: mapManager
+      value: 
+      objectReference: {fileID: 1360132834}
     - target: {fileID: 4936438437961724, guid: 9c247b1435b65e64f915153e475b9b01, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.49
@@ -10921,6 +10926,32 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 177702843}
   m_PrefabAsset: {fileID: 0}
+--- !u!61 &177702845
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 177702844}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.56, y: 2.56}
+    newSize: {x: 2.56, y: 2.56}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.56, y: 2.56}
+  m_EdgeRadius: 0
 --- !u!1 &180046740
 GameObject:
   m_ObjectHideFlags: 0
@@ -12520,6 +12551,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slider: {fileID: 295325689}
+  actionLogger: {fileID: 0}
   Speed: 6
   spriteRenderer: {fileID: 209200321}
 --- !u!1 &209721920
@@ -43283,6 +43315,11 @@ PrefabInstance:
       propertyPath: PinArriba
       value: 
       objectReference: {fileID: 268348106}
+    - target: {fileID: 114506250908230100, guid: 9c247b1435b65e64f915153e475b9b01,
+        type: 3}
+      propertyPath: mapManager
+      value: 
+      objectReference: {fileID: 1360132834}
     - target: {fileID: 4936438437961724, guid: 9c247b1435b65e64f915153e475b9b01, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.8
@@ -43351,6 +43388,32 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 751962575}
   m_PrefabAsset: {fileID: 0}
+--- !u!61 &751962577
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 751962576}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.56, y: 2.56}
+    newSize: {x: 2.56, y: 2.56}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.56, y: 2.56}
+  m_EdgeRadius: 0
 --- !u!1 &752716327
 GameObject:
   m_ObjectHideFlags: 0
@@ -75733,6 +75796,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   character: {fileID: 209200323}
+  actionLogger: {fileID: 0}
   PinInicio: {fileID: 2036118876}
   Estacion: {fileID: 362535538}
   Cargando: {fileID: 1358909993}
@@ -78195,6 +78259,11 @@ PrefabInstance:
       propertyPath: estacion
       value: 
       objectReference: {fileID: 2134945657}
+    - target: {fileID: 114506250908230100, guid: 9c247b1435b65e64f915153e475b9b01,
+        type: 3}
+      propertyPath: mapManager
+      value: 
+      objectReference: {fileID: 1360132834}
     - target: {fileID: 4936438437961724, guid: 9c247b1435b65e64f915153e475b9b01, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.09
@@ -78263,6 +78332,32 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1408586547}
   m_PrefabAsset: {fileID: 0}
+--- !u!61 &1408586549
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1408586548}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.56, y: 2.56}
+    newSize: {x: 2.56, y: 2.56}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.56, y: 2.56}
+  m_EdgeRadius: 0
 --- !u!1 &1411071521
 GameObject:
   m_ObjectHideFlags: 0
@@ -81759,6 +81854,11 @@ PrefabInstance:
       propertyPath: desbloqueado
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114506250908230100, guid: 9c247b1435b65e64f915153e475b9b01,
+        type: 3}
+      propertyPath: mapManager
+      value: 
+      objectReference: {fileID: 1360132834}
     - target: {fileID: 4936438437961724, guid: 9c247b1435b65e64f915153e475b9b01, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.24
@@ -81827,6 +81927,32 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1461900126}
   m_PrefabAsset: {fileID: 0}
+--- !u!61 &1461900128
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1461900127}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.56, y: 2.56}
+    newSize: {x: 2.56, y: 2.56}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.56, y: 2.56}
+  m_EdgeRadius: 0
 --- !u!1 &1464063828
 GameObject:
   m_ObjectHideFlags: 0
@@ -94973,6 +95099,11 @@ PrefabInstance:
       propertyPath: estacion
       value: 
       objectReference: {fileID: 989059230}
+    - target: {fileID: 114506250908230100, guid: 9c247b1435b65e64f915153e475b9b01,
+        type: 3}
+      propertyPath: mapManager
+      value: 
+      objectReference: {fileID: 1360132834}
     - target: {fileID: 4936438437961724, guid: 9c247b1435b65e64f915153e475b9b01, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.23
@@ -95041,6 +95172,32 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1701427834}
   m_PrefabAsset: {fileID: 0}
+--- !u!61 &1701427836
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1701427835}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.56, y: 2.56}
+    newSize: {x: 2.56, y: 2.56}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.56, y: 2.56}
+  m_EdgeRadius: 0
 --- !u!1 &1701862884
 GameObject:
   m_ObjectHideFlags: 0
@@ -100333,6 +100490,11 @@ PrefabInstance:
       propertyPath: estacion
       value: 
       objectReference: {fileID: 227054586}
+    - target: {fileID: 114506250908230100, guid: 9c247b1435b65e64f915153e475b9b01,
+        type: 3}
+      propertyPath: mapManager
+      value: 
+      objectReference: {fileID: 1360132834}
     - target: {fileID: 4936438437961724, guid: 9c247b1435b65e64f915153e475b9b01, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.27
@@ -100400,6 +100562,32 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1792158510}
   m_PrefabAsset: {fileID: 0}
+--- !u!61 &1792158512
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1792158511}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.56, y: 2.56}
+    newSize: {x: 2.56, y: 2.56}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.56, y: 2.56}
+  m_EdgeRadius: 0
 --- !u!1 &1794253353
 GameObject:
   m_ObjectHideFlags: 0
@@ -101819,6 +102007,11 @@ PrefabInstance:
       propertyPath: estacion
       value: 
       objectReference: {fileID: 1699186801}
+    - target: {fileID: 114506250908230100, guid: 9c247b1435b65e64f915153e475b9b01,
+        type: 3}
+      propertyPath: mapManager
+      value: 
+      objectReference: {fileID: 1360132834}
     - target: {fileID: 4936438437961724, guid: 9c247b1435b65e64f915153e475b9b01, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.75
@@ -101887,6 +102080,32 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1822235098}
   m_PrefabAsset: {fileID: 0}
+--- !u!61 &1822235100
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1822235099}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.56, y: 2.56}
+    newSize: {x: 2.56, y: 2.56}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.56, y: 2.56}
+  m_EdgeRadius: 0
 --- !u!1 &1823236792
 GameObject:
   m_ObjectHideFlags: 0
