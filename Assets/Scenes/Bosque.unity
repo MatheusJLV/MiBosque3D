@@ -4366,8 +4366,8 @@ MonoBehaviour:
     title:
     - Siembra unas semillas
     sentences:
-    - Solo debes arrojar las semillas cerca de la zona indicada. Dirigete a la zona
-      designada para sembrar y abre tu mochila con la letra "M".
+    - "Solo debes ARRASTRAR las semillas en de la zona indicada. \n\nDirigete al INVERNADERO
+      para sembrar y abre tu mochila con la letra \"M\"."
     sprites:
     - {fileID: 0}
   dialogoCambiante: 0
@@ -12117,7 +12117,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Encuentra dos ratones, una salamandra y dejalos en la zona
+  m_Text: 'Encuentra dos ratones, una salamandra y dejalos en la zona '
 --- !u!222 &358833693
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12703,9 +12703,9 @@ MonoBehaviour:
     title:
     - "T\xFA puedes"
     sentences:
-    - "Est\xE1s a pocos pasos de llegar al final del sendero. Recoge la basura para
-      evitar la contaminaci\xF3n y que los animales del bosque se lastimen.\nAbre
-      la mochila con la tecla \"M\" y arrastrala al basurero correspondiente."
+    - "RECOGE la basura para evitar la contaminaci\xF3n y que los animales del bosque
+      se lastimen.\nAbre la mochila con la tecla \"M\" y ARR\xC1STRALA al basurero
+      correspondiente."
     sprites:
     - {fileID: 0}
   dialogoCambiante: 0
@@ -14540,8 +14540,8 @@ MonoBehaviour:
     title:
     - No te rindas
     sentences:
-    - "El conejo beb\xE9 necesita tu ayuda. Completa la misi\xF3n para poder continuar
-      a la siguiente estaci\xF3n."
+    - "El conejo beb\xE9 necesita tu ayuda. ATRAPA al conejo y luego REGR\xC9SALO
+      a su madriguera usando el clic."
     sprites:
     - {fileID: 0}
   dialogoCambiante: 0
@@ -14969,9 +14969,9 @@ MonoBehaviour:
     sentences:
     - "Ha salido de su madriguera. Es peligroso que est\xE9 fuera de su hogar, ya
       que otros animales podr\xEDan atacarlo o herirlo. "
-    - "Explora al rededor, debemos salvarlo pero es un poco escurridizo. S\xC9 VELOZ
-      y atr\xE1palo, luego ve a la madriguera en el menor tiempo posible.\nDevuelvelo
-      dando clic."
+    - "Explora al rededor, debemos salvarlo pero es un poco escurridizo. Se veloz
+      y ATR\xC1PALO, luego DEVU\xC9LVELO a la madriguera en el menor tiempo posible
+      dando CLIC."
     sprites:
     - {fileID: 21300000, guid: 60c21795b68baa34992855c29b43793c, type: 3}
     - {fileID: 21300000, guid: 9f641e9471d8f824eacfb99910be0d3a, type: 3}
@@ -17992,8 +17992,8 @@ MonoBehaviour:
     sentences:
     - "Alguien dej\xF3 encendida una fogata que podr\xEDa iniciar un incendio en el
       Bosque."
-    - Primero encuentra un recipiente y luego buscar una fuente de agua para apagar
-      el fuego. Recuerda los lugares visitados en el recorrido.
+    - Primero ENCUENTRA un recipiente y luego BUSCA una fuente de agua para apagar
+      el fuego. RECUERDA los lugares visitados en el recorrido.
     sprites:
     - {fileID: 0}
     - {fileID: 0}
@@ -18176,7 +18176,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Atrapa al conejo y regr\xE9salo a la madriguera."
+  m_Text: "Atrapa al conejo y regr\xE9salo a la madriguera "
 --- !u!222 &552128939
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -23522,7 +23522,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\xA1Hay una fogata prendida m\xE1s adelante!"
+  m_Text: Un lugar de donde sacar agua... y un recipiente para llevarla...
 --- !u!222 &735608374
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -23811,7 +23811,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Recoge la basura y depositala en los botes.
+  m_Text: Recoge la basura y depositala en los botes
 --- !u!222 &743854245
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -24333,7 +24333,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Siembra las semillas que has recolectado.
+  m_Text: Siembra las semillas que has recolectado en el invernadero
 --- !u!222 &757557173
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -25492,16 +25492,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4601335974443184645, guid: 4c66d3f3626d0d34d9ef33cfa403410b,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -52
-      objectReference: {fileID: 0}
-    - target: {fileID: 4601335974443184645, guid: 4c66d3f3626d0d34d9ef33cfa403410b,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -72
-      objectReference: {fileID: 0}
     - target: {fileID: 4601335975098776503, guid: 4c66d3f3626d0d34d9ef33cfa403410b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -26023,6 +26013,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4601335974443184645, guid: 4c66d3f3626d0d34d9ef33cfa403410b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -52
+      objectReference: {fileID: 0}
+    - target: {fileID: 4601335974443184645, guid: 4c66d3f3626d0d34d9ef33cfa403410b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -72
       objectReference: {fileID: 0}
     - target: {fileID: 4601335974162171188, guid: 4c66d3f3626d0d34d9ef33cfa403410b,
         type: 3}
@@ -29161,8 +29161,9 @@ MonoBehaviour:
     title:
     - "A\xFAn tienes tiempo"
     sentences:
-    - "Hay un pozo cerca de aqui, pero seguramente est\xE1 cerrado. \nTambi\xE9n hay
-      un lago pero necesitamos algo para traer el al agua..."
+    - "Hay un POZO cerca de aqui, pero seguramente est\xE1 CERRADO. \n\nTambi\xE9n
+      hay un LAGO pero necesitamos un RECIPIENTE para traer el al agua...\n\nSe te
+      ocurre alguna idea?"
     sprites:
     - {fileID: 0}
   dialogoCambiante: 0
@@ -32936,11 +32937,12 @@ MonoBehaviour:
     sentences:
     - "Nuestro amigo, el Gavil\xE1n Dorsigris, se ha lastimado una de sus alas y no
       puede conseguir su alimento por s\xED solo."
-    - "Para este reto debes buscar dos ratones y una salamandra. Presta atenci\xF3n,
-      es posible que los escuches cuando est\xE9s cerca. \r\nPara solicitar ayuda
-      presiona la letra P.\r\n"
-    - "Una vez que has capturado el alimento, debes colocarlos en la zona indicada.\r\nEste
-      es un ejemplo de cadena tr\xF3fica de las especies y c\xF3mo se alimentan.\r\n"
+    - "Para este reto debes BUSCAR dos ratones y una salamandra. Presta atenci\xF3n,
+      es posible que los escuches cuando est\xE9s cerca. \r\n\nPara solicitar ayuda
+      presiona la letra P.\r"
+    - "Una vez que has capturado el alimento, debes COLOCARLOS en la zona indicada
+      dando clic.\r\n\nEste es un ejemplo de cadena tr\xF3fica de las especies y c\xF3mo
+      se alimentan.\r"
     sprites:
     - {fileID: 21300000, guid: c53ca4e41528fb644a0a23243c292d5a, type: 3}
     - {fileID: 0}
@@ -34918,10 +34920,10 @@ MonoBehaviour:
     - "\xA1Hola soy Paco! Y te doy la bienvenida al Bosque Protector Prosperina."
     - Explora y proteje al bosque y sus especies para convertirte en un gran Guardabosque.
     - Para interactuar con objetos y aprender sobre los animales y las plantas del
-      bosque, centralos en el PUNTO DE MIRA en tu pantalla y hasles clic.
+      bosque, centralos en el PUNTO DE MIRA en tu pantalla y hasles CLIC.
     - "En una visita real al bosque necesitas la ayuda de un GU\xCDA quien te informar\xE1
       la ruta, y que existen zonas que podr\xEDan ser peligrosas."
-    - "Para familiarizarte con el bosque, tu primera misi\xF3n ser\xE1 encontrar 3
+    - "Para familiarizarte con el bosque, tu primera misi\xF3n ser\xE1 ENCONTRAR 3
       especies:\nUna ardilla, una iguana y un pechiche."
     sprites:
     - {fileID: 0}
@@ -38620,8 +38622,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.439185, y: 0.9999998, z: 1.4522334}
-  m_Center: {x: 0.6853964, y: -0.000000011449819, z: 0.15587918}
+  m_Size: {x: 0.8218552, y: 1.000207, z: 0.6822074}
+  m_Center: {x: 0.06667604, y: 0.00010391707, z: 0.07020002}
 --- !u!1 &1104053938 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100002, guid: 5e9e851c0e142814dac026a256ba2ac0,
@@ -42891,11 +42893,11 @@ MonoBehaviour:
     - Recicla y clasifica
     - La basura en su lugar
     sentences:
-    - "Al parecer existen visitantes que han dejado basura en el bosque. Esto es algo
+    - "Al parecer existen visitantes que han dejado basura en el LAGO. Esto es algo
       que no debe suceder cuando visitas un bosque, una playa, o un r\xEDo.\r\nAy\xFAdanos
-      a recogerlos y clasificarlos en su respectivo bote.\r\n"
-    - "Para recoger la basura desde hacer clic y se guardar\xE1 en tu mochila. Para
-      depositarla en su bote presiona \"M\" y luego arrastra al bote correspondiente.\r\n"
+      a RECOGERLOS y CLASIFICARLOS en su respectivo bote.\r\n"
+    - "Para recoger la basura desde hacer CLIC y se guardar\xE1 en tu mochila. Para
+      depositarla en su bote presiona \"M\" y luego ARRASTRA al bote correspondiente.\r\n"
     sprites:
     - {fileID: 0}
     - {fileID: 0}
@@ -54893,11 +54895,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2944304524040027813, guid: 513a82b30b49a5d4d8327105fae767ea,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2944304522902689046, guid: 513a82b30b49a5d4d8327105fae767ea,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -55992,6 +55989,11 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2944304523086929648, guid: 513a82b30b49a5d4d8327105fae767ea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2944304524040027813, guid: 513a82b30b49a5d4d8327105fae767ea,
         type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -57407,8 +57409,9 @@ MonoBehaviour:
     title:
     - No lo defraudes.
     sentences:
-    - "Colecta el alimento y dejalo en la zona designada. \nNuestro amigo cuenta contigo
-      para recuperarse.\nBusca en los alrededores, seguro encuentras lo que necesita."
+    - "COLECTA el alimento y DEJALO en la zona designada usando tu CLIC. \nNuestro
+      amigo cuenta contigo para recuperarse.\nBusca en los alrededores, seguro encuentras
+      lo que necesita."
     sprites:
     - {fileID: 0}
   dialogoCambiante: 0
@@ -59216,9 +59219,9 @@ MonoBehaviour:
     - "T\xFA \xFAltima misi\xF3n"
     sentences:
     - "Has logrado superar muchas misiones y est\xE1s muy cerca de convertirte en
-      un Guardabosque.\r\nAhora debes sembrar dos \xE1rboles en la zona de sembr\xEDos.\r\n"
-    - Para hacerlo, arrastra las semillas que hayas obtenido desde tu mochila al suelo
-      en la zona marcada.
+      un Guardabosque.\r\nAhora debes SEMBRAR dos \xE1rboles en el INVERNADERO.\r\n"
+    - Para hacerlo, ARRASTRA las semillas que hayas obtenido desde tu MOCHILA al suelo
+      en la ZONA MARCADA.
     sprites:
     - {fileID: 0}
     - {fileID: 0}
@@ -76269,8 +76272,8 @@ MonoBehaviour:
     title:
     - Puedes hacerlo
     sentences:
-    - "No has completado la misi\xF3n a\xFAn.\nInteract\xFAa con m\xE1s especies del
-      bosque para acceder a la siguiente estaci\xF3n."
+    - "Interact\xFAa con las especies del bosque para acceder a la siguiente estaci\xF3n,
+      recuerda que tenemos una gran variedad de animales y \xE1rboles."
     sprites:
     - {fileID: 0}
   dialogoCambiante: 0
@@ -78754,10 +78757,7 @@ MonoBehaviour:
     title:
     - "\xA1FELICIDADES!"
     sentences:
-    - "$nombre, has superado todos los desaf\xEDos y te has convertido en un Guardabosque
-      del Bosque Protector Prosperina.\r\n\r\nEstamos contentos en que formes parte
-      del club de Guardabosques de $institucion. Muy pronto te contactaremos para
-      entregarte tu certificado digital."
+    - "Muy bien, el mirador ya est\xE1 a unos pasos de aaqu\xED. No te detengas ahora!"
     sprites:
     - {fileID: 0}
   dialogoCambiante: 0
@@ -93925,16 +93925,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3923617203956715414, guid: 1f7d17053ff3a9345a2f030b5dcbbea5,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3923617203973420556, guid: 1f7d17053ff3a9345a2f030b5dcbbea5,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3923617204202535840, guid: 1f7d17053ff3a9345a2f030b5dcbbea5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -94050,6 +94040,101 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1104053941}
+    - target: {fileID: 3923617204484030010, guid: 1f7d17053ff3a9345a2f030b5dcbbea5,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3923617204484030010, guid: 1f7d17053ff3a9345a2f030b5dcbbea5,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3923617204484030010, guid: 1f7d17053ff3a9345a2f030b5dcbbea5,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3923617204484030010, guid: 1f7d17053ff3a9345a2f030b5dcbbea5,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3923617205192714294, guid: 1f7d17053ff3a9345a2f030b5dcbbea5,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3923617205192714294, guid: 1f7d17053ff3a9345a2f030b5dcbbea5,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3923617204620692685, guid: 1f7d17053ff3a9345a2f030b5dcbbea5,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3923617204620692685, guid: 1f7d17053ff3a9345a2f030b5dcbbea5,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3923617204207263740, guid: 1f7d17053ff3a9345a2f030b5dcbbea5,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3923617204207263740, guid: 1f7d17053ff3a9345a2f030b5dcbbea5,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3923617204207263740, guid: 1f7d17053ff3a9345a2f030b5dcbbea5,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3923617204775980770, guid: 1f7d17053ff3a9345a2f030b5dcbbea5,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.6822192
+      objectReference: {fileID: 0}
+    - target: {fileID: 3923617204775980770, guid: 1f7d17053ff3a9345a2f030b5dcbbea5,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3923617204775980770, guid: 1f7d17053ff3a9345a2f030b5dcbbea5,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.9999961
+      objectReference: {fileID: 0}
+    - target: {fileID: 3923617204775980770, guid: 1f7d17053ff3a9345a2f030b5dcbbea5,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8635
+      objectReference: {fileID: 0}
+    - target: {fileID: 3923617204775980770, guid: 1f7d17053ff3a9345a2f030b5dcbbea5,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8635
+      objectReference: {fileID: 0}
+    - target: {fileID: 3923617204775980770, guid: 1f7d17053ff3a9345a2f030b5dcbbea5,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8635
+      objectReference: {fileID: 0}
+    - target: {fileID: 3923617203973420556, guid: 1f7d17053ff3a9345a2f030b5dcbbea5,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3923617203956715414, guid: 1f7d17053ff3a9345a2f030b5dcbbea5,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3923617203786262057, guid: 1f7d17053ff3a9345a2f030b5dcbbea5,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -94175,46 +94260,6 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3923617204484030010, guid: 1f7d17053ff3a9345a2f030b5dcbbea5,
-        type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3923617204484030010, guid: 1f7d17053ff3a9345a2f030b5dcbbea5,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3923617204484030010, guid: 1f7d17053ff3a9345a2f030b5dcbbea5,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3923617204484030010, guid: 1f7d17053ff3a9345a2f030b5dcbbea5,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3923617205192714294, guid: 1f7d17053ff3a9345a2f030b5dcbbea5,
-        type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3923617205192714294, guid: 1f7d17053ff3a9345a2f030b5dcbbea5,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3923617204620692685, guid: 1f7d17053ff3a9345a2f030b5dcbbea5,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3923617204620692685, guid: 1f7d17053ff3a9345a2f030b5dcbbea5,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3923617205325072676, guid: 1f7d17053ff3a9345a2f030b5dcbbea5,
         type: 3}
       propertyPath: m_Sprite
@@ -94241,21 +94286,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Color.b
       value: 0.12156863
-      objectReference: {fileID: 0}
-    - target: {fileID: 3923617204207263740, guid: 1f7d17053ff3a9345a2f030b5dcbbea5,
-        type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3923617204207263740, guid: 1f7d17053ff3a9345a2f030b5dcbbea5,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3923617204207263740, guid: 1f7d17053ff3a9345a2f030b5dcbbea5,
-        type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3923617204334731565, guid: 1f7d17053ff3a9345a2f030b5dcbbea5,
         type: 3}
@@ -94371,36 +94401,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchorMin.x
       value: 0.000010371208
-      objectReference: {fileID: 0}
-    - target: {fileID: 3923617204775980770, guid: 1f7d17053ff3a9345a2f030b5dcbbea5,
-        type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0.6822192
-      objectReference: {fileID: 0}
-    - target: {fileID: 3923617204775980770, guid: 1f7d17053ff3a9345a2f030b5dcbbea5,
-        type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3923617204775980770, guid: 1f7d17053ff3a9345a2f030b5dcbbea5,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0.9999961
-      objectReference: {fileID: 0}
-    - target: {fileID: 3923617204775980770, guid: 1f7d17053ff3a9345a2f030b5dcbbea5,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.8635
-      objectReference: {fileID: 0}
-    - target: {fileID: 3923617204775980770, guid: 1f7d17053ff3a9345a2f030b5dcbbea5,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.8635
-      objectReference: {fileID: 0}
-    - target: {fileID: 3923617204775980770, guid: 1f7d17053ff3a9345a2f030b5dcbbea5,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.8635
       objectReference: {fileID: 0}
     - target: {fileID: 3923617204334731567, guid: 1f7d17053ff3a9345a2f030b5dcbbea5,
         type: 3}
