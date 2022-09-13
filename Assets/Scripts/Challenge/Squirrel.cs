@@ -50,8 +50,16 @@ public class Squirrel : MonoBehaviour
                 skin.SetActive(false);
                 timer -= Time.deltaTime;
                 timeText.text = "" + timer.ToString("f0");
-                
-                if(!activate)
+                if(timer<=-1)
+                {
+                    clockSound.detener();
+                    caught = false;
+                    GameObject.FindGameObjectWithTag("Rabbit").GetComponent<CapsuleCollider>().enabled = true;
+                    img.SetActive(false);
+                    timer = _timer;
+                    skin.SetActive(true);
+                }
+                if (!activate)
                 {
                     //Destroy(this.gameObject);
                     this.gameObject.SetActive(false);

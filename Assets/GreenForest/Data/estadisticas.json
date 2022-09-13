@@ -3,15 +3,216 @@
     {
       "gameId": "001",
       "playerId": null,
-      "level": 7,
-      "dataType": "game_data",
-      "FechaInterna": "9/11/2022 10:16:25 PM",
+      "level": 1,
+      "dataType": "specie_data",
+      "FechaInterna": "9/12/2022 11:11:18 PM",
       "data": {
-        "Start_Date": "9/11/2022 10:14:29 PM",
-        "End_Date": "9/11/2022 10:16:25 PM",
-        "duration": 2,
-        "score": 45,
-        "NumberImages": 0
+        "specieId": "21",
+        "show_desc_date": "9/12/2022 11:11:18 PM"
+      }
+    },
+    {
+      "gameId": "001",
+      "playerId": null,
+      "level": 1,
+      "dataType": "specie_data",
+      "FechaInterna": "9/12/2022 11:11:22 PM",
+      "data": {
+        "specieId": "4",
+        "show_desc_date": "9/12/2022 11:11:22 PM"
+      }
+    },
+    {
+      "gameId": "001",
+      "playerId": null,
+      "level": 2,
+      "dataType": "specie_data",
+      "FechaInterna": "9/12/2022 11:11:33 PM",
+      "data": {
+        "specieId": "9",
+        "show_desc_date": "9/12/2022 11:11:33 PM"
+      }
+    },
+    {
+      "gameId": "001",
+      "playerId": null,
+      "level": 2,
+      "dataType": "specie_data",
+      "FechaInterna": "9/12/2022 11:11:34 PM",
+      "data": {
+        "specieId": "9",
+        "show_desc_date": "9/12/2022 11:11:34 PM"
+      }
+    },
+    {
+      "gameId": "001",
+      "playerId": null,
+      "level": 2,
+      "dataType": "specie_data",
+      "FechaInterna": "9/12/2022 11:11:39 PM",
+      "data": {
+        "specieId": "9",
+        "show_desc_date": "9/12/2022 11:11:39 PM"
+      }
+    },
+    {
+      "gameId": "001",
+      "playerId": null,
+      "level": 2,
+      "dataType": "specie_data",
+      "FechaInterna": "9/12/2022 11:11:39 PM",
+      "data": {
+        "specieId": "9",
+        "show_desc_date": "9/12/2022 11:11:39 PM"
+      }
+    },
+    {
+      "gameId": "001",
+      "playerId": null,
+      "level": 2,
+      "dataType": "specie_data",
+      "FechaInterna": "9/12/2022 11:11:39 PM",
+      "data": {
+        "specieId": "9",
+        "show_desc_date": "9/12/2022 11:11:39 PM"
+      }
+    },
+    {
+      "gameId": "001",
+      "playerId": null,
+      "level": 2,
+      "dataType": "specie_data",
+      "FechaInterna": "9/12/2022 11:11:45 PM",
+      "data": {
+        "specieId": "10",
+        "show_desc_date": "9/12/2022 11:11:45 PM"
+      }
+    },
+    {
+      "gameId": "001",
+      "playerId": null,
+      "level": 2,
+      "dataType": "mission_data",
+      "FechaInterna": "9/12/2022 11:11:48 PM",
+      "data": {
+        "Start_Date": "9/12/2022 11:11:14 PM",
+        "End_Date": "9/12/2022 11:11:48 PM",
+        "nombre": "Encuentra las especies"
+      }
+    },
+    {
+      "gameId": "001",
+      "playerId": null,
+      "level": 2,
+      "dataType": "experiencie_data",
+      "FechaInterna": "9/12/2022 11:11:48 PM",
+      "data": {
+        "experiencia": 3,
+        "date": "9/12/2022 11:11:48 PM"
+      }
+    },
+    {
+      "gameId": "001",
+      "playerId": null,
+      "level": 2,
+      "dataType": "prize_data",
+      "FechaInterna": "9/12/2022 11:11:48 PM",
+      "data": {
+        "nombre": "Guardabosque Explorador",
+        "date": "9/12/2022 11:11:48 PM"
+      }
+    },
+    {
+      "gameId": "001",
+      "playerId": null,
+      "level": 3,
+      "dataType": "mission_data",
+      "FechaInterna": "9/12/2022 11:15:44 PM",
+      "data": {
+        "Start_Date": "9/12/2022 11:12:03 PM",
+        "End_Date": "9/12/2022 11:15:44 PM",
+        "nombre": "Salva al conejo"
+      }
+    },
+    {
+      "gameId": "001",
+      "playerId": null,
+      "level": 3,
+      "dataType": "experiencie_data",
+      "FechaInterna": "9/12/2022 11:15:44 PM",
+      "data": {
+        "experiencia": 5,
+        "date": "9/12/2022 11:15:44 PM"
+      }
+    },
+    {
+      "gameId": "001",
+      "playerId": null,
+      "level": 3,
+      "dataType": "prize_data",
+      "FechaInterna": "9/12/2022 11:15:44 PM",
+      "data": {
+        "nombre": "Guardabosque Veloz",
+        "date": "9/12/2022 11:15:44 PM"
+      }
+    },
+    {
+      "gameId": "001",
+      "playerId": null,
+      "level": 4,
+      "dataType": "mission_data",
+      "FechaInterna": "9/12/2022 11:16:14 PM",
+      "data": {
+        "Start_Date": "9/12/2022 11:15:57 PM",
+        "End_Date": "9/12/2022 11:16:14 PM",
+        "nombre": "Ayuda al gavilán"
+      }
+    },
+    {
+      "gameId": "001",
+      "playerId": null,
+      "level": 4,
+      "dataType": "experiencie_data",
+      "FechaInterna": "9/12/2022 11:16:14 PM",
+      "data": {
+        "experiencia": 5,
+        "date": "9/12/2022 11:16:14 PM"
+      }
+    },
+    {
+      "gameId": "001",
+      "playerId": null,
+      "level": 4,
+      "dataType": "prize_data",
+      "FechaInterna": "9/12/2022 11:16:14 PM",
+      "data": {
+        "nombre": "Guardabosque Gourmet",
+        "date": "9/12/2022 11:16:14 PM"
+      }
+    },
+    {
+      "gameId": "001",
+      "playerId": null,
+      "level": 5,
+      "dataType": "specie_data",
+      "FechaInterna": "9/12/2022 11:16:38 PM",
+      "data": {
+        "specieId": "45",
+        "show_desc_date": "9/12/2022 11:16:38 PM"
+      }
+    },
+    {
+      "gameId": "001",
+      "playerId": null,
+      "level": 5,
+      "dataType": "game_data",
+      "FechaInterna": "9/12/2022 11:16:45 PM",
+      "data": {
+        "Start_Date": "9/12/2022 11:10:39 PM",
+        "End_Date": "9/12/2022 11:16:45 PM",
+        "duration": 6,
+        "score": 13,
+        "NumberImages": 6
       }
     }
   ]

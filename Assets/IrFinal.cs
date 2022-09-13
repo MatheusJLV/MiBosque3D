@@ -16,4 +16,8 @@ public class IrFinal : MonoBehaviour
             //finalChallenge.GetComponent<ChallengePass5>().cambio_a_final();
         }
     }
+    public void irFinal()
+    {
+        SceneManager.LoadScene("Final");
+    }
 }

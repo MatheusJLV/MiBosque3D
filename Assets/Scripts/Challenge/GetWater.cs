@@ -30,8 +30,23 @@ public class GetWater : MonoBehaviour
         
        
     }
+    public void recogerAgua()
+    {
+        if (time.text != "0" && (panelbalde.activeSelf == true) && !(MenuPausa.IsPaused || MenuPausa.IsPausedByOtherCanvas))
+        {
+            agua.SetActive(true);
+            panelbalde.SetActive(false);
+            recordatorio.text = "Rápido, corre a la fogata y apágala!";
+            panelwater.SetActive(true);
+            pendienteGO.GetComponent<DialogueTrigger>().dialogue.sentences[0] = "No hay tiempo que perder! Apaga la fogata ahora que tienes el agua!";
+        }
+        else if (time.text != "0" && (panelbalde.activeSelf == false) && (panelwater.activeSelf == false) && !(MenuPausa.IsPaused || MenuPausa.IsPausedByOtherCanvas))
+        {
+            recordatorio.text = "Busca algo en que llevar agua!";
+        }
+    }
 
-    private void OnTriggerEnter(Collider other)
+    /*private void OnTriggerEnter(Collider other)
     {
         Debug.Log("algo en el aguaaaaaaaaaaaaaaaa");
         //if (other.CompareTag("Player"))
@@ -50,5 +65,5 @@ public class GetWater : MonoBehaviour
             }
         }
         
-    }
+    }*/
 }
