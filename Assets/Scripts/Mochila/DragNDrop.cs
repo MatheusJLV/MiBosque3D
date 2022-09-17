@@ -22,6 +22,8 @@ public class DragNDrop : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
     private Image mochila;
     public static bool isAccesory = false;
 
+    //private GameObject puntero;
+
     private void Start()
     {
         inventory = FindObjectOfType<Inventory>();
@@ -30,7 +32,18 @@ public class DragNDrop : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
         farmeables = GameObject.FindGameObjectsWithTag("Farm");
         panel = GameObject.Find("FBTrash");
         mochila=GameObject.FindGameObjectWithTag("Mochila").GetComponent<Image>();
+        //puntero = GameObject.Find("Crosshair/Image");
     }
+
+    /*private void OnMouseEnter()
+    {
+        puntero.GetComponent<Puntero>().agarrar();
+    }
+    private void OnMouseExit()
+    {
+        puntero.GetComponent<Puntero>().mira();
+    }*/
+
 
     public void OnBeginDrag(PointerEventData eventData)
     {

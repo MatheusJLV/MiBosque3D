@@ -13,6 +13,20 @@ public class Pick : MonoBehaviour
     public Text message;
     public HamsterCage cage;
 
+    /*private GameObject puntero;
+
+    private void Start()
+    {
+        puntero = GameObject.Find("Crosshair/Image");
+    }
+    private void OnMouseEnter()
+    {
+        puntero.GetComponent<Puntero>().agarrar();
+    }
+    private void OnMouseExit()
+    {
+        puntero.GetComponent<Puntero>().mira();
+    }*/
     private void OnMouseDown()
     {
         if (activate && !(MenuPausa.IsPaused || MenuPausa.IsPausedByOtherCanvas))

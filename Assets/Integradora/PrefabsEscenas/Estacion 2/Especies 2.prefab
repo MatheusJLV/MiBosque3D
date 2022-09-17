@@ -76357,7 +76357,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4052329360818378, guid: 65ef68f3ca4cc7f4aa4fdee7422c6d9a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 22.216785
+      value: 18.54
       objectReference: {fileID: 0}
     - target: {fileID: 4052329360818378, guid: 65ef68f3ca4cc7f4aa4fdee7422c6d9a, type: 3}
       propertyPath: m_LocalPosition.y
@@ -76365,7 +76365,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4052329360818378, guid: 65ef68f3ca4cc7f4aa4fdee7422c6d9a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 28.172865
+      value: 26.96
       objectReference: {fileID: 0}
     - target: {fileID: 4052329360818378, guid: 65ef68f3ca4cc7f4aa4fdee7422c6d9a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -76410,62 +76410,6 @@ PrefabInstance:
     - target: {fileID: 4052329360818378, guid: 65ef68f3ca4cc7f4aa4fdee7422c6d9a, type: 3}
       propertyPath: m_LocalScale.z
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1767110428, guid: 65ef68f3ca4cc7f4aa4fdee7422c6d9a, type: 3}
-      propertyPath: semillasAnim
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 492060379, guid: 65ef68f3ca4cc7f4aa4fdee7422c6d9a, type: 3}
-      propertyPath: Panel
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 492060379, guid: 65ef68f3ca4cc7f4aa4fdee7422c6d9a, type: 3}
-      propertyPath: Galeria
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 492060379, guid: 65ef68f3ca4cc7f4aa4fdee7422c6d9a, type: 3}
-      propertyPath: Panel3
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 492060379, guid: 65ef68f3ca4cc7f4aa4fdee7422c6d9a, type: 3}
-      propertyPath: mouseController
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 492060379, guid: 65ef68f3ca4cc7f4aa4fdee7422c6d9a, type: 3}
-      propertyPath: logroSist
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 492060379, guid: 65ef68f3ca4cc7f4aa4fdee7422c6d9a, type: 3}
-      propertyPath: fpscontroller
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 492060379, guid: 65ef68f3ca4cc7f4aa4fdee7422c6d9a, type: 3}
-      propertyPath: canvasJoy
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 492060379, guid: 65ef68f3ca4cc7f4aa4fdee7422c6d9a, type: 3}
-      propertyPath: cameraBlocker
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 492060382, guid: 65ef68f3ca4cc7f4aa4fdee7422c6d9a, type: 3}
-      propertyPath: m_Size.x
-      value: 1.3840014
-      objectReference: {fileID: 0}
-    - target: {fileID: 492060382, guid: 65ef68f3ca4cc7f4aa4fdee7422c6d9a, type: 3}
-      propertyPath: m_Size.z
-      value: 1.7097081
-      objectReference: {fileID: 0}
-    - target: {fileID: 492060382, guid: 65ef68f3ca4cc7f4aa4fdee7422c6d9a, type: 3}
-      propertyPath: m_Center.x
-      value: 0.027471522
-      objectReference: {fileID: 0}
-    - target: {fileID: 492060382, guid: 65ef68f3ca4cc7f4aa4fdee7422c6d9a, type: 3}
-      propertyPath: m_Center.y
-      value: 7.000088
-      objectReference: {fileID: 0}
-    - target: {fileID: 492060382, guid: 65ef68f3ca4cc7f4aa4fdee7422c6d9a, type: 3}
-      propertyPath: m_Center.z
-      value: -1.6451471
       objectReference: {fileID: 0}
     - target: {fileID: 23022665176233292, guid: 65ef68f3ca4cc7f4aa4fdee7422c6d9a,
         type: 3}
@@ -76560,9 +76504,65 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 492060379, guid: 65ef68f3ca4cc7f4aa4fdee7422c6d9a, type: 3}
+      propertyPath: Panel
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 492060379, guid: 65ef68f3ca4cc7f4aa4fdee7422c6d9a, type: 3}
+      propertyPath: Galeria
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 492060379, guid: 65ef68f3ca4cc7f4aa4fdee7422c6d9a, type: 3}
+      propertyPath: Panel3
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 492060379, guid: 65ef68f3ca4cc7f4aa4fdee7422c6d9a, type: 3}
+      propertyPath: mouseController
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 492060379, guid: 65ef68f3ca4cc7f4aa4fdee7422c6d9a, type: 3}
+      propertyPath: logroSist
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 492060379, guid: 65ef68f3ca4cc7f4aa4fdee7422c6d9a, type: 3}
+      propertyPath: fpscontroller
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 492060379, guid: 65ef68f3ca4cc7f4aa4fdee7422c6d9a, type: 3}
+      propertyPath: canvasJoy
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 492060379, guid: 65ef68f3ca4cc7f4aa4fdee7422c6d9a, type: 3}
+      propertyPath: cameraBlocker
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1767110428, guid: 65ef68f3ca4cc7f4aa4fdee7422c6d9a, type: 3}
+      propertyPath: semillasAnim
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 110775133, guid: 65ef68f3ca4cc7f4aa4fdee7422c6d9a, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 492060382, guid: 65ef68f3ca4cc7f4aa4fdee7422c6d9a, type: 3}
+      propertyPath: m_Size.x
+      value: 1.3840014
+      objectReference: {fileID: 0}
+    - target: {fileID: 492060382, guid: 65ef68f3ca4cc7f4aa4fdee7422c6d9a, type: 3}
+      propertyPath: m_Size.z
+      value: 1.7097081
+      objectReference: {fileID: 0}
+    - target: {fileID: 492060382, guid: 65ef68f3ca4cc7f4aa4fdee7422c6d9a, type: 3}
+      propertyPath: m_Center.x
+      value: 0.027471522
+      objectReference: {fileID: 0}
+    - target: {fileID: 492060382, guid: 65ef68f3ca4cc7f4aa4fdee7422c6d9a, type: 3}
+      propertyPath: m_Center.y
+      value: 7.000088
+      objectReference: {fileID: 0}
+    - target: {fileID: 492060382, guid: 65ef68f3ca4cc7f4aa4fdee7422c6d9a, type: 3}
+      propertyPath: m_Center.z
+      value: -1.6451471
       objectReference: {fileID: 0}
     - target: {fileID: 581666226, guid: 65ef68f3ca4cc7f4aa4fdee7422c6d9a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -76998,46 +76998,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1767110428, guid: 65ef68f3ca4cc7f4aa4fdee7422c6d9a, type: 3}
-      propertyPath: semillasAnim
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 248503650, guid: 65ef68f3ca4cc7f4aa4fdee7422c6d9a, type: 3}
-      propertyPath: Panel
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 248503650, guid: 65ef68f3ca4cc7f4aa4fdee7422c6d9a, type: 3}
-      propertyPath: Galeria
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 248503650, guid: 65ef68f3ca4cc7f4aa4fdee7422c6d9a, type: 3}
-      propertyPath: Panel3
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 248503650, guid: 65ef68f3ca4cc7f4aa4fdee7422c6d9a, type: 3}
-      propertyPath: mouseController
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 248503650, guid: 65ef68f3ca4cc7f4aa4fdee7422c6d9a, type: 3}
-      propertyPath: CuadroChallengeDos
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 248503650, guid: 65ef68f3ca4cc7f4aa4fdee7422c6d9a, type: 3}
-      propertyPath: logroSist
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 248503650, guid: 65ef68f3ca4cc7f4aa4fdee7422c6d9a, type: 3}
-      propertyPath: fpscontroller
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 248503650, guid: 65ef68f3ca4cc7f4aa4fdee7422c6d9a, type: 3}
-      propertyPath: canvasJoy
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 248503650, guid: 65ef68f3ca4cc7f4aa4fdee7422c6d9a, type: 3}
-      propertyPath: cameraBlocker
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 1748338974, guid: 65ef68f3ca4cc7f4aa4fdee7422c6d9a, type: 3}
       propertyPath: Panel
       value: 
@@ -77090,7 +77050,19 @@ PrefabInstance:
       propertyPath: canvasJoy
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 111046431, guid: 65ef68f3ca4cc7f4aa4fdee7422c6d9a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 111046431, guid: 65ef68f3ca4cc7f4aa4fdee7422c6d9a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.14
+      objectReference: {fileID: 0}
     - target: {fileID: 390616433, guid: 65ef68f3ca4cc7f4aa4fdee7422c6d9a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 581666228, guid: 65ef68f3ca4cc7f4aa4fdee7422c6d9a, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -77102,21 +77074,49 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 248503650, guid: 65ef68f3ca4cc7f4aa4fdee7422c6d9a, type: 3}
+      propertyPath: Panel
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 248503650, guid: 65ef68f3ca4cc7f4aa4fdee7422c6d9a, type: 3}
+      propertyPath: Galeria
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 248503650, guid: 65ef68f3ca4cc7f4aa4fdee7422c6d9a, type: 3}
+      propertyPath: Panel3
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 248503650, guid: 65ef68f3ca4cc7f4aa4fdee7422c6d9a, type: 3}
+      propertyPath: mouseController
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 248503650, guid: 65ef68f3ca4cc7f4aa4fdee7422c6d9a, type: 3}
+      propertyPath: CuadroChallengeDos
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 248503650, guid: 65ef68f3ca4cc7f4aa4fdee7422c6d9a, type: 3}
+      propertyPath: logroSist
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 248503650, guid: 65ef68f3ca4cc7f4aa4fdee7422c6d9a, type: 3}
+      propertyPath: fpscontroller
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 248503650, guid: 65ef68f3ca4cc7f4aa4fdee7422c6d9a, type: 3}
+      propertyPath: canvasJoy
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 248503650, guid: 65ef68f3ca4cc7f4aa4fdee7422c6d9a, type: 3}
+      propertyPath: cameraBlocker
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1767110428, guid: 65ef68f3ca4cc7f4aa4fdee7422c6d9a, type: 3}
+      propertyPath: semillasAnim
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 110775133, guid: 65ef68f3ca4cc7f4aa4fdee7422c6d9a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 111046431, guid: 65ef68f3ca4cc7f4aa4fdee7422c6d9a, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.11
-      objectReference: {fileID: 0}
-    - target: {fileID: 111046431, guid: 65ef68f3ca4cc7f4aa4fdee7422c6d9a, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 1.14
-      objectReference: {fileID: 0}
-    - target: {fileID: 581666228, guid: 65ef68f3ca4cc7f4aa4fdee7422c6d9a, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1901296215, guid: 65ef68f3ca4cc7f4aa4fdee7422c6d9a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -77242,7 +77242,7 @@ PrefabInstance:
     - target: {fileID: 8761098728902676253, guid: 5c62a1a588da29446a2f1a1ec3652482,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 22.083
+      value: 18.41
       objectReference: {fileID: 0}
     - target: {fileID: 8761098728902676253, guid: 5c62a1a588da29446a2f1a1ec3652482,
         type: 3}
@@ -77252,7 +77252,7 @@ PrefabInstance:
     - target: {fileID: 8761098728902676253, guid: 5c62a1a588da29446a2f1a1ec3652482,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 28.268
+      value: 27.06
       objectReference: {fileID: 0}
     - target: {fileID: 8761098728902676253, guid: 5c62a1a588da29446a2f1a1ec3652482,
         type: 3}
@@ -77839,31 +77839,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.0000004
       objectReference: {fileID: 0}
-    - target: {fileID: 1996898357400081364, guid: f63134f4cfe99714693806f04be52562,
-        type: 3}
-      propertyPath: m_Size.x
-      value: 1.7284666
-      objectReference: {fileID: 0}
-    - target: {fileID: 1996898357400081364, guid: f63134f4cfe99714693806f04be52562,
-        type: 3}
-      propertyPath: m_Center.x
-      value: 0.09065054
-      objectReference: {fileID: 0}
-    - target: {fileID: 1996898357400081364, guid: f63134f4cfe99714693806f04be52562,
-        type: 3}
-      propertyPath: m_Center.z
-      value: 0.89074653
-      objectReference: {fileID: 0}
-    - target: {fileID: 1996898357400081364, guid: f63134f4cfe99714693806f04be52562,
-        type: 3}
-      propertyPath: m_Size.y
-      value: 7.3808155
-      objectReference: {fileID: 0}
-    - target: {fileID: 1996898357400081364, guid: f63134f4cfe99714693806f04be52562,
-        type: 3}
-      propertyPath: m_Center.y
-      value: 2.1109228
-      objectReference: {fileID: 0}
     - target: {fileID: 1996898356527585808, guid: f63134f4cfe99714693806f04be52562,
         type: 3}
       propertyPath: m_Size.y
@@ -77888,6 +77863,31 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Center.z
       value: -0.87470365
+      objectReference: {fileID: 0}
+    - target: {fileID: 1996898357400081364, guid: f63134f4cfe99714693806f04be52562,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 1.7284666
+      objectReference: {fileID: 0}
+    - target: {fileID: 1996898357400081364, guid: f63134f4cfe99714693806f04be52562,
+        type: 3}
+      propertyPath: m_Center.x
+      value: 0.09065054
+      objectReference: {fileID: 0}
+    - target: {fileID: 1996898357400081364, guid: f63134f4cfe99714693806f04be52562,
+        type: 3}
+      propertyPath: m_Center.z
+      value: 0.89074653
+      objectReference: {fileID: 0}
+    - target: {fileID: 1996898357400081364, guid: f63134f4cfe99714693806f04be52562,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 7.3808155
+      objectReference: {fileID: 0}
+    - target: {fileID: 1996898357400081364, guid: f63134f4cfe99714693806f04be52562,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 2.1109228
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f63134f4cfe99714693806f04be52562, type: 3}

@@ -53,7 +53,20 @@ public class EnableMouse : MonoBehaviour
         }
     }
 
-    private void OnTriggerExit(Collider other)
+    public void mouseRecover()
+        {
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+            fpsController.canRotate = false;
+            fpsController.transform.position = transf.position;
+            fpsController.transform.localEulerAngles = new Vector3(0, 0, 0);
+            fpsController.gameObject.transform.GetChild(0).localEulerAngles = new Vector3(-3.0f, 0, 0);
+            fpsController.gameObject.transform.GetChild(0).GetComponent<Camera>().fieldOfView = 70.0f;
+            screenRect = new Rect(0, 0, Screen.width, Screen.height);
+            fpsController.enabled = false;
+      }
+
+private void OnTriggerExit(Collider other)
     {
         if (other.CompareTag("Player"))
         {

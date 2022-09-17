@@ -17,6 +17,23 @@ public class PickTrash : MonoBehaviour
     Vector3 startValue;
     Vector3 endValue;
     bool movimiento = false;
+
+    private GameObject puntero;
+
+    private void Start()
+    {
+        puntero = GameObject.Find("Crosshair/Image");
+    }
+    private void OnMouseEnter()
+    {
+        puntero.GetComponent<Puntero>().agarrar();
+    }
+    private void OnMouseExit()
+    {
+        puntero.GetComponent<Puntero>().mira();
+    }
+
+
     void Update()
     {
         if(movimiento)
