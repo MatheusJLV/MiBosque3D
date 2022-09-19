@@ -45,10 +45,11 @@ public class BookPages : MonoBehaviour
         paginaActual = 0;
         webRequestUrl = SystemVariables.url_puerto + "/api/bpv/specie?name=";
         imageRequestUrl = SystemVariables.url_puerto + "/api/bpv/specie/";
+        int elementos = GameManager.instance.test.species.Count;
 
         //test = new Sprite[17];
-        imagenes = new Texture[9];
-        descripciones = new string[9];
+        imagenes = new Texture[elementos];
+        descripciones = new string[elementos];
 
         nombres = new string[9] {"Ceibo","Bototillo","Pechiche","Guasmo","Fernan Sánchez",
             "Iguana","Ardilla de Guayaquil","Pinzón Sabanero",
@@ -65,29 +66,48 @@ public class BookPages : MonoBehaviour
         otrosHabitats = new string[9] {"Argentina, Bolivia, Brasil", "México", "Panamá, Antillas, Venezuela", "México", "Colombia",
             "Centroamérica, Caribe", "Cordillera de los Andes", "Argentina, Brasil, Panamá",
             "Costa Rica, Panamá, Perú" };
-
+        isDiscovered = new bool[elementos];
+        isDiscovered = (bool[]) GameManager.instance.playerData.isDiscovered.Clone();
         setearInfo();
-        estaciones = new string[9];
-        isLoaded = new bool[9];
+        estaciones = new string[elementos];
+        isLoaded = new bool[elementos];
+        
     }
 
     //TESTEO
 
     void setearInfo()
     {
-        /*
-        if (controlador < 17)
+        int elementos = GameManager.instance.test.species.Count;
+        int contador = 0;
+        nombres = new string[elementos];
+        nombresLatin = new string[elementos];
+        familias = new string[elementos];
+        otrosHabitats = new string[elementos];
+        foreach (SpecieObject specie in GameManager.instance.test.species)
         {
-            string[] dbDescripciones = ConstantObjects.instance.descripciones;
-            for (int i = 0; i < 17; i++)
-            {
-                imagenes[i] = test[i].texture;
-                descripciones[i] = dbDescripciones[i];
-                controlador++;
+            Debug.Log("specie");
+            Debug.Log(specie.Name);
+            nombres[contador]= specie.Name;
+            Debug.Log(specie.Family);
+            familias[contador] = specie.Family;
+            Debug.Log(specie.Gallery[0].Id);
+            nombresLatin[contador] = specie.Gallery[0].Description;
+            Debug.Log(specie.Gallery[0].Description);
+            try{
+                Debug.Log(specie.Gallery[1].Description);
+                otrosHabitats[contador] = specie.Gallery[1].Description;
             }
+            catch(Exception e)
+            {
+                Debug.Log("vacio");
+                otrosHabitats[contador] = "";
+            }
+            imagenes[contador] = Resources.Load<Texture2D>("Specie/Images/" + specie.Gallery[0].Id);
+            descripciones[contador] = specie.Gallery[0].Description;
+            contador++;
         }
-        */
-        for (int i = 0; i < 9; i++)
+        /*for (int i = 0; i < nombres.Length; i++)
         {
             foreach (SpecieObject specie in GameManager.instance.test.species)
             {
@@ -97,7 +117,7 @@ public class BookPages : MonoBehaviour
                     descripciones[i] = specie.Gallery[0].Description;
                 }
             }
-        }
+        }*/
 
     }
 
@@ -130,7 +150,7 @@ public class BookPages : MonoBehaviour
     public void paginaSiguiente()
     {
 
-        if (paginaActual < 4)//Maximo 9 pares de paginas, porque son 17 especies.
+        if (paginaActual < Math.Ceiling(nombres.Length/2f)-1)//Maximo 5 pares de paginas, porque son 9 especies.
         {
             Debug.Log("Presiono pagina siguiente y esta dentor del if.");
             paginaActual++;
@@ -160,6 +180,9 @@ public class BookPages : MonoBehaviour
 
         leftPage.transform.Find("Nombre").GetComponent<Text>().text = nombres[izq];
         //StartCoroutine(CargarInfo(nombres[izq], izq));
+        Debug.Log("CARGANDO PAGINA");
+        Debug.Log("size="+ isDiscovered.Length);
+        Debug.Log("IZQ = " + izq);
 
         if (isDiscovered[izq])
         {

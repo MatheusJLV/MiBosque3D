@@ -2,129 +2,16 @@
   "lista": [
     {
       "gameId": "001",
-      "playerId": null,
-      "level": 5,
-      "dataType": "mission_data",
-      "FechaInterna": "9/16/2022 8:43:15 PM",
-      "data": {
-        "Start_Date": "9/16/2022 8:42:11 PM",
-        "End_Date": "9/16/2022 8:43:15 PM",
-        "nombre": "Recicla"
-      }
-    },
-    {
-      "gameId": "001",
-      "playerId": null,
-      "level": 5,
-      "dataType": "experiencie_data",
-      "FechaInterna": "9/16/2022 8:43:15 PM",
-      "data": {
-        "experiencia": 5,
-        "date": "9/16/2022 8:43:15 PM"
-      }
-    },
-    {
-      "gameId": "001",
-      "playerId": null,
-      "level": 5,
-      "dataType": "prize_data",
-      "FechaInterna": "9/16/2022 8:43:15 PM",
-      "data": {
-        "nombre": "Guardabosque Ecologista",
-        "date": "9/16/2022 8:43:15 PM"
-      }
-    },
-    {
-      "gameId": "001",
-      "playerId": null,
-      "level": 6,
-      "dataType": "specie_data",
-      "FechaInterna": "9/16/2022 8:43:39 PM",
-      "data": {
-        "specieId": "14",
-        "show_desc_date": "9/16/2022 8:43:39 PM"
-      }
-    },
-    {
-      "gameId": "001",
-      "playerId": null,
-      "level": 6,
-      "dataType": "mission_data",
-      "FechaInterna": "9/16/2022 8:43:53 PM",
-      "data": {
-        "Start_Date": "9/16/2022 8:43:36 PM",
-        "End_Date": "9/16/2022 8:43:53 PM",
-        "nombre": "Planta las semillas"
-      }
-    },
-    {
-      "gameId": "001",
-      "playerId": null,
-      "level": 6,
-      "dataType": "experiencie_data",
-      "FechaInterna": "9/16/2022 8:43:53 PM",
-      "data": {
-        "experiencia": 5,
-        "date": "9/16/2022 8:43:53 PM"
-      }
-    },
-    {
-      "gameId": "001",
-      "playerId": null,
-      "level": 6,
-      "dataType": "prize_data",
-      "FechaInterna": "9/16/2022 8:43:53 PM",
-      "data": {
-        "nombre": "Guardabosque herbolario",
-        "date": "9/16/2022 8:43:53 PM"
-      }
-    },
-    {
-      "gameId": "001",
-      "playerId": null,
-      "level": 7,
-      "dataType": "mission_data",
-      "FechaInterna": "9/16/2022 8:44:16 PM",
-      "data": {
-        "Start_Date": "9/16/2022 8:44:12 PM",
-        "End_Date": "9/16/2022 8:44:16 PM",
-        "nombre": "Evita el Incendio"
-      }
-    },
-    {
-      "gameId": "001",
-      "playerId": null,
-      "level": 7,
-      "dataType": "experiencie_data",
-      "FechaInterna": "9/16/2022 8:44:16 PM",
-      "data": {
-        "experiencia": 5,
-        "date": "9/16/2022 8:44:16 PM"
-      }
-    },
-    {
-      "gameId": "001",
-      "playerId": null,
-      "level": 7,
-      "dataType": "prize_data",
-      "FechaInterna": "9/16/2022 8:44:16 PM",
-      "data": {
-        "nombre": "Guardabosque Bombero",
-        "date": "9/16/2022 8:44:16 PM"
-      }
-    },
-    {
-      "gameId": "001",
-      "playerId": null,
-      "level": 7,
+      "playerId": "",
+      "level": 0,
       "dataType": "game_data",
-      "FechaInterna": "9/16/2022 8:44:55 PM",
+      "FechaInterna": "9/18/2022 9:55:08 PM",
       "data": {
-        "Start_Date": "9/16/2022 8:41:48 PM",
-        "End_Date": "9/16/2022 8:44:55 PM",
-        "duration": 3,
-        "score": 28,
-        "NumberImages": 1
+        "Start_Date": "9/18/2022 9:55:06 PM",
+        "End_Date": "9/18/2022 9:55:08 PM",
+        "duration": 0,
+        "score": 0,
+        "NumberImages": 0
       }
     }
   ]

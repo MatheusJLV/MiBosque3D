@@ -19,7 +19,7 @@ public class Squirrel : MonoBehaviour
     private float timer;
     public GameObject skin;
     public AudioScript clockSound;
-
+    public GameObject recordatorio;
     private void Start()
     {
         animator = this.GetComponent<Animator>();
@@ -57,6 +57,7 @@ public class Squirrel : MonoBehaviour
                     GameObject.FindGameObjectWithTag("Rabbit").GetComponent<CapsuleCollider>().enabled = true;
                     img.SetActive(false);
                     timer = _timer;
+                    recordatorio.SetActive(false);
                     skin.SetActive(true);
                 }
                 if (!activate)
@@ -105,6 +106,7 @@ public class Squirrel : MonoBehaviour
     {
         if (activate && !(MenuPausa.IsPaused || MenuPausa.IsPausedByOtherCanvas))
         {
+            recordatorio.SetActive(true);
             StartCoroutine(TimeCapture());
         }
     }
@@ -120,6 +122,7 @@ public class Squirrel : MonoBehaviour
         img.SetActive(false);
         timer = _timer;
         skin.SetActive(true);
+        recordatorio.SetActive(false);
     }
 
     private void TakeHome()

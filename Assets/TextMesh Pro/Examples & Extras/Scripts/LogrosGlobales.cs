@@ -462,7 +462,7 @@ public class LogrosGlobales : MonoBehaviour
         else
         {
             requisitosBlo = new List<string>();
-            requisitosComp = new List<string>() { "Pechiche", "PaloSanto", "Bototillo", "Guasmo", "Fernan Sánchez", "Ceibo", "Laurel De Judea", "Guayacán", "Jacaranda" };
+            requisitosComp = new List<string>() { "Pechiche",  "Bototillo", "Fernan Sánchez", "Ceibo", "Laurel De Judea", "Jacaranda" };
             requisitosHechos = new List<string>() { };
             reqEstaciones = new List<int>() { 3 };
 
@@ -512,7 +512,7 @@ public class LogrosGlobales : MonoBehaviour
         if (playerCtrl.GetComponent<Player>().playerData.logros[6] != "")
         { ProgresarLogro(6, playerCtrl.GetComponent<Player>().playerData.logros[6]); }
         //Debug.Log(Logro.descripcion);
-        Logro = new LogroRepetible("Guardian de la Flora", "Conociste todas las plantas ", -8, 1, imageFlora);
+        Logro = new LogroRepetible("Guardian de la Flora", "Conociste todas las plantas ", -4, 1, imageFlora);
         logros.Add(Logro);
         if (playerCtrl.GetComponent<Player>().playerData.logros[7] != "")
         { ProgresarLogro(7, playerCtrl.GetComponent<Player>().playerData.logros[7]); }

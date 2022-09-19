@@ -81,7 +81,7 @@ public class PlayerData
         this.personajeSeleccionado = personajeSeleccionado;
         Debug.Log(personajeSeleccionado);
         this.unidadEducativa = unidadEducativa;
-        this.isDiscovered = new bool[17];
+        this.isDiscovered = new bool[GameManager.instance.test.species.Count];
         this.eventosEstaciones = new bool[7][];
         this.inventoryWrapper=new InventoryWrapper();
         this.inventoryWrapper.slotInfoList=new List<SlotInfo>();

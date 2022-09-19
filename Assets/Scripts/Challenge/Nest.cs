@@ -9,6 +9,7 @@ public class Nest : MonoBehaviour
     public GameObject feedback;
     public Text message;
     private bool active=true;
+    public GameObject recordatorio;
 
     private void OnMouseDown()
     {
@@ -19,6 +20,7 @@ public class Nest : MonoBehaviour
             Squirrel.activate = false;
             StartCoroutine(ShowFeedback());
             active=false;
+            recordatorio.SetActive(false);
         }
     }
 
