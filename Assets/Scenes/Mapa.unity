@@ -16558,12 +16558,13 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 40e1d4ffb6b646d4aa202f9bf2888fcd, type: 3}
   - {fileID: 21300000, guid: e3153de88ea13e04b98deb43c50c4718, type: 3}
   - {fileID: 21300000, guid: 0c4826e72cb38d84aac34dde32fefad9, type: 3}
-  timer1: 1.5
-  timer1Remaining: 1.5
+  timer1: 3.5
+  timer1Remaining: 3.5
   isRunning: 1
   timer1Text: 
   imagen: {fileID: 0}
   PreguntasReader: 1
+  maxEst: 1
 --- !u!1 &295598383
 GameObject:
   m_ObjectHideFlags: 0

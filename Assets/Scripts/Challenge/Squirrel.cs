@@ -20,6 +20,8 @@ public class Squirrel : MonoBehaviour
     public GameObject skin;
     public AudioScript clockSound;
     public GameObject recordatorio;
+    public int iteracion=0;
+    public float incremento = 5;
     private void Start()
     {
         animator = this.GetComponent<Animator>();
@@ -56,7 +58,9 @@ public class Squirrel : MonoBehaviour
                     caught = false;
                     GameObject.FindGameObjectWithTag("Rabbit").GetComponent<CapsuleCollider>().enabled = true;
                     img.SetActive(false);
-                    timer = _timer;
+                    timer =_timer;
+                    
+
                     recordatorio.SetActive(false);
                     skin.SetActive(true);
                 }
@@ -115,12 +119,13 @@ public class Squirrel : MonoBehaviour
     {
         caught = true;
         clockSound.reproducir();
-        yield return new WaitForSeconds(10.0f);
+        yield return new WaitForSeconds(_timer + iteracion * incremento);
         clockSound.detener();
         caught = false;
         GameObject.FindGameObjectWithTag("Rabbit").GetComponent<CapsuleCollider>().enabled = true;
         img.SetActive(false);
-        timer = _timer;
+        iteracion++;
+        timer = _timer + iteracion * incremento;
         skin.SetActive(true);
         recordatorio.SetActive(false);
     }

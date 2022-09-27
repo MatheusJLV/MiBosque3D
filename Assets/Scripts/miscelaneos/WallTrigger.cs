@@ -10,6 +10,7 @@ public class WallTrigger : MonoBehaviour
     public Animator stationScreen;
     public Text stationText;
     private Inventory mochila;
+    public GameObject pendiente;
 
     //public GameObject actionLogger;
 
@@ -73,6 +74,13 @@ public class WallTrigger : MonoBehaviour
                     stationText.text = "Estación "+station.ID;
                     StartCoroutine(LateCall());
                 }
+            }
+            try{
+                pendiente.SetActive(true);
+
+            }catch (System.Exception e)
+            {
+                Debug.Log("paso algo activando el pendiente");
             }
         }
     }

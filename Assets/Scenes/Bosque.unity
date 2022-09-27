@@ -2929,7 +2929,7 @@ Transform:
   m_LocalScale: {x: 69.46045, y: 0.6875389, z: 11.840341}
   m_Children: []
   m_Father: {fileID: 364697576}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 90.00001, y: 0, z: -89.703}
 --- !u!23 &78810424
 MeshRenderer:
@@ -7106,7 +7106,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -56.999985}
+  m_AnchoredPosition: {x: 0, y: -57}
   m_SizeDelta: {x: -847.5, y: -725}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &176195066
@@ -7625,6 +7625,7 @@ MonoBehaviour:
   station: {fileID: 1715500057}
   stationScreen: {fileID: 1471696685}
   stationText: {fileID: 419226143}
+  pendiente: {fileID: 0}
 --- !u!65 &184484571
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8159,7 +8160,7 @@ Transform:
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 364697576}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 89.703, z: 0}
 --- !u!23 &221255250
 MeshRenderer:
@@ -8598,6 +8599,7 @@ MonoBehaviour:
   station: {fileID: 193071752}
   stationScreen: {fileID: 1471696685}
   stationText: {fileID: 419226143}
+  pendiente: {fileID: 0}
 --- !u!65 &251529951
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9008,7 +9010,7 @@ Transform:
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 364697576}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: -90.00001, y: 0, z: 89.703}
 --- !u!65 &261318429
 BoxCollider:
@@ -9784,6 +9786,7 @@ MonoBehaviour:
   station: {fileID: 235285281}
   stationScreen: {fileID: 1471696685}
   stationText: {fileID: 419226143}
+  pendiente: {fileID: 0}
 --- !u!65 &295096841
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11405,7 +11408,7 @@ Transform:
   m_LocalScale: {x: 834.46515, y: 834.46515, z: 834.46515}
   m_Children: []
   m_Father: {fileID: 364697576}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 89.703, z: 0}
 --- !u!23 &349997011
 MeshRenderer:
@@ -12282,10 +12285,11 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 364697574}
-  m_LocalRotation: {x: 0.07607139, y: -0.27123457, z: -0.0097868405, w: 0.9594526}
-  m_LocalPosition: {x: 9.402, y: 1.77, z: -23.005}
+  m_LocalRotation: {x: 0.068751015, y: 0.30577356, z: 0.03399903, w: 0.94901}
+  m_LocalPosition: {x: 22.36, y: -1.83, z: -24.27}
   m_LocalScale: {x: 1.03, y: 1.03, z: 1.03}
   m_Children:
+  - {fileID: 1434757307}
   - {fileID: 261318428}
   - {fileID: 378576302}
   - {fileID: 1665481955}
@@ -12299,8 +12303,8 @@ Transform:
   - {fileID: 653608638}
   - {fileID: 734145668}
   m_Father: {fileID: 1012098845}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 8.086, y: -31.817001, z: -3.4770002}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 6.2980003, y: 36.057003, z: 6.155}
 --- !u!1 &371521446
 GameObject:
   m_ObjectHideFlags: 0
@@ -12628,7 +12632,7 @@ Transform:
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 364697576}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: -90.00001, y: 0, z: 89.703}
 --- !u!65 &378576303
 BoxCollider:
@@ -12737,9 +12741,9 @@ MonoBehaviour:
     title:
     - "T\xFA puedes"
     sentences:
-    - "RECOGE la basura para evitar la contaminaci\xF3n y que los animales del bosque
-      se lastimen.\nAbre la mochila con la tecla \"M\" y ARR\xC1STRALA al basurero
-      correspondiente."
+    - "RECOGE la basura del LAGO para evitar la contaminaci\xF3n y que los animales
+      del bosque se lastimen.\nAbre la mochila con la tecla \"M\" y ARR\xC1STRALA
+      al basurero correspondiente."
     sprites:
     - {fileID: 0}
   dialogoCambiante: 0
@@ -19678,7 +19682,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 12.96, y: 58.999985}
+  m_AnchoredPosition: {x: 12.96, y: 59}
   m_SizeDelta: {x: 521.3, y: 138.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &601359209
@@ -20495,7 +20499,7 @@ Transform:
   m_LocalScale: {x: -2.2006695, y: -2.9192667, z: -55.615288}
   m_Children: []
   m_Father: {fileID: 364697576}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: -90.00001, y: 0, z: -90.297005}
 --- !u!65 &653608639
 BoxCollider:
@@ -21608,8 +21612,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 673180302}
   m_LocalRotation: {x: 0.07883466, y: 0.3630368, z: 0.012575548, w: 0.92834866}
-  m_LocalPosition: {x: 0.83, y: -0.07, z: -4.09}
-  m_LocalScale: {x: 0.20000009, y: 4, z: 18}
+  m_LocalPosition: {x: 17.42, y: -0.36, z: -20.91}
+  m_LocalScale: {x: 0.20000009, y: 4, z: 11.43504}
   m_Children:
   - {fileID: 1330797656}
   - {fileID: 390505459}
@@ -22335,7 +22339,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 12.96, y: 58.999985}
+  m_AnchoredPosition: {x: 12.96, y: 59}
   m_SizeDelta: {x: 521.3, y: 138.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &687685557
@@ -23427,7 +23431,7 @@ Transform:
   m_LocalScale: {x: -2.2006695, y: -2.9192667, z: -55.615288}
   m_Children: []
   m_Father: {fileID: 364697576}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: -90.00001, y: 0, z: -90.297005}
 --- !u!65 &734145669
 BoxCollider:
@@ -26685,7 +26689,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: -99.999985, y: -79.28}
+  m_AnchoredPosition: {x: -100, y: -79.28}
   m_SizeDelta: {x: 84.20001, y: 51.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &808370959
@@ -27827,7 +27831,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 492366, guid: f43818c9cb19fac4fa43f52d4a211840, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 492366, guid: f43818c9cb19fac4fa43f52d4a211840, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -29167,7 +29171,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &845729767
 Transform:
   m_ObjectHideFlags: 0
@@ -29176,9 +29180,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 845729766}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1, y: 0, z: 0}
+  m_LocalPosition: {x: 309.4, y: -2.46, z: 0.261}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 2090743256}
   m_Father: {fileID: 1485482767}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -29197,11 +29202,14 @@ MonoBehaviour:
   dialogue:
     title:
     - "A\xFAn tienes tiempo"
+    - "A\xFAn tienes tiempo"
     sentences:
+    - No nos podemos distraer, hay que APAGAR el FUEGO antes que se genere un incendio!
     - "Hay un POZO cerca de aqui, pero seguramente est\xE1 CERRADO. \n\nTambi\xE9n
       hay un LAGO pero necesitamos un RECIPIENTE para traer el al agua...\n\nSe te
       ocurre alguna idea?"
     sprites:
+    - {fileID: 0}
     - {fileID: 0}
   dialogoCambiante: 0
   expresiones: 3
@@ -32576,7 +32584,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 952064695}
   m_LocalRotation: {x: 0.034373626, y: -0.7407623, z: 0.03521535, w: -0.6699624}
-  m_LocalPosition: {x: -0.6, y: 3.4, z: 27.8}
+  m_LocalPosition: {x: -3.53, y: 1.37, z: 7.4}
   m_LocalScale: {x: 0.2000001, y: 4, z: 18.00014}
   m_Children: []
   m_Father: {fileID: 338562483}
@@ -34337,6 +34345,7 @@ MonoBehaviour:
   station: {fileID: 48736870}
   stationScreen: {fileID: 1471696685}
   stationText: {fileID: 419226143}
+  pendiente: {fileID: 0}
 --- !u!65 &998278213
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35367,7 +35376,6 @@ Transform:
   - {fileID: 1875602773}
   - {fileID: 287310943}
   - {fileID: 1523344648}
-  - {fileID: 1434757307}
   - {fileID: 1696933618}
   - {fileID: 364697576}
   - {fileID: 2026306291}
@@ -36480,7 +36488,7 @@ Transform:
   m_LocalScale: {x: 764.647, y: 764.647, z: 764.647}
   m_Children: []
   m_Father: {fileID: 364697576}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 89.703, z: 0}
 --- !u!23 &1048489540
 MeshRenderer:
@@ -38611,7 +38619,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1097804718}
   m_LocalRotation: {x: 0.003918008, y: 0.42910048, z: -0.055107966, w: 0.9015657}
-  m_LocalPosition: {x: -15.54, y: 2.94, z: -0.87}
+  m_LocalPosition: {x: -16.33, y: 3, z: -1.51}
   m_LocalScale: {x: 3.9272993, y: 2.4081314, z: 4.2741747}
   m_Children: []
   m_Father: {fileID: 782125016}
@@ -38659,8 +38667,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.8218552, y: 1.000207, z: 0.6822074}
-  m_Center: {x: 0.06667604, y: 0.00010391707, z: 0.07020002}
+  m_Size: {x: 0.62281513, y: 1.000207, z: 0.6822074}
+  m_Center: {x: 0.16619569, y: 0.000103916966, z: 0.0702}
 --- !u!1 &1104053938 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100002, guid: 5e9e851c0e142814dac026a256ba2ac0,
@@ -38828,6 +38836,7 @@ MonoBehaviour:
   station: {fileID: 338562484}
   stationScreen: {fileID: 1471696685}
   stationText: {fileID: 419226143}
+  pendiente: {fileID: 0}
 --- !u!65 &1114720014
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -40942,6 +40951,7 @@ MonoBehaviour:
   station: {fileID: 302243288}
   stationScreen: {fileID: 1471696685}
   stationText: {fileID: 419226143}
+  pendiente: {fileID: 0}
 --- !u!65 &1132609302
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -42932,7 +42942,7 @@ MonoBehaviour:
     sentences:
     - "Al parecer existen visitantes que han dejado basura en el LAGO. Esto es algo
       que no debe suceder cuando visitas un bosque, una playa, o un r\xEDo.\r\nAy\xFAdanos
-      a RECOGERLOS y CLASIFICARLOS en su respectivo bote.\r\n"
+      a RECOGERLA y CLASIFICARLA en su respectivo bote.\r\n"
     - "Para recoger la basura desde hacer CLIC y se guardar\xE1 en tu mochila. Para
       depositarla en su bote presiona \"M\" y luego ARRASTRA al bote correspondiente.\r\n"
     sprites:
@@ -44827,7 +44837,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4261936370815586, guid: 90c05f8deed8940408dacffe39ac83ce, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4261936370815586, guid: 90c05f8deed8940408dacffe39ac83ce, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -46344,7 +46354,7 @@ Transform:
   m_LocalScale: {x: 834.46515, y: 834.46515, z: 834.46515}
   m_Children: []
   m_Father: {fileID: 364697576}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: -90.00001, y: 0, z: 89.703}
 --- !u!23 &1250935300
 MeshRenderer:
@@ -52301,7 +52311,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 12.96, y: 58.999985}
+  m_AnchoredPosition: {x: 12.96, y: 59}
   m_SizeDelta: {x: 521.3, y: 138.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1298003977
@@ -53759,8 +53769,7 @@ MonoBehaviour:
     - "\xA1Excelente trabajo!"
     sentences:
     - "Has recogido y clasificado la basura encontrada en el Bosque. \r\nDemuestras
-      preocupaci\xF3n por la naturaleza. Recuerda nunca dejar residuos en ella.\r\nContin\xFAa
-      a la siguiente estaci\xF3n.\r"
+      preocupaci\xF3n por la naturaleza. Recuerda nunca dejar residuos en ella.\r\r"
     sprites:
     - {fileID: 0}
   dialogoCambiante: 0
@@ -58522,7 +58531,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4261936370815586, guid: 90c05f8deed8940408dacffe39ac83ce, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4261936370815586, guid: 90c05f8deed8940408dacffe39ac83ce, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -58863,12 +58872,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1434757306}
-  m_LocalRotation: {x: 0.08225668, y: 0.49652094, z: 0.023711015, w: 0.86379313}
-  m_LocalPosition: {x: 5.292, y: 0.96, z: -21.455}
-  m_LocalScale: {x: 1.6259, y: 1, z: 1}
+  m_LocalRotation: {x: 0.0147833135, y: 0.7132876, z: -0.028878491, w: 0.7001202}
+  m_LocalPosition: {x: -2.5741956, y: -0.45976737, z: 3.4594188}
+  m_LocalScale: {x: 1.578544, y: 0.9708737, z: 0.9708737}
   m_Children: []
-  m_Father: {fileID: 1012098845}
-  m_RootOrder: 5
+  m_Father: {fileID: 364697576}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 6.8090005, y: 60.204002, z: 7.0950003}
 --- !u!65 &1434757308
 BoxCollider:
@@ -68216,7 +68225,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 12.96, y: 58.999985}
+  m_AnchoredPosition: {x: 12.96, y: 59}
   m_SizeDelta: {x: 521.3, y: 138.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1517626845
@@ -70837,6 +70846,7 @@ MonoBehaviour:
   station: {fileID: 48736870}
   stationScreen: {fileID: 1471696685}
   stationText: {fileID: 419226143}
+  pendiente: {fileID: 0}
 --- !u!65 &1577773253
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -70993,6 +71003,7 @@ MonoBehaviour:
   station: {fileID: 1715500057}
   stationScreen: {fileID: 1471696685}
   stationText: {fileID: 419226143}
+  pendiente: {fileID: 0}
 --- !u!65 &1592882912
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -73089,7 +73100,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4161084484716844, guid: 28aeb2a4fbfc23e4690286e16e6a332b, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 4161084484716844, guid: 28aeb2a4fbfc23e4690286e16e6a332b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -73208,7 +73219,7 @@ Transform:
   m_LocalScale: {x: 100, y: 99.99999, z: 99.99999}
   m_Children: []
   m_Father: {fileID: 364697576}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: -88.8, y: 89.704, z: -0.001}
 --- !u!65 &1665481956
 BoxCollider:
@@ -73724,7 +73735,7 @@ Transform:
   m_LocalScale: {x: 88.50721, y: 88.50721, z: 88.50721}
   m_Children: []
   m_Father: {fileID: 364697576}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 89.703, z: 0}
 --- !u!23 &1674883877
 MeshRenderer:
@@ -76269,7 +76280,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 483476, guid: ae4812b4085471e4d9fa91c480747f82, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 483476, guid: ae4812b4085471e4d9fa91c480747f82, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -77674,7 +77685,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 12.96, y: 58.999985}
+  m_AnchoredPosition: {x: 12.96, y: 59}
   m_SizeDelta: {x: 521.3, y: 138.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1735835415
@@ -79799,6 +79810,7 @@ MonoBehaviour:
   station: {fileID: 338562484}
   stationScreen: {fileID: 1471696685}
   stationText: {fileID: 419226143}
+  pendiente: {fileID: 0}
 --- !u!65 &1849097177
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -79860,6 +79872,7 @@ MonoBehaviour:
   station: {fileID: 1519116618}
   stationScreen: {fileID: 1471696685}
   stationText: {fileID: 419226143}
+  pendiente: {fileID: 845729766}
 --- !u!65 &1849855754
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -88794,7 +88807,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 455788, guid: 6e4ecddde9795734fad196ca9a65354b, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 455788, guid: 6e4ecddde9795734fad196ca9a65354b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -89747,7 +89760,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: -99.999985, y: -79.28}
+  m_AnchoredPosition: {x: -100, y: -79.28}
   m_SizeDelta: {x: 70, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2050545055
@@ -90184,7 +90197,7 @@ Transform:
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 364697576}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 89.703, z: 0}
 --- !u!23 &2068433109
 MeshRenderer:
@@ -90590,6 +90603,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1802103203}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2090743255
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2090743256}
+  - component: {fileID: 2090743257}
+  m_Layer: 12
+  m_Name: Pendiente (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &2090743256
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2090743255}
+  m_LocalRotation: {x: -0, y: -0.000000029802315, z: -0.000000001164153, w: 1}
+  m_LocalPosition: {x: 2.3, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 845729767}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &2090743257
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2090743255}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &2095049838
 PrefabInstance:
   m_ObjectHideFlags: 0

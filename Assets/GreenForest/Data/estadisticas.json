@@ -3,13 +3,47 @@
     {
       "gameId": "001",
       "playerId": null,
-      "level": 4,
-      "dataType": "game_data",
-      "FechaInterna": "9/19/2022 4:50:48 AM",
+      "level": 3,
+      "dataType": "mission_data",
+      "FechaInterna": "27/09/2022 13:39:31",
       "data": {
-        "Start_Date": "9/19/2022 4:50:05 AM",
-        "End_Date": "9/19/2022 4:50:48 AM",
-        "duration": 0,
+        "Start_Date": "27/09/2022 13:37:29",
+        "End_Date": "27/09/2022 13:39:31",
+        "nombre": "Salva al conejo"
+      }
+    },
+    {
+      "gameId": "001",
+      "playerId": null,
+      "level": 3,
+      "dataType": "experiencie_data",
+      "FechaInterna": "27/09/2022 13:39:31",
+      "data": {
+        "experiencia": 5,
+        "date": "27/09/2022 13:39:31"
+      }
+    },
+    {
+      "gameId": "001",
+      "playerId": null,
+      "level": 3,
+      "dataType": "prize_data",
+      "FechaInterna": "27/09/2022 13:39:31",
+      "data": {
+        "nombre": "Guardabosque Veloz",
+        "date": "27/09/2022 13:39:31"
+      }
+    },
+    {
+      "gameId": "001",
+      "playerId": null,
+      "level": 3,
+      "dataType": "game_data",
+      "FechaInterna": "27/09/2022 13:39:43",
+      "data": {
+        "Start_Date": "27/09/2022 13:36:50",
+        "End_Date": "27/09/2022 13:39:43",
+        "duration": 3,
         "score": 9,
         "NumberImages": 0
       }
