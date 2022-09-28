@@ -17,29 +17,6 @@
       ]
     },
     {
-      "specieId": "5dd8514325b0ee66f161d74f",
-      "id": 2,
-      "name": "Gavilán Dorsigris",
-      "family": "ACCIPITRIDAE",
-      "video": "Videos/GAVILAN_GRIS.mp4",
-      "gallery": [
-        {
-          "mongoId": "5dd8514325b0ee66f161d750",
-          "id": 2,
-          "description": "Posa al descubierto al filo del bosque, planea con regularidad, manteniendo alas planas y cola en abanico, es mansa con respecto a otros rapaces.",
-          "audioname": "Gavilán Dorsigris_audio_descripcion_0",
-          "imagename": "Gavilán Dorsigris_image_0"
-        },
-        {
-          "mongoId": "5dd8514325b0ee66f161d751",
-          "id": 3,
-          "description": "Posa al descubierto al filo del bosque, planea con regularidad, manteniendo alas planas y cola en abanico, es mansa con respecto a otros rapaces.",
-          "audioname": "Gavilán Dorsigris_audio_descripcion_0",
-          "imagename": "Gavilán Dorsigris_image_1"
-        }
-      ]
-    },
-    {
       "specieId": "5dd85226f65fd767fe2aff02",
       "id": 4,
       "name": "Iguana",
@@ -88,52 +65,6 @@
           "description": "Es un árbol frondoso, se usa para la fabricación de muebles y embarcaciones lujosas.",
           "audioname": "Teca_audio_descripcion_2",
           "imagename": "Teca_image_2"
-        }
-      ]
-    },
-    {
-      "specieId": "5dd853859a7eb76a135ba320",
-      "id": 7,
-      "name": "Gavilán Gris",
-      "family": "ACCIPITRIDAE",
-      "video": "Videos/GAVILAN_GRIS.mp4",
-      "gallery": [
-        {
-          "mongoId": "5dd853a8e3eb3c6b4eec4c80",
-          "id": 14,
-          "description": "Se alimenta de una variedad de presas, generalmente desde su percha. Planea, por poco tiempo y poca altura.",
-          "audioname": "Gavilán Gris_audio_descripcion_0",
-          "imagename": "Gavilán Gris_image_0"
-        },
-        {
-          "mongoId": "5dd853a8e3eb3c6b4eec4c81",
-          "id": 15,
-          "description": "Se alimenta de una variedad de presas, generalmente desde su percha. Planea, por poco tiempo y poca altura.",
-          "audioname": "Gavilán Gris_audio_descripcion_1",
-          "imagename": "Gavilán Gris_image_1"
-        },
-        {
-          "mongoId": "5dd853a8e3eb3c6b4eec4c82",
-          "id": 16,
-          "description": "Se alimenta de una variedad de presas, generalmente desde su percha. Planea, por poco tiempo y poca altura.",
-          "audioname": "Gavilán Gris_audio_descripcion_2",
-          "imagename": "Gavilán Gris_image_2"
-        }
-      ]
-    },
-    {
-      "specieId": "5dd854e77128336c644426a8",
-      "id": 8,
-      "name": "Garrapatero Piquiestriado",
-      "family": "CUCULIDAE",
-      "video": "Videos/GARRAPATERO.mp4",
-      "gallery": [
-        {
-          "mongoId": "5dd855197128336c644426a9",
-          "id": 17,
-          "description": "Su plumaje es completamente negro con tonos azules y tiene el pico aplastado a los lados con ranuras alargadas, muy marcadas.",
-          "audioname": "Garrapatero Piquiestriado_audio_descripcion_0",
-          "imagename": "Garrapatero Piquiestriado_image_0"
         }
       ]
     },
@@ -212,36 +143,6 @@
       ]
     },
     {
-      "specieId": "5dd8575bb623de70de66b399",
-      "id": 12,
-      "name": "Búho Blanquinegro",
-      "family": "STRIGIDAE",
-      "video": "Videos/BUHO_BLANQUINEGRO.mp4",
-      "gallery": [
-        {
-          "mongoId": "5dd8577ab623de70de66b39a",
-          "id": 25,
-          "description": "Activo únicamente por la noche, duerme bajo frondoso arboledo, a menudo en ramas expuestas a gran altura del suelo.",
-          "audioname": "Búho Blanquinegro_audio_descripcion_0",
-          "imagename": "Búho Blanquinegro_image_0"
-        },
-        {
-          "mongoId": "5dd8577ab623de70de66b39b",
-          "id": 26,
-          "description": "Activo únicamente por la noche, duerme bajo frondoso arboledo, a menudo en ramas expuestas a gran altura del suelo.",
-          "audioname": "Búho Blanquinegro_audio_descripcion_1",
-          "imagename": "Búho Blanquinegro_image_1"
-        },
-        {
-          "mongoId": "5dd8577ab623de70de66b39c",
-          "id": 27,
-          "description": "Activo únicamente por la noche, duerme bajo frondoso arboledo, a menudo en ramas expuestas a gran altura del suelo.",
-          "audioname": "Búho Blanquinegro_audio_descripcion_2",
-          "imagename": "Búho Blanquinegro_image_2"
-        }
-      ]
-    },
-    {
       "specieId": "5dd857f681dade71c84852c5",
       "id": 13,
       "name": "Guasmo",
@@ -300,36 +201,6 @@
       ]
     },
     {
-      "specieId": "5dd858b271628572e2aad05f",
-      "id": 15,
-      "name": "Momoto Gritón",
-      "family": "Momotidae",
-      "video": "Videos/MOMOTO_GRITON.mp4",
-      "gallery": [
-        {
-          "mongoId": "5dd8593924fc9f73e0c55f35",
-          "id": 34,
-          "description": "Suele permanecer perchado mientras analiza sus alrededores realizando un movimiento pendular de la cola.",
-          "audioname": "Momoto Gritón_audio_descripcion_0",
-          "imagename": "Momoto Gritón_image_0"
-        },
-        {
-          "mongoId": "5dd8593924fc9f73e0c55f36",
-          "id": 35,
-          "description": "Suele permanecer perchado mientras analiza sus alrededores realizando un movimiento pendular de la cola.",
-          "audioname": "Momoto Gritón_audio_descripcion_1",
-          "imagename": "Momoto Gritón_image_1"
-        },
-        {
-          "mongoId": "5dd8593924fc9f73e0c55f37",
-          "id": 36,
-          "description": "Suele permanecer perchado mientras analiza sus alrededores realizando un movimiento pendular de la cola.",
-          "audioname": "Momoto Gritón_audio_descripcion_2",
-          "imagename": "Momoto Gritón_image_2"
-        }
-      ]
-    },
-    {
       "specieId": "5dd859b66d9512748f729e90",
       "id": 17,
       "name": "Tirano Tropical",
@@ -356,36 +227,6 @@
           "description": "Se alimenta principalmente de insectos que capturan con sus vaivenes aéreos, también consume fruta.",
           "audioname": "Tirano Tropical_audio_descripcion_2",
           "imagename": "Tirano Tropical_image_2"
-        }
-      ]
-    },
-    {
-      "specieId": "5dd85a32c589a4759c90b676",
-      "id": 18,
-      "name": "Mosquero Rayado",
-      "family": "TYRANNIDAE",
-      "video": "Videos/MOSQUERO_RAYADO.mp4",
-      "gallery": [
-        {
-          "mongoId": "5dd85a64c589a4759c90b677",
-          "id": 38,
-          "description": "Hallado sólo o en pareja, generalmente ruidoso y conspicuo. Persigue una gran variedad de insectos, algunos capturados mediante vaivenes aéreos. También se alimenta de fruta.",
-          "audioname": "Mosquero Rayado_audio_descripcion_0",
-          "imagename": "Mosquero Rayado_image_0"
-        },
-        {
-          "mongoId": "5dd85a64c589a4759c90b678",
-          "id": 39,
-          "description": "Hallado sólo o en pareja, generalmente ruidoso y conspicuo. Persigue una gran variedad de insectos, algunos capturados mediante vaivenes aéreos. También se alimenta de fruta.",
-          "audioname": "Mosquero Rayado_audio_descripcion_1",
-          "imagename": "Mosquero Rayado_image_1"
-        },
-        {
-          "mongoId": "5dd85a64c589a4759c90b679",
-          "id": 40,
-          "description": "Hallado sólo o en pareja, generalmente ruidoso y conspicuo. Persigue una gran variedad de insectos, algunos capturados mediante vaivenes aéreos. También se alimenta de fruta.",
-          "audioname": "Mosquero Rayado_audio_descripcion_2",
-          "imagename": "Mosquero Rayado_image_2"
         }
       ]
     },
@@ -456,22 +297,6 @@
       ]
     },
     {
-      "specieId": "5e13d28d85e66449aa5e73bf",
-      "id": 22,
-      "name": "Garcilla Estriada",
-      "family": "ARDEIDAE",
-      "video": "Videos/GARCILLA_ESTRIADA.mp4",
-      "gallery": [
-        {
-          "mongoId": "5e13d2aa85e66449aa5e73c0",
-          "id": 61,
-          "description": "Es una especie de tamaño mediano, caza de pie o en cuclillas, normalmente es algo solitaria.",
-          "audioname": "Garcilla Estriada_audio_descripcion_0",
-          "imagename": "Garcilla Estriada_image_0"
-        }
-      ]
-    },
-    {
       "specieId": "5e13d2f285e66449aa5e73c1",
       "id": 23,
       "name": "Ceibo",
@@ -504,35 +329,6 @@
           "description": "El ceibo es una especie nativa latinoamericana, puede llegar a medir hasta 40 metros de altura y superar los 100 años.",
           "audioname": "Ceibo_audio_descripcion_3",
           "imagename": "Ceibo_image_3"
-        }
-      ]
-    },
-    {
-      "specieId": "5e46b03990e7e8169f60e494",
-      "id": 28,
-      "name": "PaloSanto",
-      "family": "Bursera",
-      "gallery": [
-        {
-          "mongoId": "5e13d346137dd54ad63e4b04",
-          "id": 66,
-          "description": "El palo santo es un arbol del cual se extrae un aceite escencial usado con fines medicinales y aromáticos.",
-          "audioname": "PaloSanto_audio_descripcion_0",
-          "imagename": "PaloSanto_image_0"
-        },
-        {
-          "mongoId": "5e13d346137dd54ad63e4b05",
-          "id": 67,
-          "description": "Su nombre cientifico es Bursera graveolens.",
-          "audioname": "PaloSanto_audio_descripcion_1",
-          "imagename": "PaloSanto_image_1"
-        },
-        {
-          "mongoId": "5e13d346137dd54ad63e4b06",
-          "id": 68,
-          "description": "Es muy utilizado como sahumerio para ahuyentar mosquitos y otros insectos.",
-          "audioname": "PaloSanto_audio_descripcion_2",
-          "imagename": "PaloSanto_image_2"
         }
       ]
     },
