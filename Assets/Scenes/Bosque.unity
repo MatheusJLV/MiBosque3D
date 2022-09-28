@@ -17876,13 +17876,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5816151dd2061f64e98a91ba9fd20da5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 535142841}
+  target: {fileID: 535142842}
   img: {fileID: 787291730}
   timeText: {fileID: 2119474878}
   _timer: 10
   skin: {fileID: 1287333699}
   clockSound: {fileID: 817800996}
   recordatorio: {fileID: 1298003975}
+  iteracion: 0
+  incremento: 5
 --- !u!54 &546091819
 Rigidbody:
   m_ObjectHideFlags: 0
