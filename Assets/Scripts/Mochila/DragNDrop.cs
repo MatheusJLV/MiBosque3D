@@ -142,6 +142,104 @@ public class DragNDrop : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
                             }
                         }
                     }
+                    if (planta.id == 8)
+                    {
+
+                        foreach (GameObject g in farmeables)
+                        {
+                            if (g.name == "Bototillo_planta")
+                            {
+                                ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+                                if (Physics.Raycast(ray, out hit))
+                                {
+                                    Debug.Log(hit.collider.name);
+                                    if (hit.collider.name == "Bototillo_Semilla")
+                                    {
+                                        plantado++;
+                                        inventory.RemoveItem(mySlot.slotInfo.itemId, mySlot.slotInfo, false);
+                                        inventory.TimeFarmM(g);
+                                        //LogroSist.GetComponent<LogrosGlobales>().ProgresarMision(5, "Semilla2");
+                                        //LogroSist.GetComponent<LogrosGlobales>().ProgresarLogro(5);
+                                    }
+                                }
+                            }
+
+
+                        }
+                    }
+                    if (planta.id == 9)
+                    {
+
+                        foreach (GameObject g in farmeables)
+                        {
+                            if (g.name == "Judea_planta")
+                            {
+                                ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+                                if (Physics.Raycast(ray, out hit))
+                                {
+                                    Debug.LogWarning(hit.collider.name);
+                                    if (hit.collider.name == "Judea_Semilla")
+                                    {
+                                        plantado++;
+
+                                        inventory.RemoveItem(mySlot.slotInfo.itemId, mySlot.slotInfo, false);
+                                        inventory.TimeFarmM(g);
+                                        //LogroSist.GetComponent<LogrosGlobales>().ProgresarMision(5, "Semilla1");
+                                        //LogroSist.GetComponent<LogrosGlobales>().ProgresarLogro(5);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    if (planta.id == 10)
+                    {
+
+                        foreach (GameObject g in farmeables)
+                        {
+                            if (g.name == "Guayacan_planta")
+                            {
+                                ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+                                if (Physics.Raycast(ray, out hit))
+                                {
+                                    Debug.Log(hit.collider.name);
+                                    if (hit.collider.name == "Guayacan_Semilla")
+                                    {
+                                        plantado++;
+                                        inventory.RemoveItem(mySlot.slotInfo.itemId, mySlot.slotInfo, false);
+                                        inventory.TimeFarmM(g);
+                                        //LogroSist.GetComponent<LogrosGlobales>().ProgresarMision(5, "Semilla2");
+                                        //LogroSist.GetComponent<LogrosGlobales>().ProgresarLogro(5);
+                                    }
+                                }
+                            }
+
+
+                        }
+                    }
+                    if (planta.id == 11)
+                    {
+
+                        foreach (GameObject g in farmeables)
+                        {
+                            if (g.name == "Jacaranda_planta")
+                            {
+                                ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+                                if (Physics.Raycast(ray, out hit))
+                                {
+                                    Debug.LogWarning(hit.collider.name);
+                                    if (hit.collider.name == "Jacaranda_Semilla")
+                                    {
+                                        plantado++;
+
+                                        inventory.RemoveItem(mySlot.slotInfo.itemId, mySlot.slotInfo, false);
+                                        inventory.TimeFarmM(g);
+                                        //LogroSist.GetComponent<LogrosGlobales>().ProgresarMision(5, "Semilla1");
+                                        //LogroSist.GetComponent<LogrosGlobales>().ProgresarLogro(5);
+                                    }
+                                }
+                            }
+                        }
+                    }
                 }
 
                 if (planta.itemType == Item.ItemType.BASURA)
@@ -179,6 +277,27 @@ public class DragNDrop : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
                                 inventory.RemoveItem(mySlot.slotInfo.itemId, mySlot.slotInfo, true);
                                 basura += 1;
                                 inventory.ShowMessageM("Vidrio con vidrio");
+
+                            }
+                            else
+                            {
+                                inventory.ShowMessageM("Eso no va ahi! ");
+                            }
+                        }
+
+
+                    }
+                    if (planta.id == 7)
+                    {
+                        ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+                        if (Physics.Raycast(ray, out hit))
+                        {
+                            Debug.Log(hit.collider.name);
+                            if (hit.collider.name == "BotePlastico")
+                            {
+                                inventory.RemoveItem(mySlot.slotInfo.itemId, mySlot.slotInfo, true);
+                                basura += 1;
+                                inventory.ShowMessageM("Plástico con Plástico");
 
                             }
                             else

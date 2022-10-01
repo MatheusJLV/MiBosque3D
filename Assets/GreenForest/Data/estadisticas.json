@@ -3,127 +3,49 @@
     {
       "gameId": "001",
       "playerId": null,
-      "level": 1,
-      "dataType": "specie_data",
-      "FechaInterna": "28/09/2022 8:59:09",
-      "data": {
-        "specieId": "21",
-        "show_desc_date": "28/09/2022 8:59:09"
-      }
-    },
-    {
-      "gameId": "001",
-      "playerId": null,
-      "level": 1,
-      "dataType": "specie_data",
-      "FechaInterna": "28/09/2022 8:59:16",
-      "data": {
-        "specieId": "4",
-        "show_desc_date": "28/09/2022 8:59:16"
-      }
-    },
-    {
-      "gameId": "001",
-      "playerId": null,
-      "level": 2,
-      "dataType": "specie_data",
-      "FechaInterna": "28/09/2022 8:59:28",
-      "data": {
-        "specieId": "9",
-        "show_desc_date": "28/09/2022 8:59:28"
-      }
-    },
-    {
-      "gameId": "001",
-      "playerId": null,
-      "level": 2,
-      "dataType": "specie_data",
-      "FechaInterna": "28/09/2022 8:59:33",
-      "data": {
-        "specieId": "10",
-        "show_desc_date": "28/09/2022 8:59:33"
-      }
-    },
-    {
-      "gameId": "001",
-      "playerId": null,
-      "level": 2,
+      "level": 6,
       "dataType": "mission_data",
-      "FechaInterna": "28/09/2022 8:59:36",
+      "FechaInterna": "9/30/2022 9:01:03 PM",
       "data": {
-        "Start_Date": "28/09/2022 8:59:04",
-        "End_Date": "28/09/2022 8:59:36",
-        "nombre": "Encuentra las especies"
+        "Start_Date": "9/30/2022 9:00:33 PM",
+        "End_Date": "9/30/2022 9:01:03 PM",
+        "nombre": "Planta las semillas"
       }
     },
     {
       "gameId": "001",
       "playerId": null,
-      "level": 2,
+      "level": 6,
       "dataType": "experiencie_data",
-      "FechaInterna": "28/09/2022 8:59:37",
-      "data": {
-        "experiencia": 3,
-        "date": "28/09/2022 8:59:37"
-      }
-    },
-    {
-      "gameId": "001",
-      "playerId": null,
-      "level": 2,
-      "dataType": "prize_data",
-      "FechaInterna": "28/09/2022 8:59:37",
-      "data": {
-        "nombre": "Guardabosque Explorador",
-        "date": "28/09/2022 8:59:37"
-      }
-    },
-    {
-      "gameId": "001",
-      "playerId": null,
-      "level": 3,
-      "dataType": "mission_data",
-      "FechaInterna": "28/09/2022 9:08:00",
-      "data": {
-        "Start_Date": "28/09/2022 9:06:34",
-        "End_Date": "28/09/2022 9:08:00",
-        "nombre": "Salva al conejo"
-      }
-    },
-    {
-      "gameId": "001",
-      "playerId": null,
-      "level": 3,
-      "dataType": "experiencie_data",
-      "FechaInterna": "28/09/2022 9:08:00",
+      "FechaInterna": "9/30/2022 9:01:03 PM",
       "data": {
         "experiencia": 5,
-        "date": "28/09/2022 9:08:00"
+        "date": "9/30/2022 9:01:03 PM"
       }
     },
     {
       "gameId": "001",
       "playerId": null,
-      "level": 3,
+      "level": 6,
       "dataType": "prize_data",
-      "FechaInterna": "28/09/2022 9:08:00",
+      "FechaInterna": "9/30/2022 9:01:03 PM",
       "data": {
-        "nombre": "Guardabosque Veloz",
-        "date": "28/09/2022 9:08:00"
+        "nombre": "Guardabosque herbolario",
+        "date": "9/30/2022 9:01:03 PM"
       }
     },
     {
       "gameId": "001",
       "playerId": null,
-      "level": 3,
+      "level": 6,
       "dataType": "game_data",
-      "FechaInterna": "28/09/2022 9:08:27",
+      "FechaInterna": "9/30/2022 9:02:23 PM",
       "data": {
-        "Start_Date": "28/09/2022 8:56:24",
-        "End_Date": "28/09/2022 9:08:27",
-        "duration": -48,
-        "score": 10,
-        "NumberImages": 4
+        "Start_Date": "9/30/2022 9:00:19 PM",
+        "End_Date": "9/30/2022 9:02:23 PM",
+        "duration": 2,
+        "score": 38,
+        "NumberImages": 0
       }
     }
   ]

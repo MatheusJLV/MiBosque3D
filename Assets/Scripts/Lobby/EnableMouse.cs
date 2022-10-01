@@ -8,8 +8,10 @@ public class EnableMouse : MonoBehaviour
 
     private Rect screenRect;
     public FirstPersonController fpsController;
+    public GameObject controlerObj;
 
     Transform transf;
+    public bool mochila = false;
 
     // Start is called before the first frame update
     void Start()
@@ -51,6 +53,10 @@ public class EnableMouse : MonoBehaviour
             screenRect = new Rect(0, 0, Screen.width, Screen.height);
             fpsController.enabled = false;
         }
+        if (mochila)
+        {
+            controlerObj.GetComponent<ShowMochila>().mochilaInt(true);
+        }
     }
 
     public void mouseRecover()
@@ -65,8 +71,22 @@ public class EnableMouse : MonoBehaviour
             screenRect = new Rect(0, 0, Screen.width, Screen.height);
             fpsController.enabled = false;
       }
+    public void OnDestroy()
+    {
+        {
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
+            fpsController.canRotate = true;
+            screenRect = new Rect(0, 0, Screen.width, Screen.height);
+            fpsController.enabled = true;
+        }
+        if (mochila)
+        {
+            controlerObj.GetComponent<ShowMochila>().mochilaInt(false);
+        }
+    }
 
-private void OnTriggerExit(Collider other)
+    private void OnTriggerExit(Collider other)
     {
         if (other.CompareTag("Player"))
         {
@@ -75,6 +95,10 @@ private void OnTriggerExit(Collider other)
             fpsController.canRotate = true;
             screenRect = new Rect(0, 0, Screen.width, Screen.height);
             fpsController.enabled = true;
+        }
+        if (mochila)
+        {
+            controlerObj.GetComponent<ShowMochila>().mochilaInt(false);
         }
     }
 }

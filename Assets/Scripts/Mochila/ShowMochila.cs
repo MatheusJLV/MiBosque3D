@@ -220,7 +220,17 @@ public class ShowMochila : MonoBehaviour
         accesoryPanel.SetActive(false);
         DragNDrop.isAccesory = false;
     }
-
+    public void mochilaInt( bool abrir)
+    {
+        if(abrir)
+        {
+            ShowWindow(mochila);
+        }
+        else
+        {
+            Continuar();
+        }
+    }
     void Update()
     {
 #if UNITY_STANDALONE_WIN || UNITY_STANDALONE

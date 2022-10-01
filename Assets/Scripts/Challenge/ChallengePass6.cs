@@ -17,6 +17,7 @@ public class ChallengePass6 : MonoBehaviour
     public GameObject fpscontroller;
     public static DateTime inicio;
     private int levelId = 5;
+    public GameObject viewpoint;
 
     private void Awake()
     {
@@ -66,7 +67,7 @@ public class ChallengePass6 : MonoBehaviour
 
     private void Update()
     {
-        if (DragNDrop.basura == 5 && active)
+        if (DragNDrop.basura == 6 && active)
         {
             fpscontroller.GetComponent<Player>().gainEXP(4);
             LogroSist.GetComponent<LogrosGlobales>().ProgresarLogro(4);
@@ -129,7 +130,7 @@ public class ChallengePass6 : MonoBehaviour
                     Debug.Log("act logger component not found");
                 }
             }
-
+            GameObject.Destroy(viewpoint);
 
             recordatorio.SetActive(false);
             StartCoroutine(ShowFeedback());

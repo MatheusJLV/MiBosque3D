@@ -25252,6 +25252,11 @@ PrefabInstance:
       propertyPath: m_Center.x
       value: -0.87429476
       objectReference: {fileID: 0}
+    - target: {fileID: 1996898356527585814, guid: f63134f4cfe99714693806f04be52562,
+        type: 3}
+      propertyPath: id
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 1996898357400081364, guid: f63134f4cfe99714693806f04be52562,
         type: 3}
       propertyPath: m_Size.x

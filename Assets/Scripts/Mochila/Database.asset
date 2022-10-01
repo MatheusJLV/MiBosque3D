@@ -55,3 +55,38 @@ MonoBehaviour:
     itemType: 3
     scrollPos: {x: 0, y: 0}
     itemImage: {fileID: 21300000, guid: 3ad53bce4079dd6448287b1f5692c7a1, type: 3}
+  - id: 7
+    name: Plastico
+    description: Botella de plastico
+    isStackable: 0
+    itemType: 3
+    scrollPos: {x: 0, y: 0}
+    itemImage: {fileID: 21300000, guid: 42a578906b747014fa0945e754cfa0b8, type: 3}
+  - id: 8
+    name: semilla bototillo
+    description: Semilla del bototillo
+    isStackable: 1
+    itemType: 0
+    scrollPos: {x: 0, y: 0}
+    itemImage: {fileID: 21300000, guid: 2d0f8b58de61ad149a89651fc8b080da, type: 3}
+  - id: 9
+    name: Judea
+    description: semilla de laurel de judea
+    isStackable: 1
+    itemType: 0
+    scrollPos: {x: 0, y: 0}
+    itemImage: {fileID: 21300000, guid: f9644299e4779914ca2ad9f4b23c01fc, type: 3}
+  - id: 10
+    name: Guayacan
+    description: semilla de Guayacan
+    isStackable: 1
+    itemType: 0
+    scrollPos: {x: 0, y: 0}
+    itemImage: {fileID: 21300000, guid: 28a1315d6edab5d48a70ec8ce81069d9, type: 3}
+  - id: 11
+    name: Jacaranda
+    description: Semilla de jacaranda
+    isStackable: 1
+    itemType: 0
+    scrollPos: {x: 0, y: 0}
+    itemImage: {fileID: 21300000, guid: 138dce11566f5c84f82ff513852dd1b5, type: 3}
