@@ -90,7 +90,9 @@ public class MapManager : MonoBehaviour {
         right.SetActive(false);
         cn.SetActive(false);
 #endif
-		actionLogger = GameObject.Find("ActionLogger");
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+        actionLogger = GameObject.Find("ActionLogger");
 	}
 
     public void Update(){

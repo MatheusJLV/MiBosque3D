@@ -22,6 +22,7 @@ public class DragNDrop : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
     private Image mochila;
     public static bool isAccesory = false;
     public GameObject LogroSist;
+    public GameObject texto;
 
     //private GameObject puntero;
 
@@ -35,6 +36,7 @@ public class DragNDrop : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
         mochila=GameObject.FindGameObjectWithTag("Mochila").GetComponent<Image>();
         LogroSist = GameObject.Find("SistemaLogros");
         //puntero = GameObject.Find("Crosshair/Image");
+        texto = GameObject.Find("BasuraCajaTexto/Text");
     }
 
     /*private void OnMouseEnter()
@@ -158,8 +160,16 @@ public class DragNDrop : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
                                         plantado++;
                                         inventory.RemoveItem(mySlot.slotInfo.itemId, mySlot.slotInfo, false);
                                         inventory.TimeFarmM(g);
-                                        //LogroSist.GetComponent<LogrosGlobales>().ProgresarMision(5, "Semilla2");
-                                        //LogroSist.GetComponent<LogrosGlobales>().ProgresarLogro(5);
+                                        try
+                                        {
+                                            LogroSist.GetComponent<LogrosGlobales>().ProgresarMision(5, "Semilla2");
+                                            LogroSist.GetComponent<LogrosGlobales>().ProgresarLogro(5);
+                                        }
+                                        catch (System.Exception e)
+                                        {
+                                            Debug.Log("error registrando sembrado");
+                                        }
+                                        
                                     }
                                 }
                             }
@@ -184,8 +194,15 @@ public class DragNDrop : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
 
                                         inventory.RemoveItem(mySlot.slotInfo.itemId, mySlot.slotInfo, false);
                                         inventory.TimeFarmM(g);
-                                        //LogroSist.GetComponent<LogrosGlobales>().ProgresarMision(5, "Semilla1");
-                                        //LogroSist.GetComponent<LogrosGlobales>().ProgresarLogro(5);
+                                        try
+                                        {
+                                            LogroSist.GetComponent<LogrosGlobales>().ProgresarMision(5, "Semilla1");
+                                            LogroSist.GetComponent<LogrosGlobales>().ProgresarLogro(5);
+                                        }
+                                        catch (System.Exception e)
+                                        {
+                                            Debug.Log("error registrando sembrado");
+                                        }
                                     }
                                 }
                             }
@@ -207,8 +224,15 @@ public class DragNDrop : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
                                         plantado++;
                                         inventory.RemoveItem(mySlot.slotInfo.itemId, mySlot.slotInfo, false);
                                         inventory.TimeFarmM(g);
-                                        //LogroSist.GetComponent<LogrosGlobales>().ProgresarMision(5, "Semilla2");
-                                        //LogroSist.GetComponent<LogrosGlobales>().ProgresarLogro(5);
+                                        try
+                                        {
+                                            LogroSist.GetComponent<LogrosGlobales>().ProgresarMision(5, "Semilla2");
+                                            LogroSist.GetComponent<LogrosGlobales>().ProgresarLogro(5);
+                                        }
+                                        catch (System.Exception e)
+                                        {
+                                            Debug.Log("error registrando sembrado");
+                                        }
                                     }
                                 }
                             }
@@ -233,8 +257,15 @@ public class DragNDrop : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
 
                                         inventory.RemoveItem(mySlot.slotInfo.itemId, mySlot.slotInfo, false);
                                         inventory.TimeFarmM(g);
-                                        //LogroSist.GetComponent<LogrosGlobales>().ProgresarMision(5, "Semilla1");
-                                        //LogroSist.GetComponent<LogrosGlobales>().ProgresarLogro(5);
+                                        try
+                                        {
+                                            LogroSist.GetComponent<LogrosGlobales>().ProgresarMision(5, "Semilla1");
+                                            LogroSist.GetComponent<LogrosGlobales>().ProgresarLogro(5);
+                                        }
+                                        catch (System.Exception e)
+                                        {
+                                            Debug.Log("error registrando sembrado");
+                                        }
                                     }
                                 }
                             }
@@ -256,7 +287,12 @@ public class DragNDrop : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
                                 inventory.RemoveItem(mySlot.slotInfo.itemId, mySlot.slotInfo, true);
                                 basura += 1;
                                 inventory.ShowMessageM("Papel en papel");
+                                texto.GetComponent<Text>().text = "Desechos por reciclar: " + (6 - basura);
+                                if(basura==6)
+                                {
+                                    GameObject.Destroy(texto.transform.parent.gameObject);
 
+                                }
                             }
                             else
                             {
@@ -277,7 +313,12 @@ public class DragNDrop : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
                                 inventory.RemoveItem(mySlot.slotInfo.itemId, mySlot.slotInfo, true);
                                 basura += 1;
                                 inventory.ShowMessageM("Vidrio con vidrio");
+                                texto.GetComponent<Text>().text = "Desechos por reciclar: " + (6 - basura);
+                                if (basura == 6)
+                                {
+                                    GameObject.Destroy(texto.transform.parent.gameObject);
 
+                                }
                             }
                             else
                             {
@@ -297,8 +338,13 @@ public class DragNDrop : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
                             {
                                 inventory.RemoveItem(mySlot.slotInfo.itemId, mySlot.slotInfo, true);
                                 basura += 1;
+                                texto.GetComponent<Text>().text= "Desechos por reciclar: " + (6- basura);
                                 inventory.ShowMessageM("Plástico con Plástico");
+                                if (basura == 6)
+                                {
+                                    GameObject.Destroy(texto.transform.parent.gameObject);
 
+                                }
                             }
                             else
                             {

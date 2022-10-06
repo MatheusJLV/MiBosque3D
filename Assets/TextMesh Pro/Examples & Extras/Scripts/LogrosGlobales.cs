@@ -91,7 +91,12 @@ public class LogroUnico : Logro
     }
     public override bool Progreso()
     {
+        if (estado == 1)
+        {
+            return false;
+        }
         estado += 1;
+        
         if (nombre != "Completo 100%")
         {
             //LogrosGlobales.Completo100.Progreso();
@@ -507,12 +512,12 @@ public class LogrosGlobales : MonoBehaviour
 
 
 
-        Logro = new LogroRepetible("Guardian de la Fauna", "Conociste todos los animales ", -7, 1, imageFauna);
+        Logro = new LogroRepetible("Guardian de la Fauna", "Conociste los animales del Bosque", -7, 1, imageFauna);
         logros.Add(Logro);
         if (playerCtrl.GetComponent<Player>().playerData.logros[6] != "")
         { ProgresarLogro(6, playerCtrl.GetComponent<Player>().playerData.logros[6]); }
         //Debug.Log(Logro.descripcion);
-        Logro = new LogroRepetible("Guardian de la Flora", "Conociste todas las plantas ", -4, 1, imageFlora);
+        Logro = new LogroRepetible("Guardian de la Flora", "Conociste las plantas del Bosque", -4, 1, imageFlora);
         logros.Add(Logro);
         if (playerCtrl.GetComponent<Player>().playerData.logros[7] != "")
         { ProgresarLogro(7, playerCtrl.GetComponent<Player>().playerData.logros[7]); }

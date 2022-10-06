@@ -3,48 +3,14 @@
     {
       "gameId": "001",
       "playerId": null,
-      "level": 6,
-      "dataType": "mission_data",
-      "FechaInterna": "9/30/2022 9:01:03 PM",
-      "data": {
-        "Start_Date": "9/30/2022 9:00:33 PM",
-        "End_Date": "9/30/2022 9:01:03 PM",
-        "nombre": "Planta las semillas"
-      }
-    },
-    {
-      "gameId": "001",
-      "playerId": null,
-      "level": 6,
-      "dataType": "experiencie_data",
-      "FechaInterna": "9/30/2022 9:01:03 PM",
-      "data": {
-        "experiencia": 5,
-        "date": "9/30/2022 9:01:03 PM"
-      }
-    },
-    {
-      "gameId": "001",
-      "playerId": null,
-      "level": 6,
-      "dataType": "prize_data",
-      "FechaInterna": "9/30/2022 9:01:03 PM",
-      "data": {
-        "nombre": "Guardabosque herbolario",
-        "date": "9/30/2022 9:01:03 PM"
-      }
-    },
-    {
-      "gameId": "001",
-      "playerId": null,
-      "level": 6,
+      "level": 1,
       "dataType": "game_data",
-      "FechaInterna": "9/30/2022 9:02:23 PM",
+      "FechaInterna": "10/6/2022 4:51:10 PM",
       "data": {
-        "Start_Date": "9/30/2022 9:00:19 PM",
-        "End_Date": "9/30/2022 9:02:23 PM",
-        "duration": 2,
-        "score": 38,
+        "Start_Date": "10/6/2022 4:50:30 PM",
+        "End_Date": "10/6/2022 4:51:10 PM",
+        "duration": 1,
+        "score": 0,
         "NumberImages": 0
       }
     }

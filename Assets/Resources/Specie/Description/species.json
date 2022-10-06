@@ -682,35 +682,6 @@
     },
     {
       "specieId": "10000010",
-      "id": 41,
-      "name": "Bolsero cariamarillo",
-      "family": "Icteridae",
-      "gallery": [
-        {
-          "mongoId": "20000028",
-          "id": 130,
-          "description": "Habita bosques y fronteras de bosques, bosques con pocos árboles, jardines, plantaciones y en tierras bajas de bosques húmedos.",
-          "audioname": "BolseroCariamarillo_audio_descripcion_0",
-          "imagename": "BolseroCariamarillo_image_0"
-        },
-        {
-          "mongoId": "20000029",
-          "id": 131,
-          "description": "La base de la mandíbula es gris azulada. Su cuerpo es amarillo brillante con la cara, pico y espalda de color negro.",
-          "audioname": "BolseroCariamarillo_audio_descripcion_1",
-          "imagename": "BolseroCariamarillo_image_1"
-        },
-        {
-          "mongoId": "20000030",
-          "id": 132,
-          "description": "La cola y las alas son negras, en la parte principal de las alas poseen un parche amarillo con líneas blancas en los costados de las plumas de vuelo.",
-          "audioname": "BolseroCariamarillo_audio_descripcion_2",
-          "imagename": "BolseroCariamarillo_image_2"
-        }
-      ]
-    },
-    {
-      "specieId": "10000010",
       "id": 42,
       "name": "Carpintero carinegro",
       "family": "Picidae",

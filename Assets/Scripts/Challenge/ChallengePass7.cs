@@ -16,6 +16,7 @@ public class ChallengePass7 : MonoBehaviour
     public GameObject LogroSist;
     public GameObject fpscontroller;
     private int levelId = 6;
+    private bool bandera = true;
 
     private void Awake()
     {
@@ -65,9 +66,13 @@ public class ChallengePass7 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(DragNDrop.plantado>=2 && active){
+        if(DragNDrop.plantado>2 && active){
             fpscontroller.GetComponent<Player>().gainEXP(4);
-            LogroSist.GetComponent<LogrosGlobales>().ProgresarLogro(5);
+            if(bandera)
+            {
+                LogroSist.GetComponent<LogrosGlobales>().ProgresarLogro(5);
+                bandera = false;
+            }
 
             Player.instance.playerData.misiones[5] = true;
             Mision mision = (LogroSist.GetComponent<LogrosGlobales>()).misiones[5];
