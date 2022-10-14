@@ -20,6 +20,8 @@ public class SceneControl : MonoBehaviour
     {
         if (name== "MenuPartidas")
         {
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
             actionLogger.GetComponent<ActionLogger>().actionLogger.locacion = "Menu Partida";
         }
         SceneManager.LoadScene(name);

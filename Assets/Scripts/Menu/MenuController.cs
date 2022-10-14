@@ -84,8 +84,9 @@ public class MenuController : MonoBehaviour
         edad.contentType = InputField.ContentType.IntegerNumber;
         actionLogger = GameObject.Find("ActionLogger");
         //actionLogger.GetComponent<ActionLogger>().actionLogger.locacion = "Menu de partida";
-       
-            
+
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
     }
     public void Zen()
     {
